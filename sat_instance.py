@@ -2,10 +2,8 @@ import os, csv
 import random
 import time
 
-import play_parsing
-import parameterized_matching
+import utils 
 import re
-from scene_speech_repartition import normalize_scene
 import doctest
 from xml.dom import minidom
 from unidecode import unidecode
@@ -206,8 +204,8 @@ def make_sat_instance(comments, string_1, string_2, bijective=False, substitutio
 # Given two scenes, create the maxhs input file
 
 def encode_scenes(scene1, scene2, name='test', bijective=False, substitutions=False):
-    u, d1 = normalize_scene(scene1, True)
-    v, d2 = normalize_scene(scene2, True)
+    u, d1 = utils.normalize_scene(scene1, True)
+    v, d2 = utils.normalize_scene(scene2, True)
     output_for_maxhs = open(name + '_maxhs', 'w')
     s = make_sat_instance([str(d1), str(d2)], u, v, bijective, substitutions)
     output_for_maxhs.write(s)
@@ -270,8 +268,8 @@ def compare_pieces(f1, f2, pair_name, logs_files, csv_writer, final_output_dir, 
     # Getting plays, titles, and acts
     piece1 = minidom.parse(open(f1, 'rb'))
     piece2 = minidom.parse(open(f2, 'rb'))
-    title1, title2 = unidecode(play_parsing.get_title(piece1)), unidecode(play_parsing.get_title(piece2))
-    acts1, acts2 = play_parsing.get_all_acts_dialogues(piece1), play_parsing.get_all_acts_dialogues(piece2)
+    title1, title2 = unidecode(utils.get_title(piece1)), unidecode(utils.get_title(piece2))
+    acts1, acts2 = utils.get_all_acts_dialogues(piece1), utils.get_all_acts_dialogues(piece2)
 
     # Preparing csv output
     csv_dict = dict()
