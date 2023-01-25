@@ -141,6 +141,7 @@ def parameterizedAlignment(a, b):
    print("Smallest distance: " + str(smallestDistance))
    
    output.writelines("\t".join([str(smallestDistance), a, b, bestTransformedA, bestTransformedB, str(bestPerm), str(bestSubset), str(list(zip(bestPerm, bestSubset))), str(time.time()-startTime)])+"\n")
+   return smallestDistance
       
 """
 Acte V, Médée, Pierre Corneille : 
