@@ -1,0 +1,2754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Didon se sacrifiant</title>
+        <author key="Alexandre Hardy (naissance-mort)">Alexandre Hardy</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edition critique à disposition sur classiques-garnier.com au format HTML, convertie en XML-TEI dans le cadre de cadre du projet Hyperpièces avec Céline Fournial et du stage de master 2 d'Aaron Boussidan au LIGM.</edition>
+        <respStmt>
+          <name>Classiques Garnier</name>
+          <resp>Edition de la pièce au format HTML sur classiques-garnier.com</resp>
+        </respStmt>
+        <respStmt>
+          <name>Philippe Gambette</name>
+          <resp>Conversion du code HTML vers XML/TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LIGM</publisher>
+        <date when="2021"/>
+        <availability status="free">
+          <p>In the public domain</p>
+        </availability>
+        <idno>classiques-garnier.com/hardy-alexandre-theatre-complet-tome-i-didon-se-sacrifiant.html</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Alexandre Hardy</author>. <title>Didon se sacrifiant</title>. </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="[date]">[date]</date>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term subtype="tragedy" type="genre">Tragédie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>Didon se sacrifiant</head>
+      <div type="set">
+        <div>
+          <head>PERSONNAGES</head>
+          <castList>
+<p>You have no items in your shopping cart</p>
+
+            <castItem>
+              <role rend="male/female" xml:id="énée">Énée</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="achate">Achate</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="palinure">Palinure</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="didon">Didon</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="iarbe">Iarbe</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="thérodomante">Thérodomante</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="jule1">Jule1</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="barce">Barce</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="mercure">Mercure</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="chœur-de-phéniciens">Chœur de phéniciens</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="chœur-de-troyens">Chœur de troyens</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="chœur-de-damoiselles2">Chœur de damoiselles2</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="chœur-de-tyriens">Chœur de tyriens</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="messager">Messager</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+          </castList>
+        </div>
+      </div>
+      <div type="act" xml:id="I">
+        <head>ACTE I</head>
+        <div type="scene" xml:id="I1">
+          <head>Scène <span class="romain-pt-cap">i</span></head>
+             <stage>ÉNÉE, ACHATE, PALINURE</stage>
+          <sp who="énée" xml:id="I1-1">
+            <speaker>ÉNÉE</speaker>
+            <l n="0" xml:id="l0">Grands Dieux, qui disposez des Empires du monde,</l>
+            <l n="1" xml:id="l1">Toi qui portes en main ce tonnerre qui gronde,</l>
+            <l n="2" xml:id="l2">Jupiter ennemi du peuple Phrygien,</l>
+            <l n="3" xml:id="l3">Qui fis que notre Troie à présent n’est plus rien,</l>
+            <l n="4" xml:id="l4">Vous qui l’avez bâtie afin de la détruire,</l>
+            <l n="5" xml:id="l5">Si sa perte fatale a détrempé votre ire,</l>
+            <l n="6" xml:id="l6">Si l’orgueil ruiné de cet ample univers,</l>
+            <l n="7" xml:id="l7">Si tant de bâtiments, d’os, et d’herbes couverts,</l>
+            <l n="8" xml:id="l8">Si tant de sang mêlé dans les ondes de Xanthe,</l>
+            <l n="9" xml:id="l9">Si du pauvre Priam la mémoire innocente,</l>
+            <l n="10" xml:id="l10">Si de son preux Hector le violent trépas,</l>
+            <l n="11" xml:id="l11">De tant d’autres enfants qui suivirent ses pas,</l>
+            <l n="12" xml:id="l12">Si son peuple enterré dans les feux de la ville,</l>
+            <l n="13" xml:id="l13">(Hélas ! y repensant l’œil toujours me distille)</l>
+            <l n="14" xml:id="l14">Bref, si de nous chétifs du naufrage restés,</l>
+            <l n="15" xml:id="l15">Les travaux infinis, et les calamités,</l>
+            <l n="16" xml:id="l16">La misérable vie en morts continuée,</l>
+            <l n="17" xml:id="l17">La fortune, d’amis, et de biens dénuée,</l>
+            <l n="18" xml:id="l18">(Hormis en ce lieu seul, où Neptune a poussé</l>
+            <l n="19" xml:id="l19">Le reste d’Ilion sur son dos courroucé,)</l>
+            <l n="20" xml:id="l20">Si la chose, (immortels), votre pitié mérite,</l>
+            <l n="21" xml:id="l21">Servez à mon esprit maintenant de conduite,</l>
+            <l n="22" xml:id="l22">Surtout ô Lycien, notre saint défenseur,</l>
+            <l n="23" xml:id="l23">Contre les cruautés d’un barbare oppresseur,</l>
+            <l n="24" xml:id="l24">Toi qui guidas le trait de l’archer Priamide,</l>
+            <l n="25" xml:id="l25">Afin de nous venger par la mort du Pélide,</l>
+            <l n="26" xml:id="l26">Toi duquel j’ai suivi les oracles donnés,</l>
+            <l n="27" xml:id="l27">Pour atteindre voguant les pays destinés,</l>
+            <l n="28" xml:id="l28">Jette, jette ton œil sur nos longues misères,</l>
+            <l n="29" xml:id="l29">Et si tu l’as jamais, exauce mes prières,</l>
+            <l n="30" xml:id="l30">Coule père en mon âme, augure dedans moi</l>
+            <l n="31" xml:id="l31">De souci dévoré, ce que faire je dois.</l>
+            <l n="32" xml:id="l32">Ici, nous jouissons d’un repos désirable,</l>
+            <l n="33" xml:id="l33">Tout conspire à notre heur, tout nous est favorable,</l>
+            <l n="34" xml:id="l34">La naissante Carthage, et sa Princesse, amis,</l>
+            <l n="35" xml:id="l35">Leur fortune, leur sceptre, au choix nous ont remis ;</l>
+            <l n="36" xml:id="l36">À peine, que tournant la rondeur de la terre,</l>
+            <l n="37" xml:id="l37">Assiégés, incertains des eaux, et de la guerre,</l>
+            <l n="38" xml:id="l38">Un plus capable lieu, de relever l’honneur</l>
+            <l n="39" xml:id="l39">Des Pergames détruits, ramène ce bonheur.</l>
+            <l n="40" xml:id="l40">Mais d’ailleurs, le destin de prudence infinie,</l>
+            <l n="41" xml:id="l41">Traîne ce beau dessein jusqu’au bord d’Ausonie ;</l>
+            <l n="42" xml:id="l42">Là, se doit restaurer le mur Dardanien,</l>
+            <l n="43" xml:id="l43">Là, s’appaiser la sœur du grand Saturnien,</l>
+            <l n="44" xml:id="l44">Là, le Tibre coulant d’une douce entresuite,</l>
+            <l n="45" xml:id="l45">Arrêter des Troyens la vagabonde fuite,</l>
+            <l n="46" xml:id="l46">Là mon espoir Ascagne, Ascagne mon souci,</l>
+            <l n="47" xml:id="l47">Redoutable, régner sous un ciel adouci,</l>
+            <l n="48" xml:id="l48">Laissant de race en race une splendeur d’Empire,</l>
+            <l n="49" xml:id="l49">Partout où le Soleil fait ses flammes reluire,</l>
+            <l n="50" xml:id="l50">Entre l’obscurité de ce Dédale ombreux,</l>
+            <l n="51" xml:id="l51">Entre le souvenir de nos maux encombreux,</l>
+            <l n="52" xml:id="l52">Et la comparaison de la présente joie,</l>
+            <l n="53" xml:id="l53">Mon esprit agité s’égare, se fourvoie ;</l>
+            <l n="54" xml:id="l54">Chacun d’eux, tour à tour, me range à son parti ;</l>
+            <l n="55" xml:id="l55">Je rentre en même temps d’où je me vois sorti ;</l>
+            <l n="56" xml:id="l56">Semblable au voyageur, qui la nuit survenue,</l>
+            <l n="57" xml:id="l57">Rencontre deux chemins, leur adresse inconnue ;</l>
+            <l n="58" xml:id="l58">De l’un et l’autre pied, il branle sur tous deux,</l>
+            <l n="59" xml:id="l59">Sans qu’aucun il accepte, à l’égal hasardeux ;</l>
+            <l n="60" xml:id="l60">Ainsi, l’infirmité de la nature humaine</l>
+            <l n="61" xml:id="l61">Me contraint réclamer votre main souveraine,</l>
+            <l n="62" xml:id="l62">Défaillant de moi-même ; ha ! n’apperçois-je pas,</l>
+            <l n="63" xml:id="l63">Achate, et Palinure, avancés sur mes pas,</l>
+            <l n="64" xml:id="l64">Voyons, eux consultés à résoudre la chose,</l>
+            <l n="65" xml:id="l65">Où le bien d’un public, et sa perte repose.</l>
+          </sp>
+          <sp who="achate" xml:id="I1-2">
+            <speaker>ACHATE</speaker>
+            <l n="66" xml:id="l66">Illustre sang des Dieux, quel souci survenant,</l>
+            <l n="67" xml:id="l67">Pour le salut des tiens te presse maintenant ?</l>
+            <l n="68" xml:id="l68">Qu’avons-nous désormais d’accident redoutable ?</l>
+          </sp>
+          <sp who="énée" xml:id="I1-3">
+            <speaker>ÉNÉE</speaker>
+            <l n="69" xml:id="l69">La crainte du futur, du futur, que les Dieux,</l>
+            <l n="70" xml:id="l70">Sous l’ombre d’un repos dérobent à nos yeux.</l>
+          </sp>
+          <sp who="achate" xml:id="I1-4">
+            <speaker>ACHATE</speaker>
+            <l n="71" xml:id="l71">J’ai cent fois entendu de ta bouche prudente,</l>
+            <l n="72" xml:id="l72">L’humaine ingratitude envers eux évidente,</l>
+            <l n="73" xml:id="l73">Lorsque de leurs bienfaits nous ne daignons user,</l>
+            <l n="74" xml:id="l74">Et qu’il ne les faut plus que les maux refuser.</l>
+          </sp>
+          <sp who="énée" xml:id="I1-5">
+            <speaker>ÉNÉE</speaker>
+            <l n="75" xml:id="l75">Non, mais l’oisiveté, peste pernicieuse,</l>
+            <l n="76" xml:id="l76">Nous défend plus longtemps une vie ocieuse ;</l>
+            <l n="77" xml:id="l77">Ou il faut nos destins dans Carthage borner,</l>
+            <l n="78" xml:id="l78">Ou nos erreurs poursuivre, et n’y plus séjourner.</l>
+          </sp>
+          <sp who="palinure" xml:id="I1-6">
+            <speaker>PALINURE</speaker>
+            <l n="79" xml:id="l79">Comme du premier flot un second se dérive,</l>
+            <l n="80" xml:id="l80">En nous la volonté pullule déceptive,</l>
+            <l n="81" xml:id="l81">Plus quelqu’un y croupit, plus il y veut croupir,</l>
+            <l n="82" xml:id="l82">Et nous vient à la fin son sommeil assoupir ;</l>
+            <l n="83" xml:id="l83">De sorte, que l’on perd l’envie, et la mémoire,</l>
+            <l n="84" xml:id="l84">D’achever un chef-d’œuvre encommencé de gloire ;</l>
+            <l n="85" xml:id="l85">Détournons l’accident, évitons-le, tandis</l>
+            <l n="86" xml:id="l86">Que les périls domptés nous rendent plus hardis,</l>
+            <l n="87" xml:id="l87">Que le courage tient notre jeunesse ardente,</l>
+            <l n="88" xml:id="l88">Un départ désiré de ce havre attendante.</l>
+          </sp>
+          <sp who="énée" xml:id="I1-7">
+            <speaker>ÉNÉE</speaker>
+            <l n="89" xml:id="l89">Plût aux Dieux, que ce havre eût refui nos vaisseaux,</l>
+            <l n="90" xml:id="l90">Que nous fussions encore à la merci des eaux,</l>
+            <l n="91" xml:id="l91">Menacés de l’horreur d’un éminent naufrage,</l>
+            <l n="92" xml:id="l92">Et qu’une autre tourmente eût quitté mon courage,</l>
+            <l n="93" xml:id="l93">Une autre beaucoup pire, ha ! la voix me défaut,</l>
+            <l n="94" xml:id="l94">Quand je pense devoir soutenir cet assaut.</l>
+          </sp>
+          <sp who="achate" xml:id="I1-8">
+            <speaker>ACHATE</speaker>
+            <l n="95" xml:id="l95">L’amour, au scorpion sa piqûre apparie,</l>
+            <l n="96" xml:id="l96">L’une, et l’autre mortelle, à grand’peine guérie,</l>
+            <l n="97" xml:id="l97">D’autant qu’on les néglige, et que de leur poison,</l>
+            <l n="98" xml:id="l98">Jusqu’à l’extrémité s’attend la guérison,</l>
+            <l n="99" xml:id="l99">Que de peu d’apparence ils font de grands symptômes,</l>
+            <l n="100" xml:id="l100">Telle faute est commune au vulgaire des hommes.</l>
+          </sp>
+          <sp who="palinure" xml:id="I1-9">
+            <speaker>PALINURE</speaker>
+            <l n="101" xml:id="l101">Le vulgaire traîné de sa cupidité,</l>
+            <l n="102" xml:id="l102">S’il succombe au fardeau qu’il n’a prémédité,</l>
+            <l n="103" xml:id="l103">Mérite moins de blâme, et joint que sa ruine</l>
+            <l n="104" xml:id="l104">Importante de peu, s’étouffe en l’origine !</l>
+            <l n="105" xml:id="l105">Mais un fils de Déesse, un héros indompté,</l>
+            <l n="106" xml:id="l106">Un, qui sait des destins la sacre volonté,</l>
+            <l n="107" xml:id="l107">Un, qui doit rebâtir dans le sein de l’Itale,</l>
+            <l n="108" xml:id="l108">Notre seconde Troie, à la première égale,</l>
+            <l n="109" xml:id="l109">Qui tient notre salut enchaîné dans le sien,</l>
+            <l n="110" xml:id="l110">Cédant aux passions, d’excusable n’a rien ;</l>
+            <l n="111" xml:id="l111">Sa vertu disparue à l’approche du vice,</l>
+            <l n="112" xml:id="l112">Montre qu’il a péché de certaine malice,</l>
+            <l n="113" xml:id="l113">Qu’avant que de combattre il se rendra vainqueur,</l>
+            <l n="114" xml:id="l114">Et qu’il ne manque tant de force, que de cœur.</l>
+          </sp>
+          <sp who="énée" xml:id="I1-10">
+            <speaker>ÉNÉE</speaker>
+            <l n="115" xml:id="l115">Ma constance éprouvée en choses plus ardues,</l>
+            <l n="116" xml:id="l116">(Choses qui font trembler les plus forts, entendues,)</l>
+            <l n="117" xml:id="l117">Me purge du soupçon de telle lâcheté ;</l>
+            <l n="118" xml:id="l118">La gloire au plus haut prix j’ai toujours acheté,</l>
+            <l n="119" xml:id="l119">Ennemi du repos, ennemi des délices ;</l>
+            <l n="120" xml:id="l120">Mais quand nous nous sentons de cruautés complices,</l>
+            <l n="121" xml:id="l121">Quand il est question de rompre une amitié,</l>
+            <l n="122" xml:id="l122"></l>
+            <l n="123" xml:id="l123">Envers nos bienfaiteurs plus dignes de pitié,</l>
+            <l n="124" xml:id="l124">Ha ! Cieux ! ha ! justes Cieux, alors la conscience</l>
+            <l n="125" xml:id="l125">Jette un trouble dans l’âme affreux d’impatience,</l>
+            <l n="126" xml:id="l126">Nous portons contre nous de terribles témoins,</l>
+            <l n="127" xml:id="l127">Et les plus généreux, alors le sont le moins.</l>
+          </sp>
+          <sp who="achate" xml:id="I1-11">
+            <speaker>ACHATE</speaker>
+            <l n="128" xml:id="l128">Quoi ? n’as-tu point ouï que Jupiter se moque,</l>
+            <l n="129" xml:id="l129">Des serments parjurés de l’amant qui l’invoque,</l>
+            <l n="130" xml:id="l130">Qu’exemplaire lui-même à l’infidélité,</l>
+            <l n="131" xml:id="l131">Tels crimes sont toujours suivis d’impunité ?</l>
+            <l n="132" xml:id="l132">Didon ne se voudrait ainsi n’être trompée,</l>
+            <l n="133" xml:id="l133">De plein gré dans tes rets elle s’est attrapée,</l>
+            <l n="134" xml:id="l134">Tu as payé d’amour ce que tu lui devais,</l>
+            <l n="135" xml:id="l135">Et pour sauver les tiens autrement ne pouvais,</l>
+            <l n="136" xml:id="l136">Si que la piété de contrainte suivie,</l>
+            <l n="137" xml:id="l137">Te dispense de coulpe, et de peine ta vie.</l>
+          </sp>
+          <sp who="énée" xml:id="I1-12">
+            <speaker>ÉNÉE</speaker>
+            <l n="138" xml:id="l138">Achate, aucun de nous ne saurait mieux juger</l>
+            <l n="139" xml:id="l139">Que nous-mêmes, obligés à ce peuple étranger</l>
+            <l n="140" xml:id="l140">De la clarté du jour ; et lui meurtrir sa Reine,</l>
+            <l n="141" xml:id="l141">(Car mon départ sans doute au sépulcre la traîne)</l>
+            <l n="142" xml:id="l142">Oh ! quel triste loyer ; toutefois attachés</l>
+            <l n="143" xml:id="l143">À un autre destin l’entreprise cachez,</l>
+            <l n="144" xml:id="l144">Faites que notre flotte au rivage apprêtée,</l>
+            <l n="145" xml:id="l145">De vivres, d’équipage, et de gens affrétée,</l>
+            <l n="146" xml:id="l146">N’attende qu’un signal à refendre les flots,</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I2">
+          <head>Scène <span class="romain-pt-cap">ii</span></head>
+             <stage>ANNE, DIDON</stage>
+          <sp who="anne" xml:id="I2-1">
+            <speaker>ANNE</speaker>
+            <l n="147" xml:id="l147">Ma sœur, ma chère sœur, dites, je vous supplie,</l>
+            <l n="148" xml:id="l148">À quelle occasion de tristesse remplie,</l>
+            <l n="149" xml:id="l149"></l>
+            <l n="150" xml:id="l150">Vous semblez repousser le bonheur qui vous suit,</l>
+            <l n="151" xml:id="l151">Et de votre beau jour faire une sombre nuit ;</l>
+            <l n="152" xml:id="l152">Au scrupule premier possible retombée,</l>
+            <l n="153" xml:id="l153">La blancheur de ce front d’albâtre s’est plombée.</l>
+          </sp>
+          <sp who="didon" xml:id="I2-2">
+            <speaker>DIDON</speaker>
+            <l n="154" xml:id="l154">Un juste repentir du vœu que j’ai faussé,</l>
+            <l n="155" xml:id="l155">Tient un glaive pendant sur ma tête haussé,</l>
+            <l n="156" xml:id="l156">Représente à mes yeux incessamment fichée,</l>
+            <l n="157" xml:id="l157">L’image qui se plaint de mon loyal Sichée ;</l>
+            <l n="158" xml:id="l158">Encore l’autre nuit au milieu du repos,</l>
+            <l n="159" xml:id="l159">Sa bouche me tenait ce menaçant propos :</l>
+            <l n="160" xml:id="l160">Espères-tu longtemps ô Didon forcenée,</l>
+            <l n="161" xml:id="l161">Arrêter en mon lit ce vagabond Énée ?</l>
+            <l n="162" xml:id="l162">Faire longtemps pâlir de honte le Soleil,</l>
+            <l n="163" xml:id="l163">Pour ton crime adultère à nul autre pareil ?</l>
+            <l n="164" xml:id="l164">Non, non, perfide non, la suprême Justice</l>
+            <l n="165" xml:id="l165">Te réserve, et bientôt, à un âpre supplice ;</l>
+            <l n="166" xml:id="l166">Les plaisirs du Troyen te seront cher vendus,</l>
+            <l n="167" xml:id="l167">Ils seront de tes bras comme un ombre perdus,</l>
+            <l n="168" xml:id="l168">D’eux ne te restera qu’un désespoir de rage,</l>
+            <l n="169" xml:id="l169">Au meurtre de toi-même animant ton courage ;</l>
+            <l n="170" xml:id="l170">Sa Carthage est ailleurs, le vouloir des destins,</l>
+            <l n="171" xml:id="l171">Après mille travaux l’ordonne aux champs Latins !</l>
+            <l n="172" xml:id="l172">Ainsi pâle, muette, en glace convertie,</l>
+            <l n="173" xml:id="l173">Elle s’est frémissant d’avec moi départie,</l>
+            <l n="174" xml:id="l174">Semblable au vent qui part à l’oreille sifflant,</l>
+            <l n="175" xml:id="l175">Et sur les flots émus hideusement ronflant.</l>
+            <l n="176" xml:id="l176">Las ! n’ai-je là-dessus, n’ai-je sujet de plaindre ?</l>
+            <l n="177" xml:id="l177">N’ai-je pas un sujet légitime de craindre ?</l>
+            <l n="178" xml:id="l178">De craindre que ma peur s’achemine à l’effet,</l>
+            <l n="179" xml:id="l179">La foi de l’étranger, et ce songe suspect ?</l>
+          </sp>
+          <sp who="anne" xml:id="I2-3">
+            <speaker>ANNE</speaker>
+            <l n="180" xml:id="l180">Vous Reine de son cœur, Reine de sa fortune,</l>
+            <l n="181" xml:id="l181">Qui lui avez rendu toute chose commune,</l>
+            <l n="182" xml:id="l182">Vous qui l’avez tiré d’un Dédale mortel,</l>
+            <l n="183" xml:id="l183">Qui des siens, et de lui, méritez un autel,</l>
+            <l n="184" xml:id="l184">Croire qu’extrait des Dieux il manque à sa parole,</l>
+            <l n="185" xml:id="l185">Vous fier moins en lui, qu’à un spectre frivole ?</l>
+            <l n="186" xml:id="l186">Avorté de la peur, et d’un scrupule vain,</l>
+            <l n="187" xml:id="l187">Que les défunts charmés d’un long somme d’airain,</l>
+            <l n="188" xml:id="l188">Hôtes perpétuels d’une lame profonde,</l>
+            <l n="189" xml:id="l189">Reprennent le souci des affaires du monde ?</l>
+            <l n="190" xml:id="l190">Ha ! ma sœur, n’enviez votre heur de la façon,</l>
+            <l n="191" xml:id="l191">Que l’antique prudence étouffe ce soupçon,</l>
+            <l n="192" xml:id="l192">Soupçon, qui reconnu contraindra votre Énée,</l>
+            <l n="193" xml:id="l193">De chercher voirement plus loin sa destinée.</l>
+          </sp>
+          <sp who="didon" xml:id="I2-4">
+            <speaker>DIDON</speaker>
+            <l n="194" xml:id="l194">La langue, vrai pinceau de nos affections,</l>
+            <l n="195" xml:id="l195">Me fait mal augurer de ses intentions.</l>
+          </sp>
+          <sp who="anne" xml:id="I2-5">
+            <speaker>ANNE</speaker>
+            <l n="196" xml:id="l196">Comment ?</l>
+          </sp>
+          <sp who="didon" xml:id="I2-6">
+            <speaker>DIDON</speaker>
+            <l n="197" xml:id="l197">Il ne se peut tenir quoiqu’il s’efforce</l>
+            <l n="198" xml:id="l198">D’avouer que l’Itale, et son sceptre le force,</l>
+            <l n="199" xml:id="l199">Dire qu’il doit, malgré la haine de Junon,</l>
+            <l n="200" xml:id="l200">S’acquérir en ces lieux un illustre renom.</l>
+          </sp>
+          <sp who="anne" xml:id="I2-7">
+            <speaker>ANNE</speaker>
+            <l n="201" xml:id="l201">Ce ne sont qu’aiguillons envers sa géniture,</l>
+            <l n="202" xml:id="l202"></l>
+            <l n="203" xml:id="l203">Pour embrasser l’exploit d’une haute aventure.</l>
+          </sp>
+          <sp who="didon" xml:id="I2-8">
+            <speaker>DIDON</speaker>
+            <l n="204" xml:id="l204">Non, cela n’est rien plus, de l’entreprise chef,</l>
+            <l n="205" xml:id="l205">Qu’en mots exprès toucher mon suprême méchef.</l>
+          </sp>
+          <sp who="anne" xml:id="I2-9">
+            <speaker>ANNE</speaker>
+            <l n="206" xml:id="l206">L’âge entr’eux différent, distingue leurs pensées,</l>
+            <l n="207" xml:id="l207">Ainsi que le présent fait les choses passées,</l>
+            <l n="208" xml:id="l208">L’un a son calme atteint au sein d’une Cypris,</l>
+            <l n="209" xml:id="l209">L’autre à pareil bonheur bande là ses esprits.</l>
+          </sp>
+          <sp who="didon" xml:id="I2-10">
+            <speaker>DIDON</speaker>
+            <l n="210" xml:id="l210">Peu caute, estimes-tu que sa race il expose ?</l>
+            <l n="211" xml:id="l211">Que le fils en péril, un père se repose ?</l>
+          </sp>
+          <sp who="anne" xml:id="I2-11">
+            <speaker>ANNE</speaker>
+            <l n="212" xml:id="l212">Après que l’âge aura fortifié son corps,</l>
+            <l n="213" xml:id="l213">Capable de courir aux belliqueux efforts,</l>
+            <l n="214" xml:id="l214">Assisté d’un conseil digne de l’entreprise,</l>
+            <l n="215" xml:id="l215">Énée auprès de vous (amoureuse franchise,)</l>
+            <l n="216" xml:id="l216">Qui le divertirait du voyage fatal ?</l>
+          </sp>
+          <sp who="didon" xml:id="I2-12">
+            <speaker>DIDON</speaker>
+            <l n="217" xml:id="l217">Ô redouté voyage, ennemi capital,</l>
+            <l n="218" xml:id="l218">De Didon, de sa ville, et de si peu de joie,</l>
+            <l n="219" xml:id="l219">Par eux goûté, depuis qu’ils trompèrent la proie</l>
+            <l n="220" xml:id="l220">D’un brigand parricide, hélas ! au moins attends,</l>
+            <l n="221" xml:id="l221">Diffère à t’accomplir, prolonge-moi ton temps,</l>
+            <l n="222" xml:id="l222"></l>
+            <l n="223" xml:id="l223">Jusqu’à ce que mes feux alentis de leur cendre,</l>
+            <l n="224" xml:id="l224">Je puisse au désespoir ma constance reprendre.</l>
+            <l n="225" xml:id="l225">Mais allons de Junon les Autels visiter,</l>
+            <l n="226" xml:id="l226">La seule Déité peut nos maux arrêter.</l>
+          </sp>
+          <sp who="anne" xml:id="I2-13">
+            <speaker>ANNE</speaker>
+            <l n="227" xml:id="l227">Outre qu’aux Tyriens la Dive tutelaire,</l>
+            <l n="228" xml:id="l228">Depuis leurs premiers vœux n’a cessé de bien faire,</l>
+            <l n="229" xml:id="l229">Qu’en Samos méprisée, elle daigne avec nous</l>
+            <l n="230" xml:id="l230">Sa demeure choisir, allons, qu’à genoux,</l>
+            <l n="231" xml:id="l231">Je lui offre mon cœur en humble sacrifice,</l>
+            <l n="232" xml:id="l232">Afin de détourner votre fâcheux auspice.</l>
+          </sp>
+          <sp who="chœur-des-phéniciennes" xml:id="I2-14">
+            <speaker>Chœur des Phéniciennes</speaker>
+            <l n="233" xml:id="l233">Beau couple céleste d’amants,</l>
+            <l n="234" xml:id="l234">Assemblé des bouts de la terre,</l>
+            <l n="235" xml:id="l235">Puissent en tes contentements,</l>
+            <l n="236" xml:id="l236">Mourir la discorde, et la guerre ;</l>
+            <l n="237" xml:id="l237">Puisse Carthage devenir,</l>
+            <l n="238" xml:id="l238">Une autre Amathe à l’avenir.</l>
+            <l n="239" xml:id="l239">Qu’ici l’un de tes fils régnant,</l>
+            <l n="240" xml:id="l240">Soit dessous la torche nocière,</l>
+            <l n="241" xml:id="l241">À notre Didon se joignant,</l>
+            <l n="242" xml:id="l242">Et que leur règne puisse éclore,</l>
+            <l n="243" xml:id="l243">Chez nous un âge d’or encore.</l>
+            <l n="244" xml:id="l244">Ne respirent que l’innocence,</l>
+            <l n="245" xml:id="l245">Ne brûlent d’autre affection,</l>
+            <l n="246" xml:id="l246">Et ne conspirent d’autre offense,</l>
+            <l n="247" xml:id="l247"></l>
+            <l n="248" xml:id="l248">Qu’alors que Saturne quitta</l>
+            <l n="249" xml:id="l249">L’Olympe, et le monde habita.</l>
+            <l n="250" xml:id="l250">Naître un Hercule audacieux,</l>
+            <l n="251" xml:id="l251">Qui de monstres purge le monde,</l>
+            <l n="252" xml:id="l252">Et puis s’envole dans les Cieux,</l>
+            <l n="253" xml:id="l253">Laissant une souche divine,</l>
+            <l n="254" xml:id="l254">Qui de père en fils le domine.</l>
+            <l n="255" xml:id="l255">À l’heur de ce proche Hymenée,</l>
+            <l n="256" xml:id="l256">De guirlandes de toutes fleurs,</l>
+            <l n="257" xml:id="l257">Soit notre tête environnée,</l>
+            <l n="258" xml:id="l258">Nos seins sous un lustre riant,</l>
+            <l n="259" xml:id="l259">Portent les trésors d’Orient.</l>
+            <l n="260" xml:id="l260">À l’envi ce qu’elle a de beau,</l>
+            <l n="261" xml:id="l261">Afin que ces héros de Troie,</l>
+            <l n="262" xml:id="l262">Se prennent d’un appas nouveau,</l>
+            <l n="263" xml:id="l263">Et que l’hymen de notre Reine,</l>
+            <l n="264" xml:id="l264">Un nombre infini nous amène.</l>
+            <l n="265" xml:id="l265">Qui la fureur de l’onde émue,</l>
+            <l n="266" xml:id="l266">Accoise aisément ce dit-on,</l>
+            <l n="267" xml:id="l267">Arme de foudres notre vue,</l>
+            <l n="268" xml:id="l268">Foudres desquels ton premier fils</l>
+            <l n="269" xml:id="l269">A les plus grands Dieux déconfits.</l>
+            <l n="270" xml:id="l270">L’une pour le nœud conjugal,</l>
+            <l n="271" xml:id="l271">Et l’autre qui par la gésine,</l>
+            <l n="272" xml:id="l272">Nous comble d’un bienfait égal ;</l>
+            <l n="273" xml:id="l273">Assistez chacune propice,</l>
+            <l n="274" xml:id="l274">Ce saint ouvrage d’un auspice.</l>
+            <l n="275" xml:id="l275">Pleuvoir vos faveurs libérales,</l>
+            <l n="276" xml:id="l276">Sur deux peuples qui sont restés,</l>
+            <l n="277" xml:id="l277">Vainqueurs de leurs peines fatales ;</l>
+            <l n="278" xml:id="l278">Si qu’un devenus désormais,</l>
+            <l n="279" xml:id="l279">Ils fleurissent en bonne paix.</l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="II">
+        <head>ACTE II</head>
+        <div type="scene" xml:id="II1">
+          <head>Scène <span class="romain-pt-cap">i</span></head>
+             <stage>IARBE, THÉRODOMANTE</stage>
+          <sp who="iarbe" xml:id="II1-1">
+            <speaker>IARBE</speaker>
+            <l n="280" xml:id="l280">Embrasé de fureur, de vengeance et de haine,</l>
+            <l n="281" xml:id="l281">Au pied de tes Autels, Majesté souveraine,</l>
+            <l n="282" xml:id="l282">Puissant Olympien, je t’adresse ma voix,</l>
+            <l n="283" xml:id="l283">Je te prends en témoin du crime que tu vois,</l>
+            <l n="284" xml:id="l284">Du crime perpétré contre ta géniture !</l>
+            <l n="285" xml:id="l285">Une folle, brûlant d’exécrable luxure,</l>
+            <l n="286" xml:id="l286">Une qui tient de moi la lumière du jour,</l>
+            <l n="287" xml:id="l287">Une à qui ma pitié concéda le séjour</l>
+            <l n="288" xml:id="l288">Du pays Libyen, lui départant de terre,</l>
+            <l n="289" xml:id="l289">Ce que le cuir d’un bœuf en son espace enserre ;</l>
+            <l n="290" xml:id="l290">Une qui m’enflamma, passable de beauté,</l>
+            <l n="291" xml:id="l291">Méprise mes bienfaits, mon nom, ma royauté ;</l>
+            <l n="292" xml:id="l292">Leur préfère indiscrète, un vagabond de Troie,</l>
+            <l n="293" xml:id="l293">Un, de tous les malheurs la malheureuse proie,</l>
+            <l n="294" xml:id="l294">Un, que je ne voudrais esclave recevoir,</l>
+            <l n="295" xml:id="l295">Hélas ! si je suis tien, père, fais-le savoir,</l>
+            <l n="296" xml:id="l296">Montre, que descendant amoureux de la nue,</l>
+            <l n="297" xml:id="l297">Tu vestis d’un bélier la semblance cornue,</l>
+            <l n="298" xml:id="l298">Ma mère ravissant sur les sables dorés,</l>
+            <l n="299" xml:id="l299">Où s’érigent depuis tes autels adorés.</l>
+            <l n="300" xml:id="l300">Montre, grand Jupiter, que ta race commande,</l>
+            <l n="301" xml:id="l301">La gent Maurusienne à leur servile bande,</l>
+            <l n="302" xml:id="l302">Dessous mon bras vengeur, comme aux champs Phlégréans,</l>
+            <l n="303" xml:id="l303">Foudroyant animeux ce reste de Géants ;</l>
+            <l n="304" xml:id="l304">Expie par l’amour de ta Garamantide,</l>
+            <l n="305" xml:id="l305">L’outrage à mon honneur fait d’un couple perfide.</l>
+            <l n="306" xml:id="l306">Quel besoin de prière, et d’épandre des vœux ?</l>
+            <l n="307" xml:id="l307">Je le puis moi-même, et sais que tu le veux ;</l>
+            <l n="308" xml:id="l308">Ministre du courroux de ta haute justice,</l>
+            <l n="309" xml:id="l309">J’exigerai de lui le mérité supplice,</l>
+            <l n="310" xml:id="l310">Deux peuples étrangers nos communs ennemis,</l>
+            <l n="311" xml:id="l311">Périront pour le rapt de mes amours commis.</l>
+          </sp>
+          <sp who="thérodomante" xml:id="II1-2">
+            <speaker>THÉRODOMANTE</speaker>
+            <l n="312" xml:id="l312">Gloire de l’univers, invincible Monarque,</l>
+            <l n="313" xml:id="l313">En cette passion plus avant ne t’embarque,</l>
+            <l n="314" xml:id="l314">Dessus ce bruit épars, bruit qui n’est bien souvent,</l>
+            <l n="315" xml:id="l315">Qu’une chimère vaine, une vapeur, un vent !</l>
+            <l n="316" xml:id="l316">Informons plus au vrai, premier, ce qui se passe,</l>
+            <l n="317" xml:id="l317">Informons plus au vrai, premier, ce qui se brasse</l>
+            <l n="318" xml:id="l318">Chez un peuple étranger, que ta puissante main,</l>
+            <l n="319" xml:id="l319">Coupable détruira du jour au lendemain.</l>
+            <l n="320" xml:id="l320">Onc à la tempérance un repentir n’arrive,</l>
+            <l n="321" xml:id="l321">L’équité, de sa source au contraire dérive,</l>
+            <l n="322" xml:id="l322">Vertu, qu’en tous ses faits observe Jupiter ;</l>
+            <l n="323" xml:id="l323">Qui plus que toi son fils le doit donc imiter ?</l>
+          </sp>
+          <sp who="iarbe" xml:id="II1-3">
+            <speaker>IARBE</speaker>
+            <l n="324" xml:id="l324">Stupide conniver au crime manifeste,</l>
+            <l n="325" xml:id="l325">Directement répugne à l’équité céleste,</l>
+            <l n="326" xml:id="l326">J’ai plus qu’il ne fallait mon courroux modéré,</l>
+            <l n="327" xml:id="l327">Par un monde témoin le diffame avéré.</l>
+            <l n="328" xml:id="l328">Carthage jusqu’ici résonne la liesse,</l>
+            <l n="329" xml:id="l329">De l’hymen de ce traître, avecque sa Princesse,</l>
+            <l n="330" xml:id="l330">Dessus telle assurance à ce vil suborneur,</l>
+            <l n="331" xml:id="l331">Elle a mis, elle met en proie son honneur ;</l>
+            <l n="332" xml:id="l332">Ils ne se cachent plus de la commune vue,</l>
+            <l n="333" xml:id="l333">Pour ensemble ravir la palme qui m’est due,</l>
+            <l n="334" xml:id="l334">Ensemble savourer la douceur de ses fruits,</l>
+            <l n="335" xml:id="l335">Que les bienfaits m’avaient véritables produits ;</l>
+            <l n="336" xml:id="l336">Ils bravent ma puissance, et font en dépit d’elle,</l>
+            <l n="337" xml:id="l337">Voler jusques au Ciel leur complot infidèle !</l>
+            <l n="338" xml:id="l338">Et que je doute encor ! Et que je sois rétif,</l>
+            <l n="339" xml:id="l339">À détruire vengeur ce couple fugitif ?</l>
+            <l n="340" xml:id="l340">Qu’ils se moquent de moi, jouissant de leur aise ?</l>
+            <l n="341" xml:id="l341">Que consommé de flamme, ils éteignent leur braise ?</l>
+            <l n="342" xml:id="l342">Ô rage étincelante au milieu de mes os,</l>
+            <l n="343" xml:id="l343">Ô martel envieux de mon libre repos,</l>
+            <l n="344" xml:id="l344">Ô perfide conseil, sépulcre de ma gloire !</l>
+            <l n="345" xml:id="l345">M’engloutisse l’Érèbe avant que de te croire ;</l>
+            <l n="346" xml:id="l346">Pasteur environné de soldats plus épois,</l>
+            <l n="347" xml:id="l347">Que ne sont en Été les feuillages des bois,</l>
+            <l n="348" xml:id="l348">De nombre surpassant la tempéteuse arène,</l>
+            <l n="349" xml:id="l349">Qui flotte épouvantable aux déserts de Cyrène,</l>
+            <l n="350" xml:id="l350">La terre sous le faix de leur pas gémissant,</l>
+            <l n="351" xml:id="l351">Le Ciel à leur aspect de crainte pâlissant,</l>
+            <l n="352" xml:id="l352">J’irai de fond en comble, (entreprise trop vile,)</l>
+            <l n="353" xml:id="l353">Ces Troyens sagmentés, exterminer sa ville,</l>
+            <l n="354" xml:id="l354">Et quant à l’impudique, en des fers vergogneux,</l>
+            <l n="355" xml:id="l355">Le supplice borner d’un refus dédaigneux ;</l>
+            <l n="356" xml:id="l356">Tandis quelqu’un des miens dans Carthage se glisse,</l>
+            <l n="357" xml:id="l357">Qui de l’état présent des choses m’avertisse.</l>
+          </sp>
+          <sp who="thérodomante" xml:id="II1-4">
+            <speaker>THÉRODOMANTE</speaker>
+            <l n="358" xml:id="l358">Sire, je reduirai tel oracle en effet ;</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II2">
+          <head>Scène <span class="romain-pt-cap">ii</span></head>
+             <stage>ÉNÉE, ACHATE</stage>
+          <sp who="énée" xml:id="II2-1">
+            <speaker>ÉNÉE</speaker>
+            <l n="359" xml:id="l359">Achate, une frayeur environne mon âme,</l>
+            <l n="360" xml:id="l360">Ce que n’ont pu les fers, les ondes, ni la flâme,</l>
+            <l n="361" xml:id="l361">Ce que tant d’accidents cette nuit survenus,</l>
+            <l n="362" xml:id="l362">Que du Grec frauduleux nous fûmes prévenus !</l>
+            <l n="363" xml:id="l363">Qu’après deux fois cinq ans notre ville occupée,</l>
+            <l n="364" xml:id="l364">Brûla ses citoyens mis au fil de l’épée,</l>
+            <l n="365" xml:id="l365">Bien qu’à l’heure la mort s’offrait de tous côtés,</l>
+            <l n="366" xml:id="l366">Que les cris parmi l’ombre hideusement jetés,</l>
+            <l n="367" xml:id="l367">Les cris d’un pauvre peuple égorgé dans sa couche,</l>
+            <l n="368" xml:id="l368">(Las ! encore de l’œil ce désastre je touche)</l>
+            <l n="369" xml:id="l369">Il me semble courir aux armes en sursaut,</l>
+            <l n="370" xml:id="l370">À qui par l’incertain sa conduite défaut,</l>
+            <l n="371" xml:id="l371">Emporté du hasard où l’alarme cruelle,</l>
+            <l n="372" xml:id="l372">De ceux qui résistaient en ténèbres m’appelle,</l>
+            <l n="373" xml:id="l373">Il me semble revoir Créuse se pendant,</l>
+            <l n="374" xml:id="l374">Plaintive à mes genoux, et son fils me tendant,</l>
+            <l n="375" xml:id="l375">Afin de refroidir l’ardeur de mon courage,</l>
+            <l n="376" xml:id="l376">Et de les préserver de l’Argolique rage !</l>
+            <l n="377" xml:id="l377">Derechef, derechef, de ses bras dépétré,</l>
+            <l n="378" xml:id="l378">Dedans l’horreur de Mars je me semble rentré,</l>
+            <l n="379" xml:id="l379">Au secours accouru des désolés Pergames,</l>
+            <l n="380" xml:id="l380">Où je vis expirer tant de vaillantes âmes ;</l>
+            <l n="381" xml:id="l381">Priam ce bon vieillard sur le corps trébucher,</l>
+            <l n="382" xml:id="l382">Sur le corps massacré de son Polite cher ;</l>
+            <l n="383" xml:id="l383">Où le Palais rempli de féminines larmes,</l>
+            <l n="384" xml:id="l384">Hécube réclamait mes impuissantes armes :</l>
+            <l n="385" xml:id="l385">Tout cela néanmoins le cœur ne m’ébranla,</l>
+            <l n="386" xml:id="l386">Ma constance fut une en tout ce malheur-là ;</l>
+            <l n="387" xml:id="l387">Je fis ce que pouvait une audace indomptée,</l>
+            <l n="388" xml:id="l388">Et ores de Didon la face redoutée</l>
+            <l n="389" xml:id="l389">Glace mes sens d’effroi, je n’ose l’aborder,</l>
+            <l n="390" xml:id="l390">Un coupable congé lui voulant demander.</l>
+            <l n="391" xml:id="l391">Celle qui me charmait de ses attraits naguère,</l>
+            <l n="392" xml:id="l392">Sans qui je haïssais la céleste lumière,</l>
+            <l n="393" xml:id="l393">S’est changée en furie, elle roue à mes yeux,</l>
+            <l n="394" xml:id="l394">Le flambeau punisseur d’un parjure impieux :</l>
+            <l n="395" xml:id="l395">Je frémis paravant que faire mes approches,</l>
+            <l n="396" xml:id="l396">Du bruit imaginé de ces fières reproches,</l>
+            <l n="397" xml:id="l397">Douteux de rebrousser sur mes pas avancés,</l>
+            <l n="398" xml:id="l398">Et mes vagues desseins de deux parts balancés.</l>
+          </sp>
+          <sp who="achate" xml:id="II2-2">
+            <speaker>ACHATE</speaker>
+            <l n="399" xml:id="l399">Autrefois j’admirai que l’humaine faiblesse,</l>
+            <l n="400" xml:id="l400">Si fréquente, succombe à l’amour qui blesse :</l>
+            <l n="401" xml:id="l401">Mais te voyant plier sous même passion,</l>
+            <l n="402" xml:id="l402">Je plains ores des deux l’âpre condition ;</l>
+            <l n="403" xml:id="l403">J’estime la vertu ne profiter à l’homme,</l>
+            <l n="404" xml:id="l404">Depuis qu’un feu secret ses entrailles consomme,</l>
+            <l n="405" xml:id="l405">Que ton frère a coulé le miel de sa poison,</l>
+            <l n="406" xml:id="l406">Au siège précieux de la sainte raison ;</l>
+            <l n="407" xml:id="l407">Détestable Tyran qui n’épargne personne,</l>
+            <l n="408" xml:id="l408">À son propre germain supplié ne pardonne.</l>
+            <l n="409" xml:id="l409">Efforce-toi pourtant, oppose aux voluptés</l>
+            <l n="410" xml:id="l410">L’infini des travaux que tu as surmontés,</l>
+            <l n="411" xml:id="l411">Songe qu’en ce dernier la palme est recueillie,</l>
+            <l n="412" xml:id="l412">Qui relève le nom de Troie ensevelie.</l>
+          </sp>
+          <sp who="énée" xml:id="II2-3">
+            <speaker>ÉNÉE</speaker>
+            <l n="413" xml:id="l413">La foi plus que l’amour me livre de terreur.</l>
+          </sp>
+          <sp who="achate" xml:id="II2-4">
+            <speaker>ACHATE</speaker>
+            <l n="414" xml:id="l414">La foi qui retient n’est qu’un frivole erreur.</l>
+          </sp>
+          <sp who="énée" xml:id="II2-5">
+            <speaker>ÉNÉE</speaker>
+            <l n="415" xml:id="l415">Elle porte en la main le foudre de son ire.</l>
+          </sp>
+          <sp who="achate" xml:id="II2-6">
+            <speaker>ACHATE</speaker>
+            <l n="416" xml:id="l416">Nous lui pouvons ôter le moyen de nous nuire.</l>
+          </sp>
+          <sp who="énée" xml:id="II2-7">
+            <speaker>ÉNÉE</speaker>
+            <l n="417" xml:id="l417">Non pas que d’un grand crime en un pire tombés.</l>
+          </sp>
+          <sp who="achate" xml:id="II2-8">
+            <speaker>ACHATE</speaker>
+            <l n="418" xml:id="l418">Ses feux avec tes yeux lui seront dérobés.</l>
+          </sp>
+          <sp who="énée" xml:id="II2-9">
+            <speaker>ÉNÉE</speaker>
+            <l n="419" xml:id="l419">Toujours demeurerai-je et ingrat, et perfide.</l>
+          </sp>
+          <sp who="achate" xml:id="II2-10">
+            <speaker>ACHATE</speaker>
+            <l n="420" xml:id="l420">La loi perd sa puissance où la force préside !</l>
+          </sp>
+          <sp who="énée" xml:id="II2-11">
+            <speaker>ÉNÉE</speaker>
+            <l n="421" xml:id="l421">J’aime mieux mille fois encourir du danger,</l>
+            <l n="422" xml:id="l422">Que si loin du devoir de l’honneur m’étranger.</l>
+          </sp>
+          <sp who="achate" xml:id="II2-12">
+            <speaker>ACHATE</speaker>
+            <l n="423" xml:id="l423">Danger, certes extrême entre les plus extrêmes,</l>
+            <l n="424" xml:id="l424">Et nous n’avons point encor franchi de mêmes ;</l>
+            <l n="425" xml:id="l425">Non, la rage de Scylle, et les rocs éprouvés,</l>
+            <l n="426" xml:id="l426">Des Cyclopes reclus en leurs antres cavés ;</l>
+            <l n="427" xml:id="l427">Non, lors que la dernière et plus rude tempête,</l>
+            <l n="428" xml:id="l428">De perdre notre espoir entièrement fut prête,</l>
+            <l n="429" xml:id="l429">Que Neptune engloutit infléchible à pitié,</l>
+            <l n="430" xml:id="l430">De quatorze vaisseaux la plorable moitié !</l>
+            <l n="431" xml:id="l431">Qu’est-ce au prix d’avertir une amante irritée,</l>
+            <l n="432" xml:id="l432">Ès lacs du désespoir furieuse jetée ?</l>
+            <l n="433" xml:id="l433">Lui demander congé d’emporter hors d’ici,</l>
+            <l n="434" xml:id="l434">Son cœur jà dans le sein tremblant de ce souci ?</l>
+            <l n="435" xml:id="l435">Lui demander congé de ravir le trophée</l>
+            <l n="436" xml:id="l436">De son chaste veuvage, et que d’ire échauffée,</l>
+            <l n="437" xml:id="l437">Les Tyriens ardant à la venger du tort,</l>
+            <l n="438" xml:id="l438">N’abîment notre flotte au sortir de leur port ?</l>
+            <l n="439" xml:id="l439">Oh ! le peu d’apparence, oh ! que c’est sa ruine</l>
+            <l n="440" xml:id="l440">Vouloir obstinément.</l>
+          </sp>
+          <sp who="énée" xml:id="II2-13">
+            <speaker>ÉNÉE</speaker>
+            <l n="441" xml:id="l441">L’assistance divine</l>
+            <l n="442" xml:id="l442">Conduira ce dessein pieux à sauveté,</l>
+            <l n="443" xml:id="l443">Au lieu que convaincu de telle lâcheté,</l>
+            <l n="444" xml:id="l444">Ingrat et déloyal, le ciel, l’onde, et la terre,</l>
+            <l n="445" xml:id="l445">Justement irrités me dénoncent la guerre.</l>
+            <l n="446" xml:id="l446">» Un traître est exécré des Dieux, et des humains,</l>
+            <l n="447" xml:id="l447">» Et de l’un ou de l’autre il n’échappe les mains,</l>
+            <l n="448" xml:id="l448">» L’ingratitude aussi ne demeure impunie ;</l>
+            <l n="449" xml:id="l449">» Jupiter le grand Dieu sa grâce lui dénie,</l>
+            <l n="450" xml:id="l450">» Réputant des forfaits le suprême forfait,</l>
+            <l n="451" xml:id="l451">» Cil qui de trahison recompense un bienfait.</l>
+            <l n="452" xml:id="l452">N’advienne, que jamais, quoi que fortune brasse,</l>
+            <l n="453" xml:id="l453">La peine justement des deux crimes j’embrasse,</l>
+            <l n="454" xml:id="l454">Une subite mort me plaît plus qu’un remords,</l>
+            <l n="455" xml:id="l455">Implacable suivi de renaissantes morts.</l>
+          </sp>
+          <sp who="achate" xml:id="II2-14">
+            <speaker>ACHATE</speaker>
+            <l n="456" xml:id="l456">Résout, il n’est besoin que plus on te conseille.</l>
+          </sp>
+          <sp who="énée" xml:id="II2-15">
+            <speaker>ÉNÉE</speaker>
+            <l n="457" xml:id="l457">Pénates honorés, ma gloire nonpareille,</l>
+            <l n="458" xml:id="l458">Ma force, mon bonheur, mon refuge dernier,</l>
+            <l n="459" xml:id="l459">Vous que j’ai retirés du Troïque brasier,</l>
+            <l n="460" xml:id="l460">Vous qu’Hector me donna dépôt inviolable,</l>
+            <l n="461" xml:id="l461">Vous qu’attend l’Ausonie en son bord souhaitable,</l>
+            <l n="462" xml:id="l462">Adoucissez le fiel de ce cruel Adieu,</l>
+            <l n="463" xml:id="l463">Permettez la raison dans son âme avoir lieu,</l>
+            <l n="464" xml:id="l464">De sorte qu’innocent avec vous je me rende,</l>
+            <l n="465" xml:id="l465">Où la fréquente voix des destins le commande.</l>
+            <l n="466" xml:id="l466">Mais ? a-t-on préparé nos vaisseaux au départ ?</l>
+            <l n="467" xml:id="l467">Peuvent-ils de la mer attendre le hasard ?</l>
+          </sp>
+          <sp who="achate" xml:id="II2-16">
+            <speaker>ACHATE</speaker>
+            <l n="468" xml:id="l468">Tes vaisseaux équipés de vivres, de cordages,</l>
+            <l n="469" xml:id="l469">Pourvus mieux que devant de résolus courages,</l>
+            <l n="470" xml:id="l470">Favorisés d’un vent qui les appelle en mer,</l>
+            <l n="471" xml:id="l471">Ne demandent sinon le signal de ramer ;</l>
+            <l n="472" xml:id="l472">Partons, un temps si cher prodigué se regrette,</l>
+            <l n="473" xml:id="l473">Et nulle occasion bastante ne l’arrête.</l>
+          </sp>
+          <sp who="énée" xml:id="II2-17">
+            <speaker>ÉNÉE</speaker>
+            <l n="474" xml:id="l474">Retourne sur le port les tenir en devoir,</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II3">
+          <head>Scène <span class="romain-pt-cap">iii</span></head>
+             <stage>JULE, PALINURE, ACHATE</stage>
+          <sp who="jule" xml:id="II3-1">
+            <speaker>JULE</speaker>
+            <l n="475" xml:id="l475">Oh ! le lâche séjour, oh ! la fainéantise,</l>
+            <l n="476" xml:id="l476">Donques une Carthage avorte l’entreprise</l>
+            <l n="477" xml:id="l477">Qu’ont inspiré les Dieux ? Et le sein de Didon</l>
+            <l n="478" xml:id="l478">Sera de nos travaux le plus digne guerdon ?</l>
+            <l n="479" xml:id="l479">Nous avons jà remis en son antique lustre,</l>
+            <l n="480" xml:id="l480">Le beau los moissonné de notre ville illustre ?</l>
+            <l n="481" xml:id="l481">Troie ressuscitée a relevé le chef,</l>
+            <l n="482" xml:id="l482">Jusqu’aux astres du pôle auteurs de son méchef ?</l>
+            <l n="483" xml:id="l483">Ce feu présagieux a produit son augure,</l>
+            <l n="484" xml:id="l484">Qui sans dommage aucun séchait ma chevelure ?</l>
+            <l n="485" xml:id="l485">Nous sommes (ô projets d’hommes efféminés,)</l>
+            <l n="486" xml:id="l486">Dans un pays affreux de déserts confinés ;</l>
+            <l n="487" xml:id="l487">Nos tranchants coutelas, et ce fer de nos piques,</l>
+            <l n="488" xml:id="l488">De conquêtes n’auront que les fères Libyques ?</l>
+            <l n="489" xml:id="l489">Heureux de posséder les lares empruntés,</l>
+            <l n="490" xml:id="l490">De ses Phéniciens à notre sort jetés :</l>
+            <l n="491" xml:id="l491">Heureux de nous reduire au vouloir d’une femme,</l>
+            <l n="492" xml:id="l492">Ô faute irréparable, ô vergogneux diffame,</l>
+            <l n="493" xml:id="l493">Ô profane mépris des Dieux, et de l’honneur,</l>
+            <l n="494" xml:id="l494">Exécrable repos des vertus suborneur !</l>
+            <l n="495" xml:id="l495">Pour moi ce peu de sang qui me bout dans les veines,</l>
+            <l n="496" xml:id="l496">Ne permettra des Dieux les ordonnances vaines,</l>
+            <l n="497" xml:id="l497">Jaçoit que faible d’ans l’univers connaîtra,</l>
+            <l n="498" xml:id="l498">Qu’onques la volupté dans mon âme n’entra ;</l>
+            <l n="499" xml:id="l499">Qu’un Hector fut mon oncle, et que je veux ensuivre</l>
+            <l n="500" xml:id="l500">Ses faits chevaleureux, que la mort fait revivre.</l>
+          </sp>
+          <sp who="palinure" xml:id="II3-2">
+            <speaker>PALINURE</speaker>
+            <l n="501" xml:id="l501">Ta bouillante jeunesse au poids de la fureur,</l>
+            <l n="502" xml:id="l502">Estime se croyant la prudence une erreur,</l>
+            <l n="503" xml:id="l503">N’a pas dedans l’esprit à grand’peine une chose,</l>
+            <l n="504" xml:id="l504">Qu’elle la voudrait faite, et d’obstacle n’oppose !</l>
+            <l n="505" xml:id="l505">Nous plus mûrs digérons l’avenir, paravant</l>
+            <l n="506" xml:id="l506">Que d’aller au hasard son effet poursuivant !</l>
+            <l n="507" xml:id="l507">Cuides-tu que l’ardeur en nos seins enfermée,</l>
+            <l n="508" xml:id="l508">Autant que toi n’aspire après la renommée ?</l>
+            <l n="509" xml:id="l509">Et que qui ne craindrait un tardif repentir,</l>
+            <l n="510" xml:id="l510">Du havre Tyrien nous fussions à sortir ?</l>
+            <l n="511" xml:id="l511">Ascagne, purge-toi de cette frénésie,</l>
+            <l n="512" xml:id="l512">Nous n’avons point ici de retraite choisie,</l>
+            <l n="513" xml:id="l513">Désireux de voguer jusques aux champs Latins,</l>
+            <l n="514" xml:id="l514">Selon que de ta gloire emportent les destins :</l>
+            <l n="515" xml:id="l515">Qu’ainsi ne soit, remarque en l’appareil qu’on dresse,</l>
+            <l n="516" xml:id="l516">L’occasion sans plus nous causer la paresse ;</l>
+            <l n="517" xml:id="l517">On l’attend et perdue, alors certes peux-tu</l>
+            <l n="518" xml:id="l518">Dire que l’on fait tort à ta jeune vertu.</l>
+          </sp>
+          <sp who="ascagne" xml:id="II3-3">
+            <speaker>ASCAGNE</speaker>
+            <l n="519" xml:id="l519">Des hommes doivent-ils nous renforcer encore ?</l>
+          </sp>
+          <sp who="palinure" xml:id="II3-4">
+            <speaker>PALINURE</speaker>
+            <l n="520" xml:id="l520">Ni soldats, ni nochers, notre flotte n’implore.</l>
+          </sp>
+          <sp who="ascagne" xml:id="II3-5">
+            <speaker>ASCAGNE</speaker>
+            <l n="521" xml:id="l521">Manquons-nous, ou de vent, ou de munitions ?</l>
+          </sp>
+          <sp who="palinure" xml:id="II3-6">
+            <speaker>PALINURE</speaker>
+            <l n="522" xml:id="l522">Ils secondent ensemble à nos intentions.</l>
+          </sp>
+          <sp who="ascagne" xml:id="II3-7">
+            <speaker>ASCAGNE</speaker>
+            <l n="523" xml:id="l523">Possible quelque signe observé dans les Astres,</l>
+            <l n="524" xml:id="l524">Quelque proche tourmente augure nos désastres.</l>
+          </sp>
+          <sp who="palinure" xml:id="II3-8">
+            <speaker>PALINURE</speaker>
+            <l n="525" xml:id="l525">L’air serein ne prédit tourmente de longtemps,</l>
+            <l n="526" xml:id="l526">Ni le moindre péril sur les sillons flottants.</l>
+          </sp>
+          <sp who="ascagne" xml:id="II3-9">
+            <speaker>ASCAGNE</speaker>
+            <l n="527" xml:id="l527">Donc la Reine défend ?</l>
+          </sp>
+          <sp who="palinure" xml:id="II3-10">
+            <speaker>PALINURE</speaker>
+            <l n="528" xml:id="l528">Jule, ne t’informe</l>
+            <l n="529" xml:id="l529">D’un secret, à ton âge entièrement difforme ;</l>
+            <l n="530" xml:id="l530">Remets-toi du voyage au souci paternel,</l>
+            <l n="531" xml:id="l531">Souci, qui là-dessus le travaille éternel,</l>
+            <l n="532" xml:id="l532">Ne sommeille non plus que ce flambeau, qui donne</l>
+            <l n="533" xml:id="l533">Le jour à l’univers des feux de sa couronne,</l>
+            <l n="534" xml:id="l534">Capable du fardeau, mais ! Achate envoyé,</l>
+            <l n="535" xml:id="l535">Pour quelque cas exprès de l’œil t’a côtoyé,</l>
+            <l n="536" xml:id="l536">Et craint à mon avis que de ceux de Carthage,</l>
+            <l n="537" xml:id="l537">Quelqu’un sans y penser le secret ne partage,</l>
+            <l n="538" xml:id="l538">Ne divulgue espion tel avertissement.</l>
+          </sp>
+          <sp who="achate" xml:id="II3-11">
+            <speaker>ACHATE</speaker>
+            <l n="539" xml:id="l539">Chacun dans son vaisseau se range sourdement,</l>
+            <l n="540" xml:id="l540">Tienne ses voiles prêts, et les siens en haleine,</l>
+            <l n="541" xml:id="l541">Pour cingler diligent sur la vagueuse plaine,</l>
+            <l n="542" xml:id="l542">Au premier mot lâché, hâtons-nous d’y aller,</l>
+            <l n="543" xml:id="l543">De peur que le besoin prévienne mon parler.</l>
+          </sp>
+          <sp who="ascagne" xml:id="II3-12">
+            <speaker>ASCAGNE</speaker>
+            <l n="544" xml:id="l544">Déjà par tant de fois ma joie interrompue,</l>
+            <l n="545" xml:id="l545">D’un espoir mensonger, et trompeur s’est repue,</l>
+            <l n="546" xml:id="l546">Que je ne veux plus croire à l’heur sans le toucher,</l>
+            <l n="547" xml:id="l547">Mais au doute il ne faut le mépris attacher,</l>
+            <l n="548" xml:id="l548">Téméraire infracteur du vouloir de mon père.</l>
+          </sp>
+          <sp who="palinure" xml:id="II3-13">
+            <speaker>PALINURE</speaker>
+            <l n="549" xml:id="l549">Ne crains qu’ainsi toujours ta vertu ne prospère,</l>
+            <l n="550" xml:id="l550">Envers ton géniteur humble de piété,</l>
+            <l n="551" xml:id="l551">Tu as dedans l’Olympe un laurier apprêté.</l>
+          </sp>
+          <sp who="chœur-des-troyens" xml:id="II3-14">
+            <speaker>CHŒUR DES TROYENS</speaker>
+            <l n="552" xml:id="l552">L’étrange changement des affaires mondaines,</l>
+            <l n="553" xml:id="l553">Ne ressemble rien plus,</l>
+            <l n="554" xml:id="l554">Que les courses des mers qui décroissent soudaines,</l>
+            <l n="555" xml:id="l555">Puis croissent d’un reflux.</l>
+            <l n="556" xml:id="l556">Or la prospérité chez celui-ci séjourne,</l>
+            <l n="557" xml:id="l557">Tantôt l’autre à son tour,</l>
+            <l n="558" xml:id="l558">Au favorable vent que fortune lui tourne,</l>
+            <l n="559" xml:id="l559">Jouit de son séjour.</l>
+            <l n="560" xml:id="l560">L’homme n’a de certain parmi l’incertitude,</l>
+            <l n="561" xml:id="l561">Que l’horreur du tombeau ;</l>
+            <l n="562" xml:id="l562">Tout le reste sujet à la vicissitude,</l>
+            <l n="563" xml:id="l563">Est une ampoule d’eau.</l>
+            <l n="564" xml:id="l564">Soit qu’il branle un grand sceptre en sa dextre orgueilleuse,</l>
+            <l n="565" xml:id="l565">Ou soit que bûcheron,</l>
+            <l n="566" xml:id="l566">Il sape des forêts la tête soucilleuse,</l>
+            <l n="567" xml:id="l567">Son port est l’Achéron ;</l>
+            <l n="568" xml:id="l568">Mais l’inégalité toute autre de la vie,</l>
+            <l n="569" xml:id="l569">Nous sépare de loin ;</l>
+            <l n="570" xml:id="l570">L’un bute des malheurs, esclave de l’envie,</l>
+            <l n="571" xml:id="l571">Des travaux et du soin,</l>
+            <l n="572" xml:id="l572">Sous un bandeau Royal cache la peur empreinte,</l>
+            <l n="573" xml:id="l573">Des exemples divers ;</l>
+            <l n="574" xml:id="l574">Qui par celui récent de notre Troie éteinte,</l>
+            <l n="575" xml:id="l575">Font pâlir l’univers.</l>
+            <l n="576" xml:id="l576">Ou s’il suit ce chemin des vertus, qu’on appelle</l>
+            <l n="577" xml:id="l577">Ainsi que notre chef ;</l>
+            <l n="578" xml:id="l578">Mille et mille dangers de l’aveugle infidèle,</l>
+            <l n="579" xml:id="l579">Lui pendent sur le chef.</l>
+            <l n="580" xml:id="l580">Espérant rebâtir au sein de l’Hespérie,</l>
+            <l n="581" xml:id="l581">Un second Ilion,</l>
+            <l n="582" xml:id="l582">La moitié de sa flotte au naufrage périe,</l>
+            <l n="583" xml:id="l583">L’enfle d’affliction :</l>
+            <l n="584" xml:id="l584">Et (suprême malheur !) au milieu des délices,</l>
+            <l n="585" xml:id="l585">De l’archer de Cypris ;</l>
+            <l n="586" xml:id="l586">À grand’peine il pourra fendre les précipices,</l>
+            <l n="587" xml:id="l587">Qui nous retiennent pris.</l>
+            <l n="588" xml:id="l588">Didon se vengera d’un parjure Thésée,</l>
+            <l n="589" xml:id="l589">Au moindre petit bruit :</l>
+            <l n="590" xml:id="l590">Qu’après sa chasteté longuement abusée,</l>
+            <l n="591" xml:id="l591">Par les ondes il fuit :</l>
+            <l n="592" xml:id="l592">Hélas ! combien au prix, combien est souhaitable,</l>
+            <l n="593" xml:id="l593">Cette condition ;</l>
+            <l n="594" xml:id="l594">Qui remenant au soir les bœufs dedans l’étable,</l>
+            <l n="595" xml:id="l595">Nue d’ambition,</l>
+            <l n="596" xml:id="l596">Ne pense au lendemain qu’à refendre les plaines,</l>
+            <l n="597" xml:id="l597">Ou si c’est la saison,</l>
+            <l n="598" xml:id="l598">Des épics nourriciers (doux espoir de ses peines)</l>
+            <l n="599" xml:id="l599">Dépouiller la toison.</l>
+            <l n="600" xml:id="l600">Heureux s’ils connaissaient leur félicité grande,</l>
+            <l n="601" xml:id="l601">Les laboureurs des champs,</l>
+            <l n="602" xml:id="l602">La trompette en sursaut furieux ne les mande,</l>
+            <l n="603" xml:id="l603">À un assaut marchants.</l>
+            <l n="604" xml:id="l604">Ils ne vont comme nous sujets à la colère,</l>
+            <l n="605" xml:id="l605">D’un perfide élément ;</l>
+            <l n="606" xml:id="l606">Importuner des Dieux la troupe marinière,</l>
+            <l n="607" xml:id="l607">Ou Neptune en ramant ;</l>
+            <l n="608" xml:id="l608">Ains contents de leur peu, dans une maisonnette,</l>
+            <l n="609" xml:id="l609">Attendent que la mort,</l>
+            <l n="610" xml:id="l610">Les prenne après cent ans la conscience nette,</l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="III">
+        <head>ACTE III</head>
+        <div type="scene" xml:id="III1">
+          <head>Scène <span class="romain-pt-cap">i</span></head>
+             <stage>DIDON, ÉNÉE, CHŒUR, ANNE. [BARCE, ACHATE]</stage>
+          <sp who="didon" xml:id="III1-1">
+            <speaker>DIDON</speaker>
+            <l n="611" xml:id="l611">Anne c’est fait de moi, ce corsaire effronté,</l>
+            <l n="612" xml:id="l612">Enlève impunément mon honneur affronté ;</l>
+            <l n="613" xml:id="l613">Ses mats sont couronnés, sa brigande cohorte</l>
+            <l n="614" xml:id="l614">Nos vivres dans les naux amasse de la sorte,</l>
+            <l n="615" xml:id="l615">Qu’un troupeau picoreur de fourmis épandus,</l>
+            <l n="616" xml:id="l616">Aussitôt qu’en Juillet les épics sont tondus ;</l>
+            <l n="617" xml:id="l617">Il comble prévoyant, la froidure voisine,</l>
+            <l n="618" xml:id="l618">De quelque chêne usé la profonde racine,</l>
+            <l n="619" xml:id="l619">Les chemins en sont noirs, et au labeur ardent,</l>
+            <l n="620" xml:id="l620">Il ne va qu’au trépas le butin démordant :</l>
+            <l n="621" xml:id="l621">Donques voilà ma crainte en désespoir changée,</l>
+            <l n="622" xml:id="l622">Et c’est où ton conseil imprudent m’a rangée,</l>
+            <l n="623" xml:id="l623">D’une simple étincelle un brasier il éprit,</l>
+            <l n="624" xml:id="l624"></l>
+            <l n="625" xml:id="l625">Qui depuis me dévore et le sang et l’esprit ;</l>
+            <l n="626" xml:id="l626">Las ! hélas ! que ferai-je ? hélas ! à quel remède</l>
+            <l n="627" xml:id="l627">Courra dorénavant l’erreur qui me possède ?</l>
+            <l n="628" xml:id="l628">Demandes-tu, Didon, quel remède ? la mort,</l>
+            <l n="629" xml:id="l629">La mort, si peu de chose à un courage fort ;</l>
+            <l n="630" xml:id="l630">La mort, ô misérable ! ô dure recompense,</l>
+            <l n="631" xml:id="l631">Alors qu’à son motif désastreuse je pense ;</l>
+            <l n="632" xml:id="l632">Un que j’ai naufrageux de la parque recous,</l>
+            <l n="633" xml:id="l633">Que voulurent les Dieux abîmer en courroux,</l>
+            <l n="634" xml:id="l634">Pauvre, couvert d’écume, et privé de retraite,</l>
+            <l n="635" xml:id="l635">À la rigueur ainsi pour salaire me traite.</l>
+            <l n="636" xml:id="l636">La faveur de mon lit ne l’arrêtera pas ?</l>
+            <l n="637" xml:id="l637">Ha ! le voici ma sœur, il croise à nous ses pas ;</l>
+            <l n="638" xml:id="l638">Sus, sus, que l’on s’écarte, ô troupe bien-aimée,</l>
+            <l n="639" xml:id="l639">Chacune fasse place à mon ire enflammée,</l>
+            <l n="640" xml:id="l640">Qui le consommera, s’il osait d’un refus.</l>
+            <l n="641" xml:id="l641">Ha ! traître, à ce visage éperdument confus,</l>
+            <l n="642" xml:id="l642">Je lis l’intention de ta sinistre envie,</l>
+            <l n="643" xml:id="l643">Tu viens pour massacrer qui t’a donné la vie,</l>
+            <l n="644" xml:id="l644">Tu viens pour décevoir, qui connaît de ton cœur</l>
+            <l n="645" xml:id="l645">La trahison fardée, et l’injuste rancœur.</l>
+            <l n="646" xml:id="l646">Me couvrir le dessein de ta fuite, homicide ?</l>
+            <l n="647" xml:id="l647">Hé ! de quelle manière espérais-tu perfide,</l>
+            <l n="648" xml:id="l648">Pouvoir abandonner ma terre à mon deçu ?</l>
+            <l n="649" xml:id="l649">Comment as-tu ce dol exécrable conçu ?</l>
+            <l n="650" xml:id="l650">Ne t’aurait point touché cette dextre donnée</l>
+            <l n="651" xml:id="l651">Autrefois à la tienne au nom de l’hyménée ?</l>
+            <l n="652" xml:id="l652">Ni notre amour passé, ni le destin sanglant,</l>
+            <l n="653" xml:id="l653">De celle que tu sais meurtrir en la quittant ?</l>
+            <l n="654" xml:id="l654">Même désespéré, ores que la tempête,</l>
+            <l n="655" xml:id="l655">Sous un astre orageux un naufrage t’apprête,</l>
+            <l n="656" xml:id="l656"></l>
+            <l n="657" xml:id="l657">Jetterais-tu ta flotte à la rage des flots,</l>
+            <l n="658" xml:id="l658">Quand bien ta Troie encor fleurirait en son los ?</l>
+            <l n="659" xml:id="l659">Qu’il ne te la faudrait que trouver assurée,</l>
+            <l n="660" xml:id="l660">T’y efforcerais-tu l’onde ainsi colérée ?</l>
+            <l n="661" xml:id="l661">L’honneur d’un chef prudent, autrefois mérité,</l>
+            <l n="662" xml:id="l662">Déroge à ce départ plein de témérité ;</l>
+            <l n="663" xml:id="l663">Me fuis-tu ? par ces pleurs, par cette main loyale,</l>
+            <l n="664" xml:id="l664">Puisque rien plus ne reste à ma grandeur Royale,</l>
+            <l n="665" xml:id="l665">Que je t’ai tout donné, tout mon plus précieux,</l>
+            <l n="666" xml:id="l666">Par l’hymen commencé, si jamais à tes yeux</l>
+            <l n="667" xml:id="l667">Chose de moi provint et désirable, et douce,</l>
+            <l n="668" xml:id="l668">Dépouille ce désir, et ma voix ne repousse,</l>
+            <l n="669" xml:id="l669">Ce désir inhumain, de perdre te perdant,</l>
+            <l n="670" xml:id="l670">Une, de qui tu es l’Aurore, et l’Occident !</l>
+            <l n="671" xml:id="l671">Vois, vois, qu’à ton sujet un monde m’est contraire ;</l>
+            <l n="672" xml:id="l672">Les peuples Libyens ne s’en peuvent plus taire,</l>
+            <l n="673" xml:id="l673">Les Rois de Numidie ont juré mon trépas,</l>
+            <l n="674" xml:id="l674">Voire, hélas ! et pour toi, les miens ne m’aiment pas,</l>
+            <l n="675" xml:id="l675">Ma pudeur est éteinte, et sa première gloire,</l>
+            <l n="676" xml:id="l676">Qui m’élevait au Ciel dans un trône d’ivoire,</l>
+            <l n="677" xml:id="l677">Hôte ingrat, tu m’en veux laisser le souvenir !</l>
+            <l n="678" xml:id="l678">Puisque je n’ose époux te dire à l’avenir ?</l>
+            <l n="679" xml:id="l679">Tu me le veux laisser de la parque voisine :</l>
+            <l n="680" xml:id="l680">Car le moyen que plus à vivre je m’obstine,</l>
+            <l n="681" xml:id="l681">Possible en attendant mes murs à ruiner,</l>
+            <l n="682" xml:id="l682">D’un germain parricide, ou qu’à m’empoisonner,</l>
+            <l n="683" xml:id="l683">Le Gétulois Iarbe amène ses batailles,</l>
+            <l n="684" xml:id="l684">Encor si je portais de toi dans mes entrailles,</l>
+            <l n="685" xml:id="l685">Par la fuite absenté quelque gage d’amour,</l>
+            <l n="686" xml:id="l686">Et qu’un petit Énée apparût en ma Cour,</l>
+            <l n="687" xml:id="l687">Folâtre en jeux d’enfants du tout abandonnée,</l>
+            <l n="688" xml:id="l688">Je ne réputerais ma couche infortunée !</l>
+            <l n="689" xml:id="l689">Ha ! la douleur me serre, et le cœur, et la voix,</l>
+            <l n="690" xml:id="l690">J’ai fait plus que ma force, et que je ne devois.</l>
+            <l n="691" xml:id="l691"></l>
+          </sp>
+          <sp who="énée" xml:id="III1-2">
+            <speaker>ÉNÉE</speaker>
+            <l n="692" xml:id="l692">Disputer contre toi, Reine, beaucoup de choses,</l>
+            <l n="693" xml:id="l693">Qui sont sous la raison de tes raisons encloses,</l>
+            <l n="694" xml:id="l694">Nullement, nullement ! je tiens de vérité,</l>
+            <l n="695" xml:id="l695">Que des miens et de moi tu as trop mérité,</l>
+            <l n="696" xml:id="l696">Qu’étouffant le soupçon redouté d’infamie,</l>
+            <l n="697" xml:id="l697">Ton grade en mon endroit passe celui d’amie,</l>
+            <l n="698" xml:id="l698">Il le passe Didon, je ne te puis nier</l>
+            <l n="699" xml:id="l699">Des devoirs d’amitié sinon que le dernier ;</l>
+            <l n="700" xml:id="l700">Et jamais, visitant les provinces étranges,</l>
+            <l n="701" xml:id="l701">Je ne serai honteux de chanter tes louanges,</l>
+            <l n="702" xml:id="l702">Célébrer tes bienfaits, et les remémorer,</l>
+            <l n="703" xml:id="l703">Tant qu’un esprit vital me fera soupirer !</l>
+            <l n="704" xml:id="l704">Mes vœux d’un souvenir te porteront l’hommage,</l>
+            <l n="705" xml:id="l705">Tant qu’Énée, ou d’Énée une larveuse image.</l>
+            <l n="706" xml:id="l706">D’avoir voulu brasser un partement fuitif,</l>
+            <l n="707" xml:id="l707">Ne l’imagine point, onc je ne fus captif,</l>
+            <l n="708" xml:id="l708">Onc je n’ai prétendu le nœud de mariage,</l>
+            <l n="709" xml:id="l709">Quand bon me semblera, restreindre mon voyage.</l>
+          </sp>
+          <sp who="didon" xml:id="III1-3">
+            <speaker>DIDON</speaker>
+            <l n="710" xml:id="l710">Trompeur, à quel but donc aspira ton dessein,</l>
+            <l n="711" xml:id="l711">De ma pudicité perpétrant le larcin,</l>
+            <l n="712" xml:id="l712">Au creux de cette roche à mon malheur funeste ?</l>
+            <l n="713" xml:id="l713">Roche où te l’exposa la vengeance céleste !</l>
+            <l n="714" xml:id="l714">Me cuidais-tu sujette à la lubricité ?</l>
+            <l n="715" xml:id="l715">Sujette à recevoir tes gens en ma Cité ?</l>
+            <l n="716" xml:id="l716">Leur permettre en ton nom plus qu’aux Tyriens même ?</l>
+            <l n="717" xml:id="l717">T’appeler en mon lit ? t’offrir mon diadême ?</l>
+            <l n="718" xml:id="l718">Afin qu’à ton plaisir te fût loisible après,</l>
+            <l n="719" xml:id="l719">Volage, d’échanger notre Myrte en Cyprès ?</l>
+            <l n="720" xml:id="l720">Balance derechef le mal que tu veux faire,</l>
+            <l n="721" xml:id="l721">De tuer ta Didon, par ses mains la défaire,</l>
+            <l n="722" xml:id="l722">Las ! c’est bien la meurtrir que la vouloir quitter,</l>
+            <l n="723" xml:id="l723">Veuille donc ce conseil damnable rejeter.</l>
+            <l n="724" xml:id="l724">Hélas ! Énée, hélas ! prends pitié de ma flâme !</l>
+            <l n="725" xml:id="l725">Ne me dérobe point la moitié de mon âme,</l>
+            <l n="726" xml:id="l726">Demeure auprès de moi, que je voie tes yeux,</l>
+            <l n="727" xml:id="l727">Que je hume à long trait mon vénin furieux,</l>
+            <l n="728" xml:id="l728">Appaise en tes regards, la rage insatiable, ]</l>
+            <l n="729" xml:id="l729">De ton Tyran de frère, enfant impitoyable.</l>
+          </sp>
+          <sp who="énée" xml:id="III1-4">
+            <speaker>ÉNÉE</speaker>
+            <l n="730" xml:id="l730">Madame, modérez, modérez…</l>
+          </sp>
+          <sp who="didon" xml:id="III1-5">
+            <speaker>DIDON</speaker>
+            <l n="731" xml:id="l731">Hé, comment ?</l>
+            <l n="732" xml:id="l732">Modérer les chaleurs d’un feu si véhément ?</l>
+            <l n="733" xml:id="l733">Il fallait conseiller la misérable Élise,</l>
+            <l n="734" xml:id="l734">D’éteindre son amour aussi soudain qu’éprise !</l>
+          </sp>
+          <sp who="énée" xml:id="III1-6">
+            <speaker>ÉNÉE</speaker>
+            <l n="735" xml:id="l735">Le temps a triomphé de plus fortes douleurs.</l>
+          </sp>
+          <sp who="didon" xml:id="III1-7">
+            <speaker>DIDON</speaker>
+            <l n="736" xml:id="l736">Oui bien vers tes pareils de fraudes receleurs,</l>
+            <l n="737" xml:id="l737">Qui n’aiment que par feinte, accoûtumés au change :</l>
+            <l n="738" xml:id="l738">Mais mon amour n’a rien que de grand, que d’étrange,</l>
+            <l n="739" xml:id="l739">Fiché dedans le cœur, dans le sang, dans les os,</l>
+            <l n="740" xml:id="l740">Qui toi perdu, s’apprête un cercueil de repos.</l>
+          </sp>
+          <sp who="énée" xml:id="III1-8">
+            <speaker>ÉNÉE</speaker>
+            <l n="741" xml:id="l741">L’inconstance messied au titre que tu portes.</l>
+          </sp>
+          <sp who="didon" xml:id="III1-9">
+            <speaker>DIDON</speaker>
+            <l n="742" xml:id="l742">Elle ne te convainc que de preuves plus fortes,</l>
+            <l n="743" xml:id="l743">Invincible restée à toute affliction,</l>
+            <l n="744" xml:id="l744"></l>
+            <l n="745" xml:id="l745">Qui ne pénètre point jusqu’à l’affection,</l>
+            <l n="746" xml:id="l746">Qui des biens fortuits simplement nous sépare,</l>
+            <l n="747" xml:id="l747">Carthage, monument de ma constance rare,</l>
+            <l n="748" xml:id="l748">Carthage, que malgré les Astres rigoureux,</l>
+            <l n="749" xml:id="l749">Je consacrai Sichée à tes mânes heureux,</l>
+            <l n="750" xml:id="l750">Ha ! ce nom ramentu me livre des alarmes,</l>
+            <l n="751" xml:id="l751">Dignes de ma folie, et dignes de mes larmes.</l>
+          </sp>
+          <sp who="énée" xml:id="III1-10">
+            <speaker>ÉNÉE</speaker>
+            <l n="752" xml:id="l752">Plût au Ciel, te pouvoir par ma mort secourir,</l>
+            <l n="753" xml:id="l753">Et la haine des Dieux rebelle n’encourir !</l>
+          </sp>
+          <sp who="didon" xml:id="III1-11">
+            <speaker>DIDON</speaker>
+            <l n="754" xml:id="l754">Peux-tu m’abandonnant n’encourir point leur haine,</l>
+            <l n="755" xml:id="l755">Âme ingrate cent fois, et cent fois inhumaine ?</l>
+          </sp>
+          <sp who="énée" xml:id="III1-12">
+            <speaker>ÉNÉE</speaker>
+            <l n="756" xml:id="l756">Forcé de leur décret je poursuis mes erreurs.</l>
+          </sp>
+          <sp who="didon" xml:id="III1-13">
+            <speaker>DIDON</speaker>
+            <l n="757" xml:id="l757">Pourquoi me remplis-tu de nouvelles fureurs ?</l>
+            <l n="758" xml:id="l758">Forcé de leur décret, tu meurtriras qui t’aime,</l>
+            <l n="759" xml:id="l759">Oh ! l’insolvable excuse, ains l’horrible blasphème.</l>
+          </sp>
+          <sp who="énée" xml:id="III1-14">
+            <speaker>ÉNÉE</speaker>
+            <l n="760" xml:id="l760">Paravant que te voir j’ai su leur volonté,</l>
+            <l n="761" xml:id="l761">Comme aussi tu la sus l’esclandre raconté,</l>
+            <l n="762" xml:id="l762">L’esclandre d’Ilion, une nuit continue,</l>
+            <l n="763" xml:id="l763">Qu’il te plut des Troyens festoyer la venue.</l>
+          </sp>
+          <sp who="didon" xml:id="III1-15">
+            <speaker>DIDON</speaker>
+            <l n="764" xml:id="l764">Nuit plus fatale à moi, que celle qui les tiens,</l>
+            <l n="765" xml:id="l765">Par le cheval fit choir ès Argives liens.</l>
+          </sp>
+          <sp who="énée" xml:id="III1-16">
+            <speaker>ÉNÉE</speaker>
+            <l n="766" xml:id="l766">Quiconque se répent du bien qu’il a pu faire,</l>
+            <l n="767" xml:id="l767">Quiconque le reproche, impuissant de le taire,</l>
+            <l n="768" xml:id="l768"></l>
+            <l n="769" xml:id="l769">Qui même s’en souvient, perd le mérite acquis,</l>
+            <l n="770" xml:id="l770">Fût-il au tien semblable, et voire plus exquis.</l>
+          </sp>
+          <sp who="didon" xml:id="III1-17">
+            <speaker>DIDON</speaker>
+            <l n="771" xml:id="l771">Ma plainte méprisée, et ma juste prière,</l>
+            <l n="772" xml:id="l772">Un reproche sans doute a suivi la colère !</l>
+            <l n="773" xml:id="l773">Tu n’en ferais pas moins en ma place réduit ;</l>
+            <l n="774" xml:id="l774">Mais ployable, naissant tu étouffes ce bruit,</l>
+            <l n="775" xml:id="l775">Il ne sortira plus de l’enclos de ma bouche,</l>
+            <l n="776" xml:id="l776">Il ne t’offensera d’une seconde touche ;</l>
+            <l n="777" xml:id="l777">Tu me vois à tes pieds, tienne plus que jamais,</l>
+            <l n="778" xml:id="l778">T’adorer comme un Dieu ; je jure désormais</l>
+            <l n="779" xml:id="l779">D’esclave te servir, je me répute heureuse,</l>
+            <l n="780" xml:id="l780">Et ne m’éloigne point de ta face amoureuse,</l>
+            <l n="781" xml:id="l781">N’éclipse les rayons de ton double Soleil,</l>
+            <l n="782" xml:id="l782">Me le promets-tu pas, ma lumière, mon œil ?</l>
+            <l n="783" xml:id="l783">» Tes destins sont ici : à l’homme de courage,</l>
+            <l n="784" xml:id="l784">» Le pays est partout, où est son avantage.</l>
+          </sp>
+          <sp who="énée" xml:id="III1-18">
+            <speaker>ÉNÉE</speaker>
+            <l n="785" xml:id="l785">N’accuse que le Ciel, je ne suis plus à moi,</l>
+            <l n="786" xml:id="l786">Pressé du partement par sa sévère loi !</l>
+          </sp>
+          <sp who="didon" xml:id="III1-19">
+            <speaker>DIDON</speaker>
+            <l n="787" xml:id="l787">Ha ! cruel !</l>
+          </sp>
+          <sp who="énée" xml:id="III1-20">
+            <speaker>ÉNÉE</speaker>
+            <l n="788" xml:id="l788">Hé ! Madame…</l>
+          </sp>
+          <sp who="didon" xml:id="III1-21">
+            <speaker>DIDON</speaker>
+            <l n="789" xml:id="l789">Ha ! barbare infidèle.</l>
+          </sp>
+          <sp who="chœur" xml:id="III1-22">
+            <speaker>CHŒUR</speaker>
+            <l n="790" xml:id="l790">Courons la retenir, hélas ! elle chancelle !</l>
+          </sp>
+          <sp who="didon" xml:id="III1-23">
+            <speaker>DIDON</speaker>
+            <l n="791" xml:id="l791">Impiteux homicide, au moins, au moins, attends,</l>
+            <l n="792" xml:id="l792">À tuer ton Élise, encore quelque temps.</l>
+            <l n="793" xml:id="l793"></l>
+          </sp>
+          <sp who="énée" xml:id="III1-24">
+            <speaker>ÉNÉE</speaker>
+            <l n="794" xml:id="l794">S’éclate un foudre horrible, et appaise sa rage</l>
+            <l n="795" xml:id="l795">Sur la tête d’Énée, avant qu’il vous outrage.</l>
+          </sp>
+          <sp who="didon" xml:id="III1-25">
+            <speaker>DIDON</speaker>
+            <l n="796" xml:id="l796">Le moyen de partir, et ne point m’outrager ?</l>
+            <l n="797" xml:id="l797">De m’ôter à la Parque, et d’avis ne changer ?</l>
+            <l n="798" xml:id="l798">Tu ne peux, tu ne peux ; éloignant notre rive,</l>
+            <l n="799" xml:id="l799">De celle d’Achéron tu m’approches chétive ;</l>
+            <l n="800" xml:id="l800">Ne le fais pas Énée, Énée, prends pitié</l>
+            <l n="801" xml:id="l801">De Didon, de sa ville, et de son amitié.</l>
+          </sp>
+          <sp who="énée" xml:id="III1-26">
+            <speaker>ÉNÉE</speaker>
+            <l n="802" xml:id="l802">Trop de pitié me tient, la douleur qui te mine,</l>
+            <l n="803" xml:id="l803">M’arrache à ces sanglots l’âme de la poitrine,</l>
+            <l n="804" xml:id="l804">Je déteste le jour que je dusse bénir,</l>
+            <l n="805" xml:id="l805">Mais daigne à toi Princesse un moment revenir !</l>
+            <l n="806" xml:id="l806">Écoute de pied coi ce peu que ma pensée</l>
+            <l n="807" xml:id="l807">Se réserva toujours à te dire forcée ;</l>
+            <l n="808" xml:id="l808">Au cas que les destins plus doux m’eussent permis,</l>
+            <l n="809" xml:id="l809">Dessous mon propre auspice un Empire remis,</l>
+            <l n="810" xml:id="l810">À mes soucis féconds une borne prescrire,</l>
+            <l n="811" xml:id="l811">Les ruines de Troie on me verrait élire :</l>
+            <l n="812" xml:id="l812">On verrait, on verrait, si les Dieux suppliés,</l>
+            <l n="813" xml:id="l813">M’auraient d’un pesant joug d’oracles déliés,</l>
+            <l n="814" xml:id="l814">Des Pergames rechus, des Pergames antiques,</l>
+            <l n="815" xml:id="l815">La cendre préférée, et les douces reliques :</l>
+            <l n="816" xml:id="l816">Ailleurs je ne voudrais une ville planter,</l>
+            <l n="817" xml:id="l817">Et le sort vagabond des Troyens arrêter.</l>
+            <l n="818" xml:id="l818">Mais ores Apollon Grinéan me demande,</l>
+            <l n="819" xml:id="l819">Et la grande Hespérie, avec toute ma bande ;</l>
+            <l n="820" xml:id="l820">Les destins de Lycie ainsi l’ont commandé,</l>
+            <l n="821" xml:id="l821">C’est là que ma patrie a mon amour bandé.</l>
+            <l n="822" xml:id="l822">Si toi Phénicienne obtiens une retraite,</l>
+            <l n="823" xml:id="l823">Dedans les fortes tours de Carthage parfaite,</l>
+            <l n="824" xml:id="l824"></l>
+            <l n="825" xml:id="l825">Quelle raison, dis-moi, d’envier notre bien,</l>
+            <l n="826" xml:id="l826">De fortune pareille au bord Ausonien ?</l>
+            <l n="827" xml:id="l827">Encores j’oubliai, qu’autant de fois que l’ombre,</l>
+            <l n="828" xml:id="l828">Nous enferme le jour dans son grand voile sombre,</l>
+            <l n="829" xml:id="l829">Que la nuit fait sur nous son humide circuit,</l>
+            <l n="830" xml:id="l830">De mon vieil géniteur l’image me reluit,</l>
+            <l n="831" xml:id="l831">Trouble, haute, effroyable, et de fureur comblée,</l>
+            <l n="832" xml:id="l832">Enjoignant ce départ à mon âme troublée.</l>
+            <l n="833" xml:id="l833">D’ailleurs ne me mouvrait mon Ascagne innocent,</l>
+            <l n="834" xml:id="l834">Qui de plus de séjour le dommage ressent,</l>
+            <l n="835" xml:id="l835">Que je prive des champs que le destin lui donne ;</l>
+            <l n="836" xml:id="l836">Bien plus, le Messager du puissant Dieu qui tonne,</l>
+            <l n="837" xml:id="l837">(J’atteste nos deux chefs) ce divin truchement,</l>
+            <l n="838" xml:id="l838">M’avoir réitéré le même mandement ;</l>
+            <l n="839" xml:id="l839">Je l’ai vu dévalé du Palais de son père,</l>
+            <l n="840" xml:id="l840">Entrer dedans tes murs apparent de lumière ;</l>
+            <l n="841" xml:id="l841">Mon oreille ententive a sa voix englouti,</l>
+            <l n="842" xml:id="l842">Menacé de là-haut, pour n’être jà parti ;</l>
+            <l n="843" xml:id="l843">Cesse de t’enflammer, et moi par la complainte,</l>
+            <l n="844" xml:id="l844">Voyant comme je suis l’Itale de contrainte.</l>
+          </sp>
+          <sp who="didon" xml:id="III1-27">
+            <speaker>DIDON</speaker>
+            <l n="845" xml:id="l845">Tu la suis de contrainte, exécrable imposteur,</l>
+            <l n="846" xml:id="l846">Non, Dardan ne fut onc de ton tige l’auteur,</l>
+            <l n="847" xml:id="l847">Tu n’as d’une Déesse infecté la gésine,</l>
+            <l n="848" xml:id="l848">Ains conçu du Caucase, à ta bouche enfantine,</l>
+            <l n="849" xml:id="l849">Quelque tigresse aura ses mamelles prêté !</l>
+            <l n="850" xml:id="l850">Car de dissimuler, qu’ai-je plus arrêté ?</l>
+            <l n="851" xml:id="l851">À quel meilleur espoir me suis-je réservée ?</l>
+            <l n="852" xml:id="l852">Sa vue dessus nous de terre il n’a levée,</l>
+            <l n="853" xml:id="l853">N’a daigné regarder en face, ô crève-cœur !</l>
+            <l n="854" xml:id="l854">Qui lui daigna soumettre un Empire, et son cœur :</l>
+            <l n="855" xml:id="l855">L’inhumain seulement de mes pleurs continues,</l>
+            <l n="856" xml:id="l856">Un soupir, un sanglot, n’a perdu dans les nues ;</l>
+            <l n="857" xml:id="l857">Et toi grande Junon, grande je le croyois,</l>
+            <l n="858" xml:id="l858">Et toi Saturnien, patient tu le vois ;</l>
+            <l n="859" xml:id="l859">Il n’y a plus de foi par le monde assurée,</l>
+            <l n="860" xml:id="l860">Un banni recouru de l’onde colérée,</l>
+            <l n="861" xml:id="l861">En ma couche pudique, en mon trône reçu,</l>
+            <l n="862" xml:id="l862">Les siens que préserver autre que moi n’eut su ;</l>
+            <l n="863" xml:id="l863">(Ha ! l’extrême fureur me transporte insensée,)</l>
+            <l n="864" xml:id="l864">Cet abuseur enfin me tient recompensée,</l>
+            <l n="865" xml:id="l865">Cuide remunérer mes bienfaits prodigués,</l>
+            <l n="866" xml:id="l866">Or des sorts Lyciens faussement allégués,</l>
+            <l n="867" xml:id="l867">Tantôt d’un mandement apporté de Mercure !</l>
+            <l n="868" xml:id="l868">Oui, comme si les Dieux n’avaient point d’autre cure,</l>
+            <l n="869" xml:id="l869">Qu’ils n’eussent dans le Ciel que d’un traître à penser,</l>
+            <l n="870" xml:id="l870">Voilà certes de quoi leur repos offenser,</l>
+            <l n="871" xml:id="l871">Je ne te retiens plus, du départ je n’étrive,</l>
+            <l n="872" xml:id="l872">Cingle en ton Italie, abandonne ma rive,</l>
+            <l n="873" xml:id="l873">Cherche un règne nouveau sur l’abîme des flots,</l>
+            <l n="874" xml:id="l874">Si le Ciel n’a de lui toute équité forclos,</l>
+            <l n="875" xml:id="l875">Si quelques Déités l’habitent, pitoyables,</l>
+            <l n="876" xml:id="l876">Si quelques-unes sont au pervers imployables,</l>
+            <l n="877" xml:id="l877">Tes vaisseaux échoués contre le premier banc,</l>
+            <l n="878" xml:id="l878">Ouverts en mille lieux, par le dos, par le flanc,</l>
+            <l n="879" xml:id="l879">J’espère qu’on t’oira, la mort dedans la bouche,</l>
+            <l n="880" xml:id="l880">Réclamer, invoquer ce nom, qui ne te touche :</l>
+            <l n="881" xml:id="l881">Mon ombre toutefois rouant de noirs flambeaux,</l>
+            <l n="882" xml:id="l882">Te fera pis mourant, que la rage des eaux,</l>
+            <l n="883" xml:id="l883">Elle y sera présente, et vengée à mes mânes,</l>
+            <l n="884" xml:id="l884">On viendra l’annoncer aux rives Stygianes,</l>
+            <l n="885" xml:id="l885">Ha ! je, je, soutenez, emportez-moi d’ici.</l>
+          </sp>
+          <sp who="barce" xml:id="III1-28">
+            <speaker>BARCE</speaker>
+            <l n="886" xml:id="l886">Ô malheur ! ô malheur ! ô malheur ! qu’est-ceci ?</l>
+            <l n="887" xml:id="l887">Je crains que sa faiblesse au tombeau ne la mène.</l>
+          </sp>
+          <sp who="chœur" xml:id="III1-29">
+            <speaker>CHŒUR</speaker>
+            <l n="888" xml:id="l888">Courons vite mes sœurs, au secours de la Reine.</l>
+          </sp>
+          <sp who="énée" xml:id="III1-30">
+            <speaker>ÉNÉE</speaker>
+            <l n="889" xml:id="l889">Cruelle, m’envier l’heur de te dire Adieu ?</l>
+            <l n="890" xml:id="l890">Soit, un jour la raison dans ton âme aura lieu,</l>
+            <l n="891" xml:id="l891">Tu jugeras Didon du courage d’Énée,</l>
+            <l n="892" xml:id="l892">Aussitôt qu’il verra stable sa destinée,</l>
+            <l n="893" xml:id="l893">Et qu’il aura franchi ce Dédale d’erreurs :</l>
+            <l n="894" xml:id="l894">Je jure que Neptune, et toutes ses horreurs,</l>
+            <l n="895" xml:id="l895">Que péril, quel qu’il soit n’empêchera ma barque,</l>
+            <l n="896" xml:id="l896">De te rendre un devoir où la foi se remarque,</l>
+            <l n="897" xml:id="l897">De revoir le Soleil de tes yeux adorés,</l>
+            <l n="898" xml:id="l898">Pour un moment, de corps, non de cœurs séparés.</l>
+          </sp>
+          <sp who="achate" xml:id="III1-31">
+            <speaker>ACHATE</speaker>
+            <l n="899" xml:id="l899">Allons, fils de Déesse, allons, ne te replonge,</l>
+            <l n="900" xml:id="l900">Dans le gouffre inhumain du remords qui te ronge ;</l>
+            <l n="901" xml:id="l901">La flotte nous attend.</l>
+          </sp>
+          <sp who="énée" xml:id="III1-32">
+            <speaker>ÉNÉE</speaker>
+            <l n="902" xml:id="l902">Las ! que ne sommes-nous,</l>
+            <l n="903" xml:id="l903">En pleine mer des flots éprouvant le courroux !</l>
+          </sp>
+          <sp who="chœur-des-phéniciennes" xml:id="III1-33">
+            <speaker>Chœur des Phéniciennes</speaker>
+            <l n="904" xml:id="l904">Ô amour, ô fortune,</l>
+            <l n="905" xml:id="l905">Malicieux démons,</l>
+            <l n="906" xml:id="l906">Quelle vieille rancune,</l>
+            <l n="907" xml:id="l907"></l>
+            <l n="908" xml:id="l908">Ulcère nos poumons ?</l>
+            <l n="909" xml:id="l909">À quel nouvel esclandre,</l>
+            <l n="910" xml:id="l910">Voulez-vous inhumains,</l>
+            <l n="911" xml:id="l911">Cent fois pires nous rendre,</l>
+            <l n="912" xml:id="l912">Que les avares mains,</l>
+            <l n="913" xml:id="l913">Du meurtrier sacrilège,</l>
+            <l n="914" xml:id="l914">Inutile en son piège ?</l>
+            <l n="915" xml:id="l915">Alors que ce danger,</l>
+            <l n="916" xml:id="l916">Nous penchait sur la tête,</l>
+            <l n="917" xml:id="l917">Un fuitif étranger,</l>
+            <l n="918" xml:id="l918">N’avait fait la conquête,</l>
+            <l n="919" xml:id="l919">Du précieux butin</l>
+            <l n="920" xml:id="l920">De l’honneur d’une Reine,</l>
+            <l n="921" xml:id="l921">Qui du mauvais destin,</l>
+            <l n="922" xml:id="l922">(Sa prudence encor saine,)</l>
+            <l n="923" xml:id="l923">Surmontait les efforts,</l>
+            <l n="924" xml:id="l924">Établis en ces bords.</l>
+            <l n="925" xml:id="l925">Maintenant une rage,</l>
+            <l n="926" xml:id="l926">Possède ses esprits,</l>
+            <l n="927" xml:id="l927">Son sceptre, et son courage,</l>
+            <l n="928" xml:id="l928">Lui tombent à mépris ;</l>
+            <l n="929" xml:id="l929">Le salut ne la touche</l>
+            <l n="930" xml:id="l930">Du peuple Tyrien,</l>
+            <l n="931" xml:id="l931">Tout au prix de sa couche</l>
+            <l n="932" xml:id="l932">Déserte ne sent rien ;</l>
+            <l n="933" xml:id="l933">Un seul perfide Énée,</l>
+            <l n="934" xml:id="l934">Tient notre destinée.</l>
+            <l n="935" xml:id="l935">Dévorant sa douleur,</l>
+            <l n="936" xml:id="l936">La voilà qui recluse,</l>
+            <l n="937" xml:id="l937">D’aucun en ce malheur</l>
+            <l n="938" xml:id="l938">Qui la console, n’use :</l>
+            <l n="939" xml:id="l939">Elle nous fuit, ainsi</l>
+            <l n="940" xml:id="l940">Que du jour ennuyée ;</l>
+            <l n="941" xml:id="l941">Ô Dieux ! la revoici,</l>
+            <l n="942" xml:id="l942">Sa constance oubliée,</l>
+            <l n="943" xml:id="l943">Qui menace les Cieux</l>
+            <l n="944" xml:id="l944">De regards furieux.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="III2">
+          <head>Scène <span class="romain-pt-cap">ii</span></head>
+             <stage>DIDON, ANNE</stage>
+          <sp who="didon" xml:id="III2-1">
+            <speaker>DIDON</speaker>
+            <l n="945" xml:id="l945">Cherches-tu du repos, misérable insensée,</l>
+            <l n="946" xml:id="l946">L’âme de tant de soins, çà et là, balancée ?</l>
+            <l n="947" xml:id="l947">Incertaine de vivre encores un moment,</l>
+            <l n="948" xml:id="l948">Ores que l’infidèle est sur son partement,</l>
+            <l n="949" xml:id="l949">Ores que le barbare, après l’Adieu funeste,</l>
+            <l n="950" xml:id="l950">Te fuit, ni plus, ni moins, qu’une effroyable peste,</l>
+            <l n="951" xml:id="l951">Ores que retiré dans le creux d’un vaisseau,</l>
+            <l n="952" xml:id="l952">Possible il n’attendra le jour à fendre l’eau.</l>
+            <l n="953" xml:id="l953">Anne, où es-tu ma sœur ? approche ma chère âme,</l>
+            <l n="954" xml:id="l954">Si tu veux renouer le long fil de ma trame,</l>
+            <l n="955" xml:id="l955">Va trouver le Troyen, va, non point à demi,</l>
+            <l n="956" xml:id="l956">Conjurer la pitié de mon traître ennemi !</l>
+            <l n="957" xml:id="l957">Prépare de tes pleurs jointes à la prière,</l>
+            <l n="958" xml:id="l958">Aux sanglots redoublés, une large rivière :</l>
+            <l n="959" xml:id="l959">Dis-lui le genou bas, et lui croisant les mains,</l>
+            <l n="960" xml:id="l960">Qu’au nombre je ne fus des haineurs inhumains,</l>
+            <l n="961" xml:id="l961">Qui jurèrent le sac de sa Troie en Aulide ;</l>
+            <l n="962" xml:id="l962">Qu’au Grégeois je n’ouvris leur machine perfide,</l>
+            <l n="963" xml:id="l963">Que d’Anchise je n’ai semé la cendre au vent,</l>
+            <l n="964" xml:id="l964">Ses mânes violé, qui donc le va mouvant ?</l>
+            <l n="965" xml:id="l965">Pourquoi l’injurieux ne permet que ma plainte</l>
+            <l n="966" xml:id="l966">Lui donne par l’oreille une fléchible atteinte ?</l>
+            <l n="967" xml:id="l967">Où il se précipite au plus fort de l’hiver,</l>
+            <l n="968" xml:id="l968">Me perdant, qu’il attende au moins à se sauver,</l>
+            <l n="969" xml:id="l969">Que sur les flots du moins il assure sa fuite ;</l>
+            <l n="970" xml:id="l970">Je ne demande pas, crainte d’être éconduite,</l>
+            <l n="971" xml:id="l971">De souffrir derechef la honte d’un refus,</l>
+            <l n="972" xml:id="l972">Le rang trahi d’épouse, auquel un temps je fus,</l>
+            <l n="973" xml:id="l973">Je ne lui veux plus faire (importante folie,)</l>
+            <l n="974" xml:id="l974">Au sceptre renoncer de sa belle Italie :</l>
+            <l n="975" xml:id="l975">Que j’obtienne sans plus un espace ocieux,</l>
+            <l n="976" xml:id="l976">Qui m’accoutume au joug de ce deuil soucieux,</l>
+            <l n="977" xml:id="l977">Qui m’apprenne à gémir ma fortune vaincue.</l>
+            <l n="978" xml:id="l978">L’accès de privauté qu’à l’homme tu as eue,</l>
+            <l n="979" xml:id="l979">Te semond d’y aller, et ce plaisir ma sœur,</l>
+            <l n="980" xml:id="l980">Morte, je comblerai d’un salaire jà seur,</l>
+            <l n="981" xml:id="l981">Hâte-toi, je n’ai plus que cela de ressource.</l>
+          </sp>
+          <sp who="anne" xml:id="III2-2">
+            <speaker>ANNE</speaker>
+            <l n="982" xml:id="l982">Que ces torrents de pleurs repriment donc leur course,</l>
+            <l n="983" xml:id="l983">Donnez trêve aux sanglots qu’éclate ce beau sein,</l>
+            <l n="984" xml:id="l984">J’irai de ses erreurs divertir le dessein,</l>
+            <l n="985" xml:id="l985">J’irai, j’irai m’offrir, d’esclave, et de victime,</l>
+            <l n="986" xml:id="l986">Pourvu que d’abuseur il n’encoure le crime,</l>
+            <l n="987" xml:id="l987">Pourvu que je le rende au devoir conjugal.</l>
+            <l n="988" xml:id="l988">Jupiter seul toujours à soi demeure égal,</l>
+            <l n="989" xml:id="l989">Immuable d’avis, jamais ne le révoque,</l>
+            <l n="990" xml:id="l990">Unique, de l’humaine inconstance se moque,</l>
+            <l n="991" xml:id="l991">Énée peut changer de cœur, de volonté,</l>
+            <l n="992" xml:id="l992">Induit de ma prière, induit de la beauté,</l>
+            <l n="993" xml:id="l993">D’une, qui ne le veut forcer que volontaire,</l>
+            <l n="994" xml:id="l994">D’une, qui tient sa vie, et son sort tributaire,</l>
+            <l n="995" xml:id="l995">D’une, qui aime mieux que de se ressentir,</l>
+            <l n="996" xml:id="l996">Voir germer en son âme un tardif repentir.</l>
+            <l n="997" xml:id="l997">Relevez-vous ma sœur, d’espoir, et de courage,</l>
+            <l n="998" xml:id="l998">Je vais mettre la main de ce pas à l’ouvrage,</l>
+            <l n="999" xml:id="l999">Faire un dernier effort sur ce cœur de rocher ;</l>
+            <l n="1000" xml:id="l1000">Tandis, priez les Dieux de le vouloir toucher.</l>
+          </sp>
+          <sp who="didon" xml:id="III2-3">
+            <speaker>DIDON</speaker>
+            <l n="1001" xml:id="l1001">Protectrice Junon, ma solide fiance,</l>
+            <l n="1002" xml:id="l1002">Pardonne, pitoyable, à mon impatience,</l>
+            <l n="1003" xml:id="l1003">N’impute ce qu’extorque un tourment de douleur ;</l>
+            <l n="1004" xml:id="l1004">Tu sais que sous ta foi, je commis au voleur !</l>
+            <l n="1005" xml:id="l1005">Que je lui exposai ma vierge renommée ;</l>
+            <l n="1006" xml:id="l1006">Guéri me l’arrêtant sa blessure entamée,</l>
+            <l n="1007" xml:id="l1007">Inspire-le Déesse, inspire ce félon,</l>
+            <l n="1008" xml:id="l1008">Conçu des flots marins, et du froid Aquilon .</l>
+            <l n="1009" xml:id="l1009">Anime de pitié son ingrate poitrine !</l>
+            <l n="1010" xml:id="l1010">Mais toi-même sa mère, amiable Éricine,</l>
+            <l n="1011" xml:id="l1011">Toi, toi, mère d’Amour, commande à son germain,</l>
+            <l n="1012" xml:id="l1012">Que d’un garrot capable, il perce l’inhumain ;</l>
+            <l n="1013" xml:id="l1013">Soyez-moi, l’une et l’autre, à l’envi pitoyables,</l>
+            <l n="1014" xml:id="l1014">Soyez-moi, l’une et l’autre, à l’envi secourables,</l>
+            <l n="1015" xml:id="l1015">Vous obtenez après des vœux, et des Autels,</l>
+            <l n="1016" xml:id="l1016">Plus que du demeurant conféré des mortels :</l>
+            <l n="1017" xml:id="l1017">Carthage inventera de nouveaux sacrifices,</l>
+            <l n="1018" xml:id="l1018">Approchants la grandeur de pareils bénéfices.</l>
+            <l n="1019" xml:id="l1019">Las ! une triste horreur me présage, me dit,</l>
+            <l n="1020" xml:id="l1020">Que je ne fléchirai ce corsaire maudit :</l>
+            <l n="1021" xml:id="l1021">Qu’Anne perdra ses pas, et ses prières vaines,</l>
+            <l n="1022" xml:id="l1022">Déjà l’affreuse mort chemine par mes veines,</l>
+            <l n="1023" xml:id="l1023">Sichée à haute voix, reproche de l’enfer</l>
+            <l n="1024" xml:id="l1024">Mes impudiques feux que je dusse étouffer.</l>
+          </sp>
+          <sp who="chœur-des-troyens" xml:id="III2-4">
+            <speaker>CHŒUR DES TROYENS</speaker>
+            <l n="1025" xml:id="l1025">Père porte-trident, Roi des ondes, Neptune,</l>
+            <l n="1026" xml:id="l1026">Qui revois d’Ilion la dernière fortune,</l>
+            <l n="1027" xml:id="l1027">Soumise à ta merci ;</l>
+            <l n="1028" xml:id="l1028">Toi second Jupiter, qui ébranles les terres,</l>
+            <l n="1029" xml:id="l1029">Qui lances de tes flots à coup mille tonnerres,</l>
+            <l n="1030" xml:id="l1030">Prends de nous le souci.</l>
+            <l n="1031" xml:id="l1031">Bride des Aquilons l’audacieuse rage,</l>
+            <l n="1032" xml:id="l1032"></l>
+            <l n="1033" xml:id="l1033">Préserve nos vaisseaux d’un horrible naufrage,</l>
+            <l n="1034" xml:id="l1034">Jà tant de fois offert ;</l>
+            <l n="1035" xml:id="l1035">Retiens dedans le Ciel tous astres adversaires,</l>
+            <l n="1036" xml:id="l1036">Ne nous fais plus souffrir, pour nos pères faussaires,</l>
+            <l n="1037" xml:id="l1037">Que nous avons souffert.</l>
+            <l n="1038" xml:id="l1038">Ôte dorénavant cette troupe ennemie,</l>
+            <l n="1039" xml:id="l1039">Dessous qui, les nochers à la face blémie,</l>
+            <l n="1040" xml:id="l1040">Prophétisent leur maux :</l>
+            <l n="1041" xml:id="l1041">Orion cerné d’or, la chèvre Olénienne,</l>
+            <l n="1042" xml:id="l1042">Le bouvier paresseux, la flamme Œbalienne,</l>
+            <l n="1043" xml:id="l1043">Des Lédéans jumeaux.</l>
+            <l n="1044" xml:id="l1044">L’astre des tristes sœurs, qui sans cesse dégoûte,</l>
+            <l n="1045" xml:id="l1045">Bref, Sauveur, guide-nous en notre humide route,</l>
+            <l n="1046" xml:id="l1046">Jusques au bord Latin :</l>
+            <l n="1047" xml:id="l1047">Jusqu’au séjour prédit de la terre Hespéride,</l>
+            <l n="1048" xml:id="l1048">Où se doit relever du sceptre Priamide,</l>
+            <l n="1049" xml:id="l1049">Le funéreux destin.</l>
+            <l n="1050" xml:id="l1050">Jusqu’où de nos erreurs la moisson préparée,</l>
+            <l n="1051" xml:id="l1051">Élève une autre Troie en la voûte azurée,</l>
+            <l n="1052" xml:id="l1052">Fait un Xanthe rouler ;</l>
+            <l n="1053" xml:id="l1053">Qui ne se teindra plus du preux sang de Phrygie,</l>
+            <l n="1054" xml:id="l1054">Ains pourra d’ennemis la campagne rougie,</l>
+            <l n="1055" xml:id="l1055">À l’aise se soûler.</l>
+            <l n="1056" xml:id="l1056">Exauce-nous, ô père Hippien fondataire,</l>
+            <l n="1057" xml:id="l1057">Portune, conseiller aux crins bleus tutelaire,</l>
+            <l n="1058" xml:id="l1058">En tes noms infini :</l>
+            <l n="1059" xml:id="l1059">Fais garantis des eaux, que dessus le rivage,</l>
+            <l n="1060" xml:id="l1060">Tombent cent taureaux noirs de victime et d’hommage,</l>
+            <l n="1061" xml:id="l1061">À ton grand nom béni.</l>
+            <l n="1062" xml:id="l1062">Qu’un Cantique sacré traverse outre la nue,</l>
+            <l n="1063" xml:id="l1063"></l>
+            <l n="1064" xml:id="l1064">Et que par chacun an ta fête revenue,</l>
+            <l n="1065" xml:id="l1065">De nouveaux jeux de prix</l>
+            <l n="1066" xml:id="l1066">Témoignent que tu as rebâti les Pergames,</l>
+            <l n="1067" xml:id="l1067">Malgré l’âpre fureur des ondes, et des flammes,</l>
+            <l n="1068" xml:id="l1068">En ta tutelle pris.</l>
+            <l n="1069" xml:id="l1069">Nous le croyons ainsi, vu l’ardeur de ce zèle,</l>
+            <l n="1070" xml:id="l1070">Las ! et plus d’autre peur nos esprits ne martèle,</l>
+            <l n="1071" xml:id="l1071">Que le peu de séjour,</l>
+            <l n="1072" xml:id="l1072">Sous qui nous languissons dedans ce havre encore,</l>
+            <l n="1073" xml:id="l1073">Attendant pour voguer, que la vermeille Aurore</l>
+            <l n="1074" xml:id="l1074">Ait rallumé le jour.</l>
+            <l n="1075" xml:id="l1075"></l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="IV">
+        <head>ACTE IV</head>
+        <div type="scene" xml:id="IV1">
+          <head>Scène <span class="romain-pt-cap">i</span></head>
+             <stage>MERCURE, ÉNÉE, ACHATE</stage>
+          <sp who="mercure" xml:id="IV1-1">
+            <speaker>MERCURE</speaker>
+            <l n="1076" xml:id="l1076">Magnanime héros, de semence divine,</l>
+            <l n="1077" xml:id="l1077">Se peut-il, qu’au sommeil ta paupière s’incline ?</l>
+            <l n="1078" xml:id="l1078">Toi dernier des Troyens, ronfles-tu, cependant,</l>
+            <l n="1079" xml:id="l1079">Que la flotte exposée au suprême accident,</l>
+            <l n="1080" xml:id="l1080">Verra, tardant ici tant soit peu davantage,</l>
+            <l n="1081" xml:id="l1081">De fer, de feu, de sang, couvrir tout le rivage ?</l>
+            <l n="1082" xml:id="l1082">Que d’amour forcenée, et proche de mourir,</l>
+            <l n="1083" xml:id="l1083">Élise à la vengeance aveugle veut courir,</l>
+            <l n="1084" xml:id="l1084">Veut mêler en son sang celui de l’adversaire,</l>
+            <l n="1085" xml:id="l1085">Vous veut ensevelir dans son feu bustuaire,</l>
+            <l n="1086" xml:id="l1086"></l>
+            <l n="1087" xml:id="l1087">Expier son honneur des Phrygiens détruits ;</l>
+            <l n="1088" xml:id="l1088">D’où vient qu’à rames donc, et voiles tu ne fuis ?</l>
+            <l n="1089" xml:id="l1089">Présume ce que fait la femme furieuse,</l>
+            <l n="1090" xml:id="l1090">Ains que n’engloutirait sa rage injurieuse,</l>
+            <l n="1091" xml:id="l1091">Animal inconstant, variable toujours.</l>
+            <l n="1092" xml:id="l1092">Fuis ! n’abrège ta gloire, en abrégeant tes jours,</l>
+            <l n="1093" xml:id="l1093">Reçois ce mandement apporté de Mercure,</l>
+            <l n="1094" xml:id="l1094">Qui se va remêler dedans la nuit obscure.</l>
+          </sp>
+          <sp who="énée" xml:id="IV1-2">
+            <speaker>ÉNÉE</speaker>
+            <l n="1095" xml:id="l1095">Éveillez-vous amis, sus, sus, sans différer,</l>
+            <l n="1096" xml:id="l1096">Que chacun au plutôt avise à démarrer ;</l>
+            <l n="1097" xml:id="l1097">Hâtons-nous de partir ; un Dieu nous le commande :</l>
+            <l n="1098" xml:id="l1098">Or quiconque tu sois de la céleste bande,</l>
+            <l n="1099" xml:id="l1099">Derechef, à ta voix, humbles, obéissants,</l>
+            <l n="1100" xml:id="l1100">Père, nous te suivons sur les flots mugissants,</l>
+            <l n="1101" xml:id="l1101">Allègres ; nous allons trouver une franchise,</l>
+            <l n="1102" xml:id="l1102">Aux Pénates de Troie, en la terre promise :</l>
+            <l n="1103" xml:id="l1103">Enfants, mettez au large, et soudain dépêchez,</l>
+            <l n="1104" xml:id="l1104">Levez l’ancre au plutôt, les cordages tranchez,</l>
+            <l n="1105" xml:id="l1105">Faites à mon exemple !</l>
+          </sp>
+          <sp who="achate" xml:id="IV1-3">
+            <speaker>ACHATE</speaker>
+            <l n="1106" xml:id="l1106">Hé ! qui nous précipite,</l>
+            <l n="1107" xml:id="l1107">(Dis-moi, je te supplie) tellement à la fuite ?</l>
+            <l n="1108" xml:id="l1108">Quel éminent péril menace d’abîmer</l>
+            <l n="1109" xml:id="l1109">Nos vaisseaux dans le port, s’ils ne gagnent la mer ?</l>
+          </sp>
+          <sp who="énée" xml:id="IV1-4">
+            <speaker>ÉNÉE</speaker>
+            <l n="1110" xml:id="l1110">Un oracle reçu, naguères que le somme</l>
+            <l n="1111" xml:id="l1111">Coulait sur le fardeau du soin qui me consomme,</l>
+            <l n="1112" xml:id="l1112">Reçu du truchement des grands Dieux de là-haut ;</l>
+            <l n="1113" xml:id="l1113">(Car selon la figure, ainsi croire le faut)</l>
+            <l n="1114" xml:id="l1114">Jeune, ailé, d’un poil d’or, l’épaule reluisante,</l>
+            <l n="1115" xml:id="l1115">Lui-même, du danger la grandeur représente :</l>
+            <l n="1116" xml:id="l1116">M’a dit, que différant un moment de partir,</l>
+            <l n="1117" xml:id="l1117">Les Tyriens armés nous viennent investir ;</l>
+            <l n="1118" xml:id="l1118">Que Didon vengera sa chasteté ravie,</l>
+            <l n="1119" xml:id="l1119">Dessus ceux qu’un bon vent à la fuite convie,</l>
+            <l n="1120" xml:id="l1120">Prenons l’occasion.</l>
+          </sp>
+          <sp who="achate" xml:id="IV1-5">
+            <speaker>ACHATE</speaker>
+          </sp>
+        </div>
+        <div type="scene" xml:id="IV2">
+          <head>Scène <span class="romain-pt-cap">ii</span></head>
+             <stage>ANNE, ÉNÉE</stage>
+          <sp who="anne" xml:id="IV2-1">
+            <speaker>ANNE</speaker>
+            <l n="1121" xml:id="l1121">Si de l’antique amour une faible étincelle,</l>
+            <l n="1122" xml:id="l1122">Prince Dardanien ta belle âme recèle,</l>
+            <l n="1123" xml:id="l1123">Si de ton naturel, céleste, et généreux,</l>
+            <l n="1124" xml:id="l1124">Tu n’as accoutumé fouler les malheureux,</l>
+            <l n="1125" xml:id="l1125">Écoute par ma bouche une Reine chétive,</l>
+            <l n="1126" xml:id="l1126">Qui ta pitié conjure en forme de captive,</l>
+            <l n="1127" xml:id="l1127">Écoute une prière, afin de l’exaucer,</l>
+            <l n="1128" xml:id="l1128">Que selon l’équité tu ne peux repousser.</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-2">
+            <speaker>ÉNÉE</speaker>
+            <l n="1129" xml:id="l1129">L’aveugle affection t’empêche de comprendre,</l>
+            <l n="1130" xml:id="l1130">Pourquoi je suis contraint à regret de méprendre,</l>
+            <l n="1131" xml:id="l1131">D’user de cruauté vers l’objet gracieux,</l>
+            <l n="1132" xml:id="l1132">Auquel certes je dois la lumière des Cieux,</l>
+            <l n="1133" xml:id="l1133">Poursuis, ne laisse pas d’achever ta harangue.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-3">
+            <speaker>ANNE</speaker>
+            <l n="1134" xml:id="l1134">Las ! ma parole meurt sur le bout de ma langue,</l>
+            <l n="1135" xml:id="l1135">L’image des douleurs qui assiègent ma sœur,</l>
+            <l n="1136" xml:id="l1136"></l>
+            <l n="1137" xml:id="l1137">L’état où je la laisse implorant ta douceur,</l>
+            <l n="1138" xml:id="l1138">Du souvenir me tue, ainsi qu’une Ménade,</l>
+            <l n="1139" xml:id="l1139">Errant sur Cithéron de son esprit malade.</l>
+            <l n="1140" xml:id="l1140">Va, disait la pauvrette, Énée supplier,</l>
+            <l n="1141" xml:id="l1141">Qu’à mes justes clameurs je le daigne plier,</l>
+            <l n="1142" xml:id="l1142">Remontre que Didon ne fut au port d’Aulide,</l>
+            <l n="1143" xml:id="l1143">La ruine jurer de la gent Priamide,</l>
+            <l n="1144" xml:id="l1144">Que de son géniteur troublant le saint repos,</l>
+            <l n="1145" xml:id="l1145">Je n’ai semé la cendre, ou déterré les os,</l>
+            <l n="1146" xml:id="l1146">Que je ne blessai pas sa mère à la mêlée,</l>
+            <l n="1147" xml:id="l1147">Que la même je suis qui de l’onde salée,</l>
+            <l n="1148" xml:id="l1148">Le reçus naufrageux à ma table, en mon lit,</l>
+            <l n="1149" xml:id="l1149">Où ma virginité le second il cueillit,</l>
+            <l n="1150" xml:id="l1150">Où Sichée oublié, je perdis la mémoire,</l>
+            <l n="1151" xml:id="l1151">De ma première foi, de ma première gloire !</l>
+            <l n="1152" xml:id="l1152">Remémore comment Iarbe dédaigné,</l>
+            <l n="1153" xml:id="l1153">Au fleuve des plaisirs le cruel s’est baigné !</l>
+            <l n="1154" xml:id="l1154">Comment je le préfère à mes yeux, à mon âme,</l>
+            <l n="1155" xml:id="l1155">Pourquoi donc il me veut sous la poudreuse lame,</l>
+            <l n="1156" xml:id="l1156">Reclure avant le temps ? pourquoi désespéré</l>
+            <l n="1157" xml:id="l1157">Il flotte au cœur d’hiver sur le flot coléré ?</l>
+            <l n="1158" xml:id="l1158">Pourquoi sans nulle offense il m’a tant pris en haine ?</l>
+            <l n="1159" xml:id="l1159">Une semblable plainte elle ourdissait à peine,</l>
+            <l n="1160" xml:id="l1160">Que deux ruisseaux de pleurs lui arrosent le sein,</l>
+            <l n="1161" xml:id="l1161">Que la voix au canal d’amertume tout plein,</l>
+            <l n="1162" xml:id="l1162">Se resserre étoupée, et que sa face pâle</l>
+            <l n="1163" xml:id="l1163">Ne diffère de ceux qu’au sépulcre on dévale.</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-4">
+            <speaker>ÉNÉE</speaker>
+            <l n="1164" xml:id="l1164">Cesse de me vouloir accroître la pitié,</l>
+            <l n="1165" xml:id="l1165">Je ne manque non plus qu’elle fait d’amitié,</l>
+            <l n="1166" xml:id="l1166"></l>
+            <l n="1167" xml:id="l1167"></l>
+            <l n="1168" xml:id="l1168">Sa douleur est la mienne, hélas ! je la déplore,</l>
+            <l n="1169" xml:id="l1169">Et la dextre des Cieux à son aide j’implore.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-5">
+            <speaker>ANNE</speaker>
+            <l n="1170" xml:id="l1170">Unique médecin, quel besoin que d’ailleurs</l>
+            <l n="1171" xml:id="l1171">Tu cherches le remède à tarir ses douleurs ?</l>
+            <l n="1172" xml:id="l1172">Le favorable aspect de ta face présente,</l>
+            <l n="1173" xml:id="l1173">Ses larmes, ses soucis, ses angoisses absente,</l>
+            <l n="1174" xml:id="l1174">Elle ne meurt, sinon à faute de te voir.</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-6">
+            <speaker>ÉNÉE</speaker>
+            <l n="1175" xml:id="l1175">Mais la loi du destin m’empêche ce pouvoir,</l>
+            <l n="1176" xml:id="l1176">M’arrache de l’Élise, où je voudrais sans cesse,</l>
+            <l n="1177" xml:id="l1177">Sacrifier des vœux à ma chère Princesse.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-7">
+            <speaker>ANNE</speaker>
+            <l n="1178" xml:id="l1178">Jamais l’homme prudent ne se travaille en vain,</l>
+            <l n="1179" xml:id="l1179">Tranquille ne se plaît d’embrasser l’incertain ;</l>
+            <l n="1180" xml:id="l1180">De traîner Ixion, sa peine continue,</l>
+            <l n="1181" xml:id="l1181">Une fortune stable, et heureuse obtenue !</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-8">
+            <speaker>ÉNÉE</speaker>
+            <l n="1182" xml:id="l1182">Passager en ces lieux, je la néglige, afin</l>
+            <l n="1183" xml:id="l1183">D’ancrer où mes travaux ont leur fatale fin.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-9">
+            <speaker>ANNE</speaker>
+            <l n="1184" xml:id="l1184">Carthage est-elle pas de l’arrêter capable ?</l>
+            <l n="1185" xml:id="l1185">En quoi la trouves-tu d’impuissance coupable ?</l>
+            <l n="1186" xml:id="l1186">Est-ce l’air pestilant qui te chasse d’ici ?</l>
+            <l n="1187" xml:id="l1187">Ou nos mœurs, que dans peu tu aurais adouci ?</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-10">
+            <speaker>ÉNÉE</speaker>
+            <l n="1188" xml:id="l1188">Aux corps efféminés appartient ce scrupule,</l>
+            <l n="1189" xml:id="l1189">Des climats, pour le mien la différence est nulle,</l>
+            <l n="1190" xml:id="l1190">Me plaindre de vos mœurs ? barbares les nommer,</l>
+            <l n="1191" xml:id="l1191">Qui m’avez recueilli pèlerin de la mer ?</l>
+            <l n="1192" xml:id="l1192">Pauvre, nu, souffreteux, et réduit à l’extrême,</l>
+            <l n="1193" xml:id="l1193">Onc il ne m’adviendra de vomir ce blasphème,</l>
+            <l n="1194" xml:id="l1194">Onc il ne m’adviendra de n’honorer le jour,</l>
+            <l n="1195" xml:id="l1195">Que Didon me reçut en sa ville, en sa Cour.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-11">
+            <speaker>ANNE</speaker>
+            <l n="1196" xml:id="l1196">Tu crains de t’asservir à si petit Empire.</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-12">
+            <speaker>ÉNÉE</speaker>
+            <l n="1197" xml:id="l1197">Possible qu’en un moindre, en l’Itale j’aspire.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-13">
+            <speaker>Anne</speaker>
+            <l n="1198" xml:id="l1198">Faute de peuple elle a de suffisants trésors,</l>
+            <l n="1199" xml:id="l1199">Sous un chef comme toi, pour accroître ses bords :</l>
+            <l n="1200" xml:id="l1200">Didon ne manque plus que du guerrier Énée,</l>
+            <l n="1201" xml:id="l1201">Argument qui chez nous borne ta destinée.</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-14">
+            <speaker>ÉNÉE</speaker>
+            <l n="1202" xml:id="l1202">Didon n’a pas besoin de si faible support,</l>
+            <l n="1203" xml:id="l1203">Mise au contentement que j’espère du sort.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-15">
+            <speaker>ANNE</speaker>
+            <l n="1204" xml:id="l1204">Las ! entends le surplus de son humble requête,</l>
+            <l n="1205" xml:id="l1205">S’il poursuit obstiné sa fatale conquête,</l>
+            <l n="1206" xml:id="l1206">Elle en parlait ainsi que sourd à la raison,</l>
+            <l n="1207" xml:id="l1207">Ce soit à tout le moins sans forcer la saison,</l>
+            <l n="1208" xml:id="l1208">Sans vouloir s’assurer d’un élément perfide,</l>
+            <l n="1209" xml:id="l1209">Lorsqu’à sa plus grand rage il a lâché la bride ;</l>
+            <l n="1210" xml:id="l1210">Lorsque les Aquilons contre-luitant  les flots,</l>
+            <l n="1211" xml:id="l1211">Lorsque le navigage au marinier est clos ;</l>
+            <l n="1212" xml:id="l1212">Que Téthys, de moment en moment, se mutine,</l>
+            <l n="1213" xml:id="l1213">Lorsque proche du doigt il touche sa ruine !</l>
+            <l n="1214" xml:id="l1214"></l>
+            <l n="1215" xml:id="l1215">Ascagne à mon défaut, Ascagne un innocent,</l>
+            <l n="1216" xml:id="l1216">Lui dût faire guéer le gouffre où il descend,</l>
+            <l n="1217" xml:id="l1217">Revoquer ce conseil, qui tient du téméraire,</l>
+            <l n="1218" xml:id="l1218">Tel voyage remis au printemps à parfaire ;</l>
+            <l n="1219" xml:id="l1219">L’occasion de fuir ma couche, mon palais,</l>
+            <l n="1220" xml:id="l1220">Moi contente du nom d’amie désormais ?</l>
+            <l n="1221" xml:id="l1221">N’espérant plus de lui qu’une faveur commune ?</l>
+            <l n="1222" xml:id="l1222">Las ! hélas ! voilà bien avilir sa fortune,</l>
+            <l n="1223" xml:id="l1223">Voilà bien s’abaisser sous un tyran vainqueur,</l>
+            <l n="1224" xml:id="l1224">Et qui du plus sauvage amollirait le cœur.</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-16">
+            <speaker>ÉNÉE</speaker>
+            <l n="1225" xml:id="l1225">Je ne dis pas que non, blessé de sa blessure,</l>
+            <l n="1226" xml:id="l1226">Navré d’un même trait, ô Anne, je t’assure,</l>
+            <l n="1227" xml:id="l1227">J’atteste de Phébus l’éternelle clarté,</l>
+            <l n="1228" xml:id="l1228">Que sur mes actions ayant la liberté,</l>
+            <l n="1229" xml:id="l1229">Derechef je te jure, et du plus sain de l’âme,</l>
+            <l n="1230" xml:id="l1230">Qu’en ce cas, d’inhumain j’éviterais le blâme,</l>
+            <l n="1231" xml:id="l1231">Que je voudrais toujours mon Élise adorer,</l>
+            <l n="1232" xml:id="l1232">Et de ses doux regards l’influence tirer,</l>
+            <l n="1233" xml:id="l1233">Et jouir du repos que son lit me prépare ;</l>
+            <l n="1234" xml:id="l1234">Mais hélas ! un destin contraire m’en sépare,</l>
+            <l n="1235" xml:id="l1235">Mais le décret céleste au départ me contraint,</l>
+            <l n="1236" xml:id="l1236">Et dans ce propre jour de terme le restreint ;</l>
+            <l n="1237" xml:id="l1237">Décret réitéré du fils de Maie encore,</l>
+            <l n="1238" xml:id="l1238">Que l’aube ne faisait que sa lumière éclore,</l>
+            <l n="1239" xml:id="l1239">Oui Mercure envoyé de son père tantôt,</l>
+            <l n="1240" xml:id="l1240">Me commande quitter votre havre au plutôt,</l>
+            <l n="1241" xml:id="l1241">Sur peine d’encourir quelque désastre horrible ;</l>
+            <l n="1242" xml:id="l1242">Juge, si résister n’excède le possible</l>
+            <l n="1243" xml:id="l1243">De tout homme dévot ; il faut, il faut marcher,</l>
+            <l n="1244" xml:id="l1244">Et me dussent les flots dans leurs gouffres cacher ;</l>
+            <l n="1245" xml:id="l1245">Maintefois plus enflés d’une écumeuse rage,</l>
+            <l n="1246" xml:id="l1246">L’air éclatant de feux, le Ciel troublé d’orage,</l>
+            <l n="1247" xml:id="l1247">Rien à l’entour de nous qu’une image de mort,</l>
+            <l n="1248" xml:id="l1248">J’ai néanmoins franchi la tempête plus fort ;</l>
+            <l n="1249" xml:id="l1249">J’ai ferme sous l’espoir de nos Dieux domestiques,</l>
+            <l n="1250" xml:id="l1250">Préservé jusqu’ici les Troyennes reliques :</l>
+            <l n="1251" xml:id="l1251">D’être plus du salut d’un enfant curieux,</l>
+            <l n="1252" xml:id="l1252">Qu’accomplir menacé le mandement des Cieux ;</l>
+            <l n="1253" xml:id="l1253">Jamais, la piété leur appartient première,</l>
+            <l n="1254" xml:id="l1254">Comme ils veulent de nous une assurance entière,</l>
+            <l n="1255" xml:id="l1255">Que l’on croie du tout leurs oracles reçus,</l>
+            <l n="1256" xml:id="l1256">Par qui les vertueux onc ne furent déçus.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-17">
+            <speaker>ANNE</speaker>
+            <l n="1257" xml:id="l1257">Sous ombre d’observer l’ordonnance céleste,</l>
+            <l n="1258" xml:id="l1258">Livreras-tu ma sœur à la parque funeste ?</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-18">
+            <speaker>ÉNÉE</speaker>
+            <l n="1259" xml:id="l1259">L’extrême violence ès maux ne dure pas.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-19">
+            <speaker>ANNE</speaker>
+            <l n="1260" xml:id="l1260">Tu dis vrai, car ils ont le remède au trépas.</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-20">
+            <speaker>ÉNÉE</speaker>
+            <l n="1261" xml:id="l1261">Sa constance a paré des revers de fortune,</l>
+            <l n="1262" xml:id="l1262">Pires, il t’en souvient, qui l’éprouvas commune.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-21">
+            <speaker>ANNE</speaker>
+            <l n="1263" xml:id="l1263">Un meurtre lui causa de grièves douleurs,</l>
+            <l n="1264" xml:id="l1264">Mais ce n’était au prix que roses, et que fleurs.</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-22">
+            <speaker>ÉNÉE</speaker>
+            <l n="1265" xml:id="l1265">Saturne ce vieillard à la faux empennée,</l>
+            <l n="1266" xml:id="l1266">Aura tôt effacé la mémoire d’Énée.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-23">
+            <speaker>ANNE</speaker>
+            <l n="1267" xml:id="l1267">Époinçonné du taon qui l’emplit de fureur,</l>
+            <l n="1268" xml:id="l1268">Tu ne t’excuserais sur un pareil erreur.</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-24">
+            <speaker>ÉNÉE</speaker>
+            <l n="1269" xml:id="l1269">Que me commandez-vous premier que je vous quitte ?</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-25">
+            <speaker>ANNE</speaker>
+            <l n="1270" xml:id="l1270">Prendre ma sœur, et moi, compagnes de ta fuite.</l>
+          </sp>
+          <sp who="énée" xml:id="IV2-26">
+            <speaker>ÉNÉE</speaker>
+            <l n="1271" xml:id="l1271">Aussi le serez-vous, vu que le souvenir</l>
+            <l n="1272" xml:id="l1272">Inséparablement nous joint à l’avenir !</l>
+            <l n="1273" xml:id="l1273">Que hormis les faveurs du devis concédées,</l>
+            <l n="1274" xml:id="l1274">Mon âme se paîtra de vos belles idées,</l>
+            <l n="1275" xml:id="l1275">Parlera du penser, et les réclamera,</l>
+            <l n="1276" xml:id="l1276">Tant qu’un esprit vital ce corps animera ;</l>
+            <l n="1277" xml:id="l1277">Outre, que je promets, ma fortune affermie,</l>
+            <l n="1278" xml:id="l1278">Après le long courroux d’une Dive ennemie,</l>
+            <l n="1279" xml:id="l1279">Après avoir nos Dieux, nos chers pénates mis</l>
+            <l n="1280" xml:id="l1280">En ce lieu de repos, par les destins promis,</l>
+            <l n="1281" xml:id="l1281">Dans Carthage revoir ma favorable Élise,</l>
+            <l n="1282" xml:id="l1282">Lui requérir merci de l’offense commise,</l>
+            <l n="1283" xml:id="l1283">S’il y a quelque offense où la contrainte a lieu.</l>
+            <l n="1284" xml:id="l1284">Or n’ai-je plus loisir de retarder, adieu,</l>
+            <l n="1285" xml:id="l1285">Adieu, vivez toujours heureuses, et contentes,</l>
+            <l n="1286" xml:id="l1286">Mon destin me remet sur les plaines flottantes,</l>
+            <l n="1287" xml:id="l1287">Les vents soufflent à gré, qui maintenant perdus,</l>
+            <l n="1288" xml:id="l1288">Seraient un siècle en vain quelquefois attendus.</l>
+          </sp>
+          <sp who="anne" xml:id="IV2-27">
+            <speaker>ANNE</speaker>
+            <l n="1289" xml:id="l1289">Énée, Énée, hélas ! arrête inexorable,</l>
+            <l n="1290" xml:id="l1290">Avant que de partir meurtris-moi misérable,</l>
+            <l n="1291" xml:id="l1291">Moi, l’infâme motif des douleurs de Didon,</l>
+            <l n="1292" xml:id="l1292">Qui soufflai dans son sein l’impudique brandon,</l>
+            <l n="1293" xml:id="l1293">Moi, qui de ses vertus, qui de sa chaste gloire,</l>
+            <l n="1294" xml:id="l1294">Damnable conseillère étouffai la mémoire,</l>
+            <l n="1295" xml:id="l1295">Las ! comment à ses yeux paraîtrai-je jamais,</l>
+            <l n="1296" xml:id="l1296">Qui ne m’attribuera la coulpe désormais ?</l>
+            <l n="1297" xml:id="l1297">Qui ne m’estimera du perfide complice,</l>
+            <l n="1298" xml:id="l1298">Mériter le tourment de l’extrême supplice ?</l>
+            <l n="1299" xml:id="l1299">Ô Anne désastreuse, ô funèbre rapport,</l>
+            <l n="1300" xml:id="l1300">Ô cruauté d’amour, ô cruauté du sort,</l>
+            <l n="1301" xml:id="l1301">Oh ! qu’une femme doit ne commettre légère,</l>
+            <l n="1302" xml:id="l1302">Son honneur au serment d’une flamme étrangère :</l>
+            <l n="1303" xml:id="l1303">Si faut-il malgré moi se resoudre d’aller,</l>
+            <l n="1304" xml:id="l1304">D’un espoir de retour sa fureur consoler.</l>
+            <l n="1305" xml:id="l1305"></l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="IV3">
+          <head>Scène <span class="romain-pt-cap">iii</span></head>
+             <stage>DIDON, ANNE</stage>
+          <sp who="didon" xml:id="IV3-1">
+            <speaker>DIDON</speaker>
+            <l n="1306" xml:id="l1306">Nuit, infernale nuit, bourrelle, que ton ombre</l>
+            <l n="1307" xml:id="l1307">M’a donné de terreur, et m’augure d’encombre,</l>
+            <l n="1308" xml:id="l1308">Un songe où je pensais en lieux vagues errer,</l>
+            <l n="1309" xml:id="l1309">De leur Dédale obscure ne pouvant me tirer ;</l>
+            <l n="1310" xml:id="l1310">Un triste hurlement de larves sépulcrales,</l>
+            <l n="1311" xml:id="l1311">Montrent-ils pas le cours de mes heures fatales ?</l>
+            <l n="1312" xml:id="l1312">Montrent-ils pas la fin tragique de mes jours ?</l>
+            <l n="1313" xml:id="l1313">Que de ma dextre pend l’espoir de mon secours ?</l>
+            <l n="1314" xml:id="l1314">Que ce méchant voleur acharné sur ma vie,</l>
+            <l n="1315" xml:id="l1315">A refusé ma sœur la trêve poursuivie.</l>
+            <l n="1316" xml:id="l1316">La suite coup sur coup des prodigues passés,</l>
+            <l n="1317" xml:id="l1317">De mon sanglant trépas m’assure plus qu’assez,</l>
+            <l n="1318" xml:id="l1318">Hier que j’achevai l’annuel sacrifice</l>
+            <l n="1319" xml:id="l1319">À mon loyal époux, le sang d’une génisse,</l>
+            <l n="1320" xml:id="l1320">Jaillissant impourvu le front me macula,</l>
+            <l n="1321" xml:id="l1321">Le Prêtre par trois fois d’horreur se recula,</l>
+            <l n="1322" xml:id="l1322">Voyant le vin sacré (chose fâcheuse à croire,)</l>
+            <l n="1323" xml:id="l1323">De pur sang devenu, prendre une couleur noire.</l>
+            <l n="1324" xml:id="l1324">Sus, résolue au pis découvrons sur le port ;</l>
+            <l n="1325" xml:id="l1325">Las ! et quoi découvrir qu’un spectacle de mort,</l>
+            <l n="1326" xml:id="l1326">Quoi découvrir, sinon cette flotte perverse,</l>
+            <l n="1327" xml:id="l1327">Qui coupe également d’accord la vague Perse ?</l>
+            <l n="1328" xml:id="l1328">Voilà de tous mes maux le présage accompli,</l>
+            <l n="1329" xml:id="l1329">Le vouloir des destins ores à plein je lis ;</l>
+            <l n="1330" xml:id="l1330">Voilà ce détracteur d’un parjure infidèle,</l>
+            <l n="1331" xml:id="l1331">Ce gardien des Dieux, qui de haine mortelle,</l>
+            <l n="1332" xml:id="l1332">Poursuit l’ingratitude, il le prouve au besoin,</l>
+            <l n="1333" xml:id="l1333">Sa fuite nous en sert d’oculaire témoin,</l>
+            <l n="1334" xml:id="l1334">Voilà ma chasteté, qu’on enlève à ma vue,</l>
+            <l n="1335" xml:id="l1335">De raison, de conseil, et de sens dépourvue :</l>
+            <l n="1336" xml:id="l1336">Comment ! que ce banni, ce traître vagabond,</l>
+            <l n="1337" xml:id="l1337">Moque une Reine ainsi ? que l’on le coule à fond,</l>
+            <l n="1338" xml:id="l1338">Suivons-le Tyriens, portez vite des flammes,</l>
+            <l n="1339" xml:id="l1339">Mettez voiles au vent, sus dépliez les rames,</l>
+            <l n="1340" xml:id="l1340">Tuez, exterminez ce reste fugitif,</l>
+            <l n="1341" xml:id="l1341">Et qu’un seul à merci ne se prenne captif.</l>
+          </sp>
+          <sp who="anne" xml:id="IV3-2">
+            <speaker>ANNE</speaker>
+            <l n="1342" xml:id="l1342">Ô Cieux ! ô Cieux cruels ! d’impatience extrême,</l>
+            <l n="1343" xml:id="l1343">Elle a du déloyal vu la fuite elle-même,</l>
+            <l n="1344" xml:id="l1344">La réponse elle aura de sa sœur prévenu,</l>
+            <l n="1345" xml:id="l1345">Et le dernier assaut du malheur soutenu ;</l>
+            <l n="1346" xml:id="l1346">Las ! me représenter à sa face je n’ose,</l>
+            <l n="1347" xml:id="l1347">Qu’un peu plus de séjour la plaie ne repose,</l>
+            <l n="1348" xml:id="l1348">Que des premiers regrets le brasier allumé,</l>
+            <l n="1349" xml:id="l1349">En cendre ne se soit peu à peu consommé.</l>
+          </sp>
+          <sp who="didon" xml:id="IV3-3">
+            <speaker>DIDON</speaker>
+            <l n="1350" xml:id="l1350">Que dis-je ? où suis-je ? et quelle excessive manie</l>
+            <l n="1351" xml:id="l1351">Pipe d’un fol espoir ma misère infinie ?</l>
+            <l n="1352" xml:id="l1352">Didon, pauvre Didon, ne sens, ne sens-tu point,</l>
+            <l n="1353" xml:id="l1353">De tes impiétés le remords qui t’époint ?</l>
+            <l n="1354" xml:id="l1354">Qui ne s’apaisera, paravant que Sichée</l>
+            <l n="1355" xml:id="l1355">Voie couler ton sang sur sa couche tachée !</l>
+            <l n="1356" xml:id="l1356">Ses jours innocemment de la sorte abréger,</l>
+            <l n="1357" xml:id="l1357">Et simple n’avoir pris le temps de se venger ?</l>
+            <l n="1358" xml:id="l1358">Enseveli son corps démembré sous les ondes,</l>
+            <l n="1359" xml:id="l1359">Charogneuse pâture aux phoques vagabondes,</l>
+            <l n="1360" xml:id="l1360">Fait de ses compagnons un carnage absolu,</l>
+            <l n="1361" xml:id="l1361">Une entière hécatombe à mon honneur pollu ?</l>
+            <l n="1362" xml:id="l1362">Brûler toutes ses naux, et à ce détestable,</l>
+            <l n="1363" xml:id="l1363">Son Ascagne en morceaux présenter sur la table ?</l>
+            <l n="1364" xml:id="l1364">Oui, mais le sort était des armes à douter ;</l>
+            <l n="1365" xml:id="l1365">Qu’importe, désirant de me précipiter,</l>
+            <l n="1366" xml:id="l1366">Qu’aurais-je craint ma mort déjà délibérée,</l>
+            <l n="1367" xml:id="l1367">Lasse de plus languir sous la voûte éthérée ?</l>
+            <l n="1368" xml:id="l1368">J’eusse enflammé ses naux la vengeance ayant lieu,</l>
+            <l n="1369" xml:id="l1369">Moi-même dans les feux me jetant au milieu,</l>
+            <l n="1370" xml:id="l1370">Satisfaite, d’avoir en la perte commune,</l>
+            <l n="1371" xml:id="l1371">Et du père, et du fils, expié la rancune.</l>
+          </sp>
+          <sp who="anne" xml:id="IV3-4">
+            <speaker>ANNE</speaker>
+            <l n="1372" xml:id="l1372">Divertissez, bons Dieux, arrachez-lui du sein</l>
+            <l n="1373" xml:id="l1373">L’exécrable projet de ce félon dessein.</l>
+          </sp>
+          <sp who="didon" xml:id="IV3-5">
+            <speaker>DIDON</speaker>
+            <l n="1374" xml:id="l1374">Clair Soleil, qui là-haut des flammes que tu dardes,</l>
+            <l n="1375" xml:id="l1375">Les œuvres des mortels équitable regardes,</l>
+            <l n="1376" xml:id="l1376">Toi, de mes maux complice, et leur source, Junon,</l>
+            <l n="1377" xml:id="l1377">Infernale Déesse Hécate au triple nom,</l>
+            <l n="1378" xml:id="l1378">La nuit aux carrefours par les villes hurlée,</l>
+            <l n="1379" xml:id="l1379">Vous Dires, qui vengez une foi violée,</l>
+            <l n="1380" xml:id="l1380">Et vous Dieux, de la pauvre Élise se mourant,</l>
+            <l n="1381" xml:id="l1381">Écoutez les clameurs qu’aux abois elle rend,</l>
+            <l n="1382" xml:id="l1382">Pour suprême faveur de ma mort arrêtée,</l>
+            <l n="1383" xml:id="l1383">Faites s’il atteignait la rive souhaitée,</l>
+            <l n="1384" xml:id="l1384">Si ce chef scélérat par l’arrêt du destin</l>
+            <l n="1385" xml:id="l1385">Souscrit de Jupiter, voit l’Empire Latin,</l>
+            <l n="1386" xml:id="l1386">Exorable donnez à Didon qui vous prie,</l>
+            <l n="1387" xml:id="l1387">Que d’un peuple ennemi la guerrière furie,</l>
+            <l n="1388" xml:id="l1388">Loin des embrassement de son Jule cher,</l>
+            <l n="1389" xml:id="l1389">Ne trouvant déconfit retraite à se cacher,</l>
+            <l n="1390" xml:id="l1390">L’afflige, le poursuive en l’horreur des batailles,</l>
+            <l n="1391" xml:id="l1391">De la fleur des siens morts pleurant les funérailles,</l>
+            <l n="1392" xml:id="l1392">Forclos, abandonné de tout humain secours,</l>
+            <l n="1393" xml:id="l1393">Que son désastre n’ait ni mesure ni cours,</l>
+            <l n="1394" xml:id="l1394">Que sa méchante vie ait une fin capable,</l>
+            <l n="1395" xml:id="l1395">De ramener au bien l’âme la plus coupable.</l>
+          </sp>
+          <sp who="anne" xml:id="IV3-6">
+            <speaker>ANNE</speaker>
+            <l n="1396" xml:id="l1396">Comme un flot se grossit de l’autre qui le suit,</l>
+            <l n="1397" xml:id="l1397">Toujours de mal en pis sa plainte elle poursuit,</l>
+            <l n="1398" xml:id="l1398">En imprécations aiguise sa colère,</l>
+            <l n="1399" xml:id="l1399">Il vaut mieux l’interrompre, à peine de déplaire,</l>
+            <l n="1400" xml:id="l1400">Toutefois ce venin rentré dedans le cœur,</l>
+            <l n="1401" xml:id="l1401">La pourrait suffoquer à l’accès du rancœur,</l>
+            <l n="1402" xml:id="l1402">Plus discrète, attendons qu’elle vomisse à l’aise,</l>
+            <l n="1403" xml:id="l1403">Qu’un nuage de pleurs cette tourmente apaise.</l>
+          </sp>
+          <sp who="didon" xml:id="IV3-7">
+            <speaker>DIDON</speaker>
+            <l n="1404" xml:id="l1404">Ha ! j’entrevois ma sœur craintive s’approcher,</l>
+            <l n="1405" xml:id="l1405">Le surplus de ces vœux réservant au bûcher,</l>
+            <l n="1406" xml:id="l1406">Je feindrai sur ma face un reste d’espérance,</l>
+            <l n="1407" xml:id="l1407">De peur que ses propos troublent mon assurance,</l>
+            <l n="1408" xml:id="l1408">Qu’elle dresse un obstacle au dessein pourpensé,</l>
+            <l n="1409" xml:id="l1409">Et bien, pour le prier tu n’as guère avancé,</l>
+            <l n="1410" xml:id="l1410">Tu n’as pu retarder la course du pirate,</l>
+            <l n="1411" xml:id="l1411">Tu n’as pu rien gagner dessus cette âme ingrate.</l>
+          </sp>
+          <sp who="anne" xml:id="IV3-8">
+            <speaker>ANNE</speaker>
+            <l n="1412" xml:id="l1412">Pressé du sentiment de son crime outrageux,</l>
+            <l n="1413" xml:id="l1413">J’ai remarqué, qu’encor qu’il fit le courageux,</l>
+            <l n="1414" xml:id="l1414">Le corps absent, son âme à Carthage demeure,</l>
+            <l n="1415" xml:id="l1415">Ma sœur, consolez-vous, il reviendra, je meure ;</l>
+            <l n="1416" xml:id="l1416">Dès le premier orage, une équitable peur</l>
+            <l n="1417" xml:id="l1417">Tournera ses espoirs d’Italie en vapeur,</l>
+            <l n="1418" xml:id="l1418">Repentant, à genoux il se viendra soumettre,</l>
+            <l n="1419" xml:id="l1419">À la peine du mal qu’il a voulu commettre ;</l>
+            <l n="1420" xml:id="l1420">Nous reverrons ses naux notre havre habiter,</l>
+            <l n="1421" xml:id="l1421">Sans qu’il ait jamais plus désir de vous quitter.</l>
+          </sp>
+          <sp who="didon" xml:id="IV3-9">
+            <speaker>DIDON</speaker>
+            <l n="1422" xml:id="l1422">L’espérance ne m’a que trop longtemps déçue,</l>
+            <l n="1423" xml:id="l1423">Il faut à ce malheur trouver une autre issue,</l>
+            <l n="1424" xml:id="l1424">Que dis-je la trouver ? seulement prête-moi</l>
+            <l n="1425" xml:id="l1425">Le secours d’une sœur en ce cuisant émoi,</l>
+            <l n="1426" xml:id="l1426">Assiste l’entreprise et soudain je me vante,</l>
+            <l n="1427" xml:id="l1427">De sortir de misère ; au moyen que j’invente</l>
+            <l n="1428" xml:id="l1428">Mes langueurs finiront : Près des ondes d’Atlas</l>
+            <l n="1429" xml:id="l1429">Où le Soleil se va coucher quand il est las,</l>
+            <l n="1430" xml:id="l1430">Où ce mont orgueilleux sur son épaule forte,</l>
+            <l n="1431" xml:id="l1431">La machine étoilée infatigable porte,</l>
+            <l n="1432" xml:id="l1432">En ce lieu, comme j’ai du commun bruit appris,</l>
+            <l n="1433" xml:id="l1433">Demeure secourable une femme de prix,</l>
+            <l n="1434" xml:id="l1434">Prêtresse de la gent Masilienne, âgée,</l>
+            <l n="1435" xml:id="l1435">De la garde du Temple Hespéride chargée,</l>
+            <l n="1436" xml:id="l1436">Qui donnait au dragon en ce riche verger,</l>
+            <l n="1437" xml:id="l1437">Les pavots sommeilleux, et le miel à manger,</l>
+            <l n="1438" xml:id="l1438">Gardant les rameaux saints sur l’arbre vigilante,</l>
+            <l n="1439" xml:id="l1439">Elle promet guérir ceux qu’amour violente,</l>
+            <l n="1440" xml:id="l1440">Délier le souci des âmes qu’il époint,</l>
+            <l n="1441" xml:id="l1441">Ou même l’envoyer à ceux qui n’en ont point ;</l>
+            <l n="1442" xml:id="l1442">Elle fait rebrousser les fleuves à leur source,</l>
+            <l n="1443" xml:id="l1443">Des Astres dans le Ciel rétrograde la course,</l>
+            <l n="1444" xml:id="l1444">Sous ses vers murmurés les mânes frémissants,</l>
+            <l n="1445" xml:id="l1445">S’assemblent, les enfers lui sont obéissants,</l>
+            <l n="1446" xml:id="l1446">La terre sous ses pieds mugit changeant les formes,</l>
+            <l n="1447" xml:id="l1447">Elle contraint des monts à descendre les ormes,</l>
+            <l n="1448" xml:id="l1448">Chère sœur je t’atteste, et ton chef précieux,</l>
+            <l n="1449" xml:id="l1449">Employer malgré moi ses arts pernicieux,</l>
+            <l n="1450" xml:id="l1450">D’un maître impitoyable à cette heure régie,</l>
+            <l n="1451" xml:id="l1451">Grands Dieux vous le savez j’use de la Magie !</l>
+            <l n="1452" xml:id="l1452">Va donc, elle m’enjoint d’y procéder ainsi ;</l>
+            <l n="1453" xml:id="l1453">Prends le soin qu’un bûcher se dresse près d’ici,</l>
+            <l n="1454" xml:id="l1454">Qu’à découvert dedans le Palais on le fasse,</l>
+            <l n="1455" xml:id="l1455">Et après du Troyen les dépouilles amasse,</l>
+            <l n="1456" xml:id="l1456">Les armes, qu’à mon lit l’impieux attacha,</l>
+            <l n="1457" xml:id="l1457">La couche, où mon honneur prodigue s’épancha,</l>
+            <l n="1458" xml:id="l1458">Bref qu’il ne reste rien, rien provenu de l’homme,</l>
+            <l n="1459" xml:id="l1459">Que la flamme tantôt ne purge et ne consomme ;</l>
+            <l n="1460" xml:id="l1460">Que tous les monuments laissés du souvenir,</l>
+            <l n="1461" xml:id="l1461">Disparaissent réduits en cendre à l’avenir.</l>
+            <l n="1462" xml:id="l1462">Dépêche, et me permets d’achever solitaire,</l>
+            <l n="1463" xml:id="l1463">Quelque secret requis à ce sacré mystère.</l>
+          </sp>
+          <sp who="anne" xml:id="IV3-10">
+            <speaker>ANNE</speaker>
+            <l n="1464" xml:id="l1464">Je ne voudrai mon sang, non ma peine épargner,</l>
+            <l n="1465" xml:id="l1465">Pour vous faire mon œil la victoire gagner,</l>
+            <l n="1466" xml:id="l1466">Victoire, que l’on tient sur toutes la plus belle,</l>
+            <l n="1467" xml:id="l1467">Qui dompte l’appétit à la raison rebelle,</l>
+            <l n="1468" xml:id="l1468">Victoire, qui vous donne autant ou plus de los,</l>
+            <l n="1469" xml:id="l1469">Que les vôtres conduits, et sauvés sur les flots.</l>
+          </sp>
+          <sp who="didon" xml:id="IV3-11">
+            <speaker>DIDON</speaker>
+            <l n="1470" xml:id="l1470">Rassure-toi mon âme, efforce ta constance,</l>
+            <l n="1471" xml:id="l1471">Tu ne porteras plus du corps la pénitence,</l>
+            <l n="1472" xml:id="l1472">Le chemin préparé d’un repos éternel,</l>
+            <l n="1473" xml:id="l1473">Tu vas sortir d’avec cet hôte criminel,</l>
+            <l n="1474" xml:id="l1474">De sa corruption je te rendrai délivre,</l>
+            <l n="1475" xml:id="l1475">Lui éteint, je te fais immortelle revivre,</l>
+            <l n="1476" xml:id="l1476">Sichée satisfait de sa punition,</l>
+            <l n="1477" xml:id="l1477">Te promet du passé toute abolition,</l>
+            <l n="1478" xml:id="l1478">Nous l’allons retrouver aux plaines Élysées,</l>
+            <l n="1479" xml:id="l1479">Les sources de sa haine en mon sang épuisées,</l>
+            <l n="1480" xml:id="l1480">Nous allons retrouver son esprit bienheureux,</l>
+            <l n="1481" xml:id="l1481">Dedans une forêt de myrtes odoreux,</l>
+            <l n="1482" xml:id="l1482">Moissonnant le doux fruit de ses vertus célèbres,</l>
+            <l n="1483" xml:id="l1483">Qui ne craint les aguets d’un avare funèbres,</l>
+            <l n="1484" xml:id="l1484">Qui ne redoute plus de perdre ses trésors.</l>
+            <l n="1485" xml:id="l1485">Or premier que du Styx je franchisse les bords,</l>
+            <l n="1486" xml:id="l1486">Sichée mon Soleil, qui luis entre les ombres,</l>
+            <l n="1487" xml:id="l1487">Donne à l’infinité de mes cruels encombres,</l>
+            <l n="1488" xml:id="l1488">Derechef ta merci je réclame à genoux,</l>
+            <l n="1489" xml:id="l1489">Donne-moi des témoins de l’adultère absous ;</l>
+            <l n="1490" xml:id="l1490">Que cette nuit dernière aux langueurs de ma vie,</l>
+            <l n="1491" xml:id="l1491">Si je suis du sommeil d’aventure ravie,</l>
+            <l n="1492" xml:id="l1492">Ton ombre m’apparaisse agréable, disant :</l>
+            <l n="1493" xml:id="l1493">Ne te travaille plus de ce souci cuisant,</l>
+            <l n="1494" xml:id="l1494">Viens, hâte-toi Didon, de ta grâce assurée,</l>
+            <l n="1495" xml:id="l1495">Viens vite réunir ta moitié séparée,</l>
+            <l n="1496" xml:id="l1496">Tu trouves un asile ouvert dedans mon sein,</l>
+            <l n="1497" xml:id="l1497">Le coup exécuté de ton brave dessein ;</l>
+            <l n="1498" xml:id="l1498">Nous ne respirerons qu’un penser par une âme,</l>
+            <l n="1499" xml:id="l1499">Nous ardrons mutuels d’une loyale flâme,</l>
+            <l n="1500" xml:id="l1500">Qui renouvellera de la fuite du temps,</l>
+            <l n="1501" xml:id="l1501">Nous serons à jamais, et heureux, et contents :</l>
+            <l n="1502" xml:id="l1502">Ha ! douce illusion, que tu flattes mes peines,</l>
+            <l n="1503" xml:id="l1503">J’ai pu vérifier tes apparences vaines,</l>
+            <l n="1504" xml:id="l1504">Et le pouvais aussi, dès lors que le destin</l>
+            <l n="1505" xml:id="l1505">Fit l’auteur de mon mieux Érébique butin,</l>
+            <l n="1506" xml:id="l1506">Dès lors qu’un parricide emporta mon Sichée,</l>
+            <l n="1507" xml:id="l1507">Il ne fallait survivre à son sort attachée,</l>
+            <l n="1508" xml:id="l1508">Compagne de ses pas chez l’avare Pluton,</l>
+            <l n="1509" xml:id="l1509">Nos fuseaux achevés en un jour de Clothon :</l>
+            <l n="1510" xml:id="l1510">L’amitié le voulait, outre le certain terme,</l>
+            <l n="1511" xml:id="l1511">L’heur des frêles mortels dans la carrière enferme,</l>
+            <l n="1512" xml:id="l1512">Pareil à la beauté des roses qui s’éteint,</l>
+            <l n="1513" xml:id="l1513">Depuis que la chaleur de trois soleils l’atteint ;</l>
+            <l n="1514" xml:id="l1514">Pareil au flot qui vient se crever au rivage,</l>
+            <l n="1515" xml:id="l1515">Mourant pleine de gloire en ce chaste veuvage,</l>
+            <l n="1516" xml:id="l1516">Quels hasards j’abrégeai, quelle suite de maux,</l>
+            <l n="1517" xml:id="l1517">Combien d’afflictions, de soucis, de travaux ?</l>
+            <l n="1518" xml:id="l1518">Ce que m’avait Carthage acquis de renommée,</l>
+            <l n="1519" xml:id="l1519">Au triple je le perds d’un voleur diffamée ;</l>
+            <l n="1520" xml:id="l1520">Fortune injuste a pris l’usure de mes jours,</l>
+            <l n="1521" xml:id="l1521">Une plaie endurant qui saignera toujours,</l>
+            <l n="1522" xml:id="l1522">Fortune sous l’appas du vice m’a conquise,</l>
+            <l n="1523" xml:id="l1523">Mais la vertu souvent bronche la plus exquise ;</l>
+            <l n="1524" xml:id="l1524">Mais ma chute je veux soudaine relever,</l>
+            <l n="1525" xml:id="l1525">Et du naufrage entier mon renom préserver ;</l>
+            <l n="1526" xml:id="l1526">Jaçoit que le regret d’une ville orpheline,</l>
+            <l n="1527" xml:id="l1527">Que celui de ma sœur du courage décline ;</l>
+            <l n="1528" xml:id="l1528">Didon peu résolue, et où retombes-tu,</l>
+            <l n="1529" xml:id="l1529">Ès mains des ennemis que tu as combattus ?</l>
+            <l n="1530" xml:id="l1530">Quitte, quitte le soin des affaires du monde,</l>
+            <l n="1531" xml:id="l1531">Que Jupiter s’il veut dessus fasse la ronde,</l>
+            <l n="1532" xml:id="l1532">Tu n’as qu’à t’entourner la tête de Cyprès,</l>
+            <l n="1533" xml:id="l1533">Presser du sacrifice ordonné les apprêts,</l>
+            <l n="1534" xml:id="l1534">Dire à ton peuple aimé les paroles dernières,</l>
+            <l n="1535" xml:id="l1535">Offrir aux Dieux d’en bas tes placables prières,</l>
+            <l n="1536" xml:id="l1536">Et d’un bras courageux, d’un bras mâle d’effet</l>
+            <l n="1537" xml:id="l1537">Sceller de ta mémoire un chef-d’œuvre parfait.</l>
+          </sp>
+          <sp who="chœur-des-[phéniciennes]-[tyriens]" xml:id="IV3-12">
+            <speaker>CHŒUR DES [PHÉNICIENNES] [TYRIENS]</speaker>
+            <l n="1538" xml:id="l1538">La plupart de nos accidents,</l>
+            <l n="1539" xml:id="l1539">Ne dérive de la fortune,</l>
+            <l n="1540" xml:id="l1540">Nous en accusons impudents,</l>
+            <l n="1541" xml:id="l1541">Celle qui n’a point de rancune,</l>
+            <l n="1542" xml:id="l1542">Vu que les gestes déréglés,</l>
+            <l n="1543" xml:id="l1543">Que mainte passion mauvaise,</l>
+            <l n="1544" xml:id="l1544">Trouble le calme de notre aise,</l>
+            <l n="1545" xml:id="l1545">Et nous précipite aveuglés.</l>
+            <l n="1546" xml:id="l1546">L’imbécile nature humaine,</l>
+            <l n="1547" xml:id="l1547">Se laisse au vice manier ;</l>
+            <l n="1548" xml:id="l1548">Puis avec une excuse vaine,</l>
+            <l n="1549" xml:id="l1549">Cuidant ses erreurs pallier,</l>
+            <l n="1550" xml:id="l1550">Maintient que la gauche influence,</l>
+            <l n="1551" xml:id="l1551">Des astres par trop rigoureux,</l>
+            <l n="1552" xml:id="l1552">Envie à ses jours bienheureux,</l>
+            <l n="1553" xml:id="l1553">Le fruit d’une pure innocence.</l>
+            <l n="1554" xml:id="l1554">Mais las ! que c’est se mécompter,</l>
+            <l n="1555" xml:id="l1555">Que l’excuse inepte, et frivole,</l>
+            <l n="1556" xml:id="l1556">Coupable à tort fait réputer,</l>
+            <l n="1557" xml:id="l1557">L’aveugle Déesse qui vole ;</l>
+            <l n="1558" xml:id="l1558">Chacun certes quasi se sert,</l>
+            <l n="1559" xml:id="l1559">De démon, ou de destinée,</l>
+            <l n="1560" xml:id="l1560">Chacun tient l’espace bornée,</l>
+            <l n="1561" xml:id="l1561">Des maux qu’il souffre, ou a souffert.</l>
+            <l n="1562" xml:id="l1562">Quiconque entier sur le modèle,</l>
+            <l n="1563" xml:id="l1563">De la vertu se formerait,</l>
+            <l n="1564" xml:id="l1564">Et qui n’empruntant rien que d’elle,</l>
+            <l n="1565" xml:id="l1565">Jamais ne s’en éloignerait ;</l>
+            <l n="1566" xml:id="l1566">Qui Pancratiaste à sa lutte,</l>
+            <l n="1567" xml:id="l1567">Se tiendrait ferme sans broncher,</l>
+            <l n="1568" xml:id="l1568">Rarement le pourraient toucher,</l>
+            <l n="1569" xml:id="l1569">Les maux qu’à fortune on impute.</l>
+            <l n="1570" xml:id="l1570">Perfection digne des Dieux,</l>
+            <l n="1571" xml:id="l1571">Que premier n’obtint à la terre,</l>
+            <l n="1572" xml:id="l1572">Celui qui fit victorieux,</l>
+            <l n="1573" xml:id="l1573">Aux monstres une juste guerre,</l>
+            <l n="1574" xml:id="l1574">Premier que d’avoir dépouillé,</l>
+            <l n="1575" xml:id="l1575">Son mortel, dans la flamme éprise,</l>
+            <l n="1576" xml:id="l1576">Et çà-bas l’écorce remise,</l>
+            <l n="1577" xml:id="l1577">Des voluptés qui l’ont souillé.</l>
+            <l n="1578" xml:id="l1578">Ni les serpents de sa marâtre,</l>
+            <l n="1579" xml:id="l1579">Qu’il étouffa dans le berceau,</l>
+            <l n="1580" xml:id="l1580">Ni l’hydre à nuire opiniâtre,</l>
+            <l n="1581" xml:id="l1581">Que d’un labeur toujours nouveau,</l>
+            <l n="1582" xml:id="l1582">Fallut ès marais de Lernée,</l>
+            <l n="1583" xml:id="l1583">Avecque la flamme et le fer,</l>
+            <l n="1584" xml:id="l1584">À ce grand Alcide étouffer,</l>
+            <l n="1585" xml:id="l1585">Avant la palme moissonnée.</l>
+            <l n="1586" xml:id="l1586">Ni dans l’espace d’une nuit,</l>
+            <l n="1587" xml:id="l1587">Jeune, mais d’indompté courage,</l>
+            <l n="1588" xml:id="l1588">Cinquante fils qu’il a produits,</l>
+            <l n="1589" xml:id="l1589">Chacun issu d’un pucelage.</l>
+            <l n="1590" xml:id="l1590">La biche aux pieds d’airain legers,</l>
+            <l n="1591" xml:id="l1591"></l>
+            <l n="1592" xml:id="l1592">Aux cornes d’or, qui sur Ménale,</l>
+            <l n="1593" xml:id="l1593">Éprouva sa dextre fatale,</l>
+            <l n="1594" xml:id="l1594">Dextre épouvantable aux dangers.</l>
+            <l n="1595" xml:id="l1595">L’énorme lion de Némée,</l>
+            <l n="1596" xml:id="l1596">Que ni fer, ni pierre, ni bois,</l>
+            <l n="1597" xml:id="l1597">(Si nous croyons la renommée)</l>
+            <l n="1598" xml:id="l1598">Ne pouvait réduire aux abois ;</l>
+            <l n="1599" xml:id="l1599">Pourtant ne trompa sa victoire,</l>
+            <l n="1600" xml:id="l1600">Lui fit moins de peur, que de mal,</l>
+            <l n="1601" xml:id="l1601">Vêtant du superbe animal,</l>
+            <l n="1602" xml:id="l1602">La dépouille pleine de gloire.</l>
+            <l n="1603" xml:id="l1603">Il put, infini de travaux,</l>
+            <l n="1604" xml:id="l1604">Donner le cruel Diomède,</l>
+            <l n="1605" xml:id="l1605">Pâture à ses propres chevaux,</l>
+            <l n="1606" xml:id="l1606">Et (qui la force humaine excède,)</l>
+            <l n="1607" xml:id="l1607">Emporter en ses bras, captif,</l>
+            <l n="1608" xml:id="l1608">Le sanglier, terreur d’Érymanthe,</l>
+            <l n="1609" xml:id="l1609">À un tyran qui le tourmente,</l>
+            <l n="1610" xml:id="l1610">Envieux et vindicatif.</l>
+            <l n="1611" xml:id="l1611">Le Ciel s’en allait en ruine,</l>
+            <l n="1612" xml:id="l1612">Atlas pliant dessous le faix,</l>
+            <l n="1613" xml:id="l1613">S’il n’eût son épaule voisine,</l>
+            <l n="1614" xml:id="l1614">Supposé, lustre de ses faits ;</l>
+            <l n="1615" xml:id="l1615">D’une montagne divisée,</l>
+            <l n="1616" xml:id="l1616">Il borna l’une, et l’autre mer,</l>
+            <l n="1617" xml:id="l1617">Trouvant pour plus se renommer,</l>
+            <l n="1618" xml:id="l1618">L’issue des enfers aisée.</l>
+            <l n="1619" xml:id="l1619">Ou le triple mâtin portier,</l>
+            <l n="1620" xml:id="l1620">Arraché du creux de son antre,</l>
+            <l n="1621" xml:id="l1621">Il met à l’attache au collier,</l>
+            <l n="1622" xml:id="l1622">Où ce foudre de valeur entre :</l>
+            <l n="1623" xml:id="l1623">Contraint l’impiteuse Clothon,</l>
+            <l n="1624" xml:id="l1624">De renouer le fil d’Alceste,</l>
+            <l n="1625" xml:id="l1625">Et tire du piège funeste,</l>
+            <l n="1626" xml:id="l1626">Son Thésée, malgré Pluton.</l>
+            <l n="1627" xml:id="l1627">Bref, ce héros, pour qui sous l’onde,</l>
+            <l n="1628" xml:id="l1628">Le Soleil retarda son cours,</l>
+            <l n="1629" xml:id="l1629">Celui qui s’obligea le monde,</l>
+            <l n="1630" xml:id="l1630">Par un ordinaire secours,</l>
+            <l n="1631" xml:id="l1631">Ce dompteur qui lassa la haine</l>
+            <l n="1632" xml:id="l1632">De Junon, qui ne faisait rien,</l>
+            <l n="1633" xml:id="l1633">Sinon du preux Tirynthien,</l>
+            <l n="1634" xml:id="l1634">Fomenter la gloire en la peine.</l>
+            <l n="1635" xml:id="l1635">Ce fils, digne de Jupiter,</l>
+            <l n="1636" xml:id="l1636">Put tout vaincre, hormis soi-même ;</l>
+            <l n="1637" xml:id="l1637">Car sitôt qu’amour vint jeter,</l>
+            <l n="1638" xml:id="l1638">L’appas à sa force suprême,</l>
+            <l n="1639" xml:id="l1639">Sitôt qu’Omphale eut par ses yeux,</l>
+            <l n="1640" xml:id="l1640">Dérobé son âme blessée,</l>
+            <l n="1641" xml:id="l1641">La trace des vertus laissée,</l>
+            <l n="1642" xml:id="l1642">Et plein d’un poison furieux ;</l>
+            <l n="1643" xml:id="l1643">L’oisiveté, mère des vices,</l>
+            <l n="1644" xml:id="l1644">Éclipsa l’antique valeur ;</l>
+            <l n="1645" xml:id="l1645">Peu à peu, le miel des délices,</l>
+            <l n="1646" xml:id="l1646">Lui ourdit un honteux malheur :</l>
+            <l n="1647" xml:id="l1647">Emprisonné de sa captive,</l>
+            <l n="1648" xml:id="l1648">La fureur d’un jaloux martel,</l>
+            <l n="1649" xml:id="l1649">Mourant, le rendit immortel,</l>
+            <l n="1650" xml:id="l1650">Au milieu de la flamme vive.</l>
+            <l n="1651" xml:id="l1651">Las ! hélas ! notre Reine ainsi,</l>
+            <l n="1652" xml:id="l1652">Serve d’un misérable esclave,</l>
+            <l n="1653" xml:id="l1653">Depuis que sa constance grave,</l>
+            <l n="1654" xml:id="l1654">Fléchit sous l’amoureux souci,</l>
+            <l n="1655" xml:id="l1655">Depuis que la nouveauté folle,</l>
+            <l n="1656" xml:id="l1656">Ébranla son chaste désir,</l>
+            <l n="1657" xml:id="l1657">L’imprudence la vint saisir,</l>
+            <l n="1658" xml:id="l1658">Qui l’antique renom lui vole.</l>
+            <l n="1659" xml:id="l1659">Ce n’est plus celle qui soulait,</l>
+            <l n="1660" xml:id="l1660">Triompher du sort adversaire,</l>
+            <l n="1661" xml:id="l1661">Qui dessus le salut veillait,</l>
+            <l n="1662" xml:id="l1662">D’un peuple soumis, volontaire ;</l>
+            <l n="1663" xml:id="l1663">Le soin des murs qu’elle a fondés,</l>
+            <l n="1664" xml:id="l1664">Ne la chatouille plus de gloire ;</l>
+            <l n="1665" xml:id="l1665">Amour lui ôte la mémoire,</l>
+            <l n="1666" xml:id="l1666">De tant de périls évadés.</l>
+            <l n="1667" xml:id="l1667">Surprise d’une léthargie,</l>
+            <l n="1668" xml:id="l1668">Elle n’a senti qu’à la fin,</l>
+            <l n="1669" xml:id="l1669">Que ce Duc venu de Phrygie,</l>
+            <l n="1670" xml:id="l1670">S’accommode au temps le plus fin,</l>
+            <l n="1671" xml:id="l1671">Qu’abusant de sa chaste couche,</l>
+            <l n="1672" xml:id="l1672">En titre de futur époux,</l>
+            <l n="1673" xml:id="l1673">C’est attendant qu’un ciel plus doux,</l>
+            <l n="1674" xml:id="l1674">Le chemin des flots lui débouche.</l>
+            <l n="1675" xml:id="l1675">Attendant qu’il ait réparé,</l>
+            <l n="1676" xml:id="l1676">Le bois de sa flotte échouée,</l>
+            <l n="1677" xml:id="l1677">Et qu’il puisse, mieux préparé,</l>
+            <l n="1678" xml:id="l1678">Rompre cette foi mal nouée :</l>
+            <l n="1679" xml:id="l1679">Ô parjure ingrat, ô méchant,</l>
+            <l n="1680" xml:id="l1680">Tu perds qui te sauve, infidèle,</l>
+            <l n="1681" xml:id="l1681">Ains tu perds exécrable en elle,</l>
+            <l n="1682" xml:id="l1682">Tout un empire trébuchant.</l>
+            <l n="1683" xml:id="l1683">Ce n’est point un serment léger,</l>
+            <l n="1684" xml:id="l1684">Que viole ta perfidie,</l>
+            <l n="1685" xml:id="l1685">Serment que la foudre brandie,</l>
+            <l n="1686" xml:id="l1686">Ne puisse et ne doive venger :</l>
+            <l n="1687" xml:id="l1687">Les Dieux que tu dis, hypocrite,</l>
+            <l n="1688" xml:id="l1688">Conserver dedans tes vaisseaux,</l>
+            <l n="1689" xml:id="l1689">Ne hâteront que sur les eaux,</l>
+            <l n="1690" xml:id="l1690">La peine de ton démérite.</l>
+            <l n="1691" xml:id="l1691">Barbare, as-tu point de remords,</l>
+            <l n="1692" xml:id="l1692">La conscience bourrelée,</l>
+            <l n="1693" xml:id="l1693">De laisser enceinte de morts,</l>
+            <l n="1694" xml:id="l1694">Ta bienfaitrice désolée ?</l>
+            <l n="1695" xml:id="l1695">La verrais-tu, sans t’accuser,</l>
+            <l n="1696" xml:id="l1696">D’un sacrilège parricide,</l>
+            <l n="1697" xml:id="l1697">Verser cette rivière humide,</l>
+            <l n="1698" xml:id="l1698">De pleurs, qu’on ne peut apaiser ?</l>
+            <l n="1699" xml:id="l1699">Verrais-tu déchirer l’albâtre,</l>
+            <l n="1700" xml:id="l1700">De ce beau front, de ce beau sein,</l>
+            <l n="1701" xml:id="l1701">Sans demeurer, et sans rabattre,</l>
+            <l n="1702" xml:id="l1702">La cruauté de ton dessein ?</l>
+            <l n="1703" xml:id="l1703">Dessein, que Jupiter confonde,</l>
+            <l n="1704" xml:id="l1704">Que Neptune fasse avorter,</l>
+            <l n="1705" xml:id="l1705">Qu’un coup de vent puisse emporter,</l>
+            <l n="1706" xml:id="l1706">Dessous les abîmes de l’onde.</l>
+            <l n="1707" xml:id="l1707">Mais, ô vains regrets ocieux,</l>
+            <l n="1708" xml:id="l1708">Ô honte, ô lâche couardise,</l>
+            <l n="1709" xml:id="l1709">Quel songe nous charmait les yeux,</l>
+            <l n="1710" xml:id="l1710">Imbus de la fraude entreprise ?</l>
+            <l n="1711" xml:id="l1711">Que l’on n’a vengé dans le port,</l>
+            <l n="1712" xml:id="l1712">L’affront d’une injure commune,</l>
+            <l n="1713" xml:id="l1713">Qu’on n’a déchargé sa rancune,</l>
+            <l n="1714" xml:id="l1714">Dessus les coupables du tort ?</l>
+            <l n="1715" xml:id="l1715">Que père, fils, naux, et gendarmes,</l>
+            <l n="1716" xml:id="l1716">Entièrement exterminés,</l>
+            <l n="1717" xml:id="l1717">Investis des feux, et des armes,</l>
+            <l n="1718" xml:id="l1718">Ne sont dignement guerdonnés :</l>
+            <l n="1719" xml:id="l1719">Victime agréable à la Reine,</l>
+            <l n="1720" xml:id="l1720">Qui lui récupérait l’honneur,</l>
+            <l n="1721" xml:id="l1721">À nous un signal de bonheur,</l>
+            <l n="1722" xml:id="l1722">Et une gloire souveraine.</l>
+            <l n="1723" xml:id="l1723">Voilà, toutefois le destin,</l>
+            <l n="1724" xml:id="l1724">Favorise leur injustice,</l>
+            <l n="1725" xml:id="l1725">Son vouloir semble clandestin,</l>
+            <l n="1726" xml:id="l1726">Conniver à semblable vice ;</l>
+            <l n="1727" xml:id="l1727">Ils moquent la crédulité,</l>
+            <l n="1728" xml:id="l1728">D’une triste Reine abusée,</l>
+            <l n="1729" xml:id="l1729">Ils tournent ores en risée,</l>
+            <l n="1730" xml:id="l1730">Notre lente stupidité.</l>
+            <l n="1731" xml:id="l1731">Citoyens du céleste empire,</l>
+            <l n="1732" xml:id="l1732">Modérateur de l’univers,</l>
+            <l n="1733" xml:id="l1733">Ne faites, que franc de votre ire,</l>
+            <l n="1734" xml:id="l1734">L’erreur s’enracine pervers ;</l>
+            <l n="1735" xml:id="l1735">Qu’au Ciel spectateurs immobiles,</l>
+            <l n="1736" xml:id="l1736">Vous laissez courir au hasard,</l>
+            <l n="1737" xml:id="l1737">Tout ce que fortune départ,</l>
+            <l n="1738" xml:id="l1738">À nos jours caducs, et labiles.</l>
+            <l n="1739" xml:id="l1739">Or le sacrifice annoncé,</l>
+            <l n="1740" xml:id="l1740">Désormais au château nous mande,</l>
+            <l n="1741" xml:id="l1741">Où je crains qu’un mal absconsé,</l>
+            <l n="1742" xml:id="l1742">Fasse l’ouverture plus grande,</l>
+            <l n="1743" xml:id="l1743">Que ce cœur, comme généreux,</l>
+            <l n="1744" xml:id="l1744">Du désespoir de la vengeance,</l>
+            <l n="1745" xml:id="l1745">Loin de se trouver allégeance,</l>
+            <l n="1746" xml:id="l1746">Ne sais quoi de plus funéreux.</l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="V">
+        <head>ACTE V</head>
+        <div type="scene" xml:id="V1">
+          <head>Scène <span class="romain-pt-cap">i</span></head>
+          <sp who="didon" xml:id="V1-1">
+            <speaker>DIDON</speaker>
+            <l n="1747" xml:id="l1747">Préparée à la mort, ici je m’achemine,</l>
+            <l n="1748" xml:id="l1748">Pour accomplir sur moi la vengeance divine,</l>
+            <l n="1749" xml:id="l1749">Pour attendre une fin de trépas renaissants,</l>
+            <l n="1750" xml:id="l1750">À toi Sichée, à toi victime je descends,</l>
+            <l n="1751" xml:id="l1751">Sous l’ombre des honneurs d’un bustuaire office,</l>
+            <l n="1752" xml:id="l1752">De moi-même je vais te faire sacrifice ;</l>
+            <l n="1753" xml:id="l1753">Carthage communique au spectacle impourvu,</l>
+            <l n="1754" xml:id="l1754">Ainsi que mon forfait adultère elle a vu ;</l>
+            <l n="1755" xml:id="l1755">Combien des envieux de ta grandeur prospère</l>
+            <l n="1756" xml:id="l1756">Tu auras à souffrir, orpheline étrangère ?</l>
+            <l n="1757" xml:id="l1757"></l>
+            <l n="1758" xml:id="l1758">Combien de maux à coup t’environnent le chef,</l>
+            <l n="1759" xml:id="l1759">Je l’appréhende plus que mon propre méchef :</l>
+            <l n="1760" xml:id="l1760">Mais Junon suppléera de sa toute-puissance</l>
+            <l n="1761" xml:id="l1761">Au dommage que peut apporter mon absence.</l>
+            <l n="1762" xml:id="l1762">Il faut sortir de peine, il faut dorénavant,</l>
+            <l n="1763" xml:id="l1763">Aller libre d’esprit un projet achevant,</l>
+            <l n="1764" xml:id="l1764">Magnanime, pieux, autant que mémorable,</l>
+            <l n="1765" xml:id="l1765">L’occasion venue à son point favorable.</l>
+            <l n="1766" xml:id="l1766">Barce, Barce, va-t’en ma germaine haster,</l>
+            <l n="1767" xml:id="l1767">Venez au sacrifice, ensemble m’assister,</l>
+            <l n="1768" xml:id="l1768">Elle dans l’eau d’un fleuve avant purifiée,</l>
+            <l n="1769" xml:id="l1769">Ta tempe ceinte autour d’une bande liée,</l>
+            <l n="1770" xml:id="l1770">Bande sacre à l’honneur de Jupin Stygien,</l>
+            <l n="1771" xml:id="l1771">D’hosties au surplus, qu’elle n’omette rien :</l>
+            <l n="1772" xml:id="l1772">Va, je veux accomplir l’œuvre bien commencée,</l>
+            <l n="1773" xml:id="l1773">De point en point, ainsi que je l’avais pensée.</l>
+          </sp>
+          <sp who="barce" xml:id="V1-2">
+            <speaker>BARCE</speaker>
+            <l n="1774" xml:id="l1774">Nous vous obéirons, heureuses de pouvoir,</l>
+            <l n="1775" xml:id="l1775">Ores participer à ce pieux devoir ;</l>
+            <l n="1776" xml:id="l1776">Mais las ! quelle pâleur décolore sa joue ?</l>
+            <l n="1777" xml:id="l1777">Comme ces yeux ardant de fureur elle roue !</l>
+            <l n="1778" xml:id="l1778">L’indice m’épouvante, et conçois un soupçon,</l>
+            <l n="1779" xml:id="l1779">Pire que de ton meurtre, ô mon cher nourrisson.</l>
+            <l n="1780" xml:id="l1780">Détournez, immortels, divertissez de grace,</l>
+            <l n="1781" xml:id="l1781">L’attentat, si quelqu’un en son âme se brasse.</l>
+          </sp>
+          <sp who="didon" xml:id="V1-3">
+            <speaker>DIDON</speaker>
+            <l n="1782" xml:id="l1782">Tu es seule, ma sœur, que je regrette plus,</l>
+            <l n="1783" xml:id="l1783">Que je pleure ce corps, au sépulcre reclus ;</l>
+            <l n="1784" xml:id="l1784">L’inviolable amitié qui nous avait unies,</l>
+            <l n="1785" xml:id="l1785">Ourdira tes douleurs, par les miennes finies :</l>
+            <l n="1786" xml:id="l1786">Le sceptre, qu’épineux je te cède au trépas,</l>
+            <l n="1787" xml:id="l1787">Ton incroyable deuil ne modérera pas ;</l>
+            <l n="1788" xml:id="l1788"></l>
+            <l n="1789" xml:id="l1789">En danger que bientôt tu me suives sous terre,</l>
+            <l n="1790" xml:id="l1790">Comme l’ormeau tombant entraîne son lierre,</l>
+            <l n="1791" xml:id="l1791">En danger que tirée au destin de Didon,</l>
+            <l n="1792" xml:id="l1792">Tu ne fauches l’espoir des pères de Sidon :</l>
+            <l n="1793" xml:id="l1793">Ô fâcheux labyrinthe, où toujours retombée,</l>
+            <l n="1794" xml:id="l1794">Ma constance de moi s’écoule dérobée,</l>
+            <l n="1795" xml:id="l1795">Sus, sus, composons-nous, de constance, et de voix !</l>
+            <l n="1796" xml:id="l1796">Feignons mieux espérer devant ce peuple épois,</l>
+            <l n="1797" xml:id="l1797">Devant ma sœur qui vient, malheureuse trompée,</l>
+            <l n="1798" xml:id="l1798">M’apporter du Troyen la secourable épée.</l>
+            <l n="1799" xml:id="l1799">Anne, approche, tends-moi ce que tu tiens ici,</l>
+            <l n="1800" xml:id="l1800">Gardant qu’aucun après me trouble mon souci.</l>
+          </sp>
+          <sp who="anne" xml:id="V1-4">
+            <speaker>ANNE</speaker>
+            <l n="1801" xml:id="l1801">Les taureaux sont-ils prêts ? leur effusion sainte ?</l>
+            <l n="1802" xml:id="l1802">Qu’aucune loi ne soit aux trépassés enfreinte ;</l>
+            <l n="1803" xml:id="l1803">Que la prêtresse trouve à l’autel bien paré,</l>
+            <l n="1804" xml:id="l1804">Ce qu’elle commanda qu’on lui tînt préparé.</l>
+            <l n="1805" xml:id="l1805">Parfaites à loisir devant le sacrifice,</l>
+            <l n="1806" xml:id="l1806">Ce qu’aurez su, requis à son funèbre office ;</l>
+            <l n="1807" xml:id="l1807">Diligente, je cours, le surplus ordonner,</l>
+            <l n="1808" xml:id="l1808">Barce, avise tandis, de ne l’abandonner.</l>
+          </sp>
+          <sp who="chœur" xml:id="V1-5">
+            <speaker>CHŒUR</speaker>
+            <l n="1809" xml:id="l1809">Croyez, que la Reine contrainte,</l>
+            <l n="1810" xml:id="l1810">Déguise une extrême douleur,</l>
+            <l n="1811" xml:id="l1811">L’accent, et l’instable couleur,</l>
+            <l n="1812" xml:id="l1812">Ne dévoilent que trop sa feinte ;</l>
+            <l n="1813" xml:id="l1813">Et le glaive en ses mains offert,</l>
+            <l n="1814" xml:id="l1814">Nous ne dussions avoir souffert.</l>
+          </sp>
+          <sp who="didon" xml:id="V1-6">
+            <speaker>DIDON</speaker>
+            <l n="1815" xml:id="l1815">Suprêmes Déités, vainement réclamées,</l>
+            <l n="1816" xml:id="l1816">Ne tenez désormais vos oreilles fermées,</l>
+            <l n="1817" xml:id="l1817">À ce peu que je veux, mais juste, requérir,</l>
+            <l n="1818" xml:id="l1818">Contre mon homicide avant que de mourir !</l>
+            <l n="1819" xml:id="l1819">Imployables, tandis que je filai ma vie,</l>
+            <l n="1820" xml:id="l1820">Fléchissez au sujet qui me l’aura ravie,</l>
+            <l n="1821" xml:id="l1821">Que cet ingrat, ce traître, et inique motif,</l>
+            <l n="1822" xml:id="l1822">Ce faussaire affronteur, sans cesse fugitif,</l>
+            <l n="1823" xml:id="l1823">Sans cesse enveloppé de guerres survenues,</l>
+            <l n="1824" xml:id="l1824">Accablé sous le faix des pertes soutenues,</l>
+            <l n="1825" xml:id="l1825">Exécré, poursuivi des hommes, et des Dieux,</l>
+            <l n="1826" xml:id="l1826">Aux siens finalement, à soi-même odieux,</l>
+            <l n="1827" xml:id="l1827">Tombe devant le jour, et pour dernière peine,</l>
+            <l n="1828" xml:id="l1828">Demeure enseveli au milieu de l’arène,</l>
+            <l n="1829" xml:id="l1829">Que les siens, en Itale espérant du repos,</l>
+            <l n="1830" xml:id="l1830">Un vengeur belliqueux, qui sorte de mes os,</l>
+            <l n="1831" xml:id="l1831">Renverse leur État, les pille, les détruise,</l>
+            <l n="1832" xml:id="l1832">Vaincus, au désespoir, mille fois les réduise.</l>
+            <l n="1833" xml:id="l1833">Et vous, ô Tyriens, je vous conjure tous,</l>
+            <l n="1834" xml:id="l1834">De n’éteindre envers eux un trop juste courroux ;</l>
+            <l n="1835" xml:id="l1835">Obligez votre Reine, et sa muette cendre,</l>
+            <l n="1836" xml:id="l1836">De ne vouloir jamais à la paix condescendre !</l>
+            <l n="1837" xml:id="l1837">Que dès l’heure tantôt aux siècles à venir,</l>
+            <l n="1838" xml:id="l1838">Nulle espèce d’accord ne soit pour vous unir,</l>
+            <l n="1839" xml:id="l1839">Immortels ennemis, du tout en tout contraires,</l>
+            <l n="1840" xml:id="l1840">Nos rivages aux leurs opposés adversaires,</l>
+            <l n="1841" xml:id="l1841">L’onde, contraire à l’onde, et à l’un l’autre port,</l>
+            <l n="1842" xml:id="l1842">Les neveux guerroyants, tombés en même sort.</l>
+          </sp>
+          <sp who="chœur" xml:id="V1-7">
+            <speaker>CHŒUR</speaker>
+            <l n="1843" xml:id="l1843">D’un désepoir d’amour éprise,</l>
+            <l n="1844" xml:id="l1844">Elle touche sous mots couverts,</l>
+            <l n="1845" xml:id="l1845">Jetant des regards de travers,</l>
+            <l n="1846" xml:id="l1846">Une furieuse entreprise,</l>
+            <l n="1847" xml:id="l1847">Approchons plus près du bûcher,</l>
+            <l n="1848" xml:id="l1848">Afin de pouvoir l’empêcher.</l>
+          </sp>
+          <sp who="didon" xml:id="V1-8">
+            <speaker>DIDON</speaker>
+            <l n="1849" xml:id="l1849">Ô dépouilles, jadis doucement fortunées,</l>
+            <l n="1850" xml:id="l1850">Tant qu’un Dieu le permit, qu’il plut aux destinées ;</l>
+            <l n="1851" xml:id="l1851">Glaive en intention plus humaine reçu,</l>
+            <l n="1852" xml:id="l1852">Cet âme recevez que vous avez déçu,</l>
+            <l n="1853" xml:id="l1853">Ôtez-moi du tourment, des soucis que j’endure,</l>
+            <l n="1854" xml:id="l1854">J’ai dévidé le cours de ma fortune dure,</l>
+            <l n="1855" xml:id="l1855">J’ai vécu, j’ai construit une belle Cité,</l>
+            <l n="1856" xml:id="l1856">J’ai vengé mon époux de la férocité</l>
+            <l n="1857" xml:id="l1857">D’un beau-frère homicide, et ores ma grand-ombre,</l>
+            <l n="1858" xml:id="l1858">Sous terre, ira des morts croître le dolent nombre.</l>
+            <l n="1859" xml:id="l1859">Heureuse, hélas ! par trop, heureuse, si sans plus,</l>
+            <l n="1860" xml:id="l1860">Notre rive eût les naux Phrygiennes exclus ;</l>
+            <l n="1861" xml:id="l1861">Nous mourons sans vengeance, il est vrai que m’importe ?</l>
+            <l n="1862" xml:id="l1862">Mourons, je veux aller aux ombres de la sorte ;</l>
+            <l n="1863" xml:id="l1863">Vois, vois ce feu, messager de ma mort,</l>
+            <l n="1864" xml:id="l1864">Le barbare impiteux, qui me la donne à tort ;</l>
+            <l n="1865" xml:id="l1865">Qu’aperçu dessus l’onde, il lui allume en l’âme,</l>
+            <l n="1866" xml:id="l1866">De coupables remords une éternelle flâme,</l>
+            <l n="1867" xml:id="l1867">Dieux ! je vous en supplie une dernière fois,</l>
+            <l n="1868" xml:id="l1868">Sus, perdons la douleur, la lumière, et la voix.</l>
+          </sp>
+          <sp who="barce" xml:id="V1-9">
+            <speaker>BARCE</speaker>
+            <l n="1869" xml:id="l1869">Au meurtre, elle se tue.</l>
+          </sp>
+          <sp who="chœur" xml:id="V1-10">
+            <speaker>CHŒUR</speaker>
+            <l n="1870" xml:id="l1870">Ô prodige effroyable,</l>
+            <l n="1871" xml:id="l1871">Courons, pour retenir sa dextre impitoyable !</l>
+          </sp>
+          <sp who="barce" xml:id="V1-11">
+            <speaker>BARCE</speaker>
+            <l n="1872" xml:id="l1872">Hélas ! il n’est plus temps, ce beau sein traversé,</l>
+            <l n="1873" xml:id="l1873">L’âme fuit dans le sang à gros bouillons versé.</l>
+          </sp>
+          <sp who="chœur" xml:id="V1-12">
+            <speaker>CHŒUR</speaker>
+            <l n="1874" xml:id="l1874">Ô ville désolée,</l>
+          </sp>
+          <sp who="barce" xml:id="V1-13">
+            <speaker>BARCE</speaker>
+            <l n="1875" xml:id="l1875">O chétive vieillesse,</l>
+          </sp>
+          <sp who="chœur" xml:id="V1-14">
+            <speaker>CHŒUR</speaker>
+            <l n="1876" xml:id="l1876">Hé ! d’où vient que sa sœur à son besoin la laisse ?</l>
+          </sp>
+          <sp who="barce" xml:id="V1-15">
+            <speaker>BARCE</speaker>
+            <l n="1877" xml:id="l1877">La cruelle lui a exprès commis le soin</l>
+            <l n="1878" xml:id="l1878">Du sacrifice, afin de la tenir plus loin.</l>
+          </sp>
+          <sp who="chœur" xml:id="V1-16">
+            <speaker>CHŒUR</speaker>
+            <l n="1879" xml:id="l1879">Ô rage furieuse, ô maudite journée.</l>
+          </sp>
+          <sp who="barce" xml:id="V1-17">
+            <speaker>BARCE</speaker>
+            <l n="1880" xml:id="l1880">Ô céleste rancune, à nous nuire obstinée.</l>
+          </sp>
+          <sp who="anne" xml:id="V1-18">
+            <speaker>ANNE</speaker>
+            <l n="1881" xml:id="l1881">Amis, quel accident vous provoque ces cris ?</l>
+          </sp>
+          <sp who="chœur" xml:id="V1-19">
+            <speaker>CHŒUR</speaker>
+            <l n="1882" xml:id="l1882">Le meurtre de la Reine, ores nous a surpris.</l>
+          </sp>
+          <sp who="anne" xml:id="V1-20">
+            <speaker>ANNE</speaker>
+            <l n="1883" xml:id="l1883">Hé ! Cieux ! que dites-vous ?</l>
+          </sp>
+          <sp who="barce" xml:id="V1-21">
+            <speaker>BARCE</speaker>
+            <l n="1884" xml:id="l1884">Le glaive du perfide,</l>
+            <l n="1885" xml:id="l1885">Glaive en ses mains fatal, perpètre l’homicide.</l>
+          </sp>
+          <sp who="anne" xml:id="V1-22">
+            <speaker>ANNE</speaker>
+            <l n="1886" xml:id="l1886">Lancez sur moi, grands Dieux, un foudre punisseur,</l>
+            <l n="1887" xml:id="l1887">Que ferai-je ? où irai-je ? ô ma vie, ô ma sœur,</l>
+            <l n="1888" xml:id="l1888">Me devais-tu trahir de ta mort simulée ?</l>
+            <l n="1889" xml:id="l1889">Mais me dois-je montrer à la voûte étoilée,</l>
+            <l n="1890" xml:id="l1890">Pestifère flambeau, qui t’allumant le sein,</l>
+            <l n="1891" xml:id="l1891">Qui de tes chastes vœux révoquant le dessein,</l>
+            <l n="1892" xml:id="l1892">Te contraignis flétrir l’honneur de ton veuvage,</l>
+            <l n="1893" xml:id="l1893">Qui pousse ta belle âme en l’oublieux rivage ?</l>
+            <l n="1894" xml:id="l1894">Pardonne-moi ma sœur, avant que trépasser,</l>
+            <l n="1895" xml:id="l1895">Ne me saurais-tu plus mutuelle embrasser ?</l>
+            <l n="1896" xml:id="l1896"></l>
+            <l n="1897" xml:id="l1897">Me dire un long adieu ? lâcher une parole,</l>
+            <l n="1898" xml:id="l1898">Qui de mon désespoir l’extrémité console ?</l>
+            <l n="1899" xml:id="l1899">Au défaut de la voix, pardonne-moi des yeux,</l>
+            <l n="1900" xml:id="l1900">Et que leur Occident me luise gracieux :</l>
+            <l n="1901" xml:id="l1901">Las ! tu es autant vaut le butin de la parque,</l>
+            <l n="1902" xml:id="l1902">Aucun signe de vie en toi ne se remarque,</l>
+            <l n="1903" xml:id="l1903">Tu n’es plus qu’un flambeau débile, qui s’éteint ;</l>
+            <l n="1904" xml:id="l1904">Les roses, les œillets, disparus de ce teint,</l>
+            <l n="1905" xml:id="l1905">La mort, l’affreuse mort sur tes membres campée,</l>
+            <l n="1906" xml:id="l1906">À laquelle pour dard, j’ai fourni cette épée,</l>
+            <l n="1907" xml:id="l1907">Ha ! je veux réparer le parricide fait,</l>
+            <l n="1908" xml:id="l1908">Je veux du même fer expier mon forfait.</l>
+          </sp>
+          <sp who="chœur" xml:id="V1-23">
+            <speaker>CHŒUR</speaker>
+            <l n="1909" xml:id="l1909">Princesse, désormais notre unique espérance,</l>
+            <l n="1910" xml:id="l1910">Princesse, désormais notre unique assurance,</l>
+            <l n="1911" xml:id="l1911">Résiste généreuse au désastre malin,</l>
+            <l n="1912" xml:id="l1912">Pardonne pour l’amour de ce peuple orphelin,</l>
+            <l n="1913" xml:id="l1913">Las ! pardonne à ta vie, embrassant sa tutelle,</l>
+            <l n="1914" xml:id="l1914">Reçois-nous affligés sous l’ombre de ton aile,</l>
+            <l n="1915" xml:id="l1915">Phénix de ta germaine elle en toi revivant,</l>
+            <l n="1916" xml:id="l1916">Prends le frein de l’Empire et le va relevant,</l>
+            <l n="1917" xml:id="l1917">Que ta prudence ainsi nous répare sa faute,</l>
+            <l n="1918" xml:id="l1918">Du suprême destin la prescience haute</l>
+            <l n="1919" xml:id="l1919">A causé, non pas toi, sa précipite mort,</l>
+            <l n="1920" xml:id="l1920">Puisque tout l’Univers ne dépend que du sort.</l>
+          </sp>
+          <sp who="anne" xml:id="V1-24">
+            <speaker>ANNE</speaker>
+            <l n="1921" xml:id="l1921">Ô sort, inique sort, la rancœur de ta haine</l>
+            <l n="1922" xml:id="l1922">N’en veut qu’à la vertu, sa malice inhumaine</l>
+            <l n="1923" xml:id="l1923">Le modèle a choisi de la perfection,</l>
+            <l n="1924" xml:id="l1924">Pour nous combler de deuil, d’ennuis, d’affliction,</l>
+            <l n="1925" xml:id="l1925">Tu ne trouvais objet digne de ton envie,</l>
+            <l n="1926" xml:id="l1926">Que celle qui cent fois te vainquit en sa vie.</l>
+            <l n="1927" xml:id="l1927">Immortelle sinon, par le mortel appas</l>
+            <l n="1928" xml:id="l1928"></l>
+            <l n="1929" xml:id="l1929">De celui, qui les Dieux francs ne dispense pas,</l>
+            <l n="1930" xml:id="l1930">Qui porte audacieux jusques dans leur courage</l>
+            <l n="1931" xml:id="l1931">(Toutefois traîtrement) le poison de sa rage,</l>
+            <l n="1932" xml:id="l1932">Ô serpent infernal, monstre, que les fureurs</l>
+            <l n="1933" xml:id="l1933">Avortèrent là-bas en leurs noirs horreurs,</l>
+            <l n="1934" xml:id="l1934">Amour, peste du monde, ennemi de nature,</l>
+            <l n="1935" xml:id="l1935">Qui trébuches les tiens dedans la sépulture,</l>
+            <l n="1936" xml:id="l1936">Bourreau de l’innocence, ha ! que ta cruauté,</l>
+            <l n="1937" xml:id="l1937">Tes meurtres journaliers, et ta déloyauté,</l>
+            <l n="1938" xml:id="l1938">Nous dussent avertis d’exemples rendre sages,</l>
+            <l n="1939" xml:id="l1939">Éloigner la raison de tes mortels passages :</l>
+            <l n="1940" xml:id="l1940">On remarque les bancs dispersés en la mer,</l>
+            <l n="1941" xml:id="l1941">Mais premier que te voir tu nous fais abîmer ;</l>
+            <l n="1942" xml:id="l1942">Toute contagion, toute autre maladie,</l>
+            <l n="1943" xml:id="l1943">Hormis la tienne seule, à temps on remédie :</l>
+            <l n="1944" xml:id="l1944">L’homme vivrait heureux de ton joug affranchi,</l>
+            <l n="1945" xml:id="l1945">Implacable tyran qui ne fus onc fléchi,</l>
+            <l n="1946" xml:id="l1946">Déluge de tous maux, qui d’un plaisir qui passe,</l>
+            <l n="1947" xml:id="l1947">Laisse des repentirs que la parque n’efface ;</l>
+            <l n="1948" xml:id="l1948">Ma sœur, ma pauvre sœur, hé ! faut-il qu’un tombeau</l>
+            <l n="1949" xml:id="l1949">Ait ce qu’eurent les cieux, et la terre, de beau ?</l>
+            <l n="1950" xml:id="l1950">Faudra-t-il que les vers, (énorme sacrilège,)</l>
+            <l n="1951" xml:id="l1951">Dévorent peu à peu ta poitrine de neige ?</l>
+            <l n="1952" xml:id="l1952">Que ta bouche jadis de Python le séjour,</l>
+            <l n="1953" xml:id="l1953">Ses oracles divins ne donne plus au jour ?</l>
+            <l n="1954" xml:id="l1954">Ne me révèle plus ses secrètes pensées ?</l>
+            <l n="1955" xml:id="l1955">Oh ! amer souvenir des privautés passées,</l>
+            <l n="1956" xml:id="l1956">Ô Anne désastreuse, ô prophète soupçon.</l>
+            <l n="1957" xml:id="l1957">Mais approchons les bords de ce corail besson,</l>
+            <l n="1958" xml:id="l1958">De ce corail blanchi d’Atrope l’homicide !</l>
+            <l n="1959" xml:id="l1959">Si quelque esprit errant, faible encor y préside,</l>
+            <l n="1960" xml:id="l1960">Je le recueillerai de mes lèvres bouché,</l>
+            <l n="1961" xml:id="l1961">Je le dévorerai avidement cherché,</l>
+            <l n="1962" xml:id="l1962">Je recevrai dans moi le reste de son âme,</l>
+            <l n="1963" xml:id="l1963">Ha ! que ta défiance a mérité de blâme,</l>
+            <l n="1964" xml:id="l1964">De ne m’avoir, ma sœur, le projet décelé,</l>
+            <l n="1965" xml:id="l1965">Et me le décelant de compagne appelé !</l>
+            <l n="1966" xml:id="l1966">Même fer, même jour achevait nos fusées,</l>
+            <l n="1967" xml:id="l1967">Nous dévalions ensemble aux plaines Élysées,</l>
+            <l n="1968" xml:id="l1968">Charon n’eût à deux fois trajeté nos esprits,</l>
+            <l n="1969" xml:id="l1969">Non contente d’user de ce rogue mépris,</l>
+            <l n="1970" xml:id="l1970">Tu les éteins en moi, et ton peuple et ta ville,</l>
+            <l n="1971" xml:id="l1971">Proche de succomber, aux barbares servile,</l>
+            <l n="1972" xml:id="l1972">Proche de lamenter, sous un joug éternel,</l>
+            <l n="1973" xml:id="l1973">Ton meurtre de malheurs infinis criminel.</l>
+          </sp>
+          <sp who="barce" xml:id="V1-25">
+            <speaker>BARCE</speaker>
+            <l n="1974" xml:id="l1974">L’excessive douleur les plaintes me dérobe,</l>
+            <l n="1975" xml:id="l1975">Envieuse de l’heur malheureux de Niobe,</l>
+            <l n="1976" xml:id="l1976">Ha ! que ne suis-je un marbre, un tronc, ou un rocher,</l>
+            <l n="1977" xml:id="l1977">Qui dût incessamment des larmes épancher,</l>
+            <l n="1978" xml:id="l1978">Arrosant le cercueil qui dans son peu d’espace,</l>
+            <l n="1979" xml:id="l1979">Va serrer l’ornement de cette terre basse,</l>
+            <l n="1980" xml:id="l1980">Va serrer le support de mon âge chenu,</l>
+            <l n="1981" xml:id="l1981">Support en son avril à peine parvenu,</l>
+            <l n="1982" xml:id="l1982">Soleil, qui ne luisait au milieu de sa course,</l>
+            <l n="1983" xml:id="l1983">Fontaine, qui tarit en découvrant sa source,</l>
+            <l n="1984" xml:id="l1984">Hélas ! hélas ! je meurs de ne pouvoir mourir,</l>
+            <l n="1985" xml:id="l1985">Et vouée en ma mort, la sienne secourir.</l>
+          </sp>
+          <sp who="chœur" xml:id="V1-26">
+            <speaker>CHŒUR</speaker>
+            <l n="1986" xml:id="l1986">Si par l’égalité conjointe à l’infortune,</l>
+            <l n="1987" xml:id="l1987">Nous moissonnons un fruit d’allégeance commune,</l>
+            <l n="1988" xml:id="l1988">Que l’esclandre où chacun tire une même part,</l>
+            <l n="1989" xml:id="l1989"></l>
+            <l n="1990" xml:id="l1990">Le péril où chacun subit même hasard,</l>
+            <l n="1991" xml:id="l1991">Doit nous encourager, consoler, et résoudre ;</l>
+            <l n="1992" xml:id="l1992">Rien ne sert désormais en larmes se dissoudre ;</l>
+            <l n="1993" xml:id="l1993">Ce n’est que relâcher à la merci des flots,</l>
+            <l n="1994" xml:id="l1994">Un vaisseau, que l’espoir de salut n’a forclos ;</l>
+            <l n="1995" xml:id="l1995">Cela n’est que du sort accroître l’insolence !</l>
+            <l n="1996" xml:id="l1996">Au contraire roidis contre sa violence,</l>
+            <l n="1997" xml:id="l1997">Les Dieux nous aideront, qui veulent suppliés</l>
+            <l n="1998" xml:id="l1998">Nos courages d’un temps à l’effet dépliés ;</l>
+            <l n="1999" xml:id="l1999">Qui ne peuvent pas moins, qu’alors que notre fuite</l>
+            <l n="2000" xml:id="l2000">En la Reine éprouva une mâle conduite.</l>
+            <l n="2001" xml:id="l2001">Procurons à son corps les honneurs mérités,</l>
+            <l n="2002" xml:id="l2002">Que pour comble obtenu de ses prospérités,</l>
+            <l n="2003" xml:id="l2003">On sacre à sa mémoire une fête annuelle,</l>
+            <l n="2004" xml:id="l2004">Qui comme le Soleil, roule perpétuelle.</l>
+          </sp>
+          <sp who="anne" xml:id="V1-27">
+            <speaker>ANNE</speaker>
+            <l n="2005" xml:id="l2005">Ô frivoles honneurs, puisqu’ils sont impuissants,</l>
+            <l n="2006" xml:id="l2006">De nous ressusciter des enfers pâlissants,</l>
+            <l n="2007" xml:id="l2007">Puisqu’au partir du monde, innocent, et coupable,</l>
+            <l n="2008" xml:id="l2008">Tombent dedans un lieu, d’obscurité capable,</l>
+            <l n="2009" xml:id="l2009">Puisque le vieil Charon n’a son esquif usé</l>
+            <l n="2010" xml:id="l2010">Plus au moindres pasteurs qu’aux grands Rois refusé,</l>
+            <l n="2011" xml:id="l2011">Pêle-mêle, jetés au port qui ne repasse,</l>
+            <l n="2012" xml:id="l2012">Sans égard de vertus, de beautés, ni de race :</l>
+            <l n="2013" xml:id="l2013">Ô frivoles honneurs, dont l’arrière-saison</l>
+            <l n="2014" xml:id="l2014">Ridicule se montre à l’humaine raison,</l>
+            <l n="2015" xml:id="l2015">Qui veut fleurir au monde, en un état pospère,</l>
+            <l n="2016" xml:id="l2016">Confondre la louange avec le vitupère,</l>
+            <l n="2017" xml:id="l2017">Incite du Troyen la feinte piété,</l>
+            <l n="2018" xml:id="l2018">Aux dépens d’un Empire, et d’une chasteté ;</l>
+            <l n="2019" xml:id="l2019">Qu’il n’observe de foi qu’avec son avantage,</l>
+            <l n="2020" xml:id="l2020">Des peuples inconnus supposés de partage,</l>
+            <l n="2021" xml:id="l2021">Tel méchant jouira du profit, de l’honneur,</l>
+            <l n="2022" xml:id="l2022">Il embrasse vivant le vrai corps du bonheur,</l>
+            <l n="2023" xml:id="l2023">Didon le prouve assez, Didon, qui fut naguère,</l>
+            <l n="2024" xml:id="l2024">Alors que son bourreau déloyal se confère,</l>
+            <l n="2025" xml:id="l2025"></l>
+            <l n="2026" xml:id="l2026">Que la vertu se voit sous le vice opprimer,</l>
+            <l n="2027" xml:id="l2027">Las ! (et qui plus) sa gloire imprimée entâmer :</l>
+            <l n="2028" xml:id="l2028">Mais toujours ses regrets trouveraient un dédale,</l>
+            <l n="2029" xml:id="l2029">Un roc Sisyphien toujours monte, et dévale,</l>
+            <l n="2030" xml:id="l2030">Obtenons, obtenons de trêves un moment,</l>
+            <l n="2031" xml:id="l2031">Que l’on aille placer ce corps au monument,</l>
+            <l n="2032" xml:id="l2032">Qu’en larmes dessus lui je distille mon âme,</l>
+            <l n="2033" xml:id="l2033">Ains qu’un même bûcher nous consomme en sa flâme.</l>
+          </sp>
+          <sp who="messager" xml:id="V1-28">
+            <speaker>MESSAGER</speaker>
+            <l n="2034" xml:id="l2034">Ô funèbre aventure, ô cruelle pitié,</l>
+            <l n="2035" xml:id="l2035">Ô aveugle cent fois à choisir ta moitié ;</l>
+            <l n="2036" xml:id="l2036">Voilà que le mépris de mon Prince t’apporte,</l>
+            <l n="2037" xml:id="l2037">Iarbe préféré, tu ne fusses pas morte !</l>
+            <l n="2038" xml:id="l2038">Iarbe un grand Monarque, enflammé du renom,</l>
+            <l n="2039" xml:id="l2039">Qui rechercha ton lit sous les lois de Junon,</l>
+            <l n="2040" xml:id="l2040">Qui te voulait combler d’une grandeur heureuse,</l>
+            <l n="2041" xml:id="l2041">Et unir à ta gent la sienne valeureuse ;</l>
+            <l n="2042" xml:id="l2042">Union suffisante à rendre l’univers,</l>
+            <l n="2043" xml:id="l2043">Sous un joug tributaire en ses peuples divers :</l>
+            <l n="2044" xml:id="l2044">Le sort ne l’a permis, qui te portait envie,</l>
+            <l n="2045" xml:id="l2045">Qui n’a que trop ainsi la vengeance assouvie</l>
+            <l n="2046" xml:id="l2046">De mon Prince blessé de ce jaloux martel.</l>
+            <l n="2047" xml:id="l2047">Sans doute qu’au rapport d’un accident mortel,</l>
+            <l n="2048" xml:id="l2048">Quelque reste d’amour lui arrache des larmes,</l>
+            <l n="2049" xml:id="l2049">Lui fait tomber du poing ces vengeresses armes,</l>
+            <l n="2050" xml:id="l2050">Qui devaient du Troyen, et d’elle triompher,</l>
+            <l n="2051" xml:id="l2051">L’un emporté de l’onde, et celle-ci du fer.</l>
+          </sp>
+          <p>FIN</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

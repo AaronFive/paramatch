@@ -1,0 +1,2850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Diane</title>
+        <author key="Jean de ROTROU | (naissance-mort)">Jean de ROTROU |</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edition initialement mise à disposition sur théâtre-documentation.com au format HTML, convertie en XML-TEI dans le cadre de cadre du projet Hyperpièces avec Céline Fournial et du stage de master 2 d'Aaron Boussidan au LIGM.</edition>
+        <respStmt>
+          <name>Michel Capus</name>
+          <resp>Edition de la pièce au format HTML sur théâtre-documentation.com</resp>
+        </respStmt>
+        <respStmt>
+          <name>Philippe Gambette</name>
+          <resp>Conversion du code HTML vers XML/TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LIGM</publisher>
+        <date when="2021"/>
+        <availability status="free">
+          <p>In the public domain</p>
+        </availability>
+        <idno>http://théâtre-documentation.com/content/?q=node/467</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Jean de ROTROU |</author>. <title>La Diane</title>. </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="[date]">[date]</date>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term subtype="tragedy" type="genre">Tragédie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>La Diane</head>
+      <div type="set">
+        <div>
+          <head>PERSONNAGES</head>
+          <castList>
+
+            <l n="1" xml:id="l1">Comédie en cinq actes, en vers.</l>
+            <l n="2" xml:id="l2">Représentée pour la première fois, en 1630.</l>
+            <castItem>
+              <role rend="male/female" xml:id="diane">DIANE</role>
+              <roleDesc>, <em>sous le nom de</em> CÉLIRÉE</roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="dorothée">DOROTHÉE</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="orante">ORANTE</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="lysimant">LYSIMANT</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="ariste">ARISTE</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="orimand">ORIMAND</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="sylvian">SYLVIAN</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="filémon">FILÉMON</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="lysandre">LYSANDRE</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="damon">DAMON</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="un-laquais">UN LAQUAIS</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="exempt">EXEMPT</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="archers">ARCHERS</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+ <!--           <castItem>
+              <role rend="male/female" xml:id="<em>la-scène-est-à-paris.</em>"><em>La scène est à Paris.</em></role>
+              <roleDesc></roleDesc>
+            </castItem> -->
+
+          </castList>
+        </div>
+      </div>
+      <div type="act" xml:id="I">
+        <head>ACTE I</head>
+        <div type="scene" xml:id="I1">
+          <head>Scène première</head>
+          <sp who="diane" xml:id="I1-1">
+            <speaker>DIANE, <em>seule, sous le nom de Célirée</em></speaker>
+            <l n="3" xml:id="l3">Le soleil a quitté l’humide sein de l’onde.</l>
+            <l n="4" xml:id="l4">Le dernier de tes jours illumine le monde,</l>
+            <l n="5" xml:id="l5">Déplorable rebut d’un infidèle amant,</l>
+            <l n="6" xml:id="l6">Moins aimable qu’aimé, plus ingrat que charmant.</l>
+            <l n="7" xml:id="l7">Poursuis, trahis ce traître, amante infortunée,</l>
+            <l n="8" xml:id="l8">Et lui vends chèrement ta dernière journée ;</l>
+            <l n="9" xml:id="l9">Ayant de ta franchise acquis des vœux si saints</l>
+            <l n="10" xml:id="l10">Son injuste mépris rend justes tes desseins ;</l>
+            <l n="11" xml:id="l11">Romps ses intentions, et fais contre son crime,</l>
+            <l n="12" xml:id="l12">Tout ce que te conseille un courroux légitime.</l>
+            <l n="13" xml:id="l13">Toi qui vis son amour et qui vois ses dédains,</l>
+            <l n="14" xml:id="l14">Redoutable vainqueur des dieux et des humains,</l>
+            <l n="15" xml:id="l15">Éteins ou récompense une ardeur si parfaite :</l>
+            <l n="16" xml:id="l16">Que je meure vengée ou vive satisfaite ;</l>
+            <l n="17" xml:id="l17">Tu dois cette faveur aux vœux que je te rends :</l>
+            <l n="18" xml:id="l18">Pour toi, j’ai tout laissé, j’ai quitté mes parents,</l>
+            <l n="19" xml:id="l19">Et tu m’as mise au point de servir la maîtresse</l>
+            <l n="20" xml:id="l20">De l’objet inconstant que j’aime et qui me laisse,</l>
+            <l n="21" xml:id="l21">Qui me flattait d’attente et d’espoirs superflus,</l>
+            <l n="22" xml:id="l22">Qui m’a longtemps voulue, et qui ne me veut plus.</l>
+            <l n="23" xml:id="l23">L’avare faim de l’or a rompu ses promesses ;</l>
+            <l n="24" xml:id="l24">Une riche ennemie attire ses caresses ;</l>
+            <l n="25" xml:id="l25">Orante le méprise, et l’aveugle aujourd’hui</l>
+            <l n="26" xml:id="l26">Épouse la fortune aveugle comme lui :</l>
+            <l n="27" xml:id="l27">Joins ton pouvoir au mien, roi de ma destinée ;</l>
+            <l n="28" xml:id="l28">Divertissons, Amour, ce fatal hyménée :</l>
+            <l n="29" xml:id="l29">Accorde ta faveur au dessein que je fais,</l>
+            <l n="30" xml:id="l30">Et ne t’offense pas de tes propres effets.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I2">
+          <head>Scène II</head>
+          <stage>DOROTHÉE, CÉLIRÉE</stage>
+          <sp who="dorothée" xml:id="I2-1">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="31" xml:id="l31">La voilà qui m’attend.</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-2">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="32" xml:id="l32">Ma chère Dorothée,</l>
+            <l n="33" xml:id="l33">Que de cruels soucis mon âme est agitée !</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-3">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="34" xml:id="l34">Comment ?</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-4">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="35" xml:id="l35">Je sors déjà pour la sixième fois.</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-5">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="36" xml:id="l36">Hélas ! Diane.</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-6">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="37" xml:id="l37">Attends, abaisse un peu ta voix.</l>
+            <l n="38" xml:id="l38">Comment m’appelles-tu ? je t’ai tant conjurée</l>
+            <l n="39" xml:id="l39">De te ressouvenir du nom de Célirée ;</l>
+            <l n="40" xml:id="l40">Cruelle ! as-tu dessein qu’on me connaisse ici,</l>
+            <l n="41" xml:id="l41">Et ne sais-tu pas bien que l’on m’appelle ainsi ?</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-7">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="42" xml:id="l42">Je m’y trompe toujours.</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-8">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="43" xml:id="l43">Eh bien, chère compagne ?...</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-9">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="44" xml:id="l44">Vous causez du désordre en toute la campagne ;</l>
+            <l n="45" xml:id="l45">Je ne puis exprimer ces communes douleurs :</l>
+            <l n="46" xml:id="l46">Tyrsis se désespère, Alidor fond en pleurs,</l>
+            <l n="47" xml:id="l47">Et l’absence du jour cause bien moins d’ombrage,</l>
+            <l n="48" xml:id="l48">Que celle de vos yeux dedans notre village.</l>
+            <l n="49" xml:id="l49">Chacun pour vous trouver fait des desseins divers :</l>
+            <l n="50" xml:id="l50">L’un veut voir tout Paris, l’autre tout l’univers ;</l>
+            <l n="51" xml:id="l51">L’un consulte Apollon, l’autre aux noires sciences</l>
+            <l n="52" xml:id="l52">Va chercher du remède à ses impatiences.</l>
+            <l n="53" xml:id="l53">On entend votre nom en la bouche de tous :</l>
+            <l n="54" xml:id="l54">Ils laissent leurs troupeaux à la merci des loups ;</l>
+            <l n="55" xml:id="l55">Les voleurs pillent tout, les maisons sont désertes,</l>
+            <l n="56" xml:id="l56">Et votre perte seule est cause de ces pertes.</l>
+            <l n="57" xml:id="l57">Votre père surtout...</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-10">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="58" xml:id="l58">Dépêche vitement.</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-11">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="59" xml:id="l59">Soupire sans relâche et sans allégement ;</l>
+            <l n="60" xml:id="l60">Vous ayant fait chercher parmi toutes nos plaines,</l>
+            <l n="61" xml:id="l61">Il est désespéré d’avoir perdu ses peines ;</l>
+            <l n="62" xml:id="l62">Et je vous viens conter le dessein qu’il a pris</l>
+            <l n="63" xml:id="l63">De vous chercher lui-même, et voir par tout Paris.</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-12">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="64" xml:id="l64">Il cherchera longtemps.</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-13">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="65" xml:id="l65">Je crains fort, Célirée,</l>
+            <l n="66" xml:id="l66">Qu’il n’en ait eu déjà la nouvelle assurée.</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-14">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="67" xml:id="l67">Et d’où la saurait-il ?</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-15">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="68" xml:id="l68">Il le peut bien.</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-16">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="69" xml:id="l69">Comment ?</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-17">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="70" xml:id="l70">Voyez si j’appréhende avecque fondement ?</l>
+            <l n="71" xml:id="l71">Je vous dis l’autre jour que Sylvian, que j’aime,</l>
+            <l n="72" xml:id="l72">Souffrait pour votre perte un déplaisir extrême.</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-18">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="73" xml:id="l73">Eh bien ?</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-19">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="74" xml:id="l74">Ce lâche objet qui me tient sous sa loi,</l>
+            <l n="75" xml:id="l75">Depuis un jour ou deux s’est dérobé de moi ;</l>
+            <l n="76" xml:id="l76">Il croit chez Lysimant savoir de vos nouvelles</l>
+            <l n="77" xml:id="l77">(Car il a su jadis vos ardeurs mutuelles),</l>
+            <l n="78" xml:id="l78">Et sans nécessité que de vous rechercher,</l>
+            <l n="79" xml:id="l79">Il l’est allé trouver, et s’est fait son cocher.</l>
+            <l n="80" xml:id="l80">Je viens de rencontrer cet aimable homicide ;</l>
+            <l n="81" xml:id="l81">Le traître s’est couvert des couleurs d’un perfide ;</l>
+            <l n="82" xml:id="l82">Et, s’il a découvert que vous serviez ici,</l>
+            <l n="83" xml:id="l83">Damon par son moyen le peut savoir aussi.</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-20">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="84" xml:id="l84">Ô dieux ! que me dis-tu ! va le trouver, de grâce ;</l>
+            <l n="85" xml:id="l85">Convié de ma part, il n’est rien qu’il ne fasse.</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-21">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="86" xml:id="l86">Las ! il ne met qu’en vous la fin de ses désirs,</l>
+            <l n="87" xml:id="l87">Et je pousse pour lui d’inutiles soupirs.</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-22">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="88" xml:id="l88">Je promets ses devoirs à ta pudique envie,</l>
+            <l n="89" xml:id="l89">Si la fin de ce jour n’est celle de ma vie ;</l>
+            <l n="90" xml:id="l90">Mais d’une même ardeur oblige mon amour,</l>
+            <l n="91" xml:id="l91">Ne sors point de Paris le reste de ce jour ;</l>
+            <l n="92" xml:id="l92">Je veux trahir Orante, et tu m’es désirable,</l>
+            <l n="93" xml:id="l93">Si jamais j’éprouvai ton secours favorable.</l>
+          </sp>
+          <sp who="orante" xml:id="I2-23">
+            <speaker>ORANTE, <em>appelant en dehors.</em></speaker>
+            <l n="94" xml:id="l94">Célirée ?</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-24">
+            <speaker>CÉLIRÉE <em>lui donne un diamant.</em></speaker>
+            <l n="95" xml:id="l95">Ô malheur ! je te voulais prier</l>
+            <l n="96" xml:id="l96">De vendre ce présent qu’elle me fît hier,</l>
+            <l n="97" xml:id="l97">Et de me tenir prêt l’habillement d’un homme.</l>
+            <l n="98" xml:id="l98">Accorde cette peine au feu qui me consomme ;</l>
+            <l n="99" xml:id="l99">Si le dessein que j’ai succède heureusement,</l>
+            <l n="100" xml:id="l100">Je veux sous ces habits m’offrir à Lysimant,</l>
+            <l n="101" xml:id="l101">Le servir déguisée, et de quoi qu’il propose</l>
+            <l n="102" xml:id="l102">En divertir l’effet, en connaissant la cause ;</l>
+            <l n="103" xml:id="l103">C’est mon dernier recours parmi tant de malheurs.</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-25">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="104" xml:id="l104">Je vous vais obéir, ayant vendu mes fleurs.</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-26">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="105" xml:id="l105">Et je t’irai trouver ?</l>
+          </sp>
+          <sp who="dorothée" xml:id="I2-27">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="106" xml:id="l106">En notre hôtellerie.</l>
+          </sp>
+          <sp who="orante" xml:id="I2-28">
+            <speaker>ORANTE, <em>sortant de la maison.</em></speaker>
+            <l n="107" xml:id="l107">Célirée ?</l>
+          </sp>
+          <sp who="célirée" xml:id="I2-29">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="108" xml:id="l108">Madame ?</l>
+            <stage><hi rend="italic"><em>À Dorothée.</em></hi></stage>
+            <l n="110" xml:id="l110">Adieu ; cours, je t’en prie.</l>
+            <stage><hi rend="italic"><em>Dorothée sort.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I3">
+          <head>Scène III</head>
+          <stage>ORANTE, CÉLIRÉE</stage>
+          <sp who="orante" xml:id="I3-1">
+            <speaker>ORANTE.</speaker>
+            <l n="112" xml:id="l112">Ai-je assez appelé ? quels importants secrets</l>
+            <l n="113" xml:id="l113">Vous éloignent de moi, sans voir mes habits prêts ?</l>
+            <l n="114" xml:id="l114">Et qui doit être ici, tandis qu’en vos affaires</l>
+            <l n="115" xml:id="l115">Vous employez ailleurs ces heures nécessaires ?</l>
+          </sp>
+          <sp who="célirée" xml:id="I3-2">
+            <speaker>CÉLIRÉE <em>lui donne des lettres quelle a tirées de sa poche.</em></speaker>
+            <l n="116" xml:id="l116">Certaine paysanne, ayant frappé deux fois,</l>
+            <l n="117" xml:id="l117">M’a donné ces papiers que je vous apportais ;</l>
+            <l n="118" xml:id="l118">Et, sans vouloir entrer, elle s’est retirée,</l>
+            <l n="119" xml:id="l119">Quand je suis accourue au nom de Célirée.</l>
+          </sp>
+          <sp who="orante" xml:id="I3-3">
+            <speaker>ORANTE <em>ouvre et lit.</em></speaker>
+            <stage><hi rend="italic"><em>Lettre de Diane à Orante. </em></hi></stage>
+            <l n="121" xml:id="l121">« Le déplaisir de perdre un infidèle amant</l>
+            <l n="122" xml:id="l122">« Ne vous procure pas cet avertissement :</l>
+            <l n="123" xml:id="l123">« La perte d’un traître est heureuse.</l>
+            <l n="124" xml:id="l124">« Le seul dessein que j’ai de me venger</l>
+            <l n="125" xml:id="l125">« Vous doit porter à vous en dégager.</l>
+            <l n="126" xml:id="l126">« Je suis intéressée, et non pas amoureuse ;</l>
+            <l n="127" xml:id="l127">« Je vois d’un œil égal son infidélité.</l>
+            <l n="128" xml:id="l128">« Je sais bien que résoudre en la nécessité ;</l>
+            <l n="129" xml:id="l129">« Et, quoique simple paysanne,</l>
+            <l n="130" xml:id="l130">« Quand il m’aimait il était Lysimant :</l>
+            <l n="131" xml:id="l131">« Il n’a changé que d’amour seulement,</l>
+            <l n="132" xml:id="l132">« Il est toujours lui-même, et moi toujours Diane.</l>
+            <l n="133" xml:id="l133">« Consultez ces écrits que j’avais de sa part,</l>
+            <l n="134" xml:id="l134">« Ne vous repentez pas quand il sera trop tard.</l>
+            <l n="135" xml:id="l135">« J’ai de quoi vous ravir ce traître ;</l>
+            <l n="136" xml:id="l136">« J’aspire moins à ce commun lien</l>
+            <l n="137" xml:id="l137">« Pour mon repos que pour troubler le sien :</l>
+            <l n="138" xml:id="l138">« Pour le voir malheureux, je souhaite de l’être.</l>
+            <l n="139" xml:id="l139">« Diane. »</l>
+            <l n="140" xml:id="l140">Ô dieux ! que vois-je ici ?</l>
+            <stage><hi rend="italic"><em>Lettre de Lysimant à Diane. </em></hi></stage>
+            <l n="142" xml:id="l142">« Tu ne peux, sans me faire tort,</l>
+            <l n="143" xml:id="l143">« Te plaindre du ciel et du sort.</l>
+            <l n="144" xml:id="l144">« N’appelle point leur rigueur importune ;</l>
+            <l n="145" xml:id="l145">« Tes attraits sont un trésor</l>
+            <l n="146" xml:id="l146">« Plus estimable que l’or :</l>
+            <l n="147" xml:id="l147">« Je recherche Diane, et non pas sa fortune.</l>
+            <l n="148" xml:id="l148">« Lysimant. »</l>
+            <stage><hi rend="italic"><em>Autre. </em></hi></stage>
+            <l n="150" xml:id="l150">« Je presse, mon souci, l’effet de mes promesses,</l>
+            <l n="151" xml:id="l151">« Et j’ébranle le cœur d’un vieillard inhumain.</l>
+            <l n="152" xml:id="l152">« Je te conterai tout demain :</l>
+            <l n="153" xml:id="l153">« Prépare à mon amour de nouvelles caresses.</l>
+            <l n="154" xml:id="l154">« Lysimant. »</l>
+            <stage><hi rend="italic"><em>Autre. </em></hi></stage>
+            <l n="156" xml:id="l156">« Diane, dans ce paysage</l>
+            <l n="157" xml:id="l157">« Où ta condition encore te retient,</l>
+            <l n="158" xml:id="l158">« Aie soin de ton beau visage,</l>
+            <l n="159" xml:id="l159">« Conserve ce qui m’appartient.</l>
+            <l n="160" xml:id="l160">« Crains bien que le soleil te baise,</l>
+            <l n="161" xml:id="l161">« Laisse à tes jeunes sœurs dépouiller vos guérets ;</l>
+            <l n="162" xml:id="l162">« Et, de peur de sentir ses rais,</l>
+            <l n="163" xml:id="l163">« Ne cueille ni rose, ni fraise.</l>
+            <l n="164" xml:id="l164">« Daphné fut sourde à sa prière,</l>
+            <l n="165" xml:id="l165">« Et ne voulut de lui ni devoirs, ni présent ;</l>
+            <l n="166" xml:id="l166">« Car ce prince de la lumière</l>
+            <l n="167" xml:id="l167">« L’eût enlaidie en la baisant.</l>
+            <l n="168" xml:id="l168">« Lysimant. »</l>
+            <l n="169" xml:id="l169">Courez, suivez ses pas.</l>
+            <l n="170" xml:id="l170">La pourrez-vous trouver ?</l>
+          </sp>
+          <sp who="célirée" xml:id="I3-4">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="171" xml:id="l171">Je ne l’estime pas.</l>
+          </sp>
+          <sp who="orante" xml:id="I3-5">
+            <speaker>ORANTE.</speaker>
+            <l n="172" xml:id="l172">Faites votre pouvoir.</l>
+            <stage><hi rend="italic"><em>Célirée sort.</em></hi></stage>
+            <l n="174" xml:id="l174">Dieux ! que cette aventure</l>
+            <l n="175" xml:id="l175">Flatte d’un doux espoir le tourment que j’endure,</l>
+            <l n="176" xml:id="l176">Et qu’elle est favorable à tes prétentions,</l>
+            <l n="177" xml:id="l177">Ariste, unique objet de mes affections !</l>
+            <l n="178" xml:id="l178">On forçait mes desseins, et dans cette misère</l>
+            <l n="179" xml:id="l179">J’épousais seulement le vouloir de mon père ;</l>
+            <l n="180" xml:id="l180">Tu plais seul à mes yeux, et jamais Lysimant</l>
+            <l n="181" xml:id="l181">N’a tiré de mon cœur un soupir seulement.</l>
+            <l n="182" xml:id="l182">Un sentiment secret me l’a peint incapable</l>
+            <l n="183" xml:id="l183">De posséder mes vœux et de m’être agréable.</l>
+            <l n="184" xml:id="l184">De combien de parfums vont fumer tes autels,</l>
+            <l n="185" xml:id="l185">Favorable démon qui régis les mortels !</l>
+            <l n="186" xml:id="l186">Quand on serre mes fers, ton pouvoir m’en dégage,</l>
+            <l n="187" xml:id="l187">Et tu m’offres le port au milieu du naufrage.</l>
+            <l n="188" xml:id="l188">Par cet heureux malheur Ariste est sans rivaux :</l>
+            <l n="189" xml:id="l189">Il cueillera les fruits dus à ses longs travaux ;</l>
+            <l n="190" xml:id="l190">Et mon père, sensible à cet affront insigne,</l>
+            <l n="191" xml:id="l191">N’aura plus de dessein pour un objet indigne.</l>
+            <l n="192" xml:id="l192">Mais où va-t-il sitôt ?</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I4">
+          <head>Scène IV</head>
+          <stage>ORANTE, FILÉMON</stage>
+          <sp who="filémon" xml:id="I4-1">
+            <speaker>FILÉMON.</speaker>
+            <l n="193" xml:id="l193">Attendez-vous ici</l>
+            <l n="194" xml:id="l194">Celui qui doit enfin borner votre souci,</l>
+            <l n="195" xml:id="l195">Qui vous est destiné pour charmeur de vos peines,</l>
+            <l n="196" xml:id="l196">Qui termine aujourd’hui vos amours et vos haines,</l>
+            <l n="197" xml:id="l197">Qui prépare à vos vœux de solides plaisirs,</l>
+            <l n="198" xml:id="l198">Et qui ne laisse plus balancer vos désirs ?</l>
+            <l n="199" xml:id="l199">L’éloignement d’un jour peut-être vous offense,</l>
+            <l n="200" xml:id="l200">Mais il me fit hier agréer cette absence</l>
+            <l n="201" xml:id="l201">Pour convier quelqu’un aux châteaux d’alentour,</l>
+            <l n="202" xml:id="l202">Et me dit que le soir il serait de retour.</l>
+            <l n="203" xml:id="l203">Adieu, je vais chez lui ; préparez à ses flammes</l>
+            <l n="204" xml:id="l204">L’irrévocable mot qui doit joindre vos âmes.</l>
+          </sp>
+          <sp who="orante" xml:id="I4-2">
+            <speaker>ORANTE.</speaker>
+            <l n="205" xml:id="l205">Faites-moi prononcer l’arrêt de mon trépas ;</l>
+            <l n="206" xml:id="l206">Que j’ouvre mon tombeau, je n’y recule pas :</l>
+            <l n="207" xml:id="l207">Mais que de mon dessein il ait part en ma couche,</l>
+            <l n="208" xml:id="l208">Et qu’il tire jamais cet oui de ma bouche,</l>
+            <l n="209" xml:id="l209">Je vous offenserais par ce consentement,</l>
+            <l n="210" xml:id="l210">Et vous me blâmeriez d’aimer si lâchement.</l>
+            <l n="211" xml:id="l211">Cette lettre en ce lieu vient de m’être donnée :</l>
+            <l n="212" xml:id="l212">Vous verrez de sa main sa lâcheté signée ;</l>
+            <l n="213" xml:id="l213">Et des objets si bas ayant pu l’enflammer,</l>
+            <l n="214" xml:id="l214">Vous m’aimez trop, monsieur, pour me le faire aimer.</l>
+            <stage><hi rend="italic"><em>Elle lui donne les lettres.</em></hi></stage>
+          </sp>
+          <sp who="filémon" xml:id="I4-3">
+            <speaker>FILÉMON, <em>après avoir lu.</em></speaker>
+            <l n="216" xml:id="l216">Dieux ! quel instable sort traverse toutes choses !</l>
+            <l n="217" xml:id="l217">Que l’épine est souvent sous les plus belles roses !</l>
+            <l n="218" xml:id="l218">Que tout est incertain, et que les plus contents</l>
+            <l n="219" xml:id="l219">Ont droit de se vanter quand ils le sont longtemps !</l>
+            <l n="220" xml:id="l220">Cette alliance acquise avec beaucoup de peine,</l>
+            <l n="221" xml:id="l221">Quand on n’en doute plus, devient plus incertaine ;</l>
+            <l n="222" xml:id="l222">Et c’est au dernier jour que j’ai plus à douter</l>
+            <l n="223" xml:id="l223">Ce que je dois des deux, la rompre ou l’arrêter.</l>
+          </sp>
+          <sp who="orante" xml:id="I4-4">
+            <speaker>ORANTE.</speaker>
+            <l n="224" xml:id="l224">Connaissant son humeur à son sort inégale,</l>
+            <l n="225" xml:id="l225">Et qu’il m’a préférée une abjecte rivale,</l>
+            <l n="226" xml:id="l226">Mon bien ou mon malheur est-il encor douteux ?</l>
+            <l n="227" xml:id="l227">Et m’affligerez-vous d’un hymen si honteux ?</l>
+            <l n="228" xml:id="l228">Permettez ces transports à mon courage extrême :</l>
+            <l n="229" xml:id="l229">Ce que je tiens de vous me sert contre vous-même ;</l>
+            <l n="230" xml:id="l230">Et je m’accorderais avec votre rigueur.</l>
+            <l n="231" xml:id="l231">Si vous m’aviez, monsieur, fait un plus lâche cœur.</l>
+            <l n="232" xml:id="l232">En ce point seulement je parais votre fille,</l>
+            <l n="233" xml:id="l233">Que je ne peux noircir une illustre famille,</l>
+            <l n="234" xml:id="l234">Et que je n’ai jamais eu d’inclination</l>
+            <l n="235" xml:id="l235">Qui ne fût honorable à ma condition.</l>
+          </sp>
+          <sp who="filémon" xml:id="I4-5">
+            <speaker>FILÉMON.</speaker>
+            <l n="236" xml:id="l236">Qu’il ait porté si bas ses vœux et ses caresses !</l>
+            <l n="237" xml:id="l237">Voyons s’il avouera ces honteuses promesses :</l>
+            <l n="238" xml:id="l238">Mais laissez-moi le soin d’un secret important</l>
+            <l n="239" xml:id="l239">Que vous conduiriez mal en le précipitant.</l>
+            <l n="240" xml:id="l240">Je reviens de ce pas.</l>
+          </sp>
+          <sp who="orante" xml:id="I4-6">
+            <speaker>ORANTE, <em>à part, en sortant.</em></speaker>
+            <l n="241" xml:id="l241">Pour peu qu’il dissimule,</l>
+            <l n="242" xml:id="l242">Il obtiendra beaucoup sur cet esprit crédule.</l>
+          </sp>
+          <sp who="filémon" xml:id="I4-7">
+            <speaker>FILÉMON, <em>seul.</em></speaker>
+            <l n="243" xml:id="l243">Dieux ! les étranges soins dont je suis agité !</l>
+            <l n="244" xml:id="l244">Que me faut-il résoudre en cette extrémité ?</l>
+            <l n="245" xml:id="l245">Dans les commencements les dieux nous favorisent,</l>
+            <l n="246" xml:id="l246">Et proche de leur fin nos desseins ils détruisent.</l>
+            <l n="247" xml:id="l247">Je vois d’un bel espoir un malheureux effet,</l>
+            <l n="248" xml:id="l248">Et le travail d’un an en un jour se défait.</l>
+            <stage><hi rend="italic"><em>Il frappe à la porte de Lysimant. </em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="I5">
+          <head>Scène V</head>
+          <stage>SYLVIAN, FILÉMON</stage>
+          <sp who="sylvian" xml:id="I5-1">
+            <speaker>SYLVIAN, <em>en cocher.</em></speaker>
+            <l n="250" xml:id="l250">Que vous plaît-il, monsieur ?</l>
+          </sp>
+          <sp who="filémon" xml:id="I5-2">
+            <speaker>FILÉMON.</speaker>
+            <l n="251" xml:id="l251">Que je parle à ton maître.</l>
+          </sp>
+          <sp who="sylvian" xml:id="I5-3">
+            <speaker>SYLVIAN.</speaker>
+            <l n="252" xml:id="l252">Il n’est pas au logis.</l>
+          </sp>
+          <sp who="filémon" xml:id="I5-4">
+            <speaker>FILÉMON.</speaker>
+            <l n="253" xml:id="l253">Mon fils, où peut-il être ?</l>
+          </sp>
+          <sp who="sylvian" xml:id="I5-5">
+            <speaker>SYLVIAN.</speaker>
+            <l n="254" xml:id="l254">Le beau fils que je suis !</l>
+          </sp>
+          <sp who="filémon" xml:id="I5-6">
+            <speaker>FILÉMON.</speaker>
+            <l n="255" xml:id="l255">Dépêche vitement.</l>
+          </sp>
+          <sp who="sylvian" xml:id="I5-7">
+            <speaker>SYLVIAN.</speaker>
+            <l n="256" xml:id="l256">Que vous êtes pressé !</l>
+          </sp>
+          <sp who="filémon" xml:id="I5-8">
+            <speaker>FILÉMON.</speaker>
+            <l n="257" xml:id="l257">Tu me tiens longuement.</l>
+          </sp>
+          <sp who="sylvian" xml:id="I5-9">
+            <speaker>SYLVIAN.</speaker>
+            <l n="258" xml:id="l258">Je crois qu’il est aux bains.</l>
+          </sp>
+          <sp who="filémon" xml:id="I5-10">
+            <speaker>FILÉMON.</speaker>
+            <l n="259" xml:id="l259">Allons-y, je te prie.</l>
+            <stage><hi rend="italic"><em>À part.</em></hi></stage>
+            <l n="261" xml:id="l261">On peut tout sur ces gens avec la flatterie.</l>
+          </sp>
+          <sp who="sylvian" xml:id="I5-11">
+            <speaker>SYLVIAN, <em>fermant sa porte.</em></speaker>
+            <l n="262" xml:id="l262">Je crains qu’on ne m’appelle, il faut presser le pas ;</l>
+            <l n="263" xml:id="l263">Et puis c’est un peu loin.</l>
+          </sp>
+          <sp who="filémon" xml:id="I5-12">
+            <speaker>FILÉMON.</speaker>
+            <l n="264" xml:id="l264">Je ne laisserai pas.</l>
+          </sp>
+          <sp who="sylvian" xml:id="I5-13">
+            <speaker>SYLVIAN.</speaker>
+            <l n="265" xml:id="l265">Il est vrai que trois pieds, pour loin que je vous mène,</l>
+            <l n="266" xml:id="l266">En doivent suivre deux avec fort peu de peine.</l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="II">
+        <head>ACTE II</head>
+        <div type="scene" xml:id="II1">
+          <head>Scène première</head>
+          <sp who="damon" xml:id="II1-1">
+            <speaker>DAMON, <em>villageois</em></speaker>
+            <l n="267" xml:id="l267">Vous qui m’avez ravi l’espoir de mes vieux ans,</l>
+            <l n="268" xml:id="l268">Quand terminerez-vous des ennuis si cuisants ?</l>
+            <l n="269" xml:id="l269">Diane m’est ôtée, et, sans m’ôter la vie,</l>
+            <l n="270" xml:id="l270">Impitoyables dieux, vous me l’avez ravie ;</l>
+            <l n="271" xml:id="l271">S’il fallait m’affliger, si mes prospérités</l>
+            <l n="272" xml:id="l272">Déplaisaient seulement à vos divinités,</l>
+            <l n="273" xml:id="l273">Tous mes biens sans défense attendaient vos tonnerres ;</l>
+            <l n="274" xml:id="l274">Vous pouviez inonder et ravager mes terres,</l>
+            <l n="275" xml:id="l275">Vous plaire à voir mes fruits et mes raisins rôtis,</l>
+            <l n="276" xml:id="l276">Affliger mes troupeaux et sécher leurs pâtis.</l>
+            <l n="277" xml:id="l277">Mais de m’avoir ravi mes plus chères délices,</l>
+            <l n="278" xml:id="l278">Cet astre qui me rend tous les astres propices,</l>
+            <l n="279" xml:id="l279">Diane, la merveille et l’honneur de vos faits,</l>
+            <l n="280" xml:id="l280">Cette punition excède mes forfaits !</l>
+            <l n="281" xml:id="l281">Je suis moins odieux que vous n’avez de haine,</l>
+            <l n="282" xml:id="l282">Et les plus noirs péchés sont moindres que ma peine.</l>
+            <l n="283" xml:id="l283">L’astre de la clarté fait son sixième tour</l>
+            <l n="284" xml:id="l284">Depuis que je la cherche aux hameaux d’alentour ;</l>
+            <l n="285" xml:id="l285">Et j’arrive à Paris avec peu d’apparence</l>
+            <l n="286" xml:id="l286">D’y retrouver ma vie et ma seule espérance.</l>
+            <l n="287" xml:id="l287">J’emploierai toutefois mes soins et mes efforts,</l>
+            <l n="288" xml:id="l288">Sans donner de relâche à ce débile corps ;</l>
+            <l n="289" xml:id="l289">Et j’y perdrai la vie, ayant perdu ma peine,</l>
+            <l n="290" xml:id="l290">Si j’y fais comme ailleurs une recherche vaine.</l>
+            <l n="291" xml:id="l291">Jadis en ce quartier j’ai connu Lysimant,</l>
+            <l n="292" xml:id="l292">Qui tenait à faveur le nom de son amant,</l>
+            <l n="293" xml:id="l293">Et qui faisait dessein de n’aimer jamais qu’elle.</l>
+            <l n="294" xml:id="l294">On en pourra savoir chez lui quelque nouvelle.</l>
+            <l n="295" xml:id="l295">Mais dans l’égalité de ces superbes toits,</l>
+            <l n="296" xml:id="l296">Je méconnais le sien, où je fus tant de fois</l>
+            <l n="297" xml:id="l297">Qui pourra me l’apprendre ?</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II2">
+          <head>Scène II</head>
+          <stage>SYLVIAN, DAMON</stage>
+          <sp who="sylvian" xml:id="II2-1">
+            <speaker>SYLVIAN, <em>courant.</em></speaker>
+            <l n="298" xml:id="l298">Ô dieux ! que j’appréhende !</l>
+            <l n="299" xml:id="l299">Que je serai crié s’il faut qu’on me demande !</l>
+            <l n="300" xml:id="l300">Ce vieillard me suivant comptait tout le pavé,</l>
+            <l n="301" xml:id="l301">Et si ses pas sont vains il ne l’a pas trouvé ;</l>
+            <l n="302" xml:id="l302">Mon maître ce matin est sorti dès l’aurore,</l>
+            <l n="303" xml:id="l303">Pour aller rendre hommage à l’objet qu’il adore.</l>
+          </sp>
+          <sp who="damon" xml:id="II2-2">
+            <speaker>DAMON.</speaker>
+            <l n="304" xml:id="l304">Où se tient Lysimant ?</l>
+          </sp>
+          <sp who="sylvian" xml:id="II2-3">
+            <speaker>SYLVIAN.</speaker>
+            <l n="305" xml:id="l305">Eh quoi ! c’est vous, Damon ?</l>
+          </sp>
+          <sp who="damon" xml:id="II2-4">
+            <speaker>DAMON.</speaker>
+            <l n="306" xml:id="l306">D’où sais-tu qui je suis ? et qui t’a dit mon nom ?</l>
+            <l n="307" xml:id="l307">Ô dieux ! c’est Sylvian. Eh ! quelle frénésie</l>
+            <l n="308" xml:id="l308">A, pauvre infortuné, troublé ta fantaisie ?</l>
+          </sp>
+          <sp who="sylvian" xml:id="II2-5">
+            <speaker>SYLVIAN.</speaker>
+            <l n="309" xml:id="l309">Ne sais-tu pas, Damon, qu’Amour peut tout changer ?</l>
+            <l n="310" xml:id="l310">Si du cocher du jour il a fait un berger,</l>
+            <l n="311" xml:id="l311">Pourquoi ne peux-tu voir que sa force me change</l>
+            <l n="312" xml:id="l312">De pasteur en cocher, sans le trouver étrange ?</l>
+            <l n="313" xml:id="l313">Hélas ! que je rirais d’un pareil changement,</l>
+            <l n="314" xml:id="l314">S’il n’était arrivé qu’en mon habillement !</l>
+            <l n="315" xml:id="l315">Mais ce puissant démon, qui régit toutes choses,</l>
+            <l n="316" xml:id="l316">A bien fait en mon cœur d’autres métamorphoses.</l>
+            <l n="317" xml:id="l317">Je ne suis plus, Damon, ce pasteur que j’étais</l>
+            <l n="318" xml:id="l318">Alors qu’on m’entendait médire de ses lois ;</l>
+            <l n="319" xml:id="l319">Que j’ignorais d’Amour l’agréable furie,</l>
+            <l n="320" xml:id="l320">Et que je n’en avais que pour ma bergerie ;</l>
+            <l n="321" xml:id="l321">Que je passais les jours, sur les rives des eaux,</l>
+            <l n="322" xml:id="l322">À tresser des cordons de joncs et de roseaux,</l>
+            <l n="323" xml:id="l323">Ou faire sans dessein, au son de ma musette,</l>
+            <l n="324" xml:id="l324">Danser Amaryllis, Célimène ou Lisette.</l>
+            <l n="325" xml:id="l325">Ma vie est bien changée, et je n’espère pas</l>
+            <l n="326" xml:id="l326">Renouveler jamais ces frivoles ébats ;</l>
+            <l n="327" xml:id="l327">C’est bien un autre dieu que ce Pan qu’on réclame</l>
+            <l n="328" xml:id="l328">Parmi les paysans, qui fait agir mon âme ;</l>
+            <l n="329" xml:id="l329">Un charme si puissant a mon cœur enchanté...</l>
+            <l n="330" xml:id="l330">Mais tu te ris déjà de ma simplicité,</l>
+            <l n="331" xml:id="l331">Et l’humeur d’un vieillard, à nos humeurs contraire,</l>
+            <l n="332" xml:id="l332">Lui fait toujours blâmer ce qu’il ne peut plus faire.</l>
+            <l n="333" xml:id="l333">Mais ris si bon te semble. Adieu, j’ai trop tardé.</l>
+          </sp>
+          <sp who="damon" xml:id="II2-6">
+            <speaker>DAMON.</speaker>
+            <l n="334" xml:id="l334">Dis-moi donc le logis que je t’ai demandé.</l>
+          </sp>
+          <sp who="sylvian" xml:id="II2-7">
+            <speaker>SYLVIAN.</speaker>
+            <l n="335" xml:id="l335">De qui ?</l>
+          </sp>
+          <sp who="damon" xml:id="II2-8">
+            <speaker>DAMON.</speaker>
+            <l n="336" xml:id="l336">De Lysimant.</l>
+          </sp>
+          <sp who="svlvian" xml:id="II2-9">
+            <speaker>SVLVIAN.</speaker>
+            <l n="337" xml:id="l337">Lysimant est mon maître ;</l>
+            <l n="338" xml:id="l338">Ces couleurs que tu vois le font assez connaître.</l>
+          </sp>
+          <sp who="damon" xml:id="II2-10">
+            <speaker>DAMON.</speaker>
+            <l n="339" xml:id="l339">Et quelle est la beauté dont les yeux triomphants</l>
+            <l n="340" xml:id="l340">Ont asservi ton cœur ?</l>
+          </sp>
+          <sp who="sylvian" xml:id="II2-11">
+            <speaker>SYLVIAN.</speaker>
+            <l n="341" xml:id="l341">L’honneur de tes enfants,</l>
+            <l n="342" xml:id="l342">Cette aimable bergère à qui tout rend hommage,</l>
+            <l n="343" xml:id="l343">Diane, l’ornement de tout notre village.</l>
+            <l n="344" xml:id="l344">Mais tu ne réponds pas des heures que je perds :</l>
+            <l n="345" xml:id="l345">Adieu ; te suffit-il ? c’est elle que je sers.</l>
+            <stage><hi rend="italic"><em>Il frappe.</em></hi></stage>
+          </sp>
+          <sp who="damon" xml:id="II2-12">
+            <speaker>DAMON.</speaker>
+            <l n="347" xml:id="l347">Donc pour me la ravir, craignant sa résistance,</l>
+            <l n="348" xml:id="l348">Ton bras à Lysimant prêta son assistance ;</l>
+            <l n="349" xml:id="l349">Et quand l’occasion lui montra les cheveux,</l>
+            <l n="350" xml:id="l350">Secouru de ton aide, il accomplit ses vœux ?</l>
+          </sp>
+          <sp who="sylvian" xml:id="II2-13">
+            <speaker>SYLVIAN.</speaker>
+            <l n="351" xml:id="l351">Qu’il ait pu m’obliger à trahir cette belle !</l>
+            <l n="352" xml:id="l352">Tu m’offenses, Damon. Adieu, car on m’appelle.</l>
+            <stage><hi rend="italic"><em>Il sort.</em></hi></stage>
+          </sp>
+          <sp who="damon" xml:id="II2-14">
+            <speaker>DAMON, <em>seul.</em></speaker>
+            <l n="354" xml:id="l354">Dieux ! si jamais le foudre est parti de vos mains,</l>
+            <l n="355" xml:id="l355">S’il est fait pour punir les crimes des humains,</l>
+            <l n="356" xml:id="l356">Ouvrez l’oreille aux cris d’un vieillard misérable,</l>
+            <l n="357" xml:id="l357">Jetez sur sa misère un regard favorable,</l>
+            <l n="358" xml:id="l358">Et ne pardonnez pas à la brutalité</l>
+            <l n="359" xml:id="l359">Qui le fait recourir à votre autorité.</l>
+            <l n="360" xml:id="l360">Prêtez vos traits vengeurs à l’honneur de Diane ;</l>
+            <l n="361" xml:id="l361">Faites mourir le père, ou tuez le profane.</l>
+            <l n="362" xml:id="l362">Vous avez un tonnerre, et ce vil suborneur.</l>
+            <l n="363" xml:id="l363">Impitoyables dieux ! survit à son honneur !</l>
+            <l n="364" xml:id="l364">Mais pourquoi réclamer la divine justice,</l>
+            <l n="365" xml:id="l365">Si les humaines lois ordonnent son supplice,</l>
+            <l n="366" xml:id="l366">Si la cour si souvent a ces crimes vengés,</l>
+            <l n="367" xml:id="l367">Si ses bras sont ouverts à tous les affligés ?</l>
+            <l n="368" xml:id="l368">Va, vieillard malheureux, implorer sa puissance</l>
+            <l n="369" xml:id="l369">Qui te rendra Diane et punira l’offense.</l>
+            <stage><hi rend="italic"><em>Il sort.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II3">
+          <head>Scène III</head>
+          <sp who="lysimant" xml:id="II3-1">
+            <speaker>LYSIMANT</speaker>
+            <l n="371" xml:id="l371">Que le soleil est chaud ! que son œil est riant !</l>
+            <l n="372" xml:id="l372">Et que déjà cet astre est loin de l’orient !</l>
+            <l n="373" xml:id="l373">Cléandre m’a fait tort, et sa longue caresse</l>
+            <l n="374" xml:id="l374">M’aura peint incivil aux yeux de ma maîtresse.</l>
+            <l n="375" xml:id="l375">Je la verrai trop tard ; ce bel astre d’amour</l>
+            <l n="376" xml:id="l376">Me devait éclairer aussitôt que le jour.</l>
+            <l n="377" xml:id="l377">Mais que je suis confus, et que je trouve étrange</l>
+            <l n="378" xml:id="l378">La résolution où mon destin me range !</l>
+            <l n="379" xml:id="l379">Insensible aux appas de cet objet charmant,</l>
+            <l n="380" xml:id="l380">Je les vois, je les loue, et je parle en amant :</l>
+            <l n="381" xml:id="l381">Plus libre que jamais, et plus froid pour Orante</l>
+            <l n="382" xml:id="l382">Que je ne le serais pour une indifférente,</l>
+            <l n="383" xml:id="l383">Je parle toutefois et d’amour et d’attraits</l>
+            <l n="384" xml:id="l384">Comme si ma froideur se rendait à ses traits ;</l>
+            <l n="385" xml:id="l385">Et j’entre en un hymen que je ne considère</l>
+            <l n="386" xml:id="l386">Que par les seuls apprêts qu’on en fait chez mon père.</l>
+            <l n="387" xml:id="l387">Las ! ce dieu qui préside aux belles unions,</l>
+            <l n="388" xml:id="l388">Qui s’acquiert tant d’estime en nos opinions,</l>
+            <l n="389" xml:id="l389">Qui voit si saintement garder ses ordonnances,</l>
+            <l n="390" xml:id="l390">Ne fait pas aujourd’hui toutes les alliances ;</l>
+            <l n="391" xml:id="l391">Ce mystère s’observe ailleurs qu’à ses autels,</l>
+            <l n="392" xml:id="l392">Et l’avarice a joint la moitié des mortels.</l>
+            <l n="393" xml:id="l393">La grâce et la vertu ne sont plus adorées ;</l>
+            <l n="394" xml:id="l394">On ne s’enchaîne plus qu’en des chaînes dorées ;</l>
+            <l n="395" xml:id="l395">Possédant beaucoup d’or on a beaucoup d’appas,</l>
+            <l n="396" xml:id="l396">Et ce métal rend beau tout ce qui ne l’est pas.</l>
+            <l n="397" xml:id="l397">J’épouse sans dessein, j’aime sans connaissance :</l>
+            <l n="398" xml:id="l398">Ce qui doit être un choix m’est une obéissance,</l>
+            <l n="399" xml:id="l399">Et l’aveugle bonté d’un avare parent</l>
+            <l n="400" xml:id="l400">Trame en cette union mon malheur apparent.</l>
+            <l n="401" xml:id="l401">Ainsi tu n’as conçu qu’une espérance vaine,</l>
+            <l n="402" xml:id="l402">Beau sujet de mes feux, doux objet de ma peine,</l>
+            <l n="403" xml:id="l403">Qui seule eus le pouvoir d’asservir ma raison,</l>
+            <l n="404" xml:id="l404">Plus Diane d’effet que tu ne l’es de nom !</l>
+            <l n="405" xml:id="l405">Ainsi tu vois ma vie en sa borne prescrite,</l>
+            <l n="406" xml:id="l406">Et ta condition a trahi ton mérite.</l>
+            <l n="407" xml:id="l407">Hélas ! rien n’est égal aux rigueurs de mon sort,</l>
+            <l n="408" xml:id="l408">Et je vis pour mourir d’une éternelle mort...</l>
+            <l n="409" xml:id="l409">Mais que de vains pensers mon âme est agitée !</l>
+            <l n="410" xml:id="l410">Délibéré-je encor d’une affaire arrêtée ?</l>
+            <l n="411" xml:id="l411">Immolons ces regrets à la nécessité,</l>
+            <l n="412" xml:id="l412">Et voyons de bon œil cette aimable beauté.</l>
+            <stage><hi rend="italic"><em>Orante sort de chez elle.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II4">
+          <head>Scène IV</head>
+          <stage>ORANTE, <em>à sa porte</em>, LYSIMANT</stage>
+          <sp who="lysimant" xml:id="II4-1">
+            <speaker>LYSIMANT, <em>la saluant.</em></speaker>
+            <l n="414" xml:id="l414">Enfin...</l>
+          </sp>
+          <sp who="orante" xml:id="II4-2">
+            <speaker>ORANTE.</speaker>
+            <l n="415" xml:id="l415">Que me veux-tu, lâche, aveugle, profane ?</l>
+            <l n="416" xml:id="l416">Adieu, je suis Orante, et tu cherches Diane.</l>
+            <stage><hi rend="italic"><em>Elle ferme la porte rudement.</em></hi></stage>
+          </sp>
+          <sp who="lysimant" xml:id="II4-3">
+            <speaker>LYSIMANT, <em>seul.</em></speaker>
+            <l n="418" xml:id="l418">Le gracieux accueil ! ô dieux ! quel changement !</l>
+            <l n="419" xml:id="l419">Et qui se fût douté d’un pareil traitement ?</l>
+            <l n="420" xml:id="l420">Ariste a sourdement tramé cet artifice,</l>
+            <l n="421" xml:id="l421">Et m’a désobligé de ce mauvais office.</l>
+            <l n="422" xml:id="l422">Ce rival seulement peut avoir éventé</l>
+            <l n="423" xml:id="l423">Ce que Diane a pu dessus ma liberté.</l>
+            <l n="424" xml:id="l424">Il faut subtilement découvrir cette affaire,</l>
+            <l n="425" xml:id="l425">Et, sans intention que de me satisfaire</l>
+            <l n="426" xml:id="l426">(Car Orante est un bien que je perds sans regret),</l>
+            <l n="427" xml:id="l427">Immoler à mon sort ce rival indiscret.</l>
+          </sp>
+          <sp who="orante" xml:id="II4-4">
+            <speaker>ORANTE, <em>rouvrant la porte.</em></speaker>
+            <l n="428" xml:id="l428">Adieu, ne me vois plus, et crois que cette porte</l>
+            <l n="429" xml:id="l429">Ne s’ouvrira jamais à des gens de ta sorte ;</l>
+            <l n="430" xml:id="l430">Va triompher des cœurs au lieu qui t’est prescrit,</l>
+            <l n="431" xml:id="l431">Où la stupidité signale ton esprit,</l>
+            <l n="432" xml:id="l432">Où tes beaux entretiens font naître tant de flammes,</l>
+            <l n="433" xml:id="l433">Ou tu passes pour rare et pour charmeur des âmes,</l>
+            <l n="434" xml:id="l434">Auprès de cet objet qui possède ta foi,</l>
+            <l n="435" xml:id="l435">Et qui n’a rien de cher que ses troupeaux et toi.</l>
+          </sp>
+          <sp who="lysimant" xml:id="II4-5">
+            <speaker>LYSIMANT.</speaker>
+            <l n="436" xml:id="l436">Souffrez...</l>
+          </sp>
+          <sp who="orante" xml:id="II4-6">
+            <speaker>ORANTE.</speaker>
+            <l n="437" xml:id="l437">Non, ne dis rien. Que me peux-tu répondre,</l>
+            <l n="438" xml:id="l438">Que tes propres écrits ne soient prêts de confondre ?</l>
+            <l n="439" xml:id="l439">N’as-tu pas pour Diane eu de la passion ?</l>
+            <l n="440" xml:id="l440">Peux-tu désavouer cette inclination ?</l>
+          </sp>
+          <sp who="lysimant" xml:id="II4-7">
+            <speaker>LYSIMANT.</speaker>
+            <l n="441" xml:id="l441">Il est vrai que j’aimai cette jeune bergère,</l>
+            <l n="442" xml:id="l442">Mais sans intention, et d’une amour légère,</l>
+            <l n="443" xml:id="l443">Qui ne pouvait longtemps occuper mes désirs,</l>
+            <l n="444" xml:id="l444">Et n’avait pour objet qu’un moment de plaisirs.</l>
+          </sp>
+          <sp who="orante" xml:id="II4-8">
+            <speaker>ORANTE.</speaker>
+            <l n="445" xml:id="l445">Que tu fais à ta honte une faible défense !</l>
+            <l n="446" xml:id="l446">Tes excuses, lascif, accroissent ton offense.</l>
+            <l n="447" xml:id="l447">Rends, rends à cet objet ton cœur irrésolu,</l>
+            <l n="448" xml:id="l448">Qui me déplairait moins lâche que dissolu ;</l>
+            <l n="449" xml:id="l449">Quoi ! ce cœur embrasé de tes lascives flammes,</l>
+            <l n="450" xml:id="l450">Qui ne peut respirer que des plaisirs infâmes,</l>
+            <l n="451" xml:id="l451">Impuissant à produire un honnête dessein,</l>
+            <l n="452" xml:id="l452">Tu voulais, effronté, qu’il eût part en mon sein !</l>
+            <l n="453" xml:id="l453">Tu le crois mériter des plaisirs légitimes,</l>
+            <l n="454" xml:id="l454">Et tu me présentais cette source de crimes !</l>
+          </sp>
+          <sp who="lysimant" xml:id="II4-9">
+            <speaker>LYSIMANT.</speaker>
+            <l n="455" xml:id="l455">Contre tant de discours, je cède, je me rends :</l>
+            <l n="456" xml:id="l456">Tous me pouviez sans bruit donner ce que je prends,</l>
+            <l n="457" xml:id="l457">Un congé non prévu, mais de moindre importance</l>
+            <l n="458" xml:id="l458">Qu’il doive absolument ruiner ma constance.</l>
+            <l n="459" xml:id="l459">Le temps est médecin de toutes les douleurs,</l>
+            <l n="460" xml:id="l460">Et l’on s’est consolé pour de pires malheurs.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II5">
+          <head>Scène V</head>
+          <stage>ORANTE, FILÉMON, LYSIMANT</stage>
+          <sp who="filémon" xml:id="II5-1">
+            <speaker>FILÉMON <em>l’arrête comme il s’en veut aller.</em></speaker>
+            <l n="461" xml:id="l461">Sans dessein de vous faire une importune plainte,</l>
+            <stage><hi rend="italic"><em>Il lui donne les lettres.</em></hi></stage>
+            <l n="463" xml:id="l463">Je vous portais, monsieur, le sujet de ma crainte ;</l>
+            <l n="464" xml:id="l464">Après avoir reçu cet avertissement,</l>
+            <l n="465" xml:id="l465">Voyez si je dois pas m’en servir sagement,</l>
+            <l n="466" xml:id="l466">Et si l’intention de vous donner ma fille</l>
+            <l n="467" xml:id="l467">N’était pas dangereuse à toute ma famille.</l>
+            <l n="468" xml:id="l468">Un bien promis ailleurs ne peut m’appartenir ;</l>
+            <l n="469" xml:id="l469">Je ne conjoindrai point ce qu’on peut désunir :</l>
+            <l n="470" xml:id="l470">Sauvez-vous à vous-même une inutile peine,</l>
+            <l n="471" xml:id="l471">Et ne souhaitez point une alliance vaine.</l>
+            <l n="472" xml:id="l472">Ce malheur m’est égal, mais mon âge m’apprend</l>
+            <l n="473" xml:id="l473">À souffrir un regret pour la peur d’un plus grand.</l>
+            <stage><hi rend="italic"><em>Il sort avec sa fille.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II6">
+          <head>Scène VI</head>
+          <sp who="lysimant" xml:id="II6-1">
+            <speaker>LYSIMANT, <em>seul</em></speaker>
+            <l n="475" xml:id="l475">L’insensé, m’obligeant au point que je désire,</l>
+            <l n="476" xml:id="l476">Croit m’avoir affligé d’un rigoureux martyre,</l>
+            <l n="477" xml:id="l477">Et que je suis atteint d’un cruel déplaisir</l>
+            <l n="478" xml:id="l478">Perdant ce que j’acquis sans peine et sans désir.</l>
+            <l n="479" xml:id="l479">Non, non, qu’on laisse agir le courroux qui m’enflamme,</l>
+            <l n="480" xml:id="l480">Il ne me faut cacher ni le fer, ni la flamme ;</l>
+            <l n="481" xml:id="l481">Je suis capable encor de consolation ;</l>
+            <l n="482" xml:id="l482">Mon courage est plus fort que cette affliction,</l>
+            <l n="483" xml:id="l483">Et si je dois mourir, c’est d’un excès de joie</l>
+            <l n="484" xml:id="l484">En cette liberté que le ciel me renvoie,</l>
+            <l n="485" xml:id="l485">Et que je puis ranger sous de plus doux attraits</l>
+            <l n="486" xml:id="l486">Que ceux de qui jamais je n’ai senti les traits.</l>
+            <l n="487" xml:id="l487">Tu joins en te vengeant, unique objet que j’aime,</l>
+            <l n="488" xml:id="l488">À tes autres faveurs une faveur extrême,</l>
+            <l n="489" xml:id="l489">Et ton juste courroux ne m’est qu’officieux,</l>
+            <l n="490" xml:id="l490">Diane, l’abrégé des merveilles des cieux !</l>
+            <l n="491" xml:id="l491">Mais que peut t’acquérir l’effet de ta vengeance ?</l>
+            <l n="492" xml:id="l492">Que peut-elle à nos maux procurer d’allégeance,</l>
+            <l n="493" xml:id="l493">Puisqu’au dessein que j’ai de me rendre à tes vœux</l>
+            <l n="494" xml:id="l494">Un avare vieillard défend ce que je veux ?</l>
+            <l n="495" xml:id="l495">Un astre malheureux éclaira ma naissance,</l>
+            <l n="496" xml:id="l496">Et rangea mes désirs sous son obéissance.</l>
+            <l n="497" xml:id="l497">Après de si cruels et de si vains travaux,</l>
+            <l n="498" xml:id="l498">Je ne puis aspirer qu’à des partis égaux ;</l>
+            <l n="499" xml:id="l499">Au moins, pouvant donner une âme indifférente,</l>
+            <l n="500" xml:id="l500">Je trouve le moyen de me venger d’Orante,</l>
+            <l n="501" xml:id="l501">Quoique son changement me soit doux en effet,</l>
+            <l n="502" xml:id="l502">Et que c’est me venger d’un bien qu’elle me fait.</l>
+            <l n="503" xml:id="l503">Elle m’a confessé qu’une secrète haine</l>
+            <l n="504" xml:id="l504">Lui fait souffrir l’humeur de Rosinde avec peine,</l>
+            <l n="505" xml:id="l505">Et ne réserve rien de son autorité</l>
+            <l n="506" xml:id="l506">Pour faire à ses amis haïr cette beauté :</l>
+            <l n="507" xml:id="l507">J’enfreindrai maintenant une aveugle défense,</l>
+            <l n="508" xml:id="l508">Et j’aurai ce plaisir qu’Orante s’en offense.</l>
+            <l n="509" xml:id="l509">Je vais à cette belle engager ma raison :</l>
+            <l n="510" xml:id="l510">Ses parents autrefois m’ont ouvert sa prison,</l>
+            <l n="511" xml:id="l511">Et m’ont fait proposer cet heureux mariage ;</l>
+            <l n="512" xml:id="l512">J’espère que leur tille agréera mon servage.</l>
+            <l n="513" xml:id="l513">Voyons-la de ce pas.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II7">
+          <head>Scène VII</head>
+          <stage>CÉLIRÉE, LYSIMANT</stage>
+          <sp who="célirée" xml:id="II7-1">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="514" xml:id="l514">Dieux ! que diligemment</l>
+            <l n="515" xml:id="l515">J’ai tel qu’il me le faut trouvé ce vêtement !</l>
+            <l n="516" xml:id="l516">Je vais quitter Orante, et, par cet artifice,</l>
+            <l n="517" xml:id="l517">Faire au traître que j’aime accepter mon service.</l>
+            <stage><hi rend="italic"><em>Elle aperçoit Lysimant.</em></hi></stage>
+            <l n="519" xml:id="l519">Le voilà cet ingrat.</l>
+          </sp>
+          <sp who="lysimant" xml:id="II7-2">
+            <speaker>LYSIMANT.</speaker>
+            <l n="520" xml:id="l520">Sers-tu chez Filémon ?</l>
+          </sp>
+          <sp who="célirée" xml:id="II7-3">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="521" xml:id="l521">Oui, que lui voulez-vous ?</l>
+          </sp>
+          <sp who="lysimant" xml:id="II7-4">
+            <speaker>LYSIMANT.</speaker>
+            <l n="522" xml:id="l522">Tu sais donc bien mon nom ?</l>
+          </sp>
+          <sp who="célirée" xml:id="II7-5">
+            <speaker>CÉLIRÉE, <em>à part.</em></speaker>
+            <l n="523" xml:id="l523">Trop bien pour mon repos.</l>
+          </sp>
+          <sp who="lysimant" xml:id="II7-6">
+            <speaker>LYSIMANT.</speaker>
+            <l n="524" xml:id="l524">Assure ta maîtresse</l>
+            <l n="525" xml:id="l525">Que je dissimulais une ardeur qui me presse,</l>
+            <l n="526" xml:id="l526">Que j’adore Rosinde, et que ce même jour</l>
+            <l n="527" xml:id="l527">Ma foi doit s’engager à cet objet d’amour :</l>
+            <l n="528" xml:id="l528">Dis que c’est de ma part.</l>
+            <stage><hi rend="italic"><em>Il entre chez Orimand.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="II8">
+          <head>Scène VIII</head>
+          <sp who="célirée" xml:id="II8-1">
+            <speaker>CÉLIRÉE, <em>seule</em></speaker>
+            <l n="530" xml:id="l530">Adieu, je lui vais dire.</l>
+            <l n="531" xml:id="l531">Ô de tous mes malheurs le dernier et le pire !</l>
+            <l n="532" xml:id="l532">Quel fruit dois-je espérer des peines que je prends,</l>
+            <l n="533" xml:id="l533">Si pour guérir un mal j’en cause de plus grands ?</l>
+            <l n="534" xml:id="l534">Il se sert contre moi des moyens que j’essaie,</l>
+            <l n="535" xml:id="l535">Et je fais d’une simple une mortelle plaie ;</l>
+            <l n="536" xml:id="l536">Que puis-je maintenant, au dessein qu’il a pris,</l>
+            <l n="537" xml:id="l537">Opposer que la fuite et qu’un juste mépris,</l>
+            <l n="538" xml:id="l538">S’il peut, malgré mes soins, forcer tant de franchises,</l>
+            <l n="539" xml:id="l539">Et si de mes desseins naissent ses entreprises ?</l>
+            <l n="540" xml:id="l540">Cherche ta guérison, que les cœurs amoureux</l>
+            <l n="541" xml:id="l541">Trouvent dans le secours d’un oubli généreux,</l>
+            <l n="542" xml:id="l542">Et fais, triste Diane, un effort nécessaire</l>
+            <l n="543" xml:id="l543">Contre la trahison de ce bel adversaire.</l>
+            <l n="544" xml:id="l544">Hélas ! qu’un malheureux délibère aisément,</l>
+            <l n="545" xml:id="l545">Mais qu’il trouve de peine en l’accomplissement !</l>
+            <l n="546" xml:id="l546">Je ne puis l’oublier sans m’oublier moi-même ;</l>
+            <l n="547" xml:id="l547">Je l’aime seulement ; à cause que je l’aime</l>
+            <l n="548" xml:id="l548">L’auteur de mon repos me désobligerait,</l>
+            <l n="549" xml:id="l549">Et je voudrais du mal à qui me guérirait.</l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="III">
+        <head>ACTE III</head>
+        <div type="scene" xml:id="III1">
+          <head>Scène première</head>
+          <sp who="ariste" xml:id="III1-1">
+            <speaker>ARISTE, <em>seul</em></speaker>
+            <l n="550" xml:id="l550">Enfin, désespéré de forcer mes disgrâces,</l>
+            <l n="551" xml:id="l551">Il faut partir. Amour, mais ne suis point mes traces ;</l>
+            <l n="552" xml:id="l552">Laisse où fut ton empire un généreux mépris,</l>
+            <l n="553" xml:id="l553">Et me rends ma franchise aux lieux où tu l’a pris ;</l>
+            <l n="554" xml:id="l554">Car je serais aveugle en ma persévérance,</l>
+            <l n="555" xml:id="l555">Puisqu’enfin j’ai perdu tout sujet d’espérance.</l>
+            <l n="556" xml:id="l556">Orante est engagée, et, malheureux ! le jour</l>
+            <l n="557" xml:id="l557">Qui me la doit ôter doit m’ôter mon amour.</l>
+            <l n="558" xml:id="l558">Toutefois, vains auteurs de mon inquiétude,</l>
+            <l n="559" xml:id="l559">Pensers qui me parlez de son ingratitude,</l>
+            <l n="560" xml:id="l560">Souffrez que je la voie au sortir de ces lieux,</l>
+            <l n="561" xml:id="l561">Et que sans l’offenser je paraisse à ses yeux ;</l>
+            <l n="562" xml:id="l562">Si près d’abandonner cette triste demeure,</l>
+            <l n="563" xml:id="l563">Laissez-moi seulement du respect pour une heure ;</l>
+            <l n="564" xml:id="l564">Après, en quelque lieu que je porte mes pas,</l>
+            <l n="565" xml:id="l565">Je vous écouterai, ne me l’épargnez pas.</l>
+            <l n="566" xml:id="l566">Peignez-la-moi cruelle, ingrate, inaccessible,</l>
+            <l n="567" xml:id="l567">Figurez-moi cent fois un affront si sensible,</l>
+            <l n="568" xml:id="l568">Et représentez-moi qu’elle a pu me trahir :</l>
+            <l n="569" xml:id="l569">Lors vous me serez chers, me la faisant haïr ;</l>
+            <l n="570" xml:id="l570">Je suivrai vos conseils et je parlerai d’elle</l>
+            <l n="571" xml:id="l571">Comme d’une insensible et d’une criminelle,</l>
+            <l n="572" xml:id="l572">Aveugle en ses désirs, aveugle en ses refus,</l>
+            <l n="573" xml:id="l573">Ou, pour vous croire mieux, je n’en parlerai plus.</l>
+            <l n="574" xml:id="l574">La voilà, cette ingrate, et le courroux extrême</l>
+            <l n="575" xml:id="l575">Qui surprend mes esprits montre encor que je l’aime.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="III2">
+          <head>Scène II</head>
+          <stage>ORANTE, ARISTE</stage>
+          <sp who="orante" xml:id="III2-1">
+            <speaker>ORANTE.</speaker>
+            <l n="576" xml:id="l576">Que je vous désirais !</l>
+          </sp>
+          <sp who="ariste" xml:id="III2-2">
+            <speaker>ARISTE.</speaker>
+            <l n="577" xml:id="l577">Pourquoi ? pour m’assurer</l>
+            <l n="578" xml:id="l578">Que c’est perdre mon temps que de vous désirer,</l>
+            <l n="579" xml:id="l579">Que vous payez de vent les peines que j’ai prises,</l>
+            <l n="580" xml:id="l580">Qu’aux vœux de mon rival vos faveurs sont acquises,</l>
+            <l n="581" xml:id="l581">Que vous lui destiniez le plaisir qui m’est dû,</l>
+            <l n="582" xml:id="l582">Et qu’il s’est enrichi du bien que j’ai perdu ?</l>
+          </sp>
+          <sp who="orante" xml:id="III2-3">
+            <speaker>ORANTE.</speaker>
+            <l n="583" xml:id="l583">Non, je vous écrivais.</l>
+          </sp>
+          <sp who="ariste" xml:id="III2-4">
+            <speaker>ARISTE.</speaker>
+            <l n="584" xml:id="l584">Quelque mauvaise excuse,</l>
+            <l n="585" xml:id="l585">Qu’on est peut-être injuste alors qu’on vous accuse,</l>
+            <l n="586" xml:id="l586">Que vous participez à tous mes déplaisirs,</l>
+            <l n="587" xml:id="l587">Mais qu’un parent avare a forcé vos désirs.</l>
+          </sp>
+          <sp who="orante" xml:id="III2-5">
+            <speaker>ORANTE.</speaker>
+            <l n="588" xml:id="l588">Au contraire.</l>
+          </sp>
+          <sp who="ariste" xml:id="III2-6">
+            <speaker>ARISTE.</speaker>
+            <l n="589" xml:id="l589">Comment ? que ma douleur extrême</l>
+            <l n="590" xml:id="l590">Était un libre effet qui provient de vous-même,</l>
+            <l n="591" xml:id="l591">Que votre volonté fait vos affections,</l>
+            <l n="592" xml:id="l592">Et qu’on n’a point forcé vos inclinations ?</l>
+          </sp>
+          <sp who="orante" xml:id="III2-7">
+            <speaker>ORANTE.</speaker>
+            <l n="593" xml:id="l593">Vous ne m’écoutez pas ?</l>
+          </sp>
+          <sp who="ariste" xml:id="III2-8">
+            <speaker>ARISTE.</speaker>
+            <l n="594" xml:id="l594">Las ! qu’est-il nécessaire,</l>
+            <l n="595" xml:id="l595">Quand les coups sont reçus, d’ouïr son adversaire ?</l>
+            <l n="596" xml:id="l596">Et que me serviraient des torrents de discours,</l>
+            <l n="597" xml:id="l597">N’étant plus en état d’espérer du secours ?</l>
+            <l n="598" xml:id="l598">Je sais, cruelle Orante, avec quel artifice</l>
+            <l n="599" xml:id="l599">Vous pouvez à mes yeux déguiser l’injustice ;</l>
+            <l n="600" xml:id="l600">Vous ne manquez jamais d’art et d’inventions</l>
+            <l n="601" xml:id="l601">Pour faire autoriser toutes vos actions :</l>
+            <l n="602" xml:id="l602">S’il plaît à votre voix, en beaux termes féconde,</l>
+            <l n="603" xml:id="l603">Je serai criminel aux yeux de tout le monde ;</l>
+            <l n="604" xml:id="l604">Et, si l’on vous entend, vous aurez mérité</l>
+            <l n="605" xml:id="l605">La couronne et le prix de la fidélité.</l>
+            <l n="606" xml:id="l606">Moi, je n’ai point recours à des armes pareilles ;</l>
+            <l n="607" xml:id="l607">J’ai déjà trop longtemps possédé vos oreilles :</l>
+            <l n="608" xml:id="l608">Adieu, pour me déplaire obligez qui vous plaît ;</l>
+            <l n="609" xml:id="l609">Mon cœur à qui le veut cède son intérêt.</l>
+            <l n="610" xml:id="l610">Près de quitter Paris, je vous rends, infidèle,</l>
+            <l n="611" xml:id="l611">Ces gages criminels d’une amour criminelle,</l>
+            <l n="612" xml:id="l612">Et j’atteste le ciel de la confusion</l>
+            <l n="613" xml:id="l613">Que j’ai d’avoir souffert à votre occasion.</l>
+          </sp>
+          <sp who="orante" xml:id="III2-9">
+            <speaker>ORANTE.</speaker>
+            <l n="614" xml:id="l614">Vous m’honoriez beaucoup.</l>
+          </sp>
+          <sp who="ariste" xml:id="III2-10">
+            <speaker>ARISTE.</speaker>
+            <l n="615" xml:id="l615">Bien plus que ne mérite</l>
+            <l n="616" xml:id="l616">Une fille orgueilleuse, inconstante, hypocrite,</l>
+            <l n="617" xml:id="l617">Qui trouve également tous devoirs importuns,</l>
+            <l n="618" xml:id="l618">Qui s’en rit, et d’ailleurs dont les traits sont communs.</l>
+            <l n="619" xml:id="l619">Ne vous figurez pas causer autant de peine</l>
+            <l n="620" xml:id="l620">Que le prince de Troie en souffrit pour Hélène.</l>
+            <l n="621" xml:id="l621">Lorsque je vous nommais charmante et sans défauts,</l>
+            <l n="622" xml:id="l622">À quelques vrais discours j’en ajoutais de faux :</l>
+            <l n="623" xml:id="l623">J’ai dit que votre esprit était inimitable,</l>
+            <l n="624" xml:id="l624">Mais j’étais complaisant bien plus que véritable ;</l>
+            <l n="625" xml:id="l625">J’ai soupiré souvent sans beaucoup de douleur,</l>
+            <l n="626" xml:id="l626">Et j’ai vu des malheurs pires que mon malheur.</l>
+          </sp>
+          <sp who="orante" xml:id="III2-11">
+            <speaker>ORANTE.</speaker>
+            <l n="627" xml:id="l627">Entendrai-je longtemps des discours de la sorte ?</l>
+          </sp>
+          <sp who="ariste" xml:id="III2-12">
+            <speaker>ARISTE.</speaker>
+            <l n="628" xml:id="l628">Entendez-les ou non, c’est ce qui ne m’importe ;</l>
+            <l n="629" xml:id="l629">Mon cœur est dépouillé de tous ces vains respects,</l>
+            <l n="630" xml:id="l630">Qui font faire aux amants des compliments suspects,</l>
+            <l n="631" xml:id="l631">Élever leur maîtresse à la gloire des anges,</l>
+            <l n="632" xml:id="l632">Et rendre un esprit vain par de vaines louanges.</l>
+            <l n="633" xml:id="l633">Je parle sans dessein, et si votre miroir</l>
+            <l n="634" xml:id="l634">Parle autrement que moi, ne croyez pas vous voir.</l>
+            <l n="635" xml:id="l635">Adieu, vivez heureuse entre les bras d’un autre,</l>
+            <l n="636" xml:id="l636">Et haïssez mon nom comme je hais le vôtre.</l>
+            <stage><hi rend="italic"><em>À part en s’en allant.</em></hi></stage>
+            <l n="638" xml:id="l638">Las ! malgré le respect que j’avais proposé</l>
+            <l n="639" xml:id="l639">De ne point violer, ma voix a trop osé :</l>
+            <l n="640" xml:id="l640">Pour ce qu’elle me plaît, je tâche à lui déplaire,</l>
+            <l n="641" xml:id="l641">Et rien que mon amour n’excite ma colère.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="III3">
+          <head>Scène III</head>
+          <sp who="orante" xml:id="III3-1">
+            <speaker>ORANTE, <em>seule, comme immobile</em></speaker>
+            <l n="642" xml:id="l642">Dieux ! je suis insensible à ces lâches mépris !</l>
+            <l n="643" xml:id="l643">Va, ne me vois jamais, horreur de mes esprits ;</l>
+            <l n="644" xml:id="l644">Ne me rapproche point par une excuse vaine,</l>
+            <l n="645" xml:id="l645">Et ne rapporte point ton offense à ta peine ;</l>
+            <l n="646" xml:id="l646">Tu verras mon trépas aussitôt que le jour</l>
+            <l n="647" xml:id="l647">Qui doit en ta faveur rallumer mon amour.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="III4">
+          <head>Scène IV</head>
+          <stage>CÉLIRÉE, ORANTE</stage>
+          <sp who="célirée" xml:id="III4-1">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="648" xml:id="l648">Dieux ! qu’avez-vous, madame ?</l>
+          </sp>
+          <sp who="orante" xml:id="III4-2">
+            <speaker>ORANTE.</speaker>
+            <l n="649" xml:id="l649">Unique confidente,</l>
+            <l n="650" xml:id="l650">À qui je peux fier l’ennui qui me tourmente ;</l>
+            <l n="651" xml:id="l651">Ariste, cet ingrat, et le seul que j’aimais...</l>
+            <l n="652" xml:id="l652">Ah ! ce nom seul me tue et m’arrête la voix !...</l>
+          </sp>
+          <sp who="célirée" xml:id="III4-3">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="653" xml:id="l653">Quoi, vous rend ces écrits ?</l>
+          </sp>
+          <sp who="orante" xml:id="III4-4">
+            <speaker>ORANTE.</speaker>
+            <l n="654" xml:id="l654">Avec tant d’apparence,</l>
+            <l n="655" xml:id="l655">De n’avoir eu pour moi que de l’indifférence,</l>
+            <l n="656" xml:id="l656">Avec si peu de peine, avec tant de dédains,</l>
+            <l n="657" xml:id="l657">Que je le dois haïr plus que tous les humains !</l>
+            <l n="658" xml:id="l658">C’est fait, je ne sens plus cette ardeur insensée ;</l>
+            <l n="659" xml:id="l659">Une juste fureur dégage ma pensée.</l>
+            <l n="660" xml:id="l660">Un moment peut ôter son portrait de mon cœur,</l>
+            <l n="661" xml:id="l661">Et me faire abhorrer ce superbe vainqueur.</l>
+          </sp>
+          <sp who="célirée" xml:id="III4-5">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="662" xml:id="l662">Il est bien malaisé de dégager nos âmes</l>
+            <l n="663" xml:id="l663">De l’objet importun de leurs premières flammes :</l>
+            <l n="664" xml:id="l664">Quelquefois la colère efface tous ses traits,</l>
+            <l n="665" xml:id="l665">Mais la suite du temps en fait d’autres portraits ;</l>
+            <l n="666" xml:id="l666">Et de quelque pouvoir qu’un esprit se présume,</l>
+            <l n="667" xml:id="l667">Son courroux s’éteignant, son amour se rallume.</l>
+          </sp>
+          <sp who="orante" xml:id="III4-6">
+            <speaker>ORANTE.</speaker>
+            <l n="668" xml:id="l668">Mais si j’obtiens sur moi que mon ressentiment,</l>
+            <l n="669" xml:id="l669">Comme sa vanité, dure éternellement ?</l>
+          </sp>
+          <sp who="célirée" xml:id="III4-7">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="670" xml:id="l670">Les propositions sont un douteux remède ;</l>
+            <l n="671" xml:id="l671">Il faut, pour l’oublier, qu’un autre vous possède.</l>
+            <l n="672" xml:id="l672">Usez utilement de ce juste courroux,</l>
+            <l n="673" xml:id="l673">Et donnez votre cœur tandis qu’il est à vous ;</l>
+            <l n="674" xml:id="l674">Sinon, vous n’avez fait que des menaces vaines :</l>
+            <l n="675" xml:id="l675">Il rentrera bientôt dans ses premières chaînes.</l>
+          </sp>
+          <sp who="orante" xml:id="III4-8">
+            <speaker>ORANTE.</speaker>
+            <l n="676" xml:id="l676">Hélas ! qui puis-je aimer ?</l>
+          </sp>
+          <sp who="célirée" xml:id="III4-9">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="677" xml:id="l677">Rapprochez Lysimant ;</l>
+            <l n="678" xml:id="l678">J’ai su par ses soupirs l’excès de son tourment ;</l>
+            <l n="679" xml:id="l679">Il est passionné de vos aimables charmes,</l>
+            <l n="680" xml:id="l680">Et par sa contenance il m’a tiré des larmes.</l>
+          </sp>
+          <sp who="orante" xml:id="III4-10">
+            <speaker>ORANTE.</speaker>
+            <l n="681" xml:id="l681">Que j’aime ce volage ? hé quoi, ne sais-tu pas</l>
+            <l n="682" xml:id="l682">Que le facile esprit cède aux premiers appas ?</l>
+            <l n="683" xml:id="l683">Il brûlait aux attraits d’une simple bergère ;</l>
+            <l n="684" xml:id="l684">Tout est indifférent à cette âme légère.</l>
+          </sp>
+          <sp who="célirée" xml:id="III4-11">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="685" xml:id="l685">Il m’a tout confessé ; mais écoutez comment.</l>
+            <l n="686" xml:id="l686">Vous vous êtes piquée un peu légèrement :</l>
+            <l n="687" xml:id="l687">Revenant de chercher la jeune paysanne</l>
+            <l n="688" xml:id="l688">Qui m’avait mis en main les lettres de Diane,</l>
+            <l n="689" xml:id="l689">Comme il se croyait seul, je l’y trouvai pleurant,</l>
+            <l n="690" xml:id="l690">Et jetant vers le ciel un œil triste et mourant :</l>
+            <l n="691" xml:id="l691">J’entrais sans lui parler, quand, d’une voix tremblante</l>
+            <l n="692" xml:id="l692">Qui figurait assez l’ennui qui le tourmente :</l>
+            <l n="693" xml:id="l693">« Ma fille, m’a-t-il dit, si tu sers Filémon,</l>
+            <l n="694" xml:id="l694">Le père de madame, et si tu sais mon nom,</l>
+            <l n="695" xml:id="l695">Oblige un malheureux, assure cette belle</l>
+            <l n="696" xml:id="l696">Qu’elle me nomme à tort lâche, aveugle, infidèle,</l>
+            <l n="697" xml:id="l697">Et que le vil objet qui cause ses mépris</l>
+            <l n="698" xml:id="l698">A bien touché mes yeux, mais non pas mes esprits ;</l>
+            <l n="699" xml:id="l699">Qu’il est vrai qu’autrefois j’estimais son visage,</l>
+            <l n="700" xml:id="l700">Comme on prise une fleur, de la neige, une image ;</l>
+            <l n="701" xml:id="l701">Mais que j’avais ma peine, et mon honneur plus cher,</l>
+            <l n="702" xml:id="l702">Que de brûler pour elle et de la rechercher ;</l>
+            <l n="703" xml:id="l703">Qu’elle se vante à tort de promesses frivoles,</l>
+            <l n="704" xml:id="l704">Et qui n’obligent point n’étant que des paroles ;</l>
+            <l n="705" xml:id="l705">Qu’elle doit mes écrits à l’importunité,</l>
+            <l n="706" xml:id="l706">Que cent fois son amour m’en a sollicité ;</l>
+            <l n="707" xml:id="l707">Et que j’écrivais plus pour exercer ma veine</l>
+            <l n="708" xml:id="l708">Que pour entretenir son espérance vaine.</l>
+            <l n="709" xml:id="l709">Orante m’aurait cru ; mais cet objet charmant</l>
+            <l n="710" xml:id="l710">Ne m’a pas accordé de parler un moment,</l>
+            <l n="711" xml:id="l711">Et la nécessité de souffrir sa colère,</l>
+            <l n="712" xml:id="l712">Qui rompt notre alliance et qui me désespère,</l>
+            <l n="713" xml:id="l713">Force ma liberté de s’engager ailleurs,</l>
+            <l n="714" xml:id="l714">Où je rencontre au moins des traitements meilleurs.</l>
+            <l n="715" xml:id="l715">Je vais trouver Rosinde. »</l>
+          </sp>
+          <sp who="orante" xml:id="III4-12">
+            <speaker>ORANTE.</speaker>
+            <l n="716" xml:id="l716">Ô dieux ! pour me déplaire,</l>
+            <l n="717" xml:id="l717">Le traître va s’offrir à ma pire adversaire.</l>
+            <l n="718" xml:id="l718">Que ce superbe esprit triomphe de mes biens,</l>
+            <l n="719" xml:id="l719">Et possède un captif qui sort de mes liens !</l>
+            <l n="720" xml:id="l720">Je ne le peux souffrir, que cet amant volage</l>
+            <l n="721" xml:id="l721">À l’objet de ma haine aille offrir son hommage.</l>
+            <l n="722" xml:id="l722">J’accorde son pardon aux maux qu’il a soufferts,</l>
+            <l n="723" xml:id="l723">J’accepte sa franchise et je lui rends ses fers.</l>
+            <l n="724" xml:id="l724">Mais s’il s’est obligé d’aimer cette maîtresse,</l>
+            <l n="725" xml:id="l725">Crois-tu qu’il se résolve à rompre sa promesse ?</l>
+          </sp>
+          <sp who="célirée" xml:id="III4-13">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="726" xml:id="l726">Je peux tout ruiner, quand même Lysimant</l>
+            <l n="727" xml:id="l727">N’y consentirait pas ; écoutez seulement.</l>
+            <l n="728" xml:id="l728">Passant chez mes parents le cours de mon enfance,</l>
+            <l n="729" xml:id="l729">Au village où le ciel m’a fait prendre naissance,</l>
+            <l n="730" xml:id="l730">Durant cinq ou six ans j’ai gardé mes troupeaux</l>
+            <l n="731" xml:id="l731">Vers un lieu que Rosinde a près de nos hameaux ;</l>
+            <l n="732" xml:id="l732">Et dans cette maison j’avais une compagne,</l>
+            <l n="733" xml:id="l733">Qui les gardait aussi dans la même campagne.</l>
+            <l n="734" xml:id="l734">Notre sort accordait son esprit et le mien ;</l>
+            <l n="735" xml:id="l735">Je trouvais des douceurs en son jeune entretien,</l>
+            <l n="736" xml:id="l736">Et me plaisais surtout d’entendre cette fille,</l>
+            <l n="737" xml:id="l737">Me parler de Rosinde et vanter sa famille ;</l>
+            <l n="738" xml:id="l738">Elle me disait tout : enfin j’appris un jour,</l>
+            <l n="739" xml:id="l739">(M’enquérant quel objet possédait son amour,)</l>
+            <l n="740" xml:id="l740">Qu’elle était, dès six ans, promise en mariage</l>
+            <l n="741" xml:id="l741">À l’un de ses cousins égal de biens et d’âge,</l>
+            <l n="742" xml:id="l742">Fils d’une Portugaise, et qui n’eut qu’une sœur</l>
+            <l n="743" xml:id="l743">Qui le laissa bientôt unique possesseur.</l>
+            <l n="744" xml:id="l744">À ses tristes parents la mort la vint soustraire,</l>
+            <l n="745" xml:id="l745">Comme on la nourrissait au logis de mon père.</l>
+            <l n="746" xml:id="l746">Lysandre, c’est son nom, lorsqu’il fut un peu grand,</l>
+            <l n="747" xml:id="l747">Fut visiter sa mère et quitta son parent ;</l>
+            <l n="748" xml:id="l748">Mais bientôt de cet heur sa mère fut privée :</l>
+            <l n="749" xml:id="l749">Elle mourut un mois après son arrivée.</l>
+            <l n="750" xml:id="l750">Depuis, par ses parents il se fit accorder</l>
+            <l n="751" xml:id="l751">Un nombre de vaisseaux qu’il voulut hasarder :</l>
+            <l n="752" xml:id="l752">Il fut en Orient tenter les destinées,</l>
+            <l n="753" xml:id="l753">Et n’est point revenu depuis beaucoup d’années ;</l>
+            <l n="754" xml:id="l754">Si bien qu’on le croit mort, et que facilement</l>
+            <l n="755" xml:id="l755">On peut à son défaut accepter votre amant.</l>
+          </sp>
+          <sp who="orante" xml:id="III4-14">
+            <speaker>ORANTE.</speaker>
+            <l n="756" xml:id="l756">Et que sert ce discours ?</l>
+          </sp>
+          <sp who="célirée" xml:id="III4-15">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="757" xml:id="l757">Je vous le vais apprendre.</l>
+            <l n="758" xml:id="l758">Il me faut déguiser et passer pour Lysandre ;</l>
+            <l n="759" xml:id="l759">Puis j’irai chez Rosinde en bannir Lysimant,</l>
+            <l n="760" xml:id="l760">Que vous pourrez après gouverner aisément.</l>
+          </sp>
+          <sp who="orante" xml:id="III4-16">
+            <speaker>ORANTE.</speaker>
+            <l n="761" xml:id="l761">Ton esprit vaut beaucoup, mon âme en est ravie ;</l>
+            <l n="762" xml:id="l762">J’abandonne à tes soins mon amour et ma vie.</l>
+            <l n="763" xml:id="l763">Emprunte quelque habit dessus ce diamant,</l>
+            <l n="764" xml:id="l764">Et sers ma passion sous cet habillement :</l>
+            <l n="765" xml:id="l765">Cours, ne diffère point, mais surtout, Célirée,</l>
+            <l n="766" xml:id="l766">Conduis bien cette feinte, et sois bien préparée ;</l>
+            <l n="767" xml:id="l767">Sache bien courtiser et bien traiter l’amour.</l>
+            <l n="768" xml:id="l768">Je vais chez Éliante attendre ton retour.</l>
+            <stage><hi rend="italic"><em>Elle entre chez Éliante.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="III5">
+          <head>Scène V</head>
+          <sp who="célirée" xml:id="III5-1">
+            <speaker>CÉLIRÉE, <em>seule</em></speaker>
+            <l n="770" xml:id="l770">C’est mon dernier remède en ce malheur extrême,</l>
+            <l n="771" xml:id="l771">Que de feindre pour elle et faire pour moi-même ;</l>
+            <l n="772" xml:id="l772">Mais ne différons plus ces importants secrets ;</l>
+            <l n="773" xml:id="l773">Courons chez Dorothée où les habits sont prêts.</l>
+            <stage><hi rend="italic"><em>Elle sort.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="III6">
+          <head>Scène VI</head>
+          <stage>ORIMAND, LYSIMANT</stage>
+          <sp who="orimand" xml:id="III6-1">
+            <speaker>ORIMAND, <em>le reconduisant.</em></speaker>
+            <l n="775" xml:id="l775">Je bénirai cent fois l’amour et la fortune,</l>
+            <l n="776" xml:id="l776">Qui rangeront vos cœurs sous une loi commune :</l>
+            <l n="777" xml:id="l777">Ne faisons point languir vos desseins amoureux ;</l>
+            <l n="778" xml:id="l778">Arrêtons dès ce soir ce mariage heureux.</l>
+            <l n="779" xml:id="l779">Je vais faire à ma sœur agréer cette affaire,</l>
+            <l n="780" xml:id="l780">Que son âge et le sang m’empêchent de lui taire.</l>
+          </sp>
+          <sp who="lysimant" xml:id="III6-2">
+            <speaker>LYSIMANT.</speaker>
+            <l n="781" xml:id="l781">Et moi, je vais chez moi, charmé de passion,</l>
+            <l n="782" xml:id="l782">Conter l’heureux succès de mon ambition.</l>
+            <stage><hi rend="italic"><em>Ils sortent.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="III7">
+          <head>Scène VII</head>
+          <sp who="filémon" xml:id="III7-1">
+            <speaker>FILÉMON, <em>seul</em></speaker>
+            <l n="784" xml:id="l784">Heureux qui vit sans peine, et qui peut à sa fille</l>
+            <l n="785" xml:id="l785">Entre mille partis choisir le plus utile !</l>
+            <l n="786" xml:id="l786">Orante ne perd rien éloignant Lysimant,</l>
+            <l n="787" xml:id="l787">Et je puis l’obliger d’un plus sortable amant.</l>
+            <l n="788" xml:id="l788">Cette belle en tous lieux voit des franchises prêtes,</l>
+            <l n="789" xml:id="l789">Sa beauté chaque jour augmente ses conquêtes ;</l>
+            <l n="790" xml:id="l790">Et je suis ennuyé du nombre des transis</l>
+            <l n="791" xml:id="l791">Qui me font tous les jours parler de leurs soucis.</l>
+            <l n="792" xml:id="l792">Pour elle Florimant déteste sa fortune,</l>
+            <l n="793" xml:id="l793">Alidor la poursuit, Filidan l’importune,</l>
+            <l n="794" xml:id="l794">Cléonte en est touché, Tyrsis en est jaloux,</l>
+            <l n="795" xml:id="l795">Et, s’il était possible, elle aurait mille époux ;</l>
+            <l n="796" xml:id="l796">Elle à partout Paris établi sa puissance,</l>
+            <l n="797" xml:id="l797">Et sa beauté l’élève autant que sa naissance.</l>
+            <l n="798" xml:id="l798">Sur tous, je sais qu’Ariste a possédé son cœur :</l>
+            <l n="799" xml:id="l799">Elle s’était rendue à ce premier vainqueur,</l>
+            <l n="800" xml:id="l800">Et voyait Lysimant avec autant de peine</l>
+            <l n="801" xml:id="l801">Qu’elle a vu de bon œil le sujet de sa haine ;</l>
+            <l n="802" xml:id="l802">Le second éloigné, j’accorde à ses désirs</l>
+            <l n="803" xml:id="l803">Celui qui fut jadis l’objet de ses soupirs ;</l>
+            <l n="804" xml:id="l804">Qu’elle sera contente ! et, rapprochant Ariste,</l>
+            <l n="805" xml:id="l805">Que je rendrai d’appas à son visage triste !</l>
+            <l n="806" xml:id="l806">Que mon pouvoir est grand, et qu’avec peu d’efforts</l>
+            <l n="807" xml:id="l807">Je peux en un moment ressusciter deux morts !</l>
+            <l n="808" xml:id="l808">Cléonte, un mien ami, chargé de cette affaire,</l>
+            <l n="809" xml:id="l809">N’omettra rien pour moi de l’ordre nécessaire ;</l>
+            <l n="810" xml:id="l810">Il ira chez Ariste, et je suis assuré</l>
+            <l n="811" xml:id="l811">Qu’il trouvera bientôt cet esprit préparé.</l>
+            <l n="812" xml:id="l812">Voyons-le de ce pas.</l>
+            <stage><hi rend="italic"><em>Il entre chez Cléonte.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="III8">
+          <head>Scène VIII</head>
+          <sp who="lysandre" xml:id="III8-1">
+            <speaker>DIANE, <em>sous le nom de Lysandre, en habit d’homme</em></speaker>
+            <l n="814" xml:id="l814">C’est en cet équipage</l>
+            <l n="815" xml:id="l815">Que je l’éloignerai de son nouveau servage,</l>
+            <l n="816" xml:id="l816">Que je puis disposer du bien qui m’appartient,</l>
+            <l n="817" xml:id="l817">Et que je vais l’ôter à qui me le retient.</l>
+            <l n="818" xml:id="l818">Ta providence, Amour, me fournit ces obstacles ;</l>
+            <l n="819" xml:id="l819">Ajoute cette gloire à tes autres miracles,</l>
+            <l n="820" xml:id="l820">Et vois ce qu’une fille a mis d’empêchement.</l>
+            <l n="821" xml:id="l821">Mais je ne songeais plus à parler en amant ;</l>
+            <l n="822" xml:id="l822">Je ne suis plus Diane, et je suis ce Lysandre</l>
+            <l n="823" xml:id="l823">Qu’Orimand dès six ans a choisi pour son gendre :</l>
+            <l n="824" xml:id="l824">Voyons s’il est chez lui.</l>
+            <stage><hi rend="italic"><em>Elle frappe à la porte.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="III9">
+          <head>Scène IX</head>
+          <stage>DIANE, UN LAQUAIS</stage>
+          <sp who="le-laquais" xml:id="III9-1">
+            <speaker>LE LAQUAIS.</speaker>
+            <l n="826" xml:id="l826">Vous frappez hardiment.</l>
+          </sp>
+          <sp who="diane" xml:id="III9-2">
+            <speaker>DIANE.</speaker>
+            <l n="827" xml:id="l827">Ami.</l>
+          </sp>
+          <sp who="le-laquais" xml:id="III9-3">
+            <speaker>LE LAQUAIS.</speaker>
+            <l n="828" xml:id="l828">Que cherchez-vous ?</l>
+          </sp>
+          <sp who="diane" xml:id="III9-4">
+            <speaker>DIANE.</speaker>
+            <l n="829" xml:id="l829">Le logis d’Orimand,</l>
+            <l n="830" xml:id="l830">Et tu m’obligeras d’une faveur extrême.</l>
+          </sp>
+          <sp who="le-laquais" xml:id="III9-5">
+            <speaker>LE LAQUAIS.</speaker>
+            <l n="831" xml:id="l831">C’est ici.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="III10">
+          <head>Scène X</head>
+          <stage>DIANE, ORIMAND, LE LAQUAIS</stage>
+          <sp who="orimand" xml:id="III10-1">
+            <speaker>ORIMAND, <em>revenant de chez sa sœur.</em></speaker>
+            <l n="832" xml:id="l832">Que veut-il ?</l>
+          </sp>
+          <sp who="le-laquais" xml:id="III10-2">
+            <speaker>LE LAQUAIS.</speaker>
+            <l n="833" xml:id="l833">Eh ! le voilà lui-même.</l>
+          </sp>
+          <sp who="diane" xml:id="III10-3">
+            <speaker>DIANE, <em>l’embrassant.</em></speaker>
+            <l n="834" xml:id="l834">Ah ! que je dois de vœux au céleste pouvoir,</l>
+            <l n="835" xml:id="l835">Qui m’accorde aujourd’hui le bien de vous revoir,</l>
+            <l n="836" xml:id="l836">Qui me rend en ces lieux où mon âme est ravie,</l>
+            <l n="837" xml:id="l837">Et qui m’a conservé le père de ma vie !</l>
+            <l n="838" xml:id="l838">Reconnaissez, monsieur, ce gendre bienheureux</l>
+            <l n="839" xml:id="l839">Qu’enfin vous revoyez aussi sain qu’amoureux,</l>
+            <l n="840" xml:id="l840">Et ne différez point le désir qui le presse</l>
+            <l n="841" xml:id="l841">D’aller s’évanouir au sein de sa maîtresse.</l>
+          </sp>
+          <sp who="orimand" xml:id="III10-4">
+            <speaker>ORIMAND.</speaker>
+            <l n="842" xml:id="l842">Ô dieux ! est-ce Lysandre ?</l>
+          </sp>
+          <sp who="diane" xml:id="III10-5">
+            <speaker>DIANE.</speaker>
+            <l n="843" xml:id="l843">Oui, cet heureux amant</l>
+            <l n="844" xml:id="l844">Qui termine sa peine et son éloignement,</l>
+            <l n="845" xml:id="l845">Que le ciel a sauvé des efforts de Neptune,</l>
+            <l n="846" xml:id="l846">Et qui revient chez vous établir sa fortune.</l>
+          </sp>
+          <sp who="orimand" xml:id="III10-6">
+            <speaker>ORIMAND.</speaker>
+            <l n="847" xml:id="l847">Je doute si je veille en l’état où je suis.</l>
+            <stage><hi rend="italic"><em>L’embrassant.</em></hi></stage>
+            <l n="849" xml:id="l849">Mon gendre, ah ! quel bonheur succède à mes ennuis !</l>
+            <l n="850" xml:id="l850">C’est lui, n’en doutons plus ; cet aimable visage</l>
+            <l n="851" xml:id="l851">Conserve quelques traits qu’il eut en son jeune âge.</l>
+            <l n="852" xml:id="l852">Je vois ses actions ; cet œil doux et riant</l>
+            <l n="853" xml:id="l853">Paraît à mes regards tel qu’en son orient.</l>
+            <l n="854" xml:id="l854">Ô bienheureux Lysandre ! honneur de ma famille !</l>
+            <l n="855" xml:id="l855">Bienheureux Orimand ! et bienheureuse fille !</l>
+          </sp>
+          <sp who="diane" xml:id="III10-7">
+            <speaker>DIANE.</speaker>
+            <l n="856" xml:id="l856">L’impatient désir de revoir ses beaux yeux</l>
+            <l n="857" xml:id="l857">M’a fait précipiter mon retour en ces lieux ;</l>
+            <l n="858" xml:id="l858">On amène après moi ce que les destinées</l>
+            <l n="859" xml:id="l859">Ont donné de profits au soin de dix années,</l>
+            <l n="860" xml:id="l860">Et que j’ai retiré de la rage des flots</l>
+            <l n="861" xml:id="l861">Constans à traverser nos adroits matelots.</l>
+            <l n="862" xml:id="l862">Faites luire à mes yeux ce soleil de mon âme,</l>
+            <l n="863" xml:id="l863">Accordez ce plaisir à l’ardeur qui m’enflamme.</l>
+            <l n="864" xml:id="l864">Qu’on a d’impatience, ayant beaucoup d’amour !</l>
+          </sp>
+          <sp who="orimand" xml:id="III10-8">
+            <speaker>ORIMAND.</speaker>
+            <l n="865" xml:id="l865">Entrez, vous la verrez. Ô favorable jour !...</l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="IV">
+        <head>ACTE IV</head>
+        <div type="scene" xml:id="IV1">
+          <head>Scène première</head>
+          <sp who="filémon" xml:id="IV1-1">
+            <speaker>FILÉMON, <em>seul</em></speaker>
+            <l n="866" xml:id="l866">Cléonte conduira cette affaire importante ;</l>
+            <l n="867" xml:id="l867">Ô dieux ! que ce discours va réjouir Orante !</l>
+            <l n="868" xml:id="l868">Qu’elle sera tenue à ma facilité</l>
+            <l n="869" xml:id="l869">Qui lui donne un mari si longtemps souhaité,</l>
+            <l n="870" xml:id="l870">Et qui fait de sa part les mêmes vœux pour elle !</l>
+            <l n="871" xml:id="l871">La voilà, portons-lui cette heureuse nouvelle.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="IV2">
+          <head>Scène II</head>
+          <stage>FILÉMON, ORANTE</stage>
+          <sp who="filémon" xml:id="IV2-1">
+            <speaker>FILÉMON.</speaker>
+            <l n="872" xml:id="l872">Fais renaître les lis sur ce teint pâlissant</l>
+            <l n="873" xml:id="l873">Et rends les premiers traits à ces yeux languissant,</l>
+            <l n="874" xml:id="l874">Si tu le dois jamais, et si le seul Ariste</l>
+            <l n="875" xml:id="l875">Peut réparer l’éclat de ce visage triste.</l>
+            <l n="876" xml:id="l876">J’accorde à tes désirs cet amant fortuné,</l>
+            <l n="877" xml:id="l877">Pour qui ta passion m’a tant importuné...</l>
+            <l n="878" xml:id="l878">Mais quel prompt changement altère ce visage ?</l>
+            <l n="879" xml:id="l879">Peux-tu désapprouver cet heureux mariage ?</l>
+            <l n="880" xml:id="l880">Ariste n’est-il plus si cher à tes regards ?</l>
+            <l n="881" xml:id="l881">Et n’as-tu plus dessein d’être à ce jeune Mars ?</l>
+          </sp>
+          <sp who="orante" xml:id="IV2-2">
+            <speaker>ORANTE.</speaker>
+            <l n="882" xml:id="l882">J’ai dessein de mourir, puisque je ne suis née</l>
+            <l n="883" xml:id="l883">Que pour souffrir toujours et vivre infortunée.</l>
+          </sp>
+          <sp who="filémon" xml:id="IV2-3">
+            <speaker>FILÉMON.</speaker>
+            <l n="884" xml:id="l884">Comment, tu hais Ariste ?</l>
+          </sp>
+          <sp who="orante" xml:id="IV2-4">
+            <speaker>ORANTE.</speaker>
+            <l n="885" xml:id="l885">Hélas ! je ne hais rien</l>
+            <l n="886" xml:id="l886">Que la rigueur du sort, si contraire à mon bien.</l>
+            <l n="887" xml:id="l887">Souffrez qu’en quelque lieu solitaire et sauvage</l>
+            <l n="888" xml:id="l888">J’aille vouer au ciel le reste de mon âge ;</l>
+            <l n="889" xml:id="l889">Où j’épargne à vos ans des travaux superflus,</l>
+            <l n="890" xml:id="l890">Où mon plus doux plaisir soit de n’en avoir plus,</l>
+            <l n="891" xml:id="l891">Où je puisse, occupée à de saintes pensées,</l>
+            <l n="892" xml:id="l892">Pleurer la vanité de mes erreurs passées.</l>
+          </sp>
+          <sp who="filémon" xml:id="IV2-5">
+            <speaker>FILÉMON.</speaker>
+            <l n="893" xml:id="l893">Il faut, pour observer ces résolutions,</l>
+            <l n="894" xml:id="l894">Des cœurs plus détachés de leurs affections ;</l>
+            <l n="895" xml:id="l895">Et suivre ces desseins avec plus de courage</l>
+            <l n="896" xml:id="l896">Qu’on n’en peut espérer de votre humeur volage.</l>
+            <l n="897" xml:id="l897">Quelle inspiration a touché vos esprits,</l>
+            <l n="898" xml:id="l898">Et vous fait voir le monde avec tant de mépris ?</l>
+          </sp>
+          <sp who="orante" xml:id="IV2-6">
+            <speaker>ORANTE.</speaker>
+            <l n="899" xml:id="l899">Au moins dispensez-moi d’un si fâcheux servage ;</l>
+            <l n="900" xml:id="l900">Que toujours ma raison conserve son usage ;</l>
+            <l n="901" xml:id="l901">Que votre seul vouloir me prescrive des lois :</l>
+            <l n="902" xml:id="l902">Sinon, que j’aie Ariste et la mort à la fois.</l>
+          </sp>
+          <sp who="filémon" xml:id="IV2-7">
+            <speaker>FILÉMON.</speaker>
+            <l n="903" xml:id="l903">D’où vient ce changement ? quelle humeur si soudaine</l>
+            <l n="904" xml:id="l904">A d’un objet d’amour fait un objet de haine ?</l>
+            <l n="905" xml:id="l905">Ce jeune cavalier, si beau, si gracieux,</l>
+            <l n="906" xml:id="l906">Si doux à votre esprit et si cher à vos yeux,</l>
+            <l n="907" xml:id="l907">Ne vous blesse-t-il plus avec les mêmes armes ?</l>
+            <l n="908" xml:id="l908">Et ne sentez-vous plus le pouvoir de ses charmes ?</l>
+          </sp>
+          <sp who="orante" xml:id="IV2-8">
+            <speaker>ORANTE.</speaker>
+            <l n="909" xml:id="l909">Monsieur, pour l’abhorrer j’ai des sujets trop forts ;</l>
+            <l n="910" xml:id="l910">Daignez me dispenser d’inutiles rapports.</l>
+          </sp>
+          <sp who="filémon" xml:id="IV2-9">
+            <speaker>FILÉMON.</speaker>
+            <l n="911" xml:id="l911">Non, je veux tout savoir.</l>
+          </sp>
+          <sp who="orante" xml:id="IV2-10">
+            <speaker>ORANTE.</speaker>
+            <l n="912" xml:id="l912">Las ! que vous puis-je dire</l>
+            <l n="913" xml:id="l913">Qu’après vous me teniez pour un sujet de rire,</l>
+            <l n="914" xml:id="l914">Si nos ressentiments et nos jeunes débats</l>
+            <l n="915" xml:id="l915">Passent dans vos esprits pour de simples ébats ?</l>
+            <l n="916" xml:id="l916">Ariste ce matin, en cette même place,</l>
+            <l n="917" xml:id="l917">Est venu m’aborder avecque tant d’audace,</l>
+            <l n="918" xml:id="l918">Et m’a parlé si mal, sans cause et sans dessein,</l>
+            <l n="919" xml:id="l919">Que j’ai douté longtemps que son esprit fût sain :</l>
+            <l n="920" xml:id="l920">Orante, m’a-t-il dit, ne soyez pas si vaine</l>
+            <l n="921" xml:id="l921">Que de vous figurer d’avoir causé ma peine ;</l>
+            <l n="922" xml:id="l922">Vos attraits sont communs, et vos miroirs sont faux,</l>
+            <l n="923" xml:id="l923">Si vous n’avez en vous remarqué cent défauts :</l>
+            <l n="924" xml:id="l924">Vos amants vous flattaient, s’ils vous ont estimée ;</l>
+            <l n="925" xml:id="l925">Je rougis seulement de vous avoir aimée,</l>
+            <l n="926" xml:id="l926">Et vous rends sans regret une inclination</l>
+            <l n="927" xml:id="l927">Que j’acquis sans effort et sans intention.</l>
+            <l n="928" xml:id="l928">Là, je l’ai vu partir si plein d’indifférence,</l>
+            <l n="929" xml:id="l929">Que je serais injuste en ma persévérance,</l>
+            <l n="930" xml:id="l930">Et qu’il aurait enfin, en mon affection,</l>
+            <l n="931" xml:id="l931">Un juste fondement de sa présomption.</l>
+          </sp>
+          <sp who="filémon" xml:id="IV2-11">
+            <speaker>FILÉMON.</speaker>
+            <l n="932" xml:id="l932">Simple, tout ce mépris prouve un amour extrême,</l>
+            <l n="933" xml:id="l933">Et vous devez l’aimer pour son offense même :</l>
+            <l n="934" xml:id="l934">Croyez-vous qu’un esprit atteint légèrement</l>
+            <l n="935" xml:id="l935">Eût tant porté d’envie au bien de Lysimant ?</l>
+            <l n="936" xml:id="l936">Il aurait accusé les seules destinées,</l>
+            <l n="937" xml:id="l937">Et la nécessité qui fait les hyménées ;</l>
+            <l n="938" xml:id="l938">Mais un cœur bien atteint, et las de soupirer,</l>
+            <l n="939" xml:id="l939">En ces occasions ne peut rien révérer ;</l>
+            <l n="940" xml:id="l940">L’excès de son amour le force de se plaindre,</l>
+            <l n="941" xml:id="l941">Et, n’espérant plus rien, il n’a plus rien à craindre.</l>
+            <l n="942" xml:id="l942">Mais nous délibérons de la nécessité ;</l>
+            <l n="943" xml:id="l943">Disposez-vous au joug d’un hymen arrêté.</l>
+            <stage><hi rend="italic"><em>Il sort.</em></hi></stage>
+          </sp>
+          <sp who="orante" xml:id="IV2-12">
+            <speaker>ORANTE, <em>seule.</em></speaker>
+            <l n="945" xml:id="l945">Dure et fâcheuse loi qu’impose la naissance,</l>
+            <l n="946" xml:id="l946">De soumettre nos vœux à notre obéissance !</l>
+            <stage><hi rend="italic"><em>Elle sort.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="IV3">
+          <head>Scène III</head>
+          <sp who="lysimant" xml:id="IV3-1">
+            <speaker>LYSIMANT, <em>seul</em></speaker>
+            <l n="948" xml:id="l948">Quelle fatalité confond tous mes desseins ?</l>
+            <l n="949" xml:id="l949">Faut-il suivre longtemps ces sentiers incertains ?</l>
+            <l n="950" xml:id="l950">Ce Dieu dont le pouvoir dispose de nos âmes,</l>
+            <l n="951" xml:id="l951">Changera-t-il encor mes chaînes et mes flammes ?</l>
+            <l n="952" xml:id="l952">Gardes-tu pour ce cœur encor de nouveaux feux,</l>
+            <l n="953" xml:id="l953">Amour, ou si Rosinde aura mes derniers vœux ?</l>
+            <l n="954" xml:id="l954">Ne perdons point de temps, et voyons si son père</l>
+            <l n="955" xml:id="l955">Voudra devant la nuit arrêter cette affaire.</l>
+            <l n="956" xml:id="l956">Il sort tout à propos.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="IV4">
+          <head>Scène IV</head>
+          <stage>ORIMAND, LYSIMANT</stage>
+          <sp who="orimand" xml:id="IV4-1">
+            <speaker>ORIMAND.</speaker>
+            <l n="957" xml:id="l957">Je sortais à dessein</l>
+            <l n="958" xml:id="l958">De vous aller apprendre un changement soudain :</l>
+            <l n="959" xml:id="l959">Un obstacle puissant s’oppose à mon attente ;</l>
+            <l n="960" xml:id="l960">N’ayez plus de dessein pour une indigne amante</l>
+            <l n="961" xml:id="l961">Qui n’avait rien de cher que l’espoir d’être à vous,</l>
+            <l n="962" xml:id="l962">Mais qu’un prompt changement prive d’un bien si doux.</l>
+            <l n="963" xml:id="l963">Lysandre, un mien parent, à qui dès son jeune âge</l>
+            <l n="964" xml:id="l964">J’avais fait espérer ma fille en mariage,</l>
+            <l n="965" xml:id="l965">Et que je croyais mort aux pays étrangers,</l>
+            <l n="966" xml:id="l966">De la terre et de l’onde a vaincu les dangers ;</l>
+            <l n="967" xml:id="l967">Il ne fait qu’arriver, et ce n’est pas sans peine</l>
+            <l n="968" xml:id="l968">Que je laisse, monsieur, votre espérance vaine ;</l>
+            <l n="969" xml:id="l969">Mais vous pardonnerez à la nécessité</l>
+            <l n="970" xml:id="l970">D’accorder sa maîtresse à sa fidélité.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV4-2">
+            <speaker>LYSIMANT.</speaker>
+            <l n="971" xml:id="l971">Je ne m’obstine point à vouloir l’impossible ;</l>
+            <l n="972" xml:id="l972">Je regrette beaucoup un bonheur si sensible ;</l>
+            <l n="973" xml:id="l973">Mais un sort rigoureux se plaît à me trahir,</l>
+            <l n="974" xml:id="l974">Et la nécessité m’oblige d’obéir.</l>
+          </sp>
+          <sp who="orimand" xml:id="IV4-3">
+            <speaker>ORIMAND.</speaker>
+            <l n="975" xml:id="l975">Vous plaît-il de le voir ? Laquais !</l>
+            <stage><hi rend="italic"><em>Le laquais paraît.</em></hi></stage>
+            <l n="977" xml:id="l977">cherchez Lysandre,</l>
+            <l n="978" xml:id="l978">N’est-il pas là-dedans ?</l>
+          </sp>
+          <sp who="le-laquais" xml:id="IV4-4">
+            <speaker>LE LAQUAIS.</speaker>
+            <l n="979" xml:id="l979">Non, il vient de descendre,</l>
+            <l n="980" xml:id="l980">Et sort par le jardin.</l>
+          </sp>
+          <sp who="orimand" xml:id="IV4-5">
+            <speaker>ORIMAND.</speaker>
+            <l n="981" xml:id="l981">La curiosité</l>
+            <l n="982" xml:id="l982">Le porte à voir Paris en cette nouveauté.</l>
+            <l n="983" xml:id="l983">Pardonnez, Lysimant, à mon regret extrême,</l>
+            <l n="984" xml:id="l984">Ce qui me touche plus mille fois que vous-même ;</l>
+            <l n="985" xml:id="l985">Et, si j’ai le moyen de vous servir jamais,</l>
+            <l n="986" xml:id="l986">Éprouvez par l’effet le dessein que j’en fais.</l>
+            <stage><hi rend="italic"><em>Il rentre.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="IV5">
+          <head>Scène V</head>
+          <sp who="lysimant" xml:id="IV5-1">
+            <speaker>LYSIMANT, <em>seul</em></speaker>
+            <l n="988" xml:id="l988">Est-il quelque malheur égal à tes désastres,</l>
+            <l n="989" xml:id="l989">Ridicule jouet des destins et des astres ?</l>
+            <l n="990" xml:id="l990">Et, voyant tout contraire à tes vœux innocents,</l>
+            <l n="991" xml:id="l991">Peux-tu perdre ton cœur sans perdre aussi le sens ?</l>
+            <l n="992" xml:id="l992">Détache tous ses fers, éteints toutes ses flammes,</l>
+            <l n="993" xml:id="l993">Et ne présente plus ce rebut de tant d’âmes :</l>
+            <l n="994" xml:id="l994">Profite cette fois de ta juste douleur,</l>
+            <l n="995" xml:id="l995">Et tire ta sagesse au moins de ton malheur ;</l>
+            <l n="996" xml:id="l996">N’offre plus ta franchise à ces honteuses chaînes,</l>
+            <l n="997" xml:id="l997">Et ne perds plus de temps en ces recherches vaines :</l>
+            <l n="998" xml:id="l998">Cette union, commune au reste des humains,</l>
+            <l n="999" xml:id="l999">N’est pas, infortuné, permise à tes desseins,</l>
+            <l n="1000" xml:id="l1000">Et le dieu qui préside aux autels de Cythère</l>
+            <l n="1001" xml:id="l1001">N’a pas en ta faveur établi ce mystère.</l>
+            <stage><hi rend="italic"><em>Il sort.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="IV6">
+          <head>Scène VI</head>
+          <sp who="diane" xml:id="IV6-1">
+            <speaker>DIANE, <em>sous les habits de</em> CÉLIRÉE</speaker>
+            <l n="1003" xml:id="l1003">J’ai sans beaucoup de peine un malheur diverti,</l>
+            <l n="1004" xml:id="l1004">Et l’un et l’autre amant est resté sans parti ;</l>
+            <l n="1005" xml:id="l1005">Mais un second danger appelle mon adresse :</l>
+            <l n="1006" xml:id="l1006">Orante peut beaucoup d’une seule caresse,</l>
+            <l n="1007" xml:id="l1007">Et je perdrai le fruit de ce déguisement</l>
+            <l n="1008" xml:id="l1008">Si j’en laisse approcher ce déloyal amant.</l>
+            <l n="1009" xml:id="l1009">Ajoute encor. Amour, un moment d’assistance ;</l>
+            <l n="1010" xml:id="l1010">Que ce dernier effort couronne ma constance :</l>
+            <l n="1011" xml:id="l1011">Ainsi chacun t’adore, et dessus tes autels</l>
+            <l n="1012" xml:id="l1012">Puissent toujours fumer les encens des mortels !</l>
+            <l n="1013" xml:id="l1013">Mais Orante me voit. Vous m’attendez, madame ?</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="IV7">
+          <head>Scène VII</head>
+          <stage>ORANTE, CÉLIRÉE</stage>
+          <sp who="orante" xml:id="IV7-1">
+            <speaker>ORANTE.</speaker>
+            <l n="1014" xml:id="l1014">Je n’attends que la mort, seule je la réclame,</l>
+            <l n="1015" xml:id="l1015">Puisque tout est contraire à mon contentement,</l>
+            <l n="1016" xml:id="l1016">Et que je vois le jour pour souffrir seulement.</l>
+          </sp>
+          <sp who="célirée" xml:id="IV7-2">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1017" xml:id="l1017">Dieux ! qu’est-il survenu ? que ce visage est triste !</l>
+            <l n="1018" xml:id="l1018">Madame, qu’avez-vous ?</l>
+          </sp>
+          <sp who="orante" xml:id="IV7-3">
+            <speaker>ORANTE.</speaker>
+            <l n="1019" xml:id="l1019">J’ai peur d’avoir Ariste :</l>
+            <l n="1020" xml:id="l1020">Un père injurieux m’abandonne à ses vœux,</l>
+            <l n="1021" xml:id="l1021">Et son pouvoir s’oppose à tout ce que je veux.</l>
+          </sp>
+          <sp who="célirée" xml:id="IV7-4">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1022" xml:id="l1022">Une pareille affaire est de tant d’importance</l>
+            <l n="1023" xml:id="l1023">Qu’il ne peut s’offenser de votre résistance.</l>
+            <l n="1024" xml:id="l1024">Cette sainte union des inclinations</l>
+            <l n="1025" xml:id="l1025">Est la première au rang des libres actions ;</l>
+            <l n="1026" xml:id="l1026">C’est là qu’innocemment un esprit se dispense</l>
+            <l n="1027" xml:id="l1027">À ne point révérer la loi de la naissance ;</l>
+            <l n="1028" xml:id="l1028">C’est là qu’il faut oser, et qu’un cœur abattu</l>
+            <l n="1029" xml:id="l1029">Fait de l’obéissance une lâche vertu.</l>
+          </sp>
+          <sp who="orante" xml:id="IV7-5">
+            <speaker>ORANTE.</speaker>
+            <l n="1030" xml:id="l1030">Aussi tous mes desseins et toute ma puissance</l>
+            <l n="1031" xml:id="l1031">Tendent à renouer ma première alliance ;</l>
+            <l n="1032" xml:id="l1032">Lysimant doit mes vœux à l’indiscrétion</l>
+            <l n="1033" xml:id="l1033">De cet indigne objet de mon affection :</l>
+            <l n="1034" xml:id="l1034">Tantôt, songeant à lui, j’ai vu par la fenêtre</l>
+            <l n="1035" xml:id="l1035">Qui rend dans son jardin, un de ses gens paraître,</l>
+            <l n="1036" xml:id="l1036">À qui j’ai fait ouïr qu’il l’avertît d’aller</l>
+            <l n="1037" xml:id="l1037">Au logis d’Éliante où je lui veux parler :</l>
+            <l n="1038" xml:id="l1038">Car de le voir chez nous, le dessein de mon père</l>
+            <l n="1039" xml:id="l1039">Ne me le permet pas.</l>
+          </sp>
+          <sp who="célirée" xml:id="IV7-6">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1040" xml:id="l1040">Pressez donc cette affaire,</l>
+            <l n="1041" xml:id="l1041">Et n’ouvrez point l’oreille à la sévérité</l>
+            <l n="1042" xml:id="l1042">De ceux dont en ce point le droit est limité ;</l>
+            <l n="1043" xml:id="l1043">J’ai ravi Lysimant à sa dernière amante :</l>
+            <l n="1044" xml:id="l1044">Un effet merveilleux a suivi mon attente ;</l>
+            <l n="1045" xml:id="l1045">Je passe pour Lysandre en l’estime de tous,</l>
+            <l n="1046" xml:id="l1046">Et Rosinde m’estime en qualité d’époux.</l>
+            <l n="1047" xml:id="l1047">Usez utilement de cette heureuse feinte,</l>
+            <l n="1048" xml:id="l1048">Et secouez le joug d’une injuste contrainte :</l>
+            <l n="1049" xml:id="l1049">Votre heur dépend de vous.</l>
+          </sp>
+          <sp who="orante" xml:id="IV7-7">
+            <speaker>ORANTE.</speaker>
+            <l n="1050" xml:id="l1050">Ne dis mot seulement ;</l>
+            <l n="1051" xml:id="l1051">Je vais chez Éliante attendre Lysimant.</l>
+            <stage><hi rend="italic"><em>Elle sort.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="IV8">
+          <head>Scène VIII</head>
+          <sp who="célirée" xml:id="IV8-1">
+            <speaker>CÉLIRÉE, <em>seule</em></speaker>
+            <l n="1053" xml:id="l1053">J’offense avec regret cette jeune merveille,</l>
+            <l n="1054" xml:id="l1054">Mais je fais seulement ce qu’un dieu me conseille :</l>
+            <l n="1055" xml:id="l1055">Ces crimes sont permis aux esprits amoureux,</l>
+            <l n="1056" xml:id="l1056">Et le ciel n’a point fait de supplices pour eux ;</l>
+            <l n="1057" xml:id="l1057">Hélas ! ils sont punis d’assez cruels supplices</l>
+            <l n="1058" xml:id="l1058">En la peine qu’ils ont d’exercer leurs malices,</l>
+            <l n="1059" xml:id="l1059">Et, jugeant du souci qui les peut assaillir,</l>
+            <l n="1060" xml:id="l1060">On les doit plaindre même en les voyant faillir.</l>
+            <l n="1061" xml:id="l1061">Mais ce perfide amant à mes yeux se présente ;</l>
+            <l n="1062" xml:id="l1062">Il le faut divertir d’aller chez Éliante.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="IV9">
+          <head>Scène IX</head>
+          <stage>CÉLIRÉE, LYSIMANT</stage>
+          <sp who="célirée" xml:id="IV9-1">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1063" xml:id="l1063">Monsieur, j’allais chez vous ; ma maîtresse ce soir</l>
+            <l n="1064" xml:id="l1064">Ne saurait se donner le bonheur de vous voir ;</l>
+            <l n="1065" xml:id="l1065">Son père lui prescrit la sévère ordonnance</l>
+            <l n="1066" xml:id="l1066">De ne plus souhaiter l’heur de votre alliance,</l>
+            <l n="1067" xml:id="l1067">De régler ses désirs par son commandement,</l>
+            <l n="1068" xml:id="l1068">Et de ne tenir plus qu’Ariste pour amant.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-2">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1069" xml:id="l1069">Eh bien, qu’elle obéisse.</l>
+          </sp>
+          <sp who="célirée" xml:id="IV9-3">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1070" xml:id="l1070">Ô dieux ! cette nouvelle</l>
+            <l n="1071" xml:id="l1071">Ne peut-elle toucher un amant si fidèle ?</l>
+            <l n="1072" xml:id="l1072">Si constant en amour, l’êtes-vous aux rapports</l>
+            <l n="1073" xml:id="l1073">Qui ruinent l’espoir de vos communs efforts ?</l>
+            <l n="1074" xml:id="l1074">Voyez-vous de cet œil cesser votre espérance,</l>
+            <l n="1075" xml:id="l1075">Et croyez-vous qu’elle ait autant d’indifférence ?</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-4">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1076" xml:id="l1076">Qu’un autre puisse ou non engager ses esprits,</l>
+            <l n="1077" xml:id="l1077">J’estime également ses vœux et ses mépris ;</l>
+            <l n="1078" xml:id="l1078">Ma constance, au besoin, me fournit un remède</l>
+            <l n="1079" xml:id="l1079">Léger comme le mal, et que chacun possède ;</l>
+            <l n="1080" xml:id="l1080">Il était fort aisé de guérir mon souci :</l>
+            <l n="1081" xml:id="l1081">J’aimais Orante en homme et non pas en transi.</l>
+          </sp>
+          <sp who="célirée" xml:id="IV9-5">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1082" xml:id="l1082">Ô dieux ! causant sa peine et son inquiétude,</l>
+            <l n="1083" xml:id="l1083">Que vous êtes injuste en votre ingratitude !</l>
+            <l n="1084" xml:id="l1084">Voyant, comme je fais, l’excès de ses douleurs,</l>
+            <l n="1085" xml:id="l1085">Vous ne pourriez, monsieur, lui refuser des pleurs.</l>
+            <l n="1086" xml:id="l1086">Je n’ai que trop connu ses passions discrètes ;</l>
+            <l n="1087" xml:id="l1087">Je l’ai cent fois surprise en des plaintes secrètes,</l>
+            <l n="1088" xml:id="l1088">Où votre nom mêlé me témoignait assez</l>
+            <l n="1089" xml:id="l1089">Combien et de quels traits ses esprits sont blessés.</l>
+            <l n="1090" xml:id="l1090">Mais las ! quelle infortune égale sa disgrâce !</l>
+            <l n="1091" xml:id="l1091">Et quel est son malheur, brûlant pour de la glace !</l>
+            <l n="1092" xml:id="l1092">Son visage est pourvu de tous les ornements</l>
+            <l n="1093" xml:id="l1093">Capables de charmer les esprits des amants ;</l>
+            <l n="1094" xml:id="l1094">A-t-elle des défauts dans l’esprit ou dans l’âme</l>
+            <l n="1095" xml:id="l1095">Qui vous aient empêché de partager sa flamme ?</l>
+            <l n="1096" xml:id="l1096">Trouvez-vous en sa vie un juste fondement</l>
+            <l n="1097" xml:id="l1097">De ne la chérir pas en qualité d’amant ?</l>
+            <l n="1098" xml:id="l1098">Que lui pourrai-je dire ? avec quelle assurance</l>
+            <l n="1099" xml:id="l1099">Lui pourrai-je parler de votre indifférence ?</l>
+            <l n="1100" xml:id="l1100">Car elle attend de vous la fin de ses tourments.</l>
+            <l n="1101" xml:id="l1101">Ô ciel ! qui vois son cœur, punis-moi si je mens.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-6">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1102" xml:id="l1102">Ce matin, toutefois, cette orgueilleuse amante</l>
+            <l n="1103" xml:id="l1103">Ne le témoignait pas.</l>
+          </sp>
+          <sp who="célirée" xml:id="IV9-7">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1104" xml:id="l1104">Et vous croyez Orante ?</l>
+            <l n="1105" xml:id="l1105">Elle vous congédie alors qu’elle se plaint ?</l>
+            <l n="1106" xml:id="l1106">Et voulant éprouver votre amitié, l’éteint ?</l>
+            <l n="1107" xml:id="l1107">Vous avez peu d’amour ou peu d’expérience ;</l>
+            <l n="1108" xml:id="l1108">Ce vous est un grand mal qu’un peu de patience.</l>
+            <l n="1109" xml:id="l1109">Comment prouverez-vous votre fidélité,</l>
+            <l n="1110" xml:id="l1110">Si d’un coup seulement vous êtes rebuté ?</l>
+            <l n="1111" xml:id="l1111">Pour être cru fidèle, est-ce assez qu’une dame</l>
+            <l n="1112" xml:id="l1112">Vous entende parler de soupirs et de flamme ?</l>
+            <l n="1113" xml:id="l1113">Ces discours sont communs à tous les amoureux ;</l>
+            <l n="1114" xml:id="l1114">Le plus indifférent est toujours malheureux :</l>
+            <l n="1115" xml:id="l1115">Le plus sain, s’il dit vrai, sent un cruel martyre ;</l>
+            <l n="1116" xml:id="l1116">Le plus libre est esclave, et le plus froid soupire.</l>
+            <l n="1117" xml:id="l1117">L’apparence est douteuse, et ses signes parfaits</l>
+            <l n="1118" xml:id="l1118">D’une parfaite amour consistent aux effets.</l>
+            <l n="1119" xml:id="l1119">Orante est si blessée, et sa peine si vraie,</l>
+            <l n="1120" xml:id="l1120">Qu’elle a raison, monsieur, de sonder votre plaie,</l>
+            <l n="1121" xml:id="l1121">Et cherche justement, en cette élection,</l>
+            <l n="1122" xml:id="l1122">Pour beaucoup d’amitié beaucoup d’affection.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-8">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1123" xml:id="l1123">Demain je la verrai, parle-lui de ma peine ;</l>
+            <l n="1124" xml:id="l1124">Dis-lui qu’elle a douté d’une ardeur trop certaine ;</l>
+            <l n="1125" xml:id="l1125">Qu’il n’est tourment égal à ceux que j’ai soufferts,</l>
+            <l n="1126" xml:id="l1126">Et que mon seul respect avait rompu mes fers.</l>
+          </sp>
+          <sp who="célirée" xml:id="IV9-9">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1127" xml:id="l1127">Son sentiment douteux naît d’une jalousie</l>
+            <l n="1128" xml:id="l1128">Dont vous pouvez, monsieur, guérir sa fantaisie.</l>
+            <l n="1129" xml:id="l1129">Ne souffrant que pour vous, elle désire aussi</l>
+            <l n="1130" xml:id="l1130">Être le seul objet de votre doux souci,</l>
+            <l n="1131" xml:id="l1131">Et veut avoir le cœur de cette paysanne</l>
+            <l n="1132" xml:id="l1132">Que vous aimiez jadis.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-10">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1133" xml:id="l1133">Quoi, le cœur de Diane ?</l>
+          </sp>
+          <sp who="célirée" xml:id="IV9-11">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1134" xml:id="l1134">Sinon, vos maux sont vains et vos vœux superflus :</l>
+            <l n="1135" xml:id="l1135">Mais vous contenterez son esprit là-dessus.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-12">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1136" xml:id="l1136">Dis-lui que l’intérêt d’une beauté plus rare</l>
+            <l n="1137" xml:id="l1137">Ne me porterait pas à ce dessein barbare,</l>
+            <l n="1138" xml:id="l1138">Et qu’elle sollicite à cet acte odieux</l>
+            <l n="1139" xml:id="l1139">Un amant plus ardent et plus officieux ;</l>
+            <l n="1140" xml:id="l1140">Que je tiens ses froideurs et ses flammes égales ;</l>
+            <l n="1141" xml:id="l1141">Qu’amour ne loge point en des âmes brutales,</l>
+            <l n="1142" xml:id="l1142">Et que je défendrais cette jeune beauté</l>
+            <l n="1143" xml:id="l1143">Contre les artisans de sa brutalité ;</l>
+            <l n="1144" xml:id="l1144">Que Diane m’est chère à l’égal de ma vie ;</l>
+            <l n="1145" xml:id="l1145">Que je la servirais comme je l’ai servie,</l>
+            <l n="1146" xml:id="l1146">Et qu’on m’aurait permis de vivre en ses liens,</l>
+            <l n="1147" xml:id="l1147">Si je n’étais pas né pour épouser des biens :</l>
+            <l n="1148" xml:id="l1148">Mais que j’ai des parents dont l’humeur importune</l>
+            <l n="1149" xml:id="l1149">À mon contentement préfère ma fortune.</l>
+          </sp>
+          <sp who="célirée" xml:id="IV9-13">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1150" xml:id="l1150">Que vos yeux sont charmés par de faibles attraits,</l>
+            <l n="1151" xml:id="l1151">Si vous avez senti le pouvoir de ses traits !</l>
+            <l n="1152" xml:id="l1152">Je connais cette fille, elle n’a point de charmes</l>
+            <l n="1153" xml:id="l1153">Capables de vous nuire et dignes de vos larmes ;</l>
+            <l n="1154" xml:id="l1154">Aux yeux des paysans elle a quelques appas ;</l>
+            <l n="1155" xml:id="l1155">Mais, si vous l’avouez, elle ne vous plaît pas.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-14">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1156" xml:id="l1156">Elle me plaît autant que ton discours m’offense ;</l>
+            <l n="1157" xml:id="l1157">Mais tu sers chez Orante, et tu prends sa défense ;</l>
+            <l n="1158" xml:id="l1158">Ton zèle est estimable, et ta condition</l>
+            <l n="1159" xml:id="l1159">M’oblige d’excuser ton indiscrétion.</l>
+          </sp>
+          <sp who="célirée" xml:id="IV9-15">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1160" xml:id="l1160">L’amour qu’elle eut pour vous vous la peignit si belle ;</l>
+            <l n="1161" xml:id="l1161">Mais, ne vous aimant plus, que jugerez-vous d’elle ?</l>
+            <l n="1162" xml:id="l1162">Le changement du sort peut changer ses esprits,</l>
+            <l n="1163" xml:id="l1163">Et d’une ardente amour faire un lâche mépris.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-16">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1164" xml:id="l1164">Hélas ! quel changement arrive à des bergères ?</l>
+          </sp>
+          <sp who="célirée" xml:id="IV9-17">
+            <speaker>CÉLIRÉE.</speaker>
+            <l n="1165" xml:id="l1165">Un homme trafiquant sur les mers étrangères</l>
+            <l n="1166" xml:id="l1166">S’est chargé des papiers de certains marchands morts,</l>
+            <l n="1167" xml:id="l1167">Parents de cette fille, et puissants en trésors :</l>
+            <l n="1168" xml:id="l1168">On ne lui donne point de vaines espérances,</l>
+            <l n="1169" xml:id="l1169">Car des lettres de change ont fait ses assurances ;</l>
+            <l n="1170" xml:id="l1170">L’auteur de la nouvelle est cousin d’Orimand,</l>
+            <l n="1171" xml:id="l1171">Qu’on dit être arrivé d’aujourd’hui seulement.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-18">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1172" xml:id="l1172">Ô dieux ! que me dis-tu ? puis-je à cette nouvelle,</l>
+            <l n="1173" xml:id="l1173">Différer un moment d’aller voir cette belle ?</l>
+          </sp>
+          <sp who="célirée" xml:id="IV9-19">
+            <speaker>CÉLIRÉE, <em>haussant la voix.</em></speaker>
+            <l n="1174" xml:id="l1174">Traître, qu’espères-tu que de perdre tes pas,</l>
+            <l n="1175" xml:id="l1175">Si, même en lui parlant, tu ne la connais pas ?</l>
+            <l n="1176" xml:id="l1176">Tu brûles pour Diane, insensible, barbare,</l>
+            <l n="1177" xml:id="l1177">Et ta passion cède à ton humeur avare !</l>
+            <l n="1178" xml:id="l1178">Tu brûles pour Diane, et ton cœur abattu</l>
+            <l n="1179" xml:id="l1179">Met les biens en balance avecque sa vertu !</l>
+            <l n="1180" xml:id="l1180">Non, ce que dit ta voix ton cœur le désavoue ;</l>
+            <l n="1181" xml:id="l1181">Le ciel a dans ton corps mis une âme de boue,</l>
+            <l n="1182" xml:id="l1182">Une âme inaccessible aux belles passions,</l>
+            <l n="1183" xml:id="l1183">Et qui n’a point d’objet que les possessions.</l>
+            <l n="1184" xml:id="l1184">Vois mon visage, ingrat, je suis cette Diane,</l>
+            <l n="1185" xml:id="l1185">Cette abjecte inconnue et vile paysanne,</l>
+            <l n="1186" xml:id="l1186">Cette simple bergère, et celle toutefois</l>
+            <l n="1187" xml:id="l1187">En qui tu n’aurais fait qu’un raisonnable choix,</l>
+            <l n="1188" xml:id="l1188">Dont la condition jadis était commune,</l>
+            <l n="1189" xml:id="l1189">Mais dont les qualités relevaient la fortune.</l>
+            <l n="1190" xml:id="l1190">L’or n’est pas seul aimable, et sous ces vêtements</l>
+            <l n="1191" xml:id="l1191">La vertu quelquefois s’est acquis des amants.</l>
+            <l n="1192" xml:id="l1192">Enfin, un changement à ma fortune arrive</l>
+            <l n="1193" xml:id="l1193">Qui me fait posséder l’objet qui te captive ;</l>
+            <l n="1194" xml:id="l1194">L’aveugle déité qui préside aux humains</l>
+            <l n="1195" xml:id="l1195">Ouvre enfin dessus moi ses libérales mains,</l>
+            <l n="1196" xml:id="l1196">J’ai de quoi t’acquérir et de quoi m’en défendre ;</l>
+            <l n="1197" xml:id="l1197">Elle qui se donnait est en pouvoir de prendre.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-20">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1198" xml:id="l1198">Dieux ! je vois Diane.</l>
+          </sp>
+          <sp who="diane" xml:id="IV9-21">
+            <speaker>DIANE.</speaker>
+            <l n="1199" xml:id="l1199">Oui, c’est elle que tes yeux</l>
+            <l n="1200" xml:id="l1200">Ont bien eu le pouvoir d’attirer en ces lieux,</l>
+            <l n="1201" xml:id="l1201">Celle qui meurt d’amour pour une âme traîtresse,</l>
+            <l n="1202" xml:id="l1202">Celle qui s’est réduite à servir ta maîtresse,</l>
+            <l n="1203" xml:id="l1203">Qui perd sa liberté, rend son honneur suspect,</l>
+            <l n="1204" xml:id="l1204">Et pour suivre un ingrat dépouille tout respect.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-22">
+            <speaker>LYSIMANT, <em>à genoux.</em></speaker>
+            <l n="1205" xml:id="l1205">Punis, belle Diane, un barbare, un perfide,</l>
+            <l n="1206" xml:id="l1206">Un traître en qui l’amour si lâchement préside,</l>
+            <l n="1207" xml:id="l1207">Et qui n’a pu forcer l’irrévocable arrêt</l>
+            <l n="1208" xml:id="l1208">D’un parent amoureux de son seul intérêt.</l>
+            <l n="1209" xml:id="l1209">J’appelle trahison cette seule impuissance,</l>
+            <l n="1210" xml:id="l1210">Et ma confession ajoute à mon offense ;</l>
+            <l n="1211" xml:id="l1211">Car le ciel m’est témoin qu’au moins ce lâche cœur</l>
+            <l n="1212" xml:id="l1212">N’a jamais reconnu que son premier vainqueur,</l>
+            <l n="1213" xml:id="l1213">Que toujours ton objet fut cher à ma pensée,</l>
+            <l n="1214" xml:id="l1214">Que le temps n’en a point ton image effacée,</l>
+            <l n="1215" xml:id="l1215">Que plutôt j’ai tâché d’effacer par mes pleurs</l>
+            <l n="1216" xml:id="l1216">Ce tyrannique arrêt de m’engager ailleurs.</l>
+            <l n="1217" xml:id="l1217">Aujourd’hui, si le sort nous était si propice</l>
+            <l n="1218" xml:id="l1218">Que nous pussions tromper une aveugle avarice,</l>
+            <l n="1219" xml:id="l1219">Ou charmer ce vieillard du vain éclat de l’or,</l>
+            <l n="1220" xml:id="l1220">(Je l’ai juré cent fois, et je le jure encor,)</l>
+            <l n="1221" xml:id="l1221">Tes désirs sur les miens auraient un libre empire,</l>
+            <l n="1222" xml:id="l1222">Et je posséderais le seul bien où j’aspire.</l>
+          </sp>
+          <sp who="diane" xml:id="IV9-23">
+            <speaker>DIANE.</speaker>
+            <l n="1223" xml:id="l1223">Si l’or peut à nos vœux accorder ses désirs,</l>
+            <l n="1224" xml:id="l1224">Rien ne diffère plus nos innocents plaisirs :</l>
+            <l n="1225" xml:id="l1225">Estimez-nous déjà sous une loi commune,</l>
+            <l n="1226" xml:id="l1226">Et venez consulter l’auteur de ma fortune ;</l>
+            <l n="1227" xml:id="l1227">Il est chez Orimand.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV9-24">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1228" xml:id="l1228">Tous mes sens sont ravis,</l>
+            <l n="1229" xml:id="l1229">Et, dans ce doux transport, je doute si je vis.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="IV10">
+          <head>Scène X</head>
+          <stage>LYSIMANT, DIANE, LE LAQUAIS</stage>
+          <sp who="diane" xml:id="IV10-1">
+            <speaker>DIANE, <em>ayant frappé.</em></speaker>
+            <l n="1230" xml:id="l1230">Lysandre est-il ici ?</l>
+          </sp>
+          <sp who="le-laquais" xml:id="IV10-2">
+            <speaker>LE LAQUAIS.</speaker>
+            <l n="1231" xml:id="l1231">Non, depuis un quart d’heure.</l>
+          </sp>
+          <sp who="diane" xml:id="IV10-3">
+            <speaker>DIANE.</speaker>
+            <l n="1232" xml:id="l1232">Doit-il en ce logis établir sa demeure ?</l>
+          </sp>
+          <sp who="le-laquais" xml:id="IV10-4">
+            <speaker>LE LAQUAIS.</speaker>
+            <l n="1233" xml:id="l1233">Ici même, on l’attend.</l>
+            <stage><hi rend="italic"><em>Il rentre.</em></hi></stage>
+          </sp>
+          <sp who="lysimant" xml:id="IV10-5">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1235" xml:id="l1235">Adieu, je vais chez nous</l>
+            <l n="1236" xml:id="l1236">Réjouir mes parents d’un changement si doux,</l>
+            <l n="1237" xml:id="l1237">Et par un mot d’écrit faire avertir Orante</l>
+            <l n="1238" xml:id="l1238">Que son affection m’est fort indifférente ;</l>
+            <l n="1239" xml:id="l1239">Que je suis glorieux alors que je la perds,</l>
+            <l n="1240" xml:id="l1240">Quoiqu’elle ait eu du droit sur l’objet que je sers ;</l>
+            <l n="1241" xml:id="l1241">Enfin que j’ai ton cœur, mais sans meurtre et sans crime,</l>
+            <l n="1242" xml:id="l1242">Et que tu m’en as fait un présent légitime.</l>
+          </sp>
+          <sp who="diane" xml:id="IV10-6">
+            <speaker>DIANE.</speaker>
+            <l n="1243" xml:id="l1243">Moi, j’entre chez Orante, et dans fort peu de temps</l>
+            <l n="1244" xml:id="l1244">J’envoie ou vais chez vous.</l>
+          </sp>
+          <sp who="lysimant" xml:id="IV10-7">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1245" xml:id="l1245">Adieu donc, je t’attends.</l>
+            <stage><hi rend="italic"><em>Il sort.</em></hi></stage>
+          </sp>
+          <sp who="diane" xml:id="IV10-8">
+            <speaker>DIANE, <em>seule.</em></speaker>
+            <l n="1247" xml:id="l1247">Ô dieux ! le doux espoir dont mon âme est flattée !</l>
+            <l n="1248" xml:id="l1248">Il faut changer d’habits, courons chez Dorothée.</l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="V">
+        <head>ACTE V</head>
+        <div type="scene" xml:id="V1">
+          <head>Scène première</head>
+          <sp who="sylvian" xml:id="V1-1">
+            <speaker>SYLVIAN, <em>seul</em></speaker>
+            <l n="1249" xml:id="l1249">Bel astre de mes jours, en quels lieux écartés</l>
+            <l n="1250" xml:id="l1250">Tes yeux font-ils briller leurs divines clartés ?</l>
+            <l n="1251" xml:id="l1251">Où te peux-tu cacher avec tant de lumière,</l>
+            <l n="1252" xml:id="l1252">Bergère impitoyable, et sourde à ma prière ?</l>
+            <l n="1253" xml:id="l1253">Las ! après de si longs et de si vains ennuis,</l>
+            <l n="1254" xml:id="l1254">Tu me plaindrais peut-être en l’état où je suis.</l>
+            <l n="1255" xml:id="l1255">D’un berger estimé dans tout le paysage,</l>
+            <l n="1256" xml:id="l1256">Abondant en troupeaux et riche en pâturage,</l>
+            <l n="1257" xml:id="l1257">Mon amour, dont l’ardeur m’oblige à te chercher,</l>
+            <l n="1258" xml:id="l1258">A fait, belle Diane, un malheureux cocher.</l>
+            <l n="1259" xml:id="l1259">J’ai changé pour te voir, sans juger que j’efface</l>
+            <l n="1260" xml:id="l1260">La gloire de mon nom et l’honneur de ma race,</l>
+            <l n="1261" xml:id="l1261">Au soin de deux chevaux le soin de cent brebis,</l>
+            <l n="1262" xml:id="l1262">Et mes habits de toile en ces honteux habits.</l>
+            <l n="1263" xml:id="l1263">Encor si j’obtenais un bien si délectable,</l>
+            <l n="1264" xml:id="l1264">Ce titre malheureux serait plus supportable ;</l>
+            <l n="1265" xml:id="l1265">Mais il n’empêche point notre désunion,</l>
+            <l n="1266" xml:id="l1266">Et Diane se cache à son Endymion.</l>
+            <l n="1267" xml:id="l1267">Mon espérance est vaine, on n’a point vu paraître</l>
+            <l n="1268" xml:id="l1268">L’éclat de ses rayons au logis de mon maître ;</l>
+            <l n="1269" xml:id="l1269">Tu n’es plus en son cœur, ses vœux sont refroidis,</l>
+            <l n="1270" xml:id="l1270">Il ne t’honore plus comme il a fait jadis ;</l>
+            <l n="1271" xml:id="l1271">Orante a captivé ce rival infidèle,</l>
+            <l n="1272" xml:id="l1272">Et je lui vais porter... Mais je vois cette belle.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="V2">
+          <head>Scène II</head>
+          <stage>ORANTE, SYLVIAN</stage>
+          <sp who="sylvian" xml:id="V2-1">
+            <speaker>SYLVIAN.</speaker>
+            <l n="1273" xml:id="l1273">J’allais chez vous, madame.</l>
+          </sp>
+          <sp who="orante" xml:id="V2-2">
+            <speaker>ORANTE.</speaker>
+            <l n="1274" xml:id="l1274">Hé dieux ! que Lysimant</l>
+            <l n="1275" xml:id="l1275">Témoigne peu de soin de mon contentement !</l>
+            <l n="1276" xml:id="l1276">Pourquoi ne vient-il pas ?</l>
+          </sp>
+          <sp who="sylvian" xml:id="V2-3">
+            <speaker>SYLVIAN.</speaker>
+            <l n="1277" xml:id="l1277">J’en ignore la cause ;</l>
+            <l n="1278" xml:id="l1278">Il m’a donné ce mot, sans parler d’autre chose.</l>
+          </sp>
+          <sp who="orante" xml:id="V2-4">
+            <speaker>ORANTE <em>prend la lettre, et lit.</em></speaker>
+            <l n="1279" xml:id="l1279">« Je deviens sourd, Orante, et votre vanité</l>
+            <l n="1280" xml:id="l1280">« A fait naître en mon cœur un mépris raisonnable :</l>
+            <l n="1281" xml:id="l1281">« Ne vous croyez pas tant aimable</l>
+            <l n="1282" xml:id="l1282">« Avecque si peu de beauté.</l>
+            <l n="1283" xml:id="l1283">« Où Diane paraît, rien ne me peut ravir :</l>
+            <l n="1284" xml:id="l1284">« Je sais de quel pouvoir votre beauté se vante ;</l>
+            <l n="1285" xml:id="l1285">« Mais cédez à votre servante</l>
+            <l n="1286" xml:id="l1286">« En l’art de vous faire servir.</l>
+            <l n="1287" xml:id="l1287">« Lysimant. »</l>
+            <l n="1288" xml:id="l1288">Dieux ! serait-ce Diane ?</l>
+            <l n="1289" xml:id="l1289">Adieu, va l’assurer</l>
+            <l n="1290" xml:id="l1290">Que je n’ai pas sujet de me désespérer,</l>
+            <l n="1291" xml:id="l1291">Et que sa vaine humeur a bien plus d’insolence</l>
+            <l n="1292" xml:id="l1292">Que mon affection n’avait de violence.</l>
+            <stage><hi rend="italic"><em>Elle déchire la lettre, et Sylvian sort.</em></hi></stage>
+          </sp>
+          <sp who="orante" xml:id="V2-5">
+            <speaker>ORANTE, <em>seule.</em></speaker>
+            <l n="1294" xml:id="l1294">Ô dieux ! je suis trahie, et dessous un faux nom</l>
+            <l n="1295" xml:id="l1295">Cet objet de ses vœux sert en notre maison.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="V3">
+          <head>Scène III</head>
+          <stage>ARISTE, ORANTE</stage>
+          <sp who="ariste" xml:id="V3-1">
+            <speaker>ARISTE.</speaker>
+            <l n="1296" xml:id="l1296">Pareil aux criminels qu’un juge redoutable</l>
+            <l n="1297" xml:id="l1297">A mandés pour entendre un arrêt équitable,</l>
+            <l n="1298" xml:id="l1298">Que la frayeur saisit et qui n’espèrent pas</l>
+            <l n="1299" xml:id="l1299">Un traitement plus doux qu’un rigoureux trépas :</l>
+            <l n="1300" xml:id="l1300">Tel je viens en ce lieu, l’âme noire d’un crime</l>
+            <l n="1301" xml:id="l1301">Qui défend que j’espère un pardon légitime ;</l>
+            <l n="1302" xml:id="l1302">Tel, mandé de chez vous, je viens tremblant et prêt</l>
+            <l n="1303" xml:id="l1303">D’entendre à vos parents prononcer mon arrêt.</l>
+            <l n="1304" xml:id="l1304">Mais que de votre voix j’obtienne ma sentence,</l>
+            <l n="1305" xml:id="l1305">Et vous m’obligerez à moins de résistance.</l>
+            <l n="1306" xml:id="l1306">Vous-même condamnez cet indiscret amant,</l>
+            <l n="1307" xml:id="l1307">Et ne pardonnez point à son ressentiment.</l>
+          </sp>
+          <sp who="orante" xml:id="V3-2">
+            <speaker>ORANTE.</speaker>
+            <l n="1308" xml:id="l1308">Quoi ! vous voulez mourir pour cet objet de haine,</l>
+            <l n="1309" xml:id="l1309">Dont les traits sont communs, dont l’humeur est si vaine,</l>
+            <l n="1310" xml:id="l1310">Qu’on ne peut estimer que par civilité,</l>
+            <l n="1311" xml:id="l1311">Et qui pouvait si peu sur votre liberté ?</l>
+            <l n="1312" xml:id="l1312">Ô dieux ! quel changement !</l>
+          </sp>
+          <sp who="ariste" xml:id="V3-3">
+            <speaker>ARISTE.</speaker>
+            <l n="1313" xml:id="l1313">N’attendez point d’excuse</l>
+            <l n="1314" xml:id="l1314">D’un amant criminel qui lui-même s’accuse,</l>
+            <l n="1315" xml:id="l1315">Qui considère enfin cet aveugle transport</l>
+            <l n="1316" xml:id="l1316">Avec un repentir plus cruel que la mort.</l>
+            <l n="1317" xml:id="l1317">J’ai trouvé des défauts où la grâce est extrême,</l>
+            <l n="1318" xml:id="l1318">Et des obscurités dans la lumière même ;</l>
+            <l n="1319" xml:id="l1319">J’ai changé vos attraits, ce teint en est blêmi,</l>
+            <l n="1320" xml:id="l1320">Mais l’amour m’a fait seul parler en ennemi.</l>
+            <l n="1321" xml:id="l1321">Dieux ! j’excuse déjà ce furieux caprice,</l>
+            <l n="1322" xml:id="l1322">Vous n’avez point encore ordonné mon supplice ;</l>
+            <l n="1323" xml:id="l1323">Déniez-vous ma peine à ma confession ?</l>
+          </sp>
+          <sp who="orante" xml:id="V3-4">
+            <speaker>ORANTE.</speaker>
+            <l n="1324" xml:id="l1324">Quelle peine mérite une juste action ?</l>
+            <l n="1325" xml:id="l1325">Quand vous m’avez nommée inconstante et parjure,</l>
+            <l n="1326" xml:id="l1326">Je ne m’offensais point d’une semblable injure ;</l>
+            <l n="1327" xml:id="l1327">Quand je n’étais pas belle en votre jugement,</l>
+            <l n="1328" xml:id="l1328">Je souffrais ce mépris encor plus justement ;</l>
+            <l n="1329" xml:id="l1329">La même vérité parloit en ce langage,</l>
+            <l n="1330" xml:id="l1330">Et cent fois mon miroir m’en a dit davantage.</l>
+            <l n="1331" xml:id="l1331">Je connais mes défauts, et sais que l’amitié</l>
+            <l n="1332" xml:id="l1332">De qui daigne m’aimer est digne de pitié ;</l>
+            <l n="1333" xml:id="l1333">Je ne vous crois, monsieur, aveugle ni coupable ;</l>
+            <l n="1334" xml:id="l1334">Je ne condamne point un discours véritable,</l>
+            <l n="1335" xml:id="l1335">Et vous n’avez failli qu’en ce point seulement</l>
+            <l n="1336" xml:id="l1336">Que vous m’avez traitée encor trop doucement.</l>
+          </sp>
+          <sp who="ariste" xml:id="V3-5">
+            <speaker>ARISTE.</speaker>
+            <l n="1337" xml:id="l1337">Ah ! c’est trop de rigueur ! et cette indifférence</l>
+            <l n="1338" xml:id="l1338">Me sert d’un châtiment pire que mon offense ;</l>
+            <l n="1339" xml:id="l1339">Pour m’être plus humaine il fallait me punir,</l>
+            <l n="1340" xml:id="l1340">Et c’est trop m’affliger que de me soutenir.</l>
+            <l n="1341" xml:id="l1341">Non, non, n’avouez point l’injustice et l’outrage</l>
+            <l n="1342" xml:id="l1342">Où le seul désespoir a porté mon courage.</l>
+            <l n="1343" xml:id="l1343">En l’extrême rigueur dont ce cœur est touché,</l>
+            <l n="1344" xml:id="l1344">Il est près de mourir pour prouver son péché ;</l>
+            <l n="1345" xml:id="l1345">Pour prouver que tout cède à vos aimables charmes,</l>
+            <l n="1346" xml:id="l1346">Et qu’il n’est point d’objet si digne de nos larmes.</l>
+            <l n="1347" xml:id="l1347">Je les ai profanés de mots injurieux :</l>
+            <l n="1348" xml:id="l1348">Mais que peut épargner un esprit furieux</l>
+            <l n="1349" xml:id="l1349">Qui se voit abusé d’une vaine promesse,</l>
+            <l n="1350" xml:id="l1350">Et son rival si près du lit de sa maîtresse ?</l>
+            <l n="1351" xml:id="l1351">J’ai failli toutefois, et je n’ai pas dessein</l>
+            <l n="1352" xml:id="l1352">De détourner le coup qui m’ouvrira le sein.</l>
+          </sp>
+          <sp who="orante" xml:id="V3-6">
+            <speaker>ORANTE.</speaker>
+            <l n="1353" xml:id="l1353">On pèche librement sous l’espoir de sa grâce,</l>
+            <l n="1354" xml:id="l1354">Et nos simplicités excitent votre audace ;</l>
+            <l n="1355" xml:id="l1355">Avecque moins d’amour je pourrais plus sur vous,</l>
+            <l n="1356" xml:id="l1356">Je serais absolue en votre esprit jaloux.</l>
+            <l n="1357" xml:id="l1357">Un respect nécessaire aurait pu vous contraindre</l>
+            <l n="1358" xml:id="l1358">À la discrétion de souffrir sans vous plaindre ;</l>
+            <l n="1359" xml:id="l1359">Mais je vous aimais trop, et le feu violent</l>
+            <l n="1360" xml:id="l1360">Que je vous témoignais vous a fait insolent.</l>
+            <l n="1361" xml:id="l1361">Votre discrétion dépendait de ma crainte ;</l>
+            <l n="1362" xml:id="l1362">Je devais témoigner d’être un peu moins atteinte :</l>
+            <l n="1363" xml:id="l1363">On souffre avec respect une sévère loi,</l>
+            <l n="1364" xml:id="l1364">Et j’aurais fait pour vous, en travaillant pour moi.</l>
+            <l n="1365" xml:id="l1365">Toutefois je suis bonne, et prendrai de mon père</l>
+            <l n="1366" xml:id="l1366">La résolution de ce que je dois faire.</l>
+          </sp>
+          <sp who="ariste" xml:id="V3-7">
+            <speaker>ARISTE.</speaker>
+            <l n="1367" xml:id="l1367">Ô dieux ! s’il fait cesser votre ressentiment,</l>
+            <l n="1368" xml:id="l1368">Quel bien est comparable à mon contentement ?</l>
+            <stage><hi rend="italic"><em>Ils sortent.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="V4">
+          <head>Scène IV</head>
+          <sp who="dorothée" xml:id="V4-1">
+            <speaker>DOROTHÉE, <em>seule</em></speaker>
+            <l n="1370" xml:id="l1370">Diane peut beaucoup, tout cède à son adresse,</l>
+            <l n="1371" xml:id="l1371">Le ciel est favorable à l’ardeur qui la presse.</l>
+            <l n="1372" xml:id="l1372">Adorable vainqueur des hommes et des dieux,</l>
+            <l n="1373" xml:id="l1373">Couronne ses desseins d’un succès glorieux !</l>
+            <l n="1374" xml:id="l1374">Elle s’est déguisée avecque tant de peine</l>
+            <l n="1375" xml:id="l1375">Qu’il est bien mal aisé que sa feinte soit vaine,</l>
+            <l n="1376" xml:id="l1376">Et l’honneur qu’on lui fait au logis d’Orimand</l>
+            <l n="1377" xml:id="l1377">Me fait bien espérer de ce déguisement.</l>
+            <l n="1378" xml:id="l1378">Déesse du repos, fais épaissir ton ombre :</l>
+            <l n="1379" xml:id="l1379">Quand ses yeux paraîtront en un endroit si sombre,</l>
+            <l n="1380" xml:id="l1380">Fais qu’on la méconnaisse, et que des traits si beaux</l>
+            <l n="1381" xml:id="l1381">Ne soient pas découverts en faveur des flambeaux.</l>
+            <l n="1382" xml:id="l1382">De cette heureuse nuit toutes ses nuits dépendent ;</l>
+            <l n="1383" xml:id="l1383">Seule tu la peux mettre où ses désirs prétendent,</l>
+            <l n="1384" xml:id="l1384">Et c’est par ta faveur que tous les amoureux</l>
+            <l n="1385" xml:id="l1385">À leurs chastes desseins ont un succès heureux.</l>
+            <l n="1386" xml:id="l1386">Tout mon contentement dépend de ses délices ;</l>
+            <l n="1387" xml:id="l1387">Je travaille pour moi lui prêtant mes services,</l>
+            <l n="1388" xml:id="l1388">Et j’aurai Sylvian, si je fais Lysimant</l>
+            <l n="1389" xml:id="l1389">Possesseur d’un objet si rare et si charmant.</l>
+            <stage><hi rend="italic"><em>Elle frappe à la porte de Lysimant.</em></hi></stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="V5">
+          <head>Scène V</head>
+          <stage>SYLVIAN, DOROTHÉE</stage>
+          <sp who="sylvian" xml:id="V5-1">
+            <speaker>SYLVIAN.</speaker>
+            <l n="1391" xml:id="l1391">Que voulez-vous si tard ?</l>
+          </sp>
+          <sp who="dorothée" xml:id="V5-2">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="1392" xml:id="l1392">Ah ! berger insensible,</l>
+            <l n="1393" xml:id="l1393">Ce lieu, comme ton cœur, est-il inaccessible ?</l>
+            <l n="1394" xml:id="l1394">Ne feras-tu jamais un gracieux accueil</l>
+            <l n="1395" xml:id="l1395">À celle que tu vois si proche du cercueil ?</l>
+            <l n="1396" xml:id="l1396">Je ne veux pas fléchir tes rigueurs inhumaines ;</l>
+            <l n="1397" xml:id="l1397">Je ne demande pas le loyer de mes peines ;</l>
+            <l n="1398" xml:id="l1398">Et, quoique chaque jour accroisse mon souci,</l>
+            <l n="1399" xml:id="l1399">Je n’avais pas dessein de te parler ici.</l>
+            <l n="1400" xml:id="l1400">Je cherche Lysimant.</l>
+          </sp>
+          <sp who="sylvian" xml:id="V5-3">
+            <speaker>SYLVIAN.</speaker>
+            <l n="1401" xml:id="l1401">Ô dieux ! c’est Dorothée.</l>
+          </sp>
+          <sp who="dorothée" xml:id="V5-4">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="1402" xml:id="l1402">Ce n’est plus que son corps, l’âme lui fut ôtée</l>
+            <l n="1403" xml:id="l1403">Alors qu’on l’avertit de ton éloignement ;</l>
+            <l n="1404" xml:id="l1404">Je mourus de regret en ce triste moment.</l>
+          </sp>
+          <sp who="sylvian" xml:id="V5-5">
+            <speaker>SYLVIAN.</speaker>
+            <l n="1405" xml:id="l1405">Bergère, mon habit prouve mon ignorance,</l>
+            <l n="1406" xml:id="l1406">Et ma condition excuse mon silence.</l>
+            <l n="1407" xml:id="l1407">J’enseignais autrefois ces discours amoureux :</l>
+            <l n="1408" xml:id="l1408">Nos bergers m’adoraient, je travaillais pour eux ;</l>
+            <l n="1409" xml:id="l1409">Et lors, quoique mon cœur fût plus froid qu’une souche,</l>
+            <l n="1410" xml:id="l1410">On croyait, toutefois, qu’il parloit par ma bouche.</l>
+            <l n="1411" xml:id="l1411">Maintenant je m’occupe à de lâches travaux,</l>
+            <l n="1412" xml:id="l1412">Et ne sais plus que l’art de régir mes chevaux.</l>
+            <l n="1413" xml:id="l1413">Je vais quérir mon maître.</l>
+          </sp>
+          <sp who="dorothée" xml:id="V5-6">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="1414" xml:id="l1414">Hélas ! quelle apparence</l>
+            <l n="1415" xml:id="l1415">De forcer sa froideur et son indifférence,</l>
+            <l n="1416" xml:id="l1416">Et de le disposer au bien que je prétends ?</l>
+            <l n="1417" xml:id="l1417">Mais voici Lysimant, ne perdons point de temps.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="V6">
+          <head>Scène VI</head>
+          <stage>LYSIMANT, DOROTHÉE, SYLVIAN</stage>
+          <sp who="dorothée" xml:id="V6-1">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="1418" xml:id="l1418">Monsieur ?</l>
+          </sp>
+          <sp who="lysimant" xml:id="V6-2">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1419" xml:id="l1419">Que voulez-vous ?</l>
+          </sp>
+          <sp who="dorothée" xml:id="V6-3">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="1420" xml:id="l1420">Ma compagne était prête</l>
+            <l n="1421" xml:id="l1421">De venir vous trouver, mais Orante l’arrête,</l>
+            <l n="1422" xml:id="l1422">Et je viens de sa part du logis d’Orimand :</l>
+            <l n="1423" xml:id="l1423">Lysandre est de retour, allons-y seulement.</l>
+          </sp>
+          <sp who="lysimant" xml:id="V6-4">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1424" xml:id="l1424">Non, non, je ne tiens point sa parole incertaine.</l>
+          </sp>
+          <sp who="dorothée" xml:id="V6-5">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="1425" xml:id="l1425">Voyons-le toutefois, donnez-vous cette peine,</l>
+            <l n="1426" xml:id="l1426">Elle vous en conjure.</l>
+          </sp>
+          <sp who="lysimant" xml:id="V6-6">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1427" xml:id="l1427">Allons, si tu le veux,</l>
+            <l n="1428" xml:id="l1428">Et s’il faut contenter cet objet de mes vœux.</l>
+          </sp>
+          <sp who="dorothée" xml:id="V6-7">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="1429" xml:id="l1429">On ouvre, le voilà.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="V7">
+          <head>Scène VII</head>
+          <stage>DIANE, <em>sous l’habit de Lysandre</em>, ORIMAND, LYSIMANT, SYLVIAN, DOROTHÉE</stage>
+          <sp who="lysimant" xml:id="V7-1">
+            <speaker>DIANE, <em>embrassant Lysimant.</em></speaker>
+            <l n="1430" xml:id="l1430">Puis-je aborder sans crainte</l>
+            <l n="1431" xml:id="l1431">Celui de qui j’attends une équitable plainte,</l>
+            <l n="1432" xml:id="l1432">Cet agréable amant, ce rival généreux,</l>
+            <l n="1433" xml:id="l1433">De qui j’ai ruiné les desseins amoureux ?</l>
+            <l n="1434" xml:id="l1434">Daignez-vous voir, monsieur, le tyran de votre aise,</l>
+            <l n="1435" xml:id="l1435">Et vous peut-il payer de raison qui vous plaise ?</l>
+            <l n="1436" xml:id="l1436">Le seul bien de vous voir est l’objet de mes pas.</l>
+          </sp>
+          <sp who="lysimant" xml:id="V7-2">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1437" xml:id="l1437">Ne cherchez point d’excuse à qui n’en attend pas ;</l>
+            <l n="1438" xml:id="l1438">On ne révoque point l’arrêt des destinées</l>
+            <l n="1439" xml:id="l1439">Qui fait, comme il leur plaît, ou rompt les hyménées.</l>
+            <l n="1440" xml:id="l1440">Le sort m’ôte Rosinde, et je suis satisfait</l>
+            <l n="1441" xml:id="l1441">Puisqu’il n’est pas aveugle au présent qu’il en fait,</l>
+            <l n="1442" xml:id="l1442">Et qu’il la réservait pour un objet plus digne</l>
+            <l n="1443" xml:id="l1443">D’être le possesseur de ce trésor insigne.</l>
+          </sp>
+          <sp who="diane" xml:id="V7-3">
+            <speaker>DIANE.</speaker>
+            <l n="1444" xml:id="l1444">Au moins cet accident vous donne un serviteur</l>
+            <l n="1445" xml:id="l1445">Que vous n’éprouverez, ni lâche, ni flatteur,</l>
+            <l n="1446" xml:id="l1446">Et qui perdra le jour aussitôt que l’envie</l>
+            <l n="1447" xml:id="l1447">De hasarder pour vous sa fortune et sa vie.</l>
+          </sp>
+          <sp who="dorothée" xml:id="V7-4">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="1448" xml:id="l1448">Souffrirez-vous, monsieur, le curieux dessein</l>
+            <l n="1449" xml:id="l1449">Qui me fait enquérir si certain bruit est vain ?</l>
+            <l n="1450" xml:id="l1450">Diane, pardonnez si je vous importune,</l>
+            <l n="1451" xml:id="l1451">Doit-elle à votre soin une telle fortune ?</l>
+            <l n="1452" xml:id="l1452">Avez-vous de si loin, après la mort des siens,</l>
+            <l n="1453" xml:id="l1453">À cette heureuse fille apporté tant de biens ?</l>
+          </sp>
+          <sp who="diane" xml:id="V7-5">
+            <speaker>DIANE.</speaker>
+            <l n="1454" xml:id="l1454">Ne doutez nullement des trésors qu’elle vante ;</l>
+            <l n="1455" xml:id="l1455">Je ne la flatte point d’une incertaine attente :</l>
+            <l n="1456" xml:id="l1456">Avecque mon bagage il lui vient dans deux jours</l>
+            <l n="1457" xml:id="l1457">De quoi la réjouir et prouver mon discours,</l>
+            <l n="1458" xml:id="l1458">Si je puis assurer par des lettres de change</l>
+            <l n="1459" xml:id="l1459">Cet accident pour elle autant heureux qu’étrange.</l>
+          </sp>
+          <sp who="dorothée" xml:id="V7-6">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="1460" xml:id="l1460">Qu’on va faire de vœux pour vos prospérités !</l>
+            <l n="1461" xml:id="l1461">Car chacun participe à ses félicités ;</l>
+            <l n="1462" xml:id="l1462">Son mérite est si grand, que cette aimable fille</l>
+            <l n="1463" xml:id="l1463">Est chère à tout le monde autant qu’à sa famille.</l>
+            <l n="1464" xml:id="l1464">Le bruit de son bonheur plaît aux plus envieux,</l>
+            <l n="1465" xml:id="l1465">Et d’une voix commune on en bénit les dieux.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="V8">
+          <head>Scène VIII</head>
+          <stage>DIANE, <em>sous l’habit de Lysandre</em>, ORIMAND, LYSIMANT, SYLVIAN, DOROTHÉE, LYSANDRE <em>arrive, et va à Sylvian avec deux porte-malles</em></stage>
+          <sp who="lysandre" xml:id="V8-1">
+            <speaker>LYSANDRE.</speaker>
+            <l n="1466" xml:id="l1466">Où se tient Orimand ?</l>
+          </sp>
+          <sp who="sylvian" xml:id="V8-2">
+            <speaker>SYLVIAN.</speaker>
+            <l n="1467" xml:id="l1467">Céans.</l>
+          </sp>
+          <sp who="orimand" xml:id="V8-3">
+            <speaker>ORIMAND.</speaker>
+            <l n="1468" xml:id="l1468">Qui me demande ?</l>
+          </sp>
+          <sp who="lysandre" xml:id="V8-4">
+            <speaker>LYSANDRE, <em>l’abordant.</em></speaker>
+            <l n="1469" xml:id="l1469">Ô dieux ! qui m’obligez d’une faveur si grande,</l>
+            <l n="1470" xml:id="l1470">Maîtres de l’univers, que je vous dois d’encens</l>
+            <l n="1471" xml:id="l1471">En ce rare bonheur qui ravit tous mes sens !</l>
+            <l n="1472" xml:id="l1472">Heureux et cher parent du seul objet que j’aime,</l>
+            <l n="1473" xml:id="l1473">Apprenez qui je suis par ce transport extrême :</l>
+            <l n="1474" xml:id="l1474">Reconnaissez Lysandre.</l>
+          </sp>
+          <sp who="orimand" xml:id="V8-5">
+            <speaker>ORIMAND.</speaker>
+            <l n="1475" xml:id="l1475">Ô dieux ! quel insensé !</l>
+          </sp>
+          <sp who="lysandre" xml:id="V8-6">
+            <speaker>LYSANDRE.</speaker>
+            <l n="1476" xml:id="l1476">Quoi ! le temps vous a-t-il mon portrait effacé ?</l>
+            <l n="1477" xml:id="l1477">Ne vous souvient-il plus de cet heureux Lysandre</l>
+            <l n="1478" xml:id="l1478">Que vous avez jadis choisi pour votre gendre ?</l>
+            <l n="1479" xml:id="l1479">Depuis que j’ai quitté ces lieux où j’habitais,</l>
+            <l n="1480" xml:id="l1480">Phébus n’a divisé les saisons que dix fois ;</l>
+            <l n="1481" xml:id="l1481">Je vous voyais partout, j’ai toujours en mon âme</l>
+            <l n="1482" xml:id="l1482">Conservé les portraits de vous et de madame ;</l>
+            <l n="1483" xml:id="l1483">Et vous méconnaissez ce parent fortuné,</l>
+            <l n="1484" xml:id="l1484">Qu’à l’appui de vos jours les dieux ont destiné !</l>
+          </sp>
+          <sp who="diane" xml:id="V8-7">
+            <speaker>DIANE, <em>à part.</em></speaker>
+            <l n="1485" xml:id="l1485">Ô sensible malheur !</l>
+          </sp>
+          <sp who="dorothée" xml:id="V8-8">
+            <speaker>DOROTHÉE, <em>à part.</em></speaker>
+            <l n="1486" xml:id="l1486">Ô disgrâce infinie !</l>
+          </sp>
+          <sp who="orimand" xml:id="V8-9">
+            <speaker>ORIMAND.</speaker>
+            <l n="1487" xml:id="l1487">Le ciel, qui que tu sois, guérisse ta manie !</l>
+            <stage><hi rend="italic"><em>À Diane.</em></hi></stage>
+            <l n="1489" xml:id="l1489">Mon fils, de quelle erreur cet homme est-il troublé ?</l>
+            <l n="1490" xml:id="l1490">Ton corps avec ton âge aurait-il bien doublé ?</l>
+            <l n="1491" xml:id="l1491">En la peine où je suis, qui de vous dois-je prendre ?</l>
+            <l n="1492" xml:id="l1492">Je n’ai qu’une Rosinde, et ne veux qu’un Lysandre.</l>
+          </sp>
+          <sp who="lysandre" xml:id="V8-10">
+            <speaker>DIANE, <em>à Lysandre.</em></speaker>
+            <l n="1493" xml:id="l1493">Toi, qui crois sous mon nom t’emparer de mon bien,</l>
+            <l n="1494" xml:id="l1494">Et posséder l’objet que le ciel a fait mien,</l>
+            <l n="1495" xml:id="l1495">Quel accident nouveau t’a mis en notre race ?</l>
+            <l n="1496" xml:id="l1496">Dessus quelle raison se fonde ton audace ?</l>
+            <l n="1497" xml:id="l1497">Donne à d’autres esprits ces divertissements,</l>
+            <l n="1498" xml:id="l1498">Et laisse un libre cours à nos contentements.</l>
+          </sp>
+          <sp who="lysandre" xml:id="V8-11">
+            <speaker>LYSANDRE.</speaker>
+            <l n="1499" xml:id="l1499">Ô ciel ! qui connais tout, si tu hais l’imposture,</l>
+            <l n="1500" xml:id="l1500">Par un visible effet punis cette aventure ;</l>
+            <l n="1501" xml:id="l1501">Et si, comme on le croit, ton bras est tout-puissant,</l>
+            <l n="1502" xml:id="l1502">Fais périr l’imposteur et montre l’innocent ;</l>
+            <l n="1503" xml:id="l1503">Désabuse ces gens, et leur fais reconnaître</l>
+            <l n="1504" xml:id="l1504">Qu’à tort cet affronteur me dispute mon être.</l>
+            <stage><hi rend="italic"><em>Fouillant en sa poche, et en tirant des lettres qu’il remet à Orimand.</em></hi></stage>
+            <l n="1506" xml:id="l1506">Mais en dois-je chercher des signes apparents</l>
+            <l n="1507" xml:id="l1507">Après ces mots écrits des mains de mes parents ?</l>
+            <l n="1508" xml:id="l1508">Passant en Portugal, j’ai pris cette assurance</l>
+            <l n="1509" xml:id="l1509">Qui confirme mon nom et ma persévérance ;</l>
+            <l n="1510" xml:id="l1510">Je suis cet heureux gendre et cet heureux époux</l>
+            <l n="1511" xml:id="l1511">Que, dès ses jeunes ans, Rosinde tient de vous.</l>
+          </sp>
+          <sp who="orimand" xml:id="V8-12">
+            <speaker>ORIMAND, <em>après avoir lu.</em></speaker>
+            <l n="1512" xml:id="l1512">Ô dieux ! que vois-je ici ?</l>
+          </sp>
+          <sp who="lysimant" xml:id="V8-13">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1513" xml:id="l1513">Que l’affronteur réponde !</l>
+            <l n="1514" xml:id="l1514">Je le rendrai coupable aux yeux de tout le monde.</l>
+            <l n="1515" xml:id="l1515">Voyez-vous pas déjà comme ses tremblements</l>
+            <l n="1516" xml:id="l1516">Prouvent son imposture et ses déguisements ?</l>
+          </sp>
+          <sp who="orimand" xml:id="V8-14">
+            <speaker>ORIMAND, <em>à Diane.</em></speaker>
+            <l n="1517" xml:id="l1517">Vous ne répondez rien ?</l>
+          </sp>
+          <sp who="diane" xml:id="V8-15">
+            <speaker>DIANE, <em>pleurant.</em></speaker>
+            <l n="1518" xml:id="l1518">Puisque votre puissance</l>
+            <l n="1519" xml:id="l1519">A résolu ma mort, je reste sans défense,</l>
+            <l n="1520" xml:id="l1520">Impitoyables dieux dont la compassion</l>
+            <l n="1521" xml:id="l1521">Nie un peu de faveur à tant d’affection.</l>
+            <stage><hi rend="italic"><em>À Lysimant. </em></hi></stage>
+            <l n="1523" xml:id="l1523">Et toi, qui de ces coups fais mon sexe capable,</l>
+            <l n="1524" xml:id="l1524">Plus criminel que moi, punis cette coupable ;</l>
+            <l n="1525" xml:id="l1525">J’ai rompu tes desseins, j’ai troublé tes plaisirs,</l>
+            <l n="1526" xml:id="l1526">Et par une imposture attiré tes désirs.</l>
+            <l n="1527" xml:id="l1527">L’adresse de voler ce que tu me dénies</l>
+            <l n="1528" xml:id="l1528">Flattait d’un doux espoir mes peines infinies ;</l>
+            <l n="1529" xml:id="l1529">Je n’ai pu toutefois alléger mon ennui ;</l>
+            <l n="1530" xml:id="l1530">Le ciel est contre moi, conspire avecque lui :</l>
+            <l n="1531" xml:id="l1531">Ne me refuse point un trépas légitime ;</l>
+            <l n="1532" xml:id="l1532">Punis-moi de ta main, et je mourrai sans crime.</l>
+            <stage><hi rend="italic"><em>À tous.</em></hi></stage>
+            <l n="1534" xml:id="l1534">Vous que je trahissais par ce déguisement,</l>
+            <l n="1535" xml:id="l1535">Joignez votre colère à son ressentiment ;</l>
+            <l n="1536" xml:id="l1536">N’épargnez point ma vie, et j’avouerai vos plaintes :</l>
+            <l n="1537" xml:id="l1537">Le dessein de voler me portait à ces feintes,</l>
+            <l n="1538" xml:id="l1538">Et je vous ai ravi le bien le plus exquis</l>
+            <l n="1539" xml:id="l1539">Que jamais vos travaux peuvent avoir acquis.</l>
+          </sp>
+          <sp who="orimand" xml:id="V8-16">
+            <speaker>ORIMAND.</speaker>
+            <l n="1540" xml:id="l1540">Amis, qu’on la saisisse.</l>
+          </sp>
+          <sp who="lysimant" xml:id="V8-17">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1541" xml:id="l1541">Est-ce Diane ? ô dieux !</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="V9">
+          <head>Scène IX</head>
+          <stage>DIANE, <em>sous l’habit de Lysandre</em>, ORIMAND, LYSIMANT, SYLVIAN, DOROTHÉE, LYSANDRE, ARISTE, ORANTE, FILÉMON</stage>
+          <sp who="ariste" xml:id="V9-1">
+            <speaker>ARISTE, <em>sortant de chez lui.</em></speaker>
+            <l n="1542" xml:id="l1542">Adieu. Mais quel tumulte aperçois-je en ces lieux ?</l>
+          </sp>
+          <sp who="filémon" xml:id="V9-2">
+            <speaker>FILÉMON.</speaker>
+            <l n="1543" xml:id="l1543">Il faut voir ce que c’est.</l>
+          </sp>
+          <sp who="diane" xml:id="V9-3">
+            <speaker>DIANE.</speaker>
+            <l n="1544" xml:id="l1544">Ordonnez mon supplice,</l>
+            <l n="1545" xml:id="l1545">Ou souffrez que ma main prévienne la justice.</l>
+            <stage><hi rend="italic"><em>À Lysimant.</em></hi></stage>
+            <l n="1547" xml:id="l1547">Accorde-moi ce fer, si tu m’aimas jamais.</l>
+            <l n="1548" xml:id="l1548">Un coup éteint mes feux, et rétablit ta paix ;</l>
+            <l n="1549" xml:id="l1549">Un coup me peut tirer de ces mains insolentes</l>
+            <l n="1550" xml:id="l1550">Qui révèrent si peu mes ardeurs violentes.</l>
+            <l n="1551" xml:id="l1551">Que tardes-tu, cruel ?</l>
+          </sp>
+          <sp who="lysimant" xml:id="V9-4">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1552" xml:id="l1552">Ô malheur de mes jours !</l>
+          </sp>
+          <sp who="sylvian" xml:id="V9-5">
+            <speaker>SYLVIAN.</speaker>
+            <l n="1553" xml:id="l1553">C’est Diane elle-même ! offrons-lui du secours.</l>
+            <l n="1554" xml:id="l1554">Insolents, quelle ardeur porte vos mains barbares</l>
+            <l n="1555" xml:id="l1555">Sur un objet pourvu de qualités si rares ?</l>
+            <l n="1556" xml:id="l1556">Qui vous fait tant oser ?</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="V10">
+          <head>Scène X</head>
+          <stage>DIANE, <em>sous l’habit de Lysandre</em>, ORIMAND, LYSIMANT, SYLVIAN, DOROTHÉE, LYSANDRE, ARISTE, ORANTE, FILÉMON, DAMON, UN EXEMPT, DEUX ARCHERS</stage>
+          <sp who="archers" xml:id="V10-1">
+            <speaker>DAMON, <em>aux archers.</em></speaker>
+            <l n="1557" xml:id="l1557">Hélas ! vengez sur eux</l>
+            <l n="1558" xml:id="l1558">La sensible douleur d’un père malheureux,</l>
+            <l n="1559" xml:id="l1559">Et rendez à ses vœux l’espoir de sa famille ;</l>
+            <l n="1560" xml:id="l1560">Hâtons-nous... Mais que vois-je, ô dieux ! voilà ma fille :</l>
+            <l n="1561" xml:id="l1561">Je vois l’ingrat sujet des pleurs que j’ai versés.</l>
+            <l n="1562" xml:id="l1562">Quelle étrange manie a ses esprits blessés ?</l>
+            <l n="1563" xml:id="l1563">Et dessous quel habit se présente à ma vue</l>
+            <l n="1564" xml:id="l1564">Cette aveugle de honte et de sens dépourvue ?</l>
+            <stage><hi rend="italic"><em>À Diane.</em></hi></stage>
+            <l n="1566" xml:id="l1566">Trouves-tu, malheureuse, en cet habillement,</l>
+            <l n="1567" xml:id="l1567">À celles de ton sexe un sortable ornement ?</l>
+          </sp>
+          <sp who="orimand" xml:id="V10-2">
+            <speaker>ORIMAND.</speaker>
+            <l n="1568" xml:id="l1568">J’ignore son dessein, mais par sa propre bouche</l>
+            <l n="1569" xml:id="l1569">Nous sommes avertis d’un larcin qui me touche ;</l>
+            <l n="1570" xml:id="l1570">Ces habits sont suspects en sa condition,</l>
+            <l n="1571" xml:id="l1571">Et ce déguisement a son intention.</l>
+            <l n="1572" xml:id="l1572">Messieurs, saisissez-la, car tout cet artifice</l>
+            <l n="1573" xml:id="l1573">Ne se peut découvrir qu’aux yeux de la justice.</l>
+          </sp>
+          <sp who="damon" xml:id="V10-3">
+            <speaker>DAMON.</speaker>
+            <l n="1574" xml:id="l1574">Non, non, portez les mains dessus le suborneur</l>
+            <l n="1575" xml:id="l1575">Dont la vaine promesse a trahi son honneur ;</l>
+            <l n="1576" xml:id="l1576">Celui que vous voyez a causé tous ses crimes,</l>
+            <l n="1577" xml:id="l1577">Et doit rendre accomplis ses espoirs légitimes :</l>
+            <l n="1578" xml:id="l1578">Elle espère de lui moins que n’a mérité</l>
+            <l n="1579" xml:id="l1579">L’honneur de sa famille et sa fidélité.</l>
+            <l n="1580" xml:id="l1580">Vous me croyez à tort l’auteur de sa naissance :</l>
+            <l n="1581" xml:id="l1581">Mes soins ont seulement élevé son enfance ;</l>
+            <l n="1582" xml:id="l1582">On a dans nos hameaux vu briller ses appas,</l>
+            <l n="1583" xml:id="l1583">Et le ciel, toutefois, ne l’y destinait pas.</l>
+            <l n="1584" xml:id="l1584">Oyez comme je l’eus en son âge plus tendre,</l>
+            <l n="1585" xml:id="l1585">Puisque cet accident m’oblige à vous l’apprendre.</l>
+          </sp>
+          <sp who="lysimant" xml:id="V10-4">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1586" xml:id="l1586">Ô dieux ! qu’un doux espoir flatte ma passion !</l>
+            <l n="1587" xml:id="l1587">Parle-nous vitement de son extraction.</l>
+          </sp>
+          <sp who="damon" xml:id="V10-5">
+            <speaker>DAMON.</speaker>
+            <l n="1588" xml:id="l1588">Une dame étrangère, et d’illustre famille,</l>
+            <l n="1589" xml:id="l1589">Eut d’une même couche un fils et cette fille ;</l>
+            <l n="1590" xml:id="l1590">Et le dessein qu’elle eut d’avantager son fils</l>
+            <l n="1591" xml:id="l1591">L’obligea d’accepter l’offre que je lui fis.</l>
+            <l n="1592" xml:id="l1592">Elle commit sa fille au souci de ma femme,</l>
+            <l n="1593" xml:id="l1593">Et quelques mois après je fus chez cette dame,</l>
+            <l n="1594" xml:id="l1594">Où, par son propre avis, je fis courir un bruit</l>
+            <l n="1595" xml:id="l1595">Que la jeune Diane était morte la nuit.</l>
+            <l n="1596" xml:id="l1596">Tout le monde me crut ; on plaignait ma tristesse,</l>
+            <l n="1597" xml:id="l1597">Et la mère feignait avecque tant d’adresse</l>
+            <l n="1598" xml:id="l1598">Qu’on ne pouvait nier des pleurs à ses regrets ;</l>
+            <l n="1599" xml:id="l1599">Que par de faux tourments elle en versait de vrais.</l>
+            <l n="1600" xml:id="l1600">Son fils étant cru seul, on vantait ses richesses,</l>
+            <l n="1601" xml:id="l1601">Et déjà de son âge on tirait des promesses</l>
+            <l n="1602" xml:id="l1602">D’un naturel si noble, et d’un esprit si bon,</l>
+            <l n="1603" xml:id="l1603">Qu’à peine marchait-il qu’on parloit de son nom.</l>
+            <l n="1604" xml:id="l1604">La fille d’Orimand n’était que de son âge,</l>
+            <l n="1605" xml:id="l1605">Et les parents dès lors firent ce mariage :</l>
+            <l n="1606" xml:id="l1606">On les fit embrasser, leurs plus proches présents :</l>
+            <l n="1607" xml:id="l1607">Lysandre fut époux à l’âge de six ans.</l>
+            <l n="1608" xml:id="l1608">Cet accord arrêté, la mère sort de France,</l>
+            <l n="1609" xml:id="l1609">Me laissant cette fille et quelque récompense ;</l>
+            <l n="1610" xml:id="l1610">Mais, depuis son départ, le soleil quinze fois</l>
+            <l n="1611" xml:id="l1611">A vu naître et tomber les feuilles de nos bois</l>
+            <l n="1612" xml:id="l1612">Sans qu’elle m’ait écrit, et qu’aucune nouvelle</l>
+            <l n="1613" xml:id="l1613">M’ait appris de sa part le soin qu’elle a pour elle.</l>
+          </sp>
+          <sp who="orimand" xml:id="V10-6">
+            <speaker>ORIMAND.</speaker>
+            <l n="1614" xml:id="l1614">Ô dieux ! la vaine fourbe ! et que subtilement</l>
+            <l n="1615" xml:id="l1615">Il pense profiter de ce déguisement !</l>
+            <l n="1616" xml:id="l1616">Diane ne vit plus, et sur cette croyance</l>
+            <l n="1617" xml:id="l1617">Nous avons établi cette heureuse alliance.</l>
+          </sp>
+          <sp who="lysandre" xml:id="V10-7">
+            <speaker>LYSANDRE.</speaker>
+            <l n="1618" xml:id="l1618">Non, non, il est certain que ma sœur voit le jour,</l>
+            <l n="1619" xml:id="l1619">Et cette occasion a pressé mon retour.</l>
+            <l n="1620" xml:id="l1620">Prête d’abandonner sa demeure mortelle,</l>
+            <l n="1621" xml:id="l1621">Ma mère m’appelant : Lysandre, me dit-elle,</l>
+            <l n="1622" xml:id="l1622">Je ne te laisse pas unique possesseur ;</l>
+            <l n="1623" xml:id="l1623">Les dieux, quand tu naquis, te firent une sœur,</l>
+            <l n="1624" xml:id="l1624">Et le dessein que j’eus d’agrandir ta fortune</l>
+            <l n="1625" xml:id="l1625">L’a réduite au malheur d’une vie importune.</l>
+            <l n="1626" xml:id="l1626">Je l’ai fait élever au logis de Damon :</l>
+            <l n="1627" xml:id="l1627">Boulogne est son village, et Diane son nom ;</l>
+            <l n="1628" xml:id="l1628">C’est ton portrait vivant, et pour la reconnaître</l>
+            <l n="1629" xml:id="l1629">Le sang te suffira, si tu la vois paraître ;</l>
+            <l n="1630" xml:id="l1630">Si tu la méconnais, une marque en son sein,</l>
+            <l n="1631" xml:id="l1631">Et deux sur le bras droit, t’en rendront plus certain.</l>
+            <l n="1632" xml:id="l1632">Pour cette occasion passe bientôt en France,</l>
+            <l n="1633" xml:id="l1633">Et fais que je trépasse avec cette espérance.</l>
+          </sp>
+          <sp who="damon" xml:id="V10-8">
+            <speaker>DAMON, <em>montrant le sein et le bras de Diane.</em></speaker>
+            <l n="1634" xml:id="l1634">Favorable discours ! hélas ! n’en doutez plus,</l>
+            <l n="1635" xml:id="l1635">Et venez remarquer ces signes superflus.</l>
+            <l n="1636" xml:id="l1636">Punissez, si je mens, l’auteur de l’imposture.</l>
+          </sp>
+          <sp who="lysandre" xml:id="V10-9">
+            <speaker>LYSANDRE.</speaker>
+            <l n="1637" xml:id="l1637">Ô Diane ! ô ma sœur ! ô divine aventure !</l>
+            <l n="1638" xml:id="l1638">Ô favorable jour !</l>
+          </sp>
+          <sp who="dorothée" xml:id="V10-10">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="1639" xml:id="l1639">Ô doux contentement !</l>
+          </sp>
+          <sp who="lysimant" xml:id="V10-11">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1640" xml:id="l1640">Je doute si je veille en ce ravissement.</l>
+          </sp>
+          <sp who="diane" xml:id="V10-12">
+            <speaker>DIANE.</speaker>
+            <l n="1641" xml:id="l1641">Enfin, heureux amant, le soin des destinées</l>
+            <l n="1642" xml:id="l1642">A-t-il avec mes maux tes froideurs terminées ?</l>
+            <l n="1643" xml:id="l1643">Et la sœur de Lysandre a-t-elle plus d’appas</l>
+            <l n="1644" xml:id="l1644">Que celle, que tous ceux d’un sort abject et bas ?</l>
+            <l n="1645" xml:id="l1645">Toucher ai-je ton cœur ?</l>
+          </sp>
+          <sp who="lysimant" xml:id="V10-13">
+            <speaker>LYSIMANT.</speaker>
+            <l n="1646" xml:id="l1646">Divin charme des âmes,</l>
+            <l n="1647" xml:id="l1647">Premier et seul objet qui fis naître mes flammes,</l>
+            <l n="1648" xml:id="l1648">Qui n’aurait souhaité les maux que j’ai soufferts</l>
+            <l n="1649" xml:id="l1649">Et ne serait heureux de mourir dans tes fers ?</l>
+          </sp>
+          <sp who="orante" xml:id="V10-14">
+            <speaker>ORANTE.</speaker>
+            <l n="1650" xml:id="l1650">Ô dieux ! quel changement !</l>
+          </sp>
+          <sp who="filémon" xml:id="V10-15">
+            <speaker>FILÉMON.</speaker>
+            <l n="1651" xml:id="l1651">Que mon âme est ravie !</l>
+          </sp>
+          <sp who="orante" xml:id="V10-16">
+            <speaker>DIANE, <em>à Orante.</em></speaker>
+            <l n="1652" xml:id="l1652">Madame, que ce dieu qui gouverne ma vie</l>
+            <l n="1653" xml:id="l1653">M’excuse auprès de vous du dessein que j’avais</l>
+            <l n="1654" xml:id="l1654">De faire à Lysimant abandonner vos lois ;</l>
+            <l n="1655" xml:id="l1655">Je n’ai considéré ni craint votre colère,</l>
+            <l n="1656" xml:id="l1656">Et le ciel le devait à ma longue misère.</l>
+          </sp>
+          <sp who="orante" xml:id="V10-17">
+            <speaker>ORANTE.</speaker>
+            <l n="1657" xml:id="l1657">Oublions tous nos maux ; Ariste étant à moi,</l>
+            <l n="1658" xml:id="l1658">Un autre ne peut plus disposer de ma foi.</l>
+          </sp>
+          <sp who="ariste" xml:id="V10-18">
+            <speaker>ARISTE.</speaker>
+            <l n="1659" xml:id="l1659">Puisqu’à votre mépris votre faveur succède,</l>
+            <l n="1660" xml:id="l1660">Je ne rendrai jamais ce bien que je possède.</l>
+          </sp>
+          <sp who="lysandre" xml:id="V10-19">
+            <speaker>LYSANDRE, <em>à Orimand.</em></speaker>
+            <l n="1661" xml:id="l1661">En ce commun plaisir ne me déniez point</l>
+            <l n="1662" xml:id="l1662">Un bonheur qui me rend accompli de tout point ;</l>
+            <l n="1663" xml:id="l1663">Les dieux en Orient m’étaient si favorables,</l>
+            <l n="1664" xml:id="l1664">Et mes profits, monsieur, sont si considérables,</l>
+            <l n="1665" xml:id="l1665">Que mes biens partagés égalent quatre fois</l>
+            <l n="1666" xml:id="l1666">Ceux que j’eus étant jeune et ceux que j’espérais ;</l>
+            <l n="1667" xml:id="l1667">Tant de prospérités ont suivi mon attente</l>
+            <l n="1668" xml:id="l1668">Que je puis être heureux, et Diane contente.</l>
+          </sp>
+          <sp who="orimand" xml:id="V10-20">
+            <speaker>ORIMAND.</speaker>
+            <l n="1669" xml:id="l1669">Puisque je vois enfin ces doutes éclaircis,</l>
+            <l n="1670" xml:id="l1670">Mon gendre, embrassez-moi, bannissons tout souci ;</l>
+            <l n="1671" xml:id="l1671">Et vous, que j’ai traitée avecque tant d’outrage,</l>
+            <l n="1672" xml:id="l1672">Qu’un sensible regret force votre courage :</l>
+            <l n="1673" xml:id="l1673">Entrez ; et vous, Damon, partagez nos plaisirs</l>
+            <l n="1674" xml:id="l1674">En cette occasion si chère à vos désirs.</l>
+          </sp>
+          <sp who="sylvian" xml:id="V10-21">
+            <speaker>DOROTHÉE, <em>à Sylvian.</em></speaker>
+            <l n="1675" xml:id="l1675">Toi qui vois les faveurs que le ciel leur envoie,</l>
+            <l n="1676" xml:id="l1676">Veux-tu pas accorder mon repos à leur joie ?</l>
+            <l n="1677" xml:id="l1677">Trouves-tu point encor ce discours importun,</l>
+            <l n="1678" xml:id="l1678">Et souffrirai-je seule en ce bonheur commun ?</l>
+          </sp>
+          <sp who="diane" xml:id="V10-22">
+            <speaker>DIANE.</speaker>
+            <l n="1679" xml:id="l1679">Acceptez, Sylvian, cette aimable bergère,</l>
+            <l n="1680" xml:id="l1680">Nous vous en prions tous.</l>
+          </sp>
+          <sp who="sylvian" xml:id="V10-23">
+            <speaker>SYLVIAN.</speaker>
+            <l n="1681" xml:id="l1681">Ô douleur trop amère !</l>
+            <l n="1682" xml:id="l1682">Mais c’est trop consulter, puisque mes vœux sont vains.</l>
+            <l n="1683" xml:id="l1683">Au moins je recevrai ce présent de vos mains ;</l>
+            <l n="1684" xml:id="l1684">Quelque animosité que je fisse paraître,</l>
+            <l n="1685" xml:id="l1685">Je ne vous pourrais pas emporter sur mon maître.</l>
+          </sp>
+          <sp who="dorothée" xml:id="V10-24">
+            <speaker>DOROTHÉE.</speaker>
+            <l n="1686" xml:id="l1686">Ô bonheur infini ! bénissons ce beau jour,</l>
+            <l n="1687" xml:id="l1687">Et laissons en repos ces prisonniers d’Amour.</l>
+          </sp>
+          <sp who="archers" xml:id="V10-25">
+            <speaker>L’EXEMPT, <em>s’en allant avec les archers.</em></speaker>
+            <l n="1688" xml:id="l1688">Adieu, vivez contents.</l>
+          </sp>
+          <sp who="filémon" xml:id="V10-26">
+            <speaker>FILÉMON, <em>à Orimand.</em></speaker>
+            <l n="1689" xml:id="l1689">Le ciel vous favorise.</l>
+          </sp>
+          <sp who="orimand" xml:id="V10-27">
+            <speaker>ORIMAND.</speaker>
+            <l n="1690" xml:id="l1690">Que sa bonté, monsieur, tous vos vœux autorise.</l>
+          </sp>
+          <sp who="filémon" xml:id="V10-28">
+            <speaker>FILÉMON.</speaker>
+            <l n="1691" xml:id="l1691">Jusqu’à demain, Ariste.</l>
+          </sp>
+          <sp who="orimand" xml:id="V10-29">
+            <speaker>ORIMAND.</speaker>
+            <l n="1692" xml:id="l1692">Entrons, et qu’à jamais</l>
+            <l n="1693" xml:id="l1693">Puisse durer le cours de cette heureuse paix.</l>
+            <stage><hi rend="italic"><em>Ils sortent tous.</em></hi></stage>
+          </sp>
+          <sp who="sylvian" xml:id="V10-30">
+            <speaker>SYLVIAN, <em>seul.</em></speaker>
+            <l n="1695" xml:id="l1695">Puisque tout est contraire à ta persévérance,</l>
+            <l n="1696" xml:id="l1696">Va dans un broc de vin noyer ton espérance,</l>
+            <l n="1697" xml:id="l1697">Malheureux Sylvian, et venge sur les plats</l>
+            <l n="1698" xml:id="l1698">La perte que tu fais de ses rares appas. </l>
+          </sp>
+          <p>FIN</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

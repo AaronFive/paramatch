@@ -1,0 +1,2804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="bibdramatique.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Belle Egyptienne</title>
+        <author key="Alexandre Hardy">Alexandre Hardy</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Edition initialement mise à disposition sur emothe.uv.es au format HTML, convertie en XML-TEI dans le cadre de cadre du projet Hyperpièces avec Céline Fournial et du stage de master 2 d'Aaron Boussidan au LIGM.</edition>
+        <respStmt>
+          <name>Ángeles García Calderón</name>
+          <resp>Edition et annotation de la pièce pour la collection EMOTHE. Valencia : ARTELOPE Universitat de València, 2018</resp>
+        </respStmt>
+        <respStmt>
+          <name>Ángeles García Calderón</name>
+          <resp>López Martínez, José Enrique (Artelope)</resp>
+        </respStmt>
+        <respStmt>
+          <name>Philippe Gambette</name>
+          <resp>Conversion du code HTML vers XML/TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LIGM</publisher>
+        <date when="2021"/>
+        <availability status="free">
+          <p>In the public domain</p>
+        </availability>
+        <idno>https://emothe.uv.es/biblioteca/textosEMOTHE/EMOTHE0514_LaBelleEgyptienne.php</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author></author>. <title></title>. </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="[date]">[date]</date>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term subtype="tragedy" type="genre">Tragédie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head></head>
+      <div type="set">
+        <div>
+          <head>PERSONNAGES</head>
+          <castList>
+
+            <castItem>
+              <role rend="male/female" xml:id="dom-jean-de-carcame">DOM JEAN DE CARCAME</role>
+              <roleDesc>, dit ANDRES</roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="précieuse">PRÉCIEUSE</role>
+              <roleDesc>, trouvée de CONSTANCE DE MENESSES</roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="mère-putative">MÈRE PUTATIVE</role>
+              <roleDesc>, ou VIEILLE ÉGYPTIENNE</roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="dom-sancho">DOM SANCHO</role>
+              <roleDesc>, dit CLÉMENT</roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="garçon-égyptien">GARÇON ÉGYPTIEN</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="le-sénéchal-dom-ferdinand">LE SÉNÉCHAL DOM FERDINAND</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="la-dame-guiomar">LA DAME GUIOMAR</role>
+              <roleDesc>, sa femme</roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="capitaine-égyptien">CAPITAINE ÉGYPTIEN</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="i.-égyptien">I. ÉGYPTIEN</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="ii.-égyptien">II. ÉGYPTIEN</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="troupe-d'égyptiens">TROUPE D'ÉGYPTIENS</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="la-carduche">LA CARDUCHE</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="l'alcade">L'ALCADE</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="troupe-de-villageois">TROUPE DE VILLAGEOIS</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="soldat">SOLDAT</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="geôlier">GEÔLIER</role>
+              <roleDesc></roleDesc>
+            </castItem>
+
+            <castItem>
+              <role rend="male/female" xml:id="mère">MÈRE</role>
+              <roleDesc>, de Carduche</roleDesc>
+            </castItem>
+
+          </castList>
+        </div>
+      </div>
+      <div type="act" xml:id="PREMIER">
+        <head>ACTE PREMIER</head>
+        <div type="scene" xml:id="PREMIER1">
+          <head>SCÈNE I</head>
+          <sp who="dom-jean" xml:id="PREMIER1-1">
+            <speaker>DOM JEAN</speaker>
+            <l n="0" xml:id="l0">Puissant maître des Dieux, modère Amour, modère</l>
+            <l n="1" xml:id="l1">Le foudre décoché de ta juste colère,</l>
+            <l n="2" xml:id="l2">N'exige, si cruel, d'un profane mépris,</l>
+            <l n="3" xml:id="l3">D'une stupide erreur qui me retenait pris,</l>
+            <l n="4" xml:id="l4">Cette punition plus grande que le crime;</l>
+            <l n="5" xml:id="l5">Ou prends qu'il excédât, la pitié magnanime</l>
+            <l n="6" xml:id="l6">D'une double couronne honore le vainqueur,</l>
+            <l n="7" xml:id="l7">Qui, le plus offensé, montre moins de rigueur,</l>
+            <l n="8" xml:id="l8">Qui voit que son captif à genoux s'humilie,</l>
+            <l n="9" xml:id="l9">Et de ses propres mains volontaire se lie.</l>
+            <l n="10" xml:id="l10">Jusqu'ici mon printemps défia ton pouvoir,</l>
+            <l n="11" xml:id="l11">Les plus rares objets ne saurent l'émouvoir,</l>
+            <l n="12" xml:id="l12">Narcisse impitoyable à mille belles dames,</l>
+            <l n="13" xml:id="l13">Chez qui ma glace éprit la rigueur de tes flammes.</l>
+            <l n="14" xml:id="l14">Mais ainsi que Junon abat le plus souvent</l>
+            <l n="15" xml:id="l15">Avec un peu d'humeur les orages du vent,</l>
+            <l n="16" xml:id="l16">Ainsi que la rémore arrête sur Neptune</l>
+            <l n="17" xml:id="l17">L'orgueil haut élevé de la nef importune,</l>
+            <l n="18" xml:id="l18">Tu n'as, Porte-carquois, contre un audacieux</l>
+            <l n="19" xml:id="l19">Voulu choisir l'objet en grandeur spécieux :</l>
+            <l n="20" xml:id="l20">Celui qui dans les lacs de sa beauté me lie,</l>
+            <l n="21" xml:id="l21">D'un vulgaire passant la plus fangeuse lie,</l>
+            <l n="22" xml:id="l22">Du nombre indigne sort de celles qui s'en vont</l>
+            <l n="23" xml:id="l23">Le mensonge à la langue et l'impudence au front</l>
+            <l n="24" xml:id="l24">Prédire sous leur art cauteleux d'imposture</l>
+            <l n="25" xml:id="l25">Ce qu'un peuple idiot nomme bonne aventure.</l>
+            <l n="26" xml:id="l26">Là mon soleil reluit à travers ces nuaus ;</l>
+            <l n="27" xml:id="l27">Là, subtil oiseleur, tu cachas tes gluaus,</l>
+            <l n="28" xml:id="l28">Là ma sainte paraît rose entre des épines,</l>
+            <l n="29" xml:id="l29">Qui sur les cœurs humains exerce ses rapines,</l>
+            <l n="30" xml:id="l30">Qui mérite un Empire; et rare diamant</l>
+            <l n="31" xml:id="l31">Se va dans ce fumier attaché diffamant.</l>
+            <l n="32" xml:id="l32">Las ! plus le souvenir court sa céleste idée,</l>
+            <l n="33" xml:id="l33">Une rage d'amour s'augmente débordée ;</l>
+            <l n="34" xml:id="l34">Ce front voûté d'albâtre, et ces deux astres clairs</l>
+            <l n="35" xml:id="l35">D'où Cupidon foudroie environné d'éclairs,</l>
+            <l n="36" xml:id="l36">Ces cheveux d'or épars à tresses vagabondes</l>
+            <l n="37" xml:id="l37">Qu'un Zéphyr amoureux fait frisoter en ondes,</l>
+            <l n="38" xml:id="l38">Et le double corail de sa bouche qui rend</l>
+            <l n="39" xml:id="l39">Mille oracles le jour, un Dieu les inspirant,</l>
+            <l n="40" xml:id="l40">Ses naïves façons, sa grâce plus qu'humaine,</l>
+            <l n="41" xml:id="l41">De ce beau sein de neige une enflure germaine,</l>
+            <l n="42" xml:id="l42">Ce corsage à celui d'un jeune pin pareil,</l>
+            <l n="43" xml:id="l43">Bref de tant de beautés le guerrier appareil,</l>
+            <l n="44" xml:id="l44">Ne suffisait-il trop à réduire la terre ?</l>
+            <l n="45" xml:id="l45">À bâtir la prison cruelle qui m'enserre ?</l>
+            <l n="46" xml:id="l46">À me priver à coup de somme et de repas ?</l>
+            <l n="47" xml:id="l47">Toutefois reprend cœur, ne désespère pas,</l>
+            <l n="48" xml:id="l48">L'or fourrier de l'amour partout lui trouve place,</l>
+            <l n="49" xml:id="l49">L'or allume enchanteur le feu dedans la glace,</l>
+            <l n="50" xml:id="l50">L'or coula Jupiter dedans la tour d'airain</l>
+            <l n="51" xml:id="l51">Où sa belle maîtresse on captivait en vain,</l>
+            <l n="52" xml:id="l52">L'or fut le seul rameau que le preux fils d'Anchise</l>
+            <l n="53" xml:id="l53">Prit à le consulter d'inviolable franchise.</l>
+            <l n="54" xml:id="l54">Ces rayons enfermés que je vais déployer</l>
+            <l n="55" xml:id="l55">Me doivent obtenir un amoureux loyer,</l>
+            <l n="56" xml:id="l56">Telle sorte de gens pauvre se jette au lucre,</l>
+            <l n="57" xml:id="l57">Ne craindrait à ce prix d'entrer vive au sépulcre.</l>
+            <l n="58" xml:id="l58">Or voici le passage épié du retour</l>
+            <l n="59" xml:id="l59">Qu'à la ville fera cette aurore d'amour,</l>
+            <l n="60" xml:id="l60">Où libre de mes feus j'attente l'ouverture :</l>
+            <l n="61" xml:id="l61">Courage, un bruit survient qui proche me l'augure.</l>
+            <l n="62" xml:id="l62">Là voici dont l'abord m'épouvante confus,</l>
+            <l n="63" xml:id="l63">De crainte de souffrir la honte du refus.</l>
+          </sp>
+          <sp who="précieuse" xml:id="PREMIER1-2">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="64" xml:id="l64">Ô la belle rencontre! ô l'heureuse embuscade !</l>
+            <l n="65" xml:id="l65">Cette pâleur pourtant le montre un peu malade.</l>
+            <l n="66" xml:id="l66">La croix, mon cavalier, après tendez la main</l>
+            <l n="67" xml:id="l67">Votre bonne aventure on vous dira soudain.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-3">
+            <speaker>DOM JEAN</speaker>
+            <l n="68" xml:id="l68">Tu l'as mise la croix en cette âme captive,</l>
+            <l n="69" xml:id="l69">Seul soleil des beautés de l'Espagnole rive,</l>
+            <l n="70" xml:id="l70">Petite charmeresse apprise à décocher</l>
+            <l n="71" xml:id="l71">Des œillades qui font en langueur dessécher.</l>
+          </sp>
+          <sp who="précieuse" xml:id="PREMIER1-4">
+            <speaker>PRÉCIEUSE</speaker>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-5">
+            <speaker>DOM JEAN</speaker>
+            <l n="72" xml:id="l72">À qui tu sus donner d'invisibles entraves.</l>
+          </sp>
+          <sp who="précieuse" xml:id="PREMIER1-6">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="73" xml:id="l73">On traite les poulains de la sorte au printemps,</l>
+            <l n="74" xml:id="l74">De peur que déchaînés ils ne gagnent les champs.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-7">
+            <speaker>DOM JEAN</speaker>
+            <l n="75" xml:id="l75">Mauvaise, ne crains plus l'accident de ma fuite,</l>
+            <l n="76" xml:id="l76">Ne crains plus que le cœur s'écoule de ta suite.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-8">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="77" xml:id="l77">Monsieur, la croix, ou bien tels discours superflus</l>
+            <l n="78" xml:id="l78">Qui font mourir de faim ne nous retiennent plus.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-9">
+            <speaker>DOM JEAN</speaker>
+            <l n="79" xml:id="l79">Mes discours écoutez, ains mes humbles prières</l>
+            <l n="80" xml:id="l80">Compensent d'un moment les peines journalières,</l>
+            <l n="81" xml:id="l81">Dire oui vaudra mieux que de votre métier</l>
+            <l n="82" xml:id="l82">Les piles encourir un siècle tout entier.</l>
+          </sp>
+          <sp who="précieuse" xml:id="PREMIER1-10">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="83" xml:id="l83">Oui oui, le voilà dit à haute voix : où et-ce</l>
+            <l n="84" xml:id="l84">Que nous allons trouver l'effet de la promesse ?</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-11">
+            <speaker>DOM JEAN</speaker>
+            <l n="85" xml:id="l85">Où tu feras, sensible à ma ferme amitié,</l>
+            <l n="86" xml:id="l86">Luire quelque rayon palpable de pitié ?</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-12">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="87" xml:id="l87">Sourdes à écouter ces répliques frivoles</l>
+            <l n="88" xml:id="l88">Comme les avocats nous vendons les paroles.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-13">
+            <speaker>DOM JEAN</speaker>
+            <l n="89" xml:id="l89">Et moi comme amoureux je les donne, faisant</l>
+            <l n="90" xml:id="l90">Que l'or soudain se trouve avec elles présent.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-14">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="91" xml:id="l91">Mon bon seigneur, voyons ce miracle, de grâce.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-15">
+            <speaker>DOM JEAN</speaker>
+            <l n="92" xml:id="l92">Qui fait du plaisir veut que plaisir on lui fasse.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-16">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="93" xml:id="l93">Ès bornes de l'honneur enclos, et du pouvoir,</l>
+            <l n="94" xml:id="l94">Plutôt que demandé vous l'allez recevoir.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-17">
+            <speaker>DOM JEAN</speaker>
+            <l n="95" xml:id="l95">Ô triste réconfort ! Promesse captieuse !</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-18">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="96" xml:id="l96">Ne nous amusons plus, ma fille Précieuse.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-19">
+            <speaker>DOM JEAN</speaker>
+            <l n="97" xml:id="l97">Précieuse vraiment, ce beau nom t'est bien du,</l>
+            <l n="98" xml:id="l98">Qui de la chose en soi témoignage a rendu ;</l>
+            <l n="99" xml:id="l99">Précieuse vraiment, qui de valeur effaces</l>
+            <l n="100" xml:id="l100">Qui remporte le prix des beautés et des grâces,</l>
+            <l n="101" xml:id="l101">Mais fille l'avouer, vu l'inégalité</l>
+            <l n="102" xml:id="l102">De l'âge, causerait une incrédulité.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-20">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="103" xml:id="l103">Nièce, de qui la mère eût l'être de ma couche,</l>
+            <l n="104" xml:id="l104">Tel grade indifférent au principal ne touche.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-21">
+            <speaker>DOM JEAN</speaker>
+            <l n="105" xml:id="l105">Non, le cœur vous le va tirer de là-dedans,</l>
+            <l n="106" xml:id="l106">Le cœur pressé de crainte et de flambeaux ardents :</l>
+            <l n="107" xml:id="l107">Bien que l'extraction noble me recommande,</l>
+            <l n="108" xml:id="l108">Issu d'une famille et opulente et grande,</l>
+            <l n="109" xml:id="l109">Que Madrid reconnait la première aujourd'hui,</l>
+            <l n="110" xml:id="l110">Bien qu'unique resté d'un vieil père l'appui,</l>
+            <l n="111" xml:id="l111">Dom François de Carcame, à qui dans peu se donne</l>
+            <l n="112" xml:id="l112">L'un des plus beaux états vaquant de la Couronne :</l>
+            <l n="113" xml:id="l113">Mais or' qu'il possédât Monarque l'univers,</l>
+            <l n="114" xml:id="l114">Seul craint, seul obéi de ses peuples divers,</l>
+            <l n="115" xml:id="l115">Ta divine beauté me dérobe à moi-même,</l>
+            <l n="116" xml:id="l116">Te servir me tient plus content qu'un diadème,</l>
+            <l n="117" xml:id="l117">Ma fortune à tes pieds se prosterne, qui veux,</l>
+            <l n="118" xml:id="l118">N'avoir dorénavant autre sainte à mes vœux,</l>
+            <l n="119" xml:id="l119">N'avoir autre désir, n'avoir autre pensée,</l>
+            <l n="120" xml:id="l120">Qui ne connait ma vie ailleurs mieux dépensée,</l>
+            <l n="121" xml:id="l121">Ailleurs qu'en sacrifice à ton mérite offert</l>
+            <l n="122" xml:id="l122">Référer l'infini du long tourment souffert</l>
+            <l n="123" xml:id="l123">Depuis le jour fatal de ta première vue,</l>
+            <l n="124" xml:id="l124">Que le cœur assené d'une flèche impourvue</l>
+            <l n="125" xml:id="l125">Excède mon pouvoir et la commune foi.</l>
+            <l n="126" xml:id="l126">Reçois donc ce captif sous l'amoureuse loi,</l>
+            <l n="127" xml:id="l127">Qui d'arrhes seulement de sa ferme constance</l>
+            <l n="128" xml:id="l128">À tes perfections ces cent ducats avance,</l>
+            <l n="129" xml:id="l129">Lors que gratifié de la moindre faveur,</l>
+            <l n="130" xml:id="l130">Présume une fortune acquise en ma ferveur.</l>
+            <l n="131" xml:id="l131">Sans te plus travailler ça et là vagabonde,</l>
+            <l n="132" xml:id="l132">L'opprobre le mépris, et la fable du monde,</l>
+            <l n="133" xml:id="l133">Toutes deux à l'abri de mon ombre, ne faut</l>
+            <l n="134" xml:id="l134">Craindre qu'après votre heur endure aucun défaut.</l>
+          </sp>
+          <sp who="précieuse" xml:id="PREMIER1-22">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="135" xml:id="l135">Généreux cavalier, ès affaires humaines</l>
+            <l n="136" xml:id="l136">Le sens se laisse aller aux apparences vaines,</l>
+            <l n="137" xml:id="l137">Abusant qui le suit ainsi que ces démons</l>
+            <l n="138" xml:id="l138">Guides du voyageur sur la cime des monts,</l>
+            <l n="139" xml:id="l139">Ou dans quelque chemin de périlleuse issue</l>
+            <l n="140" xml:id="l140">Qui le perdent premier que leur fraude aperçue.</l>
+            <l n="141" xml:id="l141">Pauvre ne plus ne moins et veuve de support,</l>
+            <l n="142" xml:id="l142">Barque toujours flottante et qu'éloigne le port,</l>
+            <l n="143" xml:id="l143">Nourrie entre un amas de personnes oisives</l>
+            <l n="144" xml:id="l144">À nulle autre vertu qu'à leurs ruses actives,</l>
+            <l n="145" xml:id="l145">Jeune d'âge n'ayant depuis mon premier jour</l>
+            <l n="146" xml:id="l146">Vu de quinze printemps qu'à peine le retour;</l>
+            <l n="147" xml:id="l147">Une inclination toutefois de nature</l>
+            <l n="148" xml:id="l148">Trompe d'autres et vous en cette conjecture,</l>
+            <l n="149" xml:id="l149">Que parmi la licence un troupeau vicieux</l>
+            <l n="150" xml:id="l150">Empêche que l'honneur ne me soit précieux,</l>
+            <l n="151" xml:id="l151">Oui sans comparaison plus précieux qu'à celles</l>
+            <l n="152" xml:id="l152">Qui dans vos cités n'ont qu'un masque de pucelles,</l>
+            <l n="153" xml:id="l153">Qui lascives d'effet ne désirent sinon</l>
+            <l n="154" xml:id="l154">Se garder le faux bruit d'un pudique renom.</l>
+            <l n="155" xml:id="l155">Moi de contraire humeur, je me donne carrière</l>
+            <l n="156" xml:id="l156">Sur le premier objet qui fournit de matière,</l>
+            <l n="157" xml:id="l157">Et me suffit assez que ce corps impollu</l>
+            <l n="158" xml:id="l158">Moque les lacs tendus d'un propos dissolu :</l>
+            <l n="159" xml:id="l159">L'or se prise affiné dans l'ardente fournaise,</l>
+            <l n="160" xml:id="l160">Non la victoire acquise oiseuse et à l'aise.</l>
+            <l n="161" xml:id="l161">Hé! qui ne sait aussi que l'honneur comparé</l>
+            <l n="162" xml:id="l162">Ressemble un beau bouquet de toutes fleurs paré,</l>
+            <l n="163" xml:id="l163">Qu'après deux ou trois jours que chacun le manie</l>
+            <l n="164" xml:id="l164">Nous voyons contemptible en sa grâce finie ;?</l>
+            <l n="165" xml:id="l165">Que l'éclat au surplus de ce métal riant</l>
+            <l n="166" xml:id="l166">Me provoque le goût davantage friand ?</l>
+            <l n="167" xml:id="l167">Me survende mortel son amorce engloutie ?</l>
+            <l n="168" xml:id="l168">Jamais, il ne saurait me tromper avertie,</l>
+            <l n="169" xml:id="l169">Ne vous, n'homme qui vive au terrestre séjour</l>
+            <l n="170" xml:id="l170">Qu'en qualité d'époux n'obtiendra mon amour.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-23">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="171" xml:id="l171">Hé, folâtre, où prends-tu ce que tu viens de dire ?</l>
+            <l n="172" xml:id="l172">Le moyen t'écoutant de se tenir de rire ?</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-24">
+            <speaker>DOM JEAN</speaker>
+            <l n="173" xml:id="l173">Ains rebelle où prends-tu l'homicide raison</l>
+            <l n="174" xml:id="l174">Qui mes fers aggravés renforce ma prison ?</l>
+            <l n="175" xml:id="l175">Qui dessur une peur chimérique de blâme</l>
+            <l n="176" xml:id="l176">Jette subtilement de l'huile dans ma flamme ?</l>
+            <l n="177" xml:id="l177">Épargne ton pouvoir, épargne à ta beauté</l>
+            <l n="178" xml:id="l178">Un Phœnix de constance, un roc de loyauté :</l>
+            <l n="179" xml:id="l179">Tu désires qu'époux, ô agréable peine !</l>
+            <l n="180" xml:id="l180">Ma soif se désaltère à l'eau de ta fontaine ;</l>
+            <l n="181" xml:id="l181">Soit le Ciel conjuré, la haine des parents,</l>
+            <l n="182" xml:id="l182">L'innumérable excès d'obstacles apparents</l>
+            <l n="183" xml:id="l183">Ne peuvent divertir l'heur de ma destinée,</l>
+            <l n="184" xml:id="l184">L'heur mutuel qu'attend notre chaste hyménée,</l>
+            <l n="185" xml:id="l185">D'assurance joint donc à la mienne ta main,</l>
+            <l n="186" xml:id="l186">Ce futur mariage accompli dans demain.</l>
+          </sp>
+          <sp who="précieuse" xml:id="PREMIER1-25">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="187" xml:id="l187">Toute chose qui naît avec la violence</l>
+            <l n="188" xml:id="l188">Dévale précipite en l'éternel silence,</l>
+            <l n="189" xml:id="l189">Une fin ridicule et honteuse la suit.</l>
+            <l n="190" xml:id="l190">Or quiconque chez nous une fille poursuit,</l>
+            <l n="191" xml:id="l191">Quiconque la reçoit compagne de sa couche,</l>
+            <l n="192" xml:id="l192">Qu'après deux ans donnés d'épreuve ne lui touche :</l>
+            <l n="193" xml:id="l193">Ils peuvent converser ensemble privément,</l>
+            <l n="194" xml:id="l194">Mille honnêtes plaisirs cueillir réservement,</l>
+            <l n="195" xml:id="l195">Hormis le dernier point que leur garde ce terme,</l>
+            <l n="196" xml:id="l196">Un peu long si l'amant n'a le courage ferme.</l>
+            <l n="197" xml:id="l197">Que voulussiez subir la rigueur de la loi ?</l>
+            <l n="198" xml:id="l198">Donne à la coupelle épreuve votre foi ?</l>
+            <l n="199" xml:id="l199">Faire profession d'un habit, d'une vie ?</l>
+            <l n="200" xml:id="l200">Ou que du premier jour s'en perdrait bien l'envie,</l>
+            <l n="201" xml:id="l201">Mon infirme sujet ne le mérite pas,</l>
+            <l n="202" xml:id="l202">Heureuse de baiser la trace de vos pas.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-26">
+            <speaker>DOM JEAN</speaker>
+            <l n="203" xml:id="l203">Quand tu proposerais à ma flamme ignorée</l>
+            <l n="204" xml:id="l204">Les périls encourus pour la Toison dorée</l>
+            <l n="205" xml:id="l205">Du preux Thessalien, ou ces travaux hardis</l>
+            <l n="206" xml:id="l206">Qui mirent dans l'Olympe un Alcide jadis,</l>
+            <l n="207" xml:id="l207">Ma dextre entreprendrait sous le Dieu qui l'anime</l>
+            <l n="208" xml:id="l208">D'égaler à peu près leur gloire magnanime :</l>
+            <l n="209" xml:id="l209">Vis confinée ès rocs du Taure sourcilleux,</l>
+            <l n="210" xml:id="l210">Rien ne m'est avec toi ne dur ne périlleux;</l>
+            <l n="211" xml:id="l211">Pourvu que tes soleils me rayent favorables,</l>
+            <l n="212" xml:id="l212">Toutes conditions je répute honorables,</l>
+            <l n="213" xml:id="l213">Pourvu que mes travaux finissent quelque jour,</l>
+            <l n="214" xml:id="l214">Un Paradis me suit où sera ton séjour.</l>
+          </sp>
+          <sp who="précieuse" xml:id="PREMIER1-27">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="215" xml:id="l215">Telle forme envers moi d'honnête procédure</l>
+            <l n="216" xml:id="l216">Ne me reconnaîtrait ingrate ne trop dure,</l>
+            <l n="217" xml:id="l217">Et, ce noviciat de la sorte parfait,</l>
+            <l n="218" xml:id="l218">Nos désirs parviendront du propos à l'effet ;</l>
+            <l n="219" xml:id="l219">Desseins bâtis en l'air qui passent la puissance,</l>
+            <l n="220" xml:id="l220">Car comment colorer une si longue absence</l>
+            <l n="221" xml:id="l221">Du logis paternel ? comment à l'avenir</l>
+            <l n="222" xml:id="l222">Un cavalier le rang de Bohème tenir ?</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-28">
+            <speaker>DOM JEAN</speaker>
+            <l n="223" xml:id="l223">Certaine occasion, la meilleure du monde,</l>
+            <l n="224" xml:id="l224">Offerte à point nommé notre projet seconde,</l>
+            <l n="225" xml:id="l225">Tu le confesseras, sachant que le vieillard</l>
+            <l n="226" xml:id="l226">En la Flandre au plu tôt délivre mon départ ;</l>
+            <l n="227" xml:id="l227">Sur ce prétexte donc échappé de ma suite,</l>
+            <l n="228" xml:id="l228">Demain vers votre gros je dresserai ma fuite,</l>
+            <l n="229" xml:id="l229">Muni de force argent ; afin de me pouvoir</l>
+            <l n="230" xml:id="l230">Des confrères nouveaux faire mieux recevoir,</l>
+            <l n="231" xml:id="l231">Une bonne partie à nous trois réservée,</l>
+            <l n="232" xml:id="l232">Tant que l'hérédité paternelle arrivée</l>
+            <l n="233" xml:id="l233">Meurisse la moisson de nos contentements,</l>
+            <l n="234" xml:id="l234">Exemple proposée au bonheur des amants.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-29">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-30">
+            <speaker>DOM JEAN</speaker>
+            <l n="235" xml:id="l235">Onc de l'âme ne fut sur ce visage peinte,</l>
+            <l n="236" xml:id="l236">Ma foi porte un oracle où l'on se doit fier.</l>
+            <l n="237" xml:id="l237">Mais ne voulez-vous pas l'accord ratifier ?</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-31">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="238" xml:id="l238">Précieuse, en ce cas, suive son franc arbitre,</l>
+            <l n="239" xml:id="l239">Qui ne saurait d'ami choisir à meilleur titre.</l>
+          </sp>
+          <sp who="précieuse" xml:id="PREMIER1-32">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="240" xml:id="l240">Non, ma mère, l'honneur présentement reçu</l>
+            <l n="241" xml:id="l241">Possible qui le fait ne fâchera déçu,</l>
+            <l n="242" xml:id="l242">Mon inclination répugne à ma fortune,</l>
+            <l n="243" xml:id="l243">Lasse de plus servir de fable à la commune,</l>
+            <l n="244" xml:id="l244">Qui réclame le ciel chaque heure mille fois</l>
+            <l n="245" xml:id="l245">Sur les stables repos que nous promet ce choix.</l>
+            <l n="246" xml:id="l246">Tenez, mon cavalier, la parole avancée,</l>
+            <l n="247" xml:id="l247">D'une pauvre Andromède invincible Persée.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-33">
+            <speaker>DOM JEAN</speaker>
+            <l n="248" xml:id="l248">Tu la vois accomplie, ou le destin jaloux</l>
+            <l n="249" xml:id="l249">Me privera de vie en te privant d'époux.</l>
+            <l n="250" xml:id="l250">Or avais-je oublié que, crainte de surprise,</l>
+            <l n="251" xml:id="l251">Et pour mieux assurer l'amoureuse entreprise,</l>
+            <l n="252" xml:id="l252">Faut que votre brigade implorée au besoin,</l>
+            <l n="253" xml:id="l253">S'écarte à travers champ de la ville bien loin,</l>
+            <l n="254" xml:id="l254">Que deux traites plutôt elle réduise en une,</l>
+            <l n="255" xml:id="l255">Afin que de ma route on n'ait remarque aucune.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-34">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="256" xml:id="l256">Ne te chaille, volant sur les ailes du gain</l>
+            <l n="257" xml:id="l257">Cela sera ma charge, et j'y tiendrai la main.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-35">
+            <speaker>DOM JEAN</speaker>
+            <l n="258" xml:id="l258">Te souvienne informer par la ville, mon âme,</l>
+            <l n="259" xml:id="l259">En quel estime on a Dom François de Carcame,</l>
+            <l n="260" xml:id="l260">Si je fonde, pipeur, ton espoir sur du vent,</l>
+            <l n="261" xml:id="l261">Et va de notre amour ce gage recevant.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-36">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="262" xml:id="l262">Le fais lui pèserait, donnez que je j'allège,</l>
+            <l n="263" xml:id="l263">Elle toucher de l'or ? c'est pis qu'un sacrilège.</l>
+          </sp>
+          <sp who="précieuse" xml:id="PREMIER1-37">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="264" xml:id="l264">Que faites-vous ma mère ? hélas ! plutôt la mort</l>
+            <l n="265" xml:id="l265">Qu'avare mon honneur consente à tel effort,</l>
+            <l n="266" xml:id="l266">Que l'exposant vénal un reproche ordinaire</l>
+            <l n="267" xml:id="l267">Ce vertueux amour appelle mercenaire.</l>
+            <l n="268" xml:id="l268">Plutôt que ce présent ne lui restituer,</l>
+            <l n="269" xml:id="l269">Exorable venez me perdre, me tuer.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-38">
+            <speaker>DOM JEAN</speaker>
+            <l n="270" xml:id="l270">Ne m'imagine pas, téméraire folie,</l>
+            <l n="271" xml:id="l271">Croire que tel présent davantage te lie :</l>
+            <l n="272" xml:id="l272">Jupiter, tu aurais le Ciel à posséder,</l>
+            <l n="273" xml:id="l273">Jupiter, je voudrais le foudre te céder.</l>
+            <l n="274" xml:id="l274">Adieu ma Reine, adieu lumière de ma vie,</l>
+            <l n="275" xml:id="l275">Paye au moins d'un baiser ma liberté ravie.</l>
+          </sp>
+          <sp who="précieuse" xml:id="PREMIER1-39">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="276" xml:id="l276">On le réserve prêt, amorce du retour,</l>
+            <l n="277" xml:id="l277">Si ce grand mont n'enfante une souris d'amour.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="PREMIER1-40">
+            <speaker>DOM JEAN</speaker>
+            <l n="278" xml:id="l278">Léandre ne fendit onc de pareil courage</l>
+            <l n="279" xml:id="l279">Les flots impétueux de l'Hellespont à nage,</l>
+            <l n="280" xml:id="l280">Que pris en tes liens, notre je le revois,</l>
+            <l n="281" xml:id="l281">Ains utile au commun de la bande prévois.</l>
+          </sp>
+          <sp who="précieuse" xml:id="PREMIER1-41">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="282" xml:id="l282">Le pêcheur avisé dedans l'onde secoue</l>
+            <l n="283" xml:id="l283">Tous ces petits poissons dont sa ligne se joue,</l>
+            <l n="284" xml:id="l284">Et d'entre eux ne choisit que les gros plus exquis,</l>
+            <l n="285" xml:id="l285">L'impatience aussi nous perd souvent l'acquis.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="PREMIER1-42">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="286" xml:id="l286">L'amour plus que la peur de perdre te maîtrise,</l>
+            <l n="287" xml:id="l287">À plumer ces pigeons encore mal apprise,</l>
+            <l n="288" xml:id="l288">Qui ne viennent après que mieux au colombier,</l>
+            <l n="289" xml:id="l289">Simple tu me veux donc apprendre mon métier ?</l>
+            <l n="290" xml:id="l290">Vois-tu? Ceci se couche ès plis d'une chemise,</l>
+            <l n="291" xml:id="l291">Où se trouve au besoin notre espérance mise.</l>
+            <l n="292" xml:id="l292">Viendra-on quelquefois à tomber de hasard</l>
+            <l n="293" xml:id="l293">Ès justicières mains qui pincent sans égard ?</l>
+            <l n="294" xml:id="l294">Ces soleils exposés éblouissent la vue,</l>
+            <l n="295" xml:id="l295">Font naître la pitié chez qui ne l'avait eue.</l>
+            <l n="296" xml:id="l296">Sage d'expérience ;: une première fois</l>
+            <l n="297" xml:id="l297">Le fouet par le bourreau me tenait aux abois,</l>
+            <l n="298" xml:id="l298">La ville peu après en public, de sa grâce,</l>
+            <l n="299" xml:id="l299">Ces armes m'ordonnait, qu'un fer ardent nous trace :</l>
+            <l n="300" xml:id="l300">Alors, certes, alors mon remède valut</l>
+            <l n="301" xml:id="l301">Des ducats dépliez, et le tout s'en fallut.</l>
+            <l n="302" xml:id="l302">Mais achevons d'aller dedans la ville apprendre</l>
+            <l n="303" xml:id="l303">Si chez notre amoureux il y a tant à prendre,</l>
+            <l n="304" xml:id="l304">Que de suite la troupe on dispose au départ,</l>
+            <l n="305" xml:id="l305">Lui tenu sur sa route averti de ta part.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="PREMIER2">
+          <head>SCÈNE II</head>
+          <sp who="dom-sancho" xml:id="PREMIER2-1">
+            <speaker>DOM SANCHO</speaker>
+            <l n="306" xml:id="l306"><stage><hi rend="italic">Seul</hi></stage> Étrange cruauté, que la mère nature</l>
+            <l n="307" xml:id="l307">Admire son chef-d'œuvre en cette créature,</l>
+            <l n="308" xml:id="l308">Belle d'humeur, de corps, d'esprit et d'entretien,</l>
+            <l n="309" xml:id="l309">Tout de perfection, à qui ne défaut rien,</l>
+            <l n="310" xml:id="l310">Le faible lustre hors que la race nous donne,</l>
+            <l n="311" xml:id="l311">N'était que de fortune un bon vent l'abandonne.</l>
+            <l n="312" xml:id="l312">Quel dommage apparent, quelle horreur de la voir ?</l>
+            <l n="313" xml:id="l313">Qui d'un Monarque dût la couche recevoir,</l>
+            <l n="314" xml:id="l314">Cà et là butiner sa déplorable vie ?</l>
+            <l n="315" xml:id="l315">Ah! que si je croyais mon amoureuse envie,</l>
+            <l n="316" xml:id="l316">Tu peux à meilleur conte et à moindre danger</l>
+            <l n="317" xml:id="l317">Farouche apprivoisée au joug te la ranger,</l>
+            <l n="318" xml:id="l318">Usant de connivence, elle qui se contente</l>
+            <l n="319" xml:id="l319">De si peu que chacun d'aumône lui présente,</l>
+            <l n="320" xml:id="l320">Un écu prisera qu'enveloppent mes vers</l>
+            <l n="321" xml:id="l321">Propres à ces chansons plus que tout l'univers,</l>
+            <l n="322" xml:id="l322">Vers contez dans le sein à quelque heure choisie ;;</l>
+            <l n="323" xml:id="l323">Ce gentil naturel adorant la poésie,</l>
+            <l n="324" xml:id="l324">Chez elle me promet un plus facile accès,</l>
+            <l n="325" xml:id="l325">Engagée au combat je gagne mon procès ;</l>
+            <l n="326" xml:id="l326">Soldat victoriens, une active poursuite</l>
+            <l n="327" xml:id="l327">M'assure la victoire, et soudain met en fuite</l>
+            <l n="328" xml:id="l328">Ces chimères d'honneur, qu'à force de raisons</l>
+            <l n="329" xml:id="l329">Sur l'heure disparoir aisément nous faisons.</l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="SECONDE">
+        <head>ACTE SECONDE</head>
+        <div type="scene" xml:id="SECONDE1">
+          <head>SCÉNE I</head>
+          <sp who="précieuse" xml:id="SECONDE1-1">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="330" xml:id="l330">Ma foi vous triomphez en ces œuvres dernières</l>
+            <l n="331" xml:id="l331">Pleines à mon avis de chaleurs printanières,</l>
+            <l n="332" xml:id="l332">Capables d'arracher aux plus judicieux</l>
+            <l n="333" xml:id="l333">Un los qui leur auteur élève dans les cieux :</l>
+            <l n="334" xml:id="l334">Esprit universel qui sait, autre Protée,</l>
+            <l n="335" xml:id="l335">À son style donner toute forme empruntée,</l>
+            <l n="336" xml:id="l336">Même que les chansons qui proviennent de vous</l>
+            <l n="337" xml:id="l337">Se discernent à l'air agréablement doux,</l>
+            <l n="338" xml:id="l338">Pareilles qu'Amphion fredonna sur sa lyre</l>
+            <l n="339" xml:id="l339">Lorsque les murs Thébains elle voulut construire,</l>
+            <l n="340" xml:id="l340">Ou que le Cinthien qui débonnaire fils</l>
+            <l n="341" xml:id="l341">Chantait de Jupiter les Titans déconfis.</l>
+          </sp>
+          <sp who="clément" xml:id="SECONDE1-2">
+            <speaker>CLÉMENT</speaker>
+            <l n="342" xml:id="l342">Moqueuse, ne te prend qu'au charme que tu jettes,</l>
+            <l n="343" xml:id="l343">Qu'à ces soleils remplis d'homicides sagettes :</l>
+            <l n="344" xml:id="l344">Si charmé, si navré mes vers ne sonnent pas,</l>
+            <l n="345" xml:id="l345">Et semblent de leur père annoncer le trépas,</l>
+            <l n="346" xml:id="l346">Rallume mon espoir, relève mon courage,</l>
+            <l n="347" xml:id="l347">Après, cruelle, après tu verras feu et rage.</l>
+          </sp>
+          <sp who="précieuse" xml:id="SECONDE1-3">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="348" xml:id="l348">J'entends payer au pris naguères convenu.</l>
+          </sp>
+          <sp who="clément" xml:id="SECONDE1-4">
+            <speaker>CLÉMENT</speaker>
+            <l n="349" xml:id="l349">Au pris d'un premier lieu en ta grâce obtenu.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="SECONDE1-5">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="350" xml:id="l350">Allons, ma fille, allons, tu sais que notre affaire</l>
+            <l n="351" xml:id="l351">Ne souffre de remise, et que plus on diffère.</l>
+          </sp>
+          <sp who="précieuse" xml:id="SECONDE1-6">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="352" xml:id="l352">Contrainte vous quitter me fâche infiniment.</l>
+          </sp>
+          <sp who="clément" xml:id="SECONDE1-7">
+            <speaker>CLÉMENT</speaker>
+            <l n="353" xml:id="l353">Si cette belle bouche à tout le moins ne ment.</l>
+          </sp>
+          <sp who="précieuse" xml:id="SECONDE1-8">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="354" xml:id="l354">Ne l'imaginez pas, aucune autre hantise,</l>
+            <l n="355" xml:id="l355">Aucuns autres devis à l'égal je ne prise,</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="SECONDE1-9">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+          </sp>
+          <sp who="clément" xml:id="SECONDE1-10">
+            <speaker>CLÉMENT</speaker>
+            <l n="356" xml:id="l356">Promets avant l'adieu, que pour un souvenir</l>
+            <l n="357" xml:id="l357">Tu verras de bon œil ces stances telles quelles,</l>
+            <l n="358" xml:id="l358">Vouées de ma Muse à la reine des belles.</l>
+          </sp>
+          <sp who="précieuse" xml:id="SECONDE1-11">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="359" xml:id="l359">Monsieur, mille mercis, adieu jusqu'au revoir.</l>
+          </sp>
+          <sp who="clément" xml:id="SECONDE1-12">
+            <speaker>CLÉMENT</speaker>
+            <l n="360" xml:id="l360">N'épargne rien qui soit en mon petit pouvoir.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="SECONDE2">
+          <head>SCÈNE II</head>
+          <sp who="dom-jean" xml:id="SECONDE2-1">
+            <speaker>DOM JEAN</speaker>
+            <l n="361" xml:id="l361">Un orage cruel se lève dans mon âme</l>
+            <l n="362" xml:id="l362">Combattu de pensers tels que l'onde à la flamme,</l>
+            <l n="363" xml:id="l363">Que deux camps opposés à qui Mars l'impiteux</l>
+            <l n="364" xml:id="l364">Balance un prix égal de victoire douteux :</l>
+            <l n="365" xml:id="l365">Ores ma raison cède à l'amour qui l'emporte,</l>
+            <l n="366" xml:id="l366">Tantôt elle triomphe et demeure plus forte.</l>
+            <l n="367" xml:id="l367">Croire ma passion maniaque insensé</l>
+            <l n="368" xml:id="l368">Est se précipiter dans un gouffre élancé,</l>
+            <l n="369" xml:id="l369">C'est noircir mon renom d'eternel vitupère,</l>
+            <l n="370" xml:id="l370">Commettre un parricide, exécrable vipère,</l>
+            <l n="371" xml:id="l371">Si le temps nos desseins venait à révéler,</l>
+            <l n="372" xml:id="l372">Fatale destinée, on a beau reculer.</l>
+            <l n="373" xml:id="l373">Ou, posé que ta faute évadât inconnue,</l>
+            <l n="374" xml:id="l374">Accomplir de deux ans la course continue,</l>
+            <l n="375" xml:id="l375">Parmi telle canaille exerçant ses larcins,</l>
+            <l n="376" xml:id="l376">De ses fraudes complice et de ses assassins ?</l>
+            <l n="377" xml:id="l377">Ô longue pénitence ! ô promesse impossible</l>
+            <l n="378" xml:id="l378">À qui fut de l'honneur l'aiguillon si sensible !</l>
+            <l n="379" xml:id="l379">Lâche, perfide, et quoi ? l'inestimable pris</l>
+            <l n="380" xml:id="l380">Des prochaines faveurs d'une chaste Cypris,</l>
+            <l n="381" xml:id="l381">D'une beauté sans pair, de la gloire du monde,</l>
+            <l n="382" xml:id="l382">Voir que de loin sa flamme à la tienne réponde ?</l>
+            <l n="383" xml:id="l383">Jouir de ses discours, quelquefois apaiser</l>
+            <l n="384" xml:id="l384">Ta fiévreuse chaleur d'un humide baiser,</l>
+            <l n="385" xml:id="l385">Peut-être, que sait-on, d'ordinaire pressée</l>
+            <l n="386" xml:id="l386">L'attirer peu à peu dans l'embûche dressée,</l>
+            <l n="387" xml:id="l387">Ce long jeûne rompu : couard ne voilà pas</l>
+            <l n="388" xml:id="l388">Qui trop de ton honneur vengera le trépas ?</l>
+            <l n="389" xml:id="l389">À quel propos venger ? tel scrupule timide</l>
+            <l n="390" xml:id="l390">Sous Omphale captif ne tenait un Alcide,</l>
+            <l n="391" xml:id="l391">N'a terni du depuis la splendeur de son los</l>
+            <l n="392" xml:id="l392">Qui se borne des cieux, de la terre et des flots,</l>
+            <l n="393" xml:id="l393">Un Dieu voudrait faillir trop heureux en la sorte.</l>
+            <l n="394" xml:id="l394">Mais quelqu'un du départ le mandement m'apporte,</l>
+            <l n="395" xml:id="l395">Réjoui-toi, mon âme, appelée au séjour</l>
+            <l n="396" xml:id="l396">De ta félicité, du soleil de ton jour.</l>
+          </sp>
+          <sp who="garçon-égyptien" xml:id="SECONDE2-2">
+            <speaker>GARÇON ÉGYPTIEN</speaker>
+            <l n="397" xml:id="l397">Cavalier, j'ai trois mots à vous dire en l'oreille.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="SECONDE2-3">
+            <speaker>DOM JEAN</speaker>
+            <l n="398" xml:id="l398">Nouvelle agréable en bonheur nonpareille !</l>
+            <l n="399" xml:id="l399">Retourne l'assurer ce phœnix de beauté,</l>
+            <l n="400" xml:id="l400">Que l'effet dans demain prouve ma loyauté.</l>
+          </sp>
+          <sp who="garçon-égyptien" xml:id="SECONDE2-4">
+            <speaker>GARÇON EGYPTIEN</speaker>
+          </sp>
+          <sp who="dom-jean" xml:id="SECONDE2-5">
+            <speaker>DOM JEAN</speaker>
+            <l n="401" xml:id="l401">À ma sainte, à ma mère, à tous ceux de la bande.</l>
+          </sp>
+          <sp who="garçon-égyptien" xml:id="SECONDE2-6">
+            <speaker>GARÇON EGYPTIEN</speaker>
+          </sp>
+          <sp who="dom-jean" xml:id="SECONDE2-7">
+            <speaker>DOM JEAN</speaker>
+          </sp>
+          <sp who="garçon-égyptien" xml:id="SECONDE2-8">
+            <speaker>GARÇON EGYPTIEN</speaker>
+            <l n="402" xml:id="l402">Nous ne refusons rien que les coups, grand merci.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="SECONDE2-9">
+            <speaker>DOM JEAN</speaker>
+            <l n="403" xml:id="l403">Le congé déjà pris, reste que sur la brune</l>
+            <l n="404" xml:id="l404">Je ruse, m'écoulant d'une suite importune :</l>
+            <l n="405" xml:id="l405">Dût après le chaos retourner derechef,</l>
+            <l n="406" xml:id="l406">Nouveau soldat d'amour il faut suivre mon chef.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="SECONDE3">
+          <head>SCÈNE III</head>
+          <sp who="dom-ferdinand" xml:id="SECONDE3-1">
+            <speaker>DOM FERDINAND</speaker>
+            <l n="407" xml:id="l407">Le flux perpétuel de vos larmes perdues,</l>
+            <l n="408" xml:id="l408">Ces plaintes parmi l'air vainement épandues,</l>
+            <l n="409" xml:id="l409">Depuis tantôt dix ans me lassent désormais,</l>
+            <l n="410" xml:id="l410">Vous vous devez résoudre à cette heure ou jamais.</l>
+            <l n="411" xml:id="l411">L'affliction d'abord ébranla ma constance,</l>
+            <l n="412" xml:id="l412">Et le plus magnanime était sans résistance</l>
+            <l n="413" xml:id="l413">Ainsi que nous frustrés de l'espoir d'un enfant,</l>
+            <l n="414" xml:id="l414">- Le cœur au souvenir de tristesse me fend -.</l>
+            <l n="415" xml:id="l415">Furieux toutefois se venger sur moi-même,</l>
+            <l n="416" xml:id="l416">Révoltés du vouloir de ce destin suprême,</l>
+            <l n="417" xml:id="l417">Toujours toujours en deuil, n'avoir aucun repos,</l>
+            <l n="418" xml:id="l418">N'avoir autre penser, n'avoir autre propos,</l>
+            <l n="419" xml:id="l419">M'amie, la raison, l'âge, la conscience</l>
+            <l n="420" xml:id="l420">Y répugnent: plutôt munis de patience,</l>
+            <l n="421" xml:id="l421">Ne trouvons pas mauvais que qui donne les biens,</l>
+            <l n="422" xml:id="l422">Les honneurs, les enfants, les ôte comme siens.</l>
+          </sp>
+          <sp who="guiomar" xml:id="SECONDE3-2">
+            <speaker>GUIOMAR</speaker>
+            <l n="423" xml:id="l423">Pourquoi donc ne me vient sa colère assouvie</l>
+            <l n="424" xml:id="l424">Reprendre l'usufruit odieux de la vie ?</l>
+          </sp>
+          <sp who="dom-ferdinand" xml:id="SECONDE3-3">
+            <speaker>DOM FERDINAND</speaker>
+            <l n="425" xml:id="l425">Son secours paraîtra lorsque sans murmurer</l>
+            <l n="426" xml:id="l426">Pareille affliction vous saurez endurer.</l>
+          </sp>
+          <sp who="guiomar" xml:id="SECONDE3-4">
+            <speaker>GUIOMAR</speaker>
+            <l n="427" xml:id="l427">Le moins qu'au criminel permette la justice</l>
+            <l n="428" xml:id="l428">Est de se pouvoir plaindre endurant son supplice.</l>
+          </sp>
+          <sp who="dom-ferdinand" xml:id="SECONDE3-5">
+            <speaker>DOM FERDINAND</speaker>
+            <l n="429" xml:id="l429">Pour un temps mon avis au contraire ne va,</l>
+            <l n="430" xml:id="l430">Excusables alors que l'esclandre arriva :</l>
+            <l n="431" xml:id="l431">Je ne sache lionne, ourse, louve de Trace</l>
+            <l n="432" xml:id="l432">Que n'eût atteinte au vif la perte de sa race.</l>
+            <l n="433" xml:id="l433">Moi-même demeuré perclus de ma raison,</l>
+            <l n="434" xml:id="l434">Fruits douloureux cueillis en leur propre saison,</l>
+            <l n="435" xml:id="l435">De qui le temps depuis efface la mémoire,</l>
+            <l n="436" xml:id="l436">Car dessur quels malheurs n'a-t-il point la victoire ?</l>
+          </sp>
+          <sp who="guiomar" xml:id="SECONDE3-6">
+            <speaker>GUIOMAR</speaker>
+            <l n="437" xml:id="l437">Le père au pris de nous aime légèrement,</l>
+            <l n="438" xml:id="l438">Un maternel amour marche tout autrement.</l>
+            <l n="439" xml:id="l439">Mon deuil se rafraîchit en la fuite de l'âge</l>
+            <l n="440" xml:id="l440">Et l'espoir de la tombe unique le soulage,</l>
+            <l n="441" xml:id="l441">Mille objets à l'envi se présentent qui font</l>
+            <l n="442" xml:id="l442">Le coup de ma douleur chaque jour plus profond.</l>
+            <l n="443" xml:id="l443">Verrai-je une beauté qui me la remémore ?</l>
+            <l n="444" xml:id="l444">Quelque bouton vermeil qui commence à s'éclore ?</l>
+            <l n="445" xml:id="l445">Des larmes, des regrets débondent furieux,</l>
+            <l n="446" xml:id="l446">Contrainte de me prendre au ciel injurieux,</l>
+            <l n="447" xml:id="l447">Qui ne darda plutôt sa colère enflammée</l>
+            <l n="448" xml:id="l448">Sur moi que sur le chef d'une innocente aimée,</l>
+            <l n="449" xml:id="l449">Sur moi qui ne peux plus chez Lucine espérer</l>
+            <l n="450" xml:id="l450">Un surjon de neveux paravant qu'expirer.</l>
+            <l n="451" xml:id="l451">Encore ne savoir au vrai la destinée</l>
+            <l n="452" xml:id="l452">Autre Hécube me rend de fureur forcenée.</l>
+          </sp>
+          <sp who="dom-ferdinand" xml:id="SECONDE3-7">
+            <speaker>DOM FERDINAND</speaker>
+            <l n="453" xml:id="l453">Incroyable prodige elle fondit ainsi</l>
+            <l n="454" xml:id="l454">Que ravie au chaos du Tartare noirci,</l>
+            <l n="455" xml:id="l455">Petite bégayant une première enfance,</l>
+            <l n="456" xml:id="l456">D'âge ou la chasteté ne redoute d'offense,</l>
+            <l n="457" xml:id="l457">Surprise dans l'enclos des lares paternels,</l>
+            <l n="458" xml:id="l458">Lares qui font pâlir d'effroi les criminels,</l>
+            <l n="459" xml:id="l459">Où Thémis chaque jour prononce ces oracles</l>
+            <l n="460" xml:id="l460">À ce fatal méchef vains et faibles obstacles.</l>
+            <l n="461" xml:id="l461">La malice du siècle ores tient à mépris</l>
+            <l n="462" xml:id="l462">Les juges et les lois, un forfait entrepris.</l>
+            <l n="463" xml:id="l463">Inspiré nonobstant de certain bon augure</l>
+            <l n="464" xml:id="l464">J'espère la revoir avant ma sépulture.</l>
+          </sp>
+          <sp who="guiomar" xml:id="SECONDE3-8">
+            <speaker>GUIOMAR</speaker>
+            <l n="465" xml:id="l465">Frivole espoir, hélas! que le désir conçoit,</l>
+            <l n="466" xml:id="l466">Et qui les malheureux d'ordinaire déçoit.</l>
+            <l n="467" xml:id="l467">Or un soupçon depuis ce rapt me continue</l>
+            <l n="468" xml:id="l468">Que la chétive fut à l'écart retenue,</l>
+            <l n="469" xml:id="l469">Des larrons effrontés que Bohèmes on dit.</l>
+          </sp>
+          <sp who="dom-ferdinand" xml:id="SECONDE3-9">
+            <speaker>DOM FERDINAND</speaker>
+            <l n="470" xml:id="l470">Rien moins, j'emploierai lors mon pouvoir, mon crédit</l>
+            <l n="471" xml:id="l471">À la faire chercher par leur troupe éperdue</l>
+            <l n="472" xml:id="l472">Qui s'en allait coupable aussi soudain pendue.</l>
+            <l n="473" xml:id="l473">Soit que ce soit, voyez de ne vous attrister,</l>
+            <l n="474" xml:id="l474">Ains ma perte voisine à la sienne ajouter.</l>
+          </sp>
+          <sp who="guiomar" xml:id="SECONDE3-10">
+            <speaker>GUIOMAR</speaker>
+            <l n="475" xml:id="l475">Dieu m'en garde, l'amitié conjugale plus forte</l>
+            <l n="476" xml:id="l476">L'excès de ce mien deuil modérera de sorte,</l>
+            <l n="477" xml:id="l477">Que seule à l'engloutir dans l'âme désormais</l>
+            <l n="478" xml:id="l478">Un époux débonnaire il ne fâche jamais.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="SECONDE4">
+          <head>SCÈNE IV</head>
+          <sp who="capitaine-égyptien" xml:id="SECONDE4-1">
+            <speaker>CAPITAINE ÉGYPTIEN</speaker>
+            <l n="479" xml:id="l479">Approche, gentilhomme, et l'oreille tendue,</l>
+            <l n="480" xml:id="l480">Reçois l'instruction de nos lois entendue.</l>
+            <l n="481" xml:id="l481">Tu auras Précieuse, excellente beauté,</l>
+            <l n="482" xml:id="l482">Sous deux titres divers, une de loyauté,</l>
+            <l n="483" xml:id="l483">Tu la peux posséder exempte d'infamie</l>
+            <l n="484" xml:id="l484">En qualité de femme ou de fidèle amie,</l>
+            <l n="485" xml:id="l485">N'importe, mais au choix, avise que, léger,</l>
+            <l n="486" xml:id="l486">Tu n'auras plus après le pouvoir de changer ;</l>
+            <l n="487" xml:id="l487">Chacun selon le sort accepté se contente,</l>
+            <l n="488" xml:id="l488">Sur la couche d'autrui d'adultère n'attente,</l>
+            <l n="489" xml:id="l489">Au premier délinquant l'inévitable mort</l>
+            <l n="490" xml:id="l490">Juges nous reconnaît en suprême ressort.</l>
+            <l n="491" xml:id="l491">Juges, exécuteurs ;: son corps sans sépulture</l>
+            <l n="492" xml:id="l492">Les corbeaux et les loups va fournir de pâture.</l>
+            <l n="493" xml:id="l493">Sais-tu quel changement licite nous faisons ?</l>
+            <l n="494" xml:id="l494">Lors que la femme arrive en l'arrière-saison</l>
+            <l n="495" xml:id="l495">Permis de se pourvoir sur le commun chez celle</l>
+            <l n="496" xml:id="l496">Qui se voudra laisser prendre à notre étincelle,</l>
+            <l n="497" xml:id="l497">Qui belle eût désiré un beau greffe assorti,</l>
+            <l n="498" xml:id="l498">Tel mutuel amour à son effet sorti,</l>
+            <l n="499" xml:id="l499">Autrement du tout point : reste que ton envie</l>
+            <l n="500" xml:id="l500">S'informe sur l'état d'un consorce de vie.</l>
+            <l n="501" xml:id="l501">Le monde universel nous accepte bourgeois,</l>
+            <l n="502" xml:id="l502">Seigneurs des prés, des monts, des campagnes, des bois,</l>
+            <l n="503" xml:id="l503">Qui nobles n'exerçons l'agriculture vile,</l>
+            <l n="504" xml:id="l504">Non captifs pour le gain dans l'enclos d'une ville.</l>
+            <l n="505" xml:id="l505">Notre vocation Mercure l'enseigna,</l>
+            <l n="506" xml:id="l506">Qui les bœufs d'Apollon dérobant n'épargna.</l>
+            <l n="507" xml:id="l507">Telle coutume on tient autrefois usitée</l>
+            <l n="508" xml:id="l508">Chez le peuple guerrier de Sparte l'indomptée,</l>
+            <l n="509" xml:id="l509">Quiconque se laissait surprendre châtié,</l>
+            <l n="510" xml:id="l510">Ainsi le sommes-nous sans espoir de pitié,</l>
+            <l n="511" xml:id="l511">L'adextre vigilance au métier nécessaire,</l>
+            <l n="512" xml:id="l512">Joint que pour quelque vent de fortune contraire,</l>
+            <l n="513" xml:id="l513">Les galères, le fouet, ne faut s'épouvanter.</l>
+            <l n="514" xml:id="l514">On ouï le bon soldat ses blessures vanter,</l>
+            <l n="515" xml:id="l515">Exemple glorieux qu'imité notre troupe,</l>
+            <l n="516" xml:id="l516">Où l'épaule parfois de quelqu'un se découpe,</l>
+            <l n="517" xml:id="l517">Où l'ordre du carcan le montre en plein marché,</l>
+            <l n="518" xml:id="l518">Moqué, hué, sifflé, tout un jour attaché.</l>
+            <l n="519" xml:id="l519">Tu ne dois, compagnon, trouver le cas étrange,</l>
+            <l n="520" xml:id="l520">Si tu veux acquérir et profit et louange.</l>
+            <l n="521" xml:id="l521">Délibère averti, le temps te le permet,</l>
+            <l n="522" xml:id="l522">Sur les difficultés qu'aux yeux on te remet.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="SECONDE4-2">
+            <speaker>DOM JEAN</speaker>
+            <l n="523" xml:id="l523">Gaies difficultés, qui me semblent faciles,</l>
+            <l n="524" xml:id="l524">Douces difficultés en délices fertiles,</l>
+            <l n="525" xml:id="l525">Que j'embrassais plutôt de pure affection,</l>
+            <l n="526" xml:id="l526">Possesseur du parfait de la perfection,</l>
+            <l n="527" xml:id="l527">Qui ferait renoncer aux Dieux leur ambroisie,</l>
+            <l n="528" xml:id="l528">Même condition de fortune choisie.</l>
+          </sp>
+          <sp who="précieuse" xml:id="SECONDE4-3">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="529" xml:id="l529">Tu contes, cavalier sans ton hôte voulant</l>
+            <l n="530" xml:id="l530">Un capitaine peut absolu sur ma vie,</l>
+            <l n="531" xml:id="l531">Non sur ma chasteté à moi seule asservie,</l>
+            <l n="532" xml:id="l532">Inexpugnable fort que tu battrais en vain,</l>
+            <l n="533" xml:id="l533">Des faveurs assisté de tout le genre humain,</l>
+            <l n="534" xml:id="l534">Si ta foi ne l'éprouve une couple d'années,</l>
+            <l n="535" xml:id="l535">Tes flammes du respect vertueux refrénées,</l>
+            <l n="536" xml:id="l536">Que pourrait exiger quelque reine de toi.</l>
+            <l n="537" xml:id="l537">C'est la clause sans plus que je te ramentoi</l>
+            <l n="538" xml:id="l538">Accordée entre nous d'une amitié future,</l>
+            <l n="539" xml:id="l539">Au refus de passer outre ne t'aventure,</l>
+            <l n="540" xml:id="l540">Ton équipage entier absent à peine un jour,</l>
+            <l n="541" xml:id="l541">Tu n'as qui chez les tiens empêche le retour.</l>
+          </sp>
+          <sp who="dom-jean" xml:id="SECONDE4-4">
+            <speaker>DOM JEAN</speaker>
+            <l n="542" xml:id="l542">Ombrageuse, ne crains que ma foi se démente,</l>
+            <l n="543" xml:id="l543">Que ma flamme amoureuse, encor que véhémente,</l>
+            <l n="544" xml:id="l544">À la force jamais osât s'émanciper,</l>
+            <l n="545" xml:id="l545">Sur le terme prescrit osât anticiper,</l>
+            <l n="546" xml:id="l546">Trop heureux de jouir du discours, de la vue,</l>
+            <l n="547" xml:id="l547">Tout au plus d'un baiser surpris à l'impourvue,</l>
+            <l n="548" xml:id="l548">Après ma pénitence accomplie espérant</l>
+            <l n="549" xml:id="l549">La moisson des travaux semés en endurant,</l>
+            <l n="550" xml:id="l550">Pleine moisson cueillie ès champs de l'hyménée,</l>
+            <l n="551" xml:id="l551">Qui par-dessus l'espoir te rendra fortunée.</l>
+            <l n="552" xml:id="l552">Ores, chers compagnons, ai-je à vous supplier</l>
+            <l n="553" xml:id="l553">D'un mois d'apprentissage à faire le métier,</l>
+            <l n="554" xml:id="l554">À devenir pratic en manière de prendre,</l>
+            <l n="555" xml:id="l555">D'emprunter des voisins, et de ne jamais rendre,</l>
+            <l n="556" xml:id="l556">Mon défaut supplée de ces deux cens ducats</l>
+            <l n="557" xml:id="l557">Que vous départirez, jaçoit que peu de cas.</l>
+          </sp>
+          <sp who="capitaine-égyptien" xml:id="SECONDE4-5">
+            <speaker>CAPITAINE ÉGYPTIEN</speaker>
+            <l n="558" xml:id="l558">Ta libéralité nous oblige unanimes,</l>
+            <l n="559" xml:id="l559">Véritables amis qui savons, magnanimes,</l>
+            <l n="560" xml:id="l560">Un bienfait reconnu à l'extrême besoin,</l>
+            <l n="561" xml:id="l561">Mourir pour son auteur chacun l'épée au poin.</l>
+            <l n="562" xml:id="l562">Or selon la coutume, apprend qu'un nom de guerre</l>
+            <l n="563" xml:id="l563">Nous déguise inconnus quelque part que l'on erre :</l>
+            <l n="564" xml:id="l564">Andres sera le tien, séant à ta vertu,</l>
+            <l n="565" xml:id="l565">Approuvé du commun le refuseras-tu ?</l>
+          </sp>
+          <sp who="dom-jean" xml:id="SECONDE4-6">
+            <speaker>DOM JEAN</speaker>
+            <l n="566" xml:id="l566">Nullement, nullement, je l'accepte honorable,</l>
+            <l n="567" xml:id="l567">Je l'accepte, à mon heur auspice favorable,</l>
+            <l n="568" xml:id="l568">Andres, nom glorieux, que m'impose l'amour,</l>
+            <l n="569" xml:id="l569">Ne m'abandonnera qu'après le dernier jour.</l>
+          </sp>
+          <sp who="troupe-d'égyptiens" xml:id="SECONDE4-7">
+            <speaker>TROUPE D'ÉGYPTIENS</speaker>
+            <l n="570" xml:id="l570">Vive le noble Andres, vive sa Précieuse,</l>
+            <l n="571" xml:id="l571">Que quiconque leur garde une haine envieuse</l>
+            <l n="572" xml:id="l572">Périsse misérable, et que toujours heureux</l>
+            <l n="573" xml:id="l573">Vive en bonne union ce beau pair amoureux.</l>
+          </sp>
+          <sp who="capitaine-égyptien" xml:id="SECONDE4-8">
+            <speaker>CAPITAINE ÉGYPTIEN</speaker>
+            <l n="574" xml:id="l574">Voilà qui vaut l'argent ; au surplus ta maîtresse</l>
+            <l n="575" xml:id="l575">Du fard Égyptien te donnera l'adresse,</l>
+            <l n="576" xml:id="l576">Te changera d'habits, crainte que découvers,</l>
+            <l n="577" xml:id="l577">L'affaire à nos dépens ne marche de travers.</l>
+            <l n="578" xml:id="l578">Sus, compagnons, venez me conduire à ma tente,</l>
+            <l n="579" xml:id="l579">Qu'économe loyal chacun là se contente.</l>
+          </sp>
+          <sp who="andres" xml:id="SECONDE4-9">
+            <speaker>ANDRES</speaker>
+            <l n="580" xml:id="l580">Tu vois à la merci de ta beauté réduit</l>
+            <l n="581" xml:id="l581">Un esclave dévot qui sa fortune soit,</l>
+            <l n="582" xml:id="l582">Tu tiens l'âme et le corps, rien de moi ne me reste,</l>
+            <l n="583" xml:id="l583">Volontaire forçat d'un comite céleste</l>
+            <l n="584" xml:id="l584">Qui présume de lui le traitement humain.</l>
+            <l n="585" xml:id="l585">Me le jures-tu pas par cette blanche main,</l>
+            <l n="586" xml:id="l586">Par ces soleils bessons, astres de ma lumière ?</l>
+            <l n="587" xml:id="l587">Par l'empire conquis sur la dive écumière ?</l>
+            <l n="588" xml:id="l588">Tu flottes incertaine, et semble que tes yeux</l>
+            <l n="589" xml:id="l589">Offusquent leur clarté de nuaus soucieux.</l>
+          </sp>
+          <sp who="précieuse" xml:id="SECONDE4-10">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="590" xml:id="l590">L'amour ne marche point sans crainte soucieuse,</l>
+            <l n="591" xml:id="l591">Crainte qui voirement afflige Précieuse,</l>
+            <l n="592" xml:id="l592">Sur l'incommodité qu'elle prévoit souffrir</l>
+            <l n="593" xml:id="l593">À qui vient compagnon de misère s'offrir.</l>
+          </sp>
+          <sp who="andres" xml:id="SECONDE4-11">
+            <speaker>ANDRES</speaker>
+            <l n="594" xml:id="l594">Telle appréhension preuve que ta belle âme</l>
+            <l n="595" xml:id="l595">Ressent quelque bluette éprise de ma flamme,</l>
+            <l n="596" xml:id="l596">Impassible me donne un courage plus fort</l>
+            <l n="597" xml:id="l597">Qu'il ne faut à dompter ce qu'enverra le sort.</l>
+            <l n="598" xml:id="l598">Tu es mon heur, tu es débile, plus à plaindre,</l>
+            <l n="599" xml:id="l599">Tu me causes à moi plus de cause de craindre</l>
+            <l n="600" xml:id="l600">Que ce corps délicat n'expire sous le faix</l>
+            <l n="601" xml:id="l601">De la profession pénible que tu fais,</l>
+            <l n="602" xml:id="l602">Exposée aux chaleurs, aux extrêmes froidures.</l>
+            <l n="603" xml:id="l603">Et aux dérisions d'un vulgaire trop dures.</l>
+            <l n="604" xml:id="l604">Toutefois patients, l'heure pourra venir.</l>
+            <l n="605" xml:id="l605">Quel papier aperçois-je à ce beau sein tenir ?</l>
+          </sp>
+          <sp who="précieuse" xml:id="SECONDE4-12">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="606" xml:id="l606">La hâte que l'on eut de changer de demeure</l>
+            <l n="607" xml:id="l607">Depuis me le gardait plié dedans le sein.</l>
+          </sp>
+          <sp who="andres" xml:id="SECONDE4-13">
+            <speaker>ANDRES</speaker>
+            <l n="608" xml:id="l608">Qui te le présenta, ma vie, à quel dessein ?</l>
+          </sp>
+          <sp who="précieuse" xml:id="SECONDE4-14">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="609" xml:id="l609">Inconnu quant au nom, un poète de Séville,</l>
+            <l n="610" xml:id="l610">Premier à son rapport en la douceur du style,</l>
+            <l n="611" xml:id="l611">Déjà deux ou trois fois même présent m'a fait.</l>
+          </sp>
+          <sp who="andres" xml:id="SECONDE4-15">
+            <speaker>ANDRES</speaker>
+            <l n="612" xml:id="l612">Dis que de ta beauté c'est bien le moindre effet.</l>
+          </sp>
+          <sp who="précieuse" xml:id="SECONDE4-16">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="613" xml:id="l613">Miracle ! ce ducat mérite qu'on l'enchâsse,</l>
+            <l n="614" xml:id="l614">Métal incompatible au métier de Parnasse.</l>
+          </sp>
+          <sp who="andres" xml:id="SECONDE4-17">
+            <speaker>ANDRES</speaker>
+            <l n="615" xml:id="l615">Tu as raison vraiment, que je lise ces vers</l>
+            <l n="616" xml:id="l616">Sur un sujet conçus qu'adore l'univers.</l>
+          </sp>
+          <sp who="précieuse" xml:id="SECONDE4-18">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="617" xml:id="l617">Tandis nous serrerons l'argent, et la louange,</l>
+            <l n="618" xml:id="l618">En cas d'extrémité indifférents au change.</l>
+          </sp>
+          <sp who="andres" xml:id="SECONDE4-19">
+            <speaker>ANDRES</speaker>
+            <l n="619" xml:id="l619">Certes un tel esprit, ses ardeurs exprimant,</l>
+            <l n="620" xml:id="l620">Les dames à l'amour oblige infiniment,</l>
+            <l n="621" xml:id="l621">Capable d'animer les roches et les glaces,</l>
+            <l n="622" xml:id="l622">Belle fille, il aurait part en mes bonnes grâces.</l>
+          </sp>
+          <sp who="précieuse" xml:id="SECONDE4-20">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="623" xml:id="l623">Laide, mais qu'on n'attrape à si légers appas :</l>
+            <l n="624" xml:id="l624">Ne crains capricieux qu'il marche sur tes pas,</l>
+            <l n="625" xml:id="l625">Séparés de trop loin sa mémoire me passe,</l>
+            <l n="626" xml:id="l626">Comme la nue en l'air qui ne laisse de trace.</l>
+            <l n="627" xml:id="l627">Mais allons te choisir l'équipage décent</l>
+            <l n="628" xml:id="l628">Auquel tu ne t'iras toi-même connaissant.</l>
+          </sp>
+          <sp who="andres" xml:id="SECONDE4-21">
+            <speaker>ANDRES</speaker>
+            <l n="629" xml:id="l629">Allons, ma gardienne, allons, douce geôlière,</l>
+            <l n="630" xml:id="l630">Me choisir un cachot proche de ta lumière,</l>
+            <l n="631" xml:id="l631">Viens ton captif Alcide, Omphale, déguiser,</l>
+            <l n="632" xml:id="l632">Selon qu'il te plaira désormais aviser.</l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="TROISIÈME">
+        <head>ACTE TROISIÈME</head>
+        <div type="scene" xml:id="TROISIÈME1">
+          <head>SCÈNE I</head>
+          <sp who="clément" xml:id="TROISIÈME1-1">
+            <speaker>CLÉMENT</speaker>
+            <l n="633" xml:id="l633">Au secours, mes amis, empêchez que la rage</l>
+            <l n="634" xml:id="l634">De ces mâtins félons plus avant ne m'outrage,</l>
+            <l n="635" xml:id="l635">Demi-mort déchiré sur les membres partout.</l>
+            <l n="636" xml:id="l636">Hé ! qui tient ici tant de cabanes debout ?</l>
+            <l n="637" xml:id="l637">Quelques Pâtres possible abattus sous Morphée.</l>
+            <l n="638" xml:id="l638">Ô Cieux, une fureur d'ire plut échauffée</l>
+            <l n="639" xml:id="l639">Les acharne sur moi : à l'aide, secourez,</l>
+            <l n="640" xml:id="l640">Et du proche trépas ce chétif recourez.</l>
+          </sp>
+          <sp who="i-égyptien" xml:id="TROISIÈME1-2">
+            <speaker>I. ÉGYPTIEN</speaker>
+            <l n="641" xml:id="l641">Quelqu'un qui de nos chiens ignorait l'embuscade</l>
+            <l n="642" xml:id="l642">S'écrie à haute voix, je me le persuade,</l>
+          </sp>
+          <sp who="ii-égyptien" xml:id="TROISIÈME1-3">
+            <speaker>II. ÉGYPTIEN</speaker>
+            <l n="643" xml:id="l643">Plus vite que le pas s'acheminant ici.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME1-4">
+            <speaker>CLÉMENT</speaker>
+            <l n="644" xml:id="l644">Quels fantômes affreux, quelles larvales ombres</l>
+            <l n="645" xml:id="l645">Sortent à l'impourvu de leurs repaires sombres ;?</l>
+            <l n="646" xml:id="l646">Avance, le moyen de fuir ou reculer ?</l>
+            <l n="647" xml:id="l647">Il faut bon gré mal gré sa peur dissimuler.</l>
+          </sp>
+          <sp who="i-égyptien" xml:id="TROISIÈME1-5">
+            <speaker>I. ÉGYPTIEN</speaker>
+            <l n="648" xml:id="l648">L'épouvante le tient jusqu'au profond de l'âme.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME1-6">
+            <speaker>CLÉMENT</speaker>
+            <l n="649" xml:id="l649">Hélas ! mes bons amis, votre aide je réclame.</l>
+          </sp>
+          <sp who="ii-égyptien" xml:id="TROISIÈME1-7">
+            <speaker>II. ÉGYPTIEN</speaker>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME1-8">
+            <speaker>CLÉMENT</speaker>
+            <l n="650" xml:id="l650">À chercher le couvert hors du chemin réduit,</l>
+            <l n="651" xml:id="l651">Une faible clarté en ces lieux découverte</l>
+            <l n="652" xml:id="l652">M'attire misérable à ma ruine aperte.</l>
+            <l n="653" xml:id="l653">Plus qu'onc lièvre ne fut de vos chiens gourmandé,</l>
+            <l n="654" xml:id="l654">Pitoyable sujet du secours demandé,</l>
+            <l n="655" xml:id="l655">N'ayant dessus le corps partie aucune entière,</l>
+            <l n="656" xml:id="l656">Qui sans doute viens faire ici mon cimetière.</l>
+          </sp>
+          <sp who="i-égyptien" xml:id="TROISIÈME1-9">
+            <speaker>I. ÉGYPTIEN</speaker>
+            <l n="657" xml:id="l657">As-tu la croix ? tu as trouvé tes médecins</l>
+            <l n="658" xml:id="l658">Qui te rendront bientôt gaillard et des plus sains.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME1-10">
+            <speaker>CLÉMENT</speaker>
+            <l n="659" xml:id="l659">Cela ne manquera pourvu qu'on me soulage.</l>
+          </sp>
+          <sp who="ii-égyptien" xml:id="TROISIÈME1-11">
+            <speaker>II. ÉGYPTIEN</speaker>
+            <l n="660" xml:id="l660">Une vieille entre nous experte selon l'âge</l>
+            <l n="661" xml:id="l661">Sait au son de l'argent ressusciter les morts,</l>
+            <l n="662" xml:id="l662">Elle passe Médée en matière de sorts.</l>
+            <l n="663" xml:id="l663">Nous deux t'allons porter en sa loge voisine,</l>
+            <l n="664" xml:id="l664">Mais pense que la croix toujours devant chemine.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME1-12">
+            <speaker>CLÉMENT</speaker>
+          </sp>
+          <sp who="i-égyptien" xml:id="TROISIÈME1-13">
+            <speaker>I. ÉGYPTIEN</speaker>
+            <l n="665" xml:id="l665">Et me crois que guéri tu te porteras bien.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="TROISIÈME2">
+          <head>SCÈNE II</head>
+          <sp who="andres" xml:id="TROISIÈME2-1">
+            <speaker>ANDRES</speaker>
+            <l n="666" xml:id="l666">Leurs abois continus, que la colère aiguise,</l>
+            <l n="667" xml:id="l667">Quasi comme acharnés sur quelque bête prise,</l>
+            <l n="668" xml:id="l668">Outre les cris humains à travers éclatants</l>
+            <l n="669" xml:id="l669">M'alarment éveillé depuis un fort longtemps :</l>
+            <l n="670" xml:id="l670">Résolu d'aller voir seul, n'était que j'ignore</l>
+            <l n="671" xml:id="l671">Ce qu'en occasion pareille on fait encore.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="TROISIÈME2-2">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="672" xml:id="l672">Notre coutume porte où parait du danger</l>
+            <l n="673" xml:id="l673">Que chacun chez le chef soudain se doit ranger,</l>
+            <l n="674" xml:id="l674">Près d'obéir selon la charge commandée.</l>
+            <l n="675" xml:id="l675">Or, première toujours avertie ou mandée,</l>
+            <l n="676" xml:id="l676">Ne te tourmente point, demeure en bon repos.</l>
+            <l n="677" xml:id="l677">Sortir pour peu de bruit ne viendrait à propos.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-3">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="678" xml:id="l678">Silence, j'ois marcher, ô pitoyable chose !</l>
+            <l n="679" xml:id="l679">Un blessé dessur deux de nos hommes repose,</l>
+            <l n="680" xml:id="l680">Qu'on amène ma mère à refuge vers vous.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="TROISIÈME2-4">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="681" xml:id="l681">Tant mieux, de toutes parts le gain me flaire doux.</l>
+          </sp>
+          <sp who="i-égyptien" xml:id="TROISIÈME2-5">
+            <speaker>I. ÉGYPTIEN</speaker>
+            <l n="682" xml:id="l682">Un voyageur contraint pour la nuit survenue</l>
+            <l n="683" xml:id="l683">De prendre droit ici son adresse inconnue,</l>
+            <l n="684" xml:id="l684">A de male fortune éprouvé de nouveau</l>
+            <l n="685" xml:id="l685">Que nos chiens ont les dents plus dures que sa peau,</l>
+            <l n="686" xml:id="l686">De leurs gueules récous naguère à toute peine,</l>
+            <l n="687" xml:id="l687">Si bien qu'à sa prière instante on te l'amène,</l>
+            <l n="688" xml:id="l688">Promettant libéral ores récompenser</l>
+            <l n="689" xml:id="l689">Quiconque lui pourra ses blessures panser.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="TROISIÈME2-6">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="690" xml:id="l690">Prends courage, deus jours suffisent à ta cure.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-7">
+            <speaker>CLÉMENT</speaker>
+            <l n="691" xml:id="l691">Hélas ! quelles douleurs incroyables j'endure.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="TROISIÈME2-8">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="692" xml:id="l692">Oui, mais tu ne dis mot quant au principal point,</l>
+            <l n="693" xml:id="l693">Que plus que tes douleurs la pauvreté me point.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-9">
+            <speaker>CLÉMENT</speaker>
+            <l n="694" xml:id="l694">Le guerdon vous rendra de moi plus que contente.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="TROISIÈME2-10">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="695" xml:id="l695">Enfants, que sur la paille on le couche en ma tente :</l>
+            <l n="696" xml:id="l696">Toi, Précieuse, va de notre onguent quérir</l>
+            <l n="697" xml:id="l697">Qui tous maux, appliqué, sur l'heure fait guérir.</l>
+            <l n="698" xml:id="l698">Dépêche, ne demeure à sa vue attachée.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-11">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="699" xml:id="l699">Oui, le voilà lui-même, et la cause cachée</l>
+            <l n="700" xml:id="l700">La cause qui le meut de me venir trouver,</l>
+            <l n="701" xml:id="l701">Ne saurait qu'un dessein frénétique couver.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-12">
+            <speaker>CLÉMENT</speaker>
+            <l n="702" xml:id="l702">Ô beau soleil d'amour, je béni l'infortune</l>
+            <l n="703" xml:id="l703">Qui me donne ébloui ta rencontre opportune.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="TROISIÈME2-13">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="704" xml:id="l704">Demeure coi tandis qu'un murmure de rang</l>
+            <l n="705" xml:id="l705">Sur tes plaies redit arrêtera le sang :</l>
+            <l n="706" xml:id="l706">Tout succède à plaisir, vite, ma fille, apporte</l>
+            <l n="707" xml:id="l707">Ce Nepenthe divin chauffé de bonne sorte,</l>
+            <l n="708" xml:id="l708">L'instillant goûte à goûte où désigne mon doigt.</l>
+            <l n="709" xml:id="l709">Voilà qui les douleurs diminuer te doit,</l>
+            <l n="710" xml:id="l710">Sens-tu pas du remède un présent efficace ?</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-14">
+            <speaker>CLÉMENT</speaker>
+            <l n="711" xml:id="l711">Et le somme qui plus commence à prendre place,</l>
+            <l n="712" xml:id="l712">Commence à chatouiller mes yeux appesantis,</l>
+            <l n="713" xml:id="l713">Les maux sous la douceur qui dévale alentis.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="TROISIÈME2-15">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="714" xml:id="l714">Or sus sus dors, repose à ton aise, et présume</l>
+            <l n="715" xml:id="l715">Jusqu'aux oreilles être enfoncé dans la plume,</l>
+            <l n="716" xml:id="l716">N'oubliant pour dormir après un tel devoir</l>
+            <l n="717" xml:id="l717">Que qui fait du plaisir mérite en recevoir.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-16">
+            <speaker>ANDRES</speaker>
+            <l n="718" xml:id="l718">L'humanité vers lui charitable exercée</l>
+            <l n="719" xml:id="l719">Ne m'oblige pas moins qu'à moi-même adressée.</l>
+            <l n="720" xml:id="l720">« Jamais certes jamais un bien fut ne se pert » ;:</l>
+            <l n="721" xml:id="l721">Vous tirez du sépulcre un mort en ce désert,</l>
+            <l n="722" xml:id="l722">Qui ranimé pourra quelque jour à l'extrême</l>
+            <l n="723" xml:id="l723">Se revancher, s'il n'est l'ingratitude même.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="TROISIÈME2-17">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="724" xml:id="l724">Ce jour ne passera plus outre que demain :</l>
+            <l n="725" xml:id="l725">Fust-il mon propre père, ou mon propre germain,</l>
+            <l n="726" xml:id="l726">Point d'argent, point d'amis, plus de chirurgienne,</l>
+            <l n="727" xml:id="l727">Nature au demeurant n'a loi plus ancienne</l>
+            <l n="728" xml:id="l728">Que pratiquer chez nous premiers la charité,</l>
+            <l n="729" xml:id="l729">L'épreuve t'apprendra que je dis vérité.</l>
+            <l n="730" xml:id="l730">Retirons-nous, Morphée à mon tour me demande.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-18">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="731" xml:id="l731">Andres, Andres un mot que la vieille n'entende.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-19">
+            <speaker>ANDRES</speaker>
+            <l n="732" xml:id="l732">Hélas ! un suffirait que tu diffères tant</l>
+            <l n="733" xml:id="l733">Médecin que l'amour après la mort attend.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-20">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="734" xml:id="l734">Devine discoureur la qualité plaisante</l>
+            <l n="735" xml:id="l735">De celui qu'un hasard impourvu représente.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-21">
+            <speaker>ANDRES</speaker>
+            <l n="736" xml:id="l736">Tu entends du blessé connu possible ailleurs.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-22">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="737" xml:id="l737">Peu de traits amoureux se remarquent meilleurs.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-23">
+            <speaker>ANDRES</speaker>
+            <l n="738" xml:id="l738">Obscure que veux-tu me tenir aux altères ?</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-24">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="739" xml:id="l739">Un martel naît souvent de causes plus légères.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-25">
+            <speaker>ANDRES</speaker>
+            <l n="740" xml:id="l740">Où m'as-tu reconnu de si jalouse humeur ?</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-26">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="741" xml:id="l741">Sache qu'en l'étranger tu vois notre rimeur.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-27">
+            <speaker>ANDRES</speaker>
+            <l n="742" xml:id="l742">Qui donna le ducat et les stances ensemble ?</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-28">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="743" xml:id="l743">Qui l'extrême folie au repentir assemble.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-29">
+            <speaker>ANDRES</speaker>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-30">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="744" xml:id="l744">Nos dogues d'un repas de sa viande fournir.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-31">
+            <speaker>ANDRES</speaker>
+            <l n="745" xml:id="l745">Excusable folie en pareille aventure.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-32">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="746" xml:id="l746">Volontaire accident selon ma conjecture.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-33">
+            <speaker>ANDRES</speaker>
+            <l n="747" xml:id="l747">Volontaire qu'attire un charme de ces yeux</l>
+            <l n="748" xml:id="l748">La gloire de la terre, et la honte des cieux.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-34">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="749" xml:id="l749">Moqueur, attend du moins que Précieuse absente</l>
+            <l n="750" xml:id="l750">Le subtil aiguillon de ta langue ne sente.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-35">
+            <speaker>ANDRES</speaker>
+            <l n="751" xml:id="l751">Alors qu'amour sous toi ne se rendra vainqueur</l>
+            <l n="752" xml:id="l752">Je me confesserai du vice de moqueur.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-36">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="753" xml:id="l753">D'une parole à l'autre emportée, et distraite</l>
+            <l n="754" xml:id="l754">Tu m'éloignes du tout à la fin de ma traitte.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-37">
+            <speaker>ANDRES</speaker>
+            <l n="755" xml:id="l755">Presser l'occasion du discours commencé</l>
+            <l n="756" xml:id="l756">Coupable me rendrait d'un martel insensé.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-38">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="757" xml:id="l757">Désirant conserver notre paix amoureuse</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-39">
+            <speaker>ANDRES</speaker>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-40">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="758" xml:id="l758">Toutefois équitable et exemplaire aussi,</l>
+            <l n="759" xml:id="l759">À ce qu'en cas pareil tu m'ôtes de souci.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-41">
+            <speaker>ANDRES</speaker>
+            <l n="760" xml:id="l760">Ma langueur se tiendra lors trop récompensée,</l>
+            <l n="761" xml:id="l761">Qu'un petit ver jaloux rongera ta pensée.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-42">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="762" xml:id="l762">L'épreuve périlleuse également nous nuit,</l>
+            <l n="763" xml:id="l763">Et ma sainte amitié de près la tienne suit.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-43">
+            <speaker>ANDRES</speaker>
+            <l n="764" xml:id="l764">De près comme le ciel s'approche de la terre;</l>
+            <l n="765" xml:id="l765">Autrement un duel finirait notre guerre.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-44">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="766" xml:id="l766">Tu ne te souviens plus de cette paction</l>
+            <l n="767" xml:id="l767">Qui défend les discours non moins que l'action.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-45">
+            <speaker>ANDRES</speaker>
+            <l n="768" xml:id="l768">Hélas ! commande donc à ta beauté trop belle</l>
+            <l n="769" xml:id="l769">De ne plus émouvoir le sens qui se rebelle.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-46">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="770" xml:id="l770">Une plainte d'ailleurs se forme contre toi.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-47">
+            <speaker>ANDRES</speaker>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-48">
+            <speaker>PRÉCIEUSE</speaker>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-49">
+            <speaker>ANDRES</speaker>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-50">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="771" xml:id="l771">Qui scrupuleux ne fais valoir ton exercice.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-51">
+            <speaker>ANDRES</speaker>
+            <l n="772" xml:id="l772">Nature ne tolère un change si soudain.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-52">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="773" xml:id="l773">Je lis dedans ton âme, il y a du dédain.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-53">
+            <speaker>ANDRES</speaker>
+            <l n="774" xml:id="l774">Ma vie, que veux-tu, que veux-tu que je fasse ?</l>
+            <l n="775" xml:id="l775">Assez riche et content du larcin de ta grâce,</l>
+            <l n="776" xml:id="l776">Notre espoir gît ailleurs qui ne saurait manquer,</l>
+            <l n="777" xml:id="l777">Et que tu ne voudrais en doute révoquer :</l>
+            <l n="778" xml:id="l778">Vivre en homme de bien est ma plus belle ruse.</l>
+            <l n="779" xml:id="l779">Ou me laisse plutôt en secret acheter</l>
+            <l n="780" xml:id="l780">Qui l'honneur sauf, me puisse au public acquitter.</l>
+          </sp>
+          <sp who="précieuse" xml:id="TROISIÈME2-54">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="781" xml:id="l781">À ta discrétion, pourvu qu'aussi la bourse</l>
+            <l n="782" xml:id="l782">Puisée trop souvent ne tarisse sa source.</l>
+            <l n="783" xml:id="l783">Or prise de sommeil adieu, séparons-nous,</l>
+            <l n="784" xml:id="l784">Et te souviens qu'il faut hurler avec les loups.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-55">
+            <speaker>ANDRES</speaker>
+            <l n="785" xml:id="l785">Me soustraire un baiser à ton adieu, perfide ?</l>
+            <l n="786" xml:id="l786">Plutôt dit qu'entendu, cauteleuse homicide,</l>
+            <l n="787" xml:id="l787">Tu le pay’ras au double: hé! Dieu quelle pitié,</l>
+            <l n="788" xml:id="l788">Depuis que la pudeur surmonte l'amitié,</l>
+            <l n="789" xml:id="l789">Seul examine à part combien peu d'assurance</l>
+            <l n="790" xml:id="l790">Tu peux et dois fonder sur pareille occurrence.</l>
+            <l n="791" xml:id="l791">Le crapaud sous les fleurs recèle son venin,</l>
+            <l n="792" xml:id="l792">Sous l'aimable beauté le sexe féminin</l>
+            <l n="793" xml:id="l793">Cache ses trahisons pires que l'aconite,</l>
+            <l n="794" xml:id="l794">Le plus sage trompé d'ordinaire à l'élite.</l>
+            <l n="795" xml:id="l795">Un Ulysse couard en ce trait furieux</l>
+            <l n="796" xml:id="l796">Te prétend supplanter possible injurieux,</l>
+            <l n="797" xml:id="l797">Possible, que sait-on ? ta maîtresse connive,</l>
+            <l n="798" xml:id="l798">Et premier que suspect quelque ombrage te suive</l>
+            <l n="799" xml:id="l799">Feins le vouloir bannir, et couvre ce faisant</l>
+            <l n="800" xml:id="l800">Leur conspiration d'un voile suffisant.</l>
+            <l n="801" xml:id="l801">Ô Cieux ! que ne ferait affronté de l'outrage</l>
+            <l n="802" xml:id="l802">Cette dextre invincible et pareille au courage ?</l>
+            <l n="803" xml:id="l803">Plus forte elle se peut sur le nombre fier,</l>
+            <l n="804" xml:id="l804">Mais il ne me chaudrait de me sacrifier ;</l>
+            <l n="805" xml:id="l805">Ma honte dans le sang d'un rival étouffée,</l>
+            <l n="806" xml:id="l806">Érige après qui peut sur nous deux son trophée.</l>
+            <l n="807" xml:id="l807">Folle conception, chimérique fureur,</l>
+            <l n="808" xml:id="l808">Fausse alarme finie en panique terreur,</l>
+            <l n="809" xml:id="l809">Le cygne du corbeau vêtira le plumage,</l>
+            <l n="810" xml:id="l810">Philomèle au hibou donnera son ramage,</l>
+            <l n="811" xml:id="l811">L'Océan desséché regrettera ses eaux,</l>
+            <l n="812" xml:id="l812">La plante de Bacchus haïra les ormeaux,</l>
+            <l n="813" xml:id="l813">Premier que ma déesse ingrate me trahisse.</l>
+            <l n="814" xml:id="l814">Un second appelé de certaine malice,</l>
+            <l n="815" xml:id="l815">Tu ne dois qu'accuser l'Icare audacieux</l>
+            <l n="816" xml:id="l816">Soudain précipité du soleil de ses yeux,</l>
+            <l n="817" xml:id="l817">Si la présomption téméraire l'amène</l>
+            <l n="818" xml:id="l818">À dessein de ravir la moisson de ta peine.</l>
+            <l n="819" xml:id="l819">Va donc sonder accort où bute son désir</l>
+            <l n="820" xml:id="l820">Qui lui a fait chez nous sa retraite choisir,</l>
+            <l n="821" xml:id="l821">Bref ses prétentions sur la beauté du monde,</l>
+            <l n="822" xml:id="l822">Que coupable cogneur la tête m'en réponde.</l>
+            <l n="823" xml:id="l823">Holà, ho compagnon, réveille-toi, debout,</l>
+            <l n="824" xml:id="l824">Notre troupe au départ et dans peu se résout,</l>
+            <l n="825" xml:id="l825">Les hardes maintenant presque toutes chargées.</l>
+            <l n="826" xml:id="l826">Trouves-tu de beaucoup tes douleurs allégées ?</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-56">
+            <speaker>CLÉMENT</speaker>
+            <l n="827" xml:id="l827">Infiniment ; pourvu que le repos permis.</l>
+            <l n="828" xml:id="l828">Sur pied en moins de rien l'on me verrait remis.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-57">
+            <speaker>ANDRES</speaker>
+            <l n="829" xml:id="l829">Secouru d'un cheval jusqu'au premier village</l>
+            <l n="830" xml:id="l830">Que pourrais-tu de nous espérer davantage ?</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-58">
+            <speaker>CLÉMENT</speaker>
+            <l n="831" xml:id="l831">Mon grief est qu'en tels lieux ne se rencontre pas</l>
+            <l n="832" xml:id="l832">Qui sache garantir un blessé du trépas,</l>
+            <l n="833" xml:id="l833">L'excellence approchant de cette bonne dame,</l>
+            <l n="834" xml:id="l834">Sans laquelle j'allais naguères rendre l'âme.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-59">
+            <speaker>ANDRES</speaker>
+            <l n="835" xml:id="l835">Bon : sa mine s'évente à ce que je puis voir ;</l>
+            <l n="836" xml:id="l836">Guérison de sa main tu prétends recevoir ?</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-60">
+            <speaker>CLÉMENT</speaker>
+            <l n="837" xml:id="l837">Plutôt que m'exposer en proie à l'ignorance.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-61">
+            <speaker>ANDRES</speaker>
+            <l n="838" xml:id="l838">Ce Sinon frauduleux ne manque d'assurance,</l>
+            <l n="839" xml:id="l839">N'as-tu jamais connu personne d'entre nous ?</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-62">
+            <speaker>CLÉMENT</speaker>
+            <l n="840" xml:id="l840">Non pas d'autre façon que je vous connais tous.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-63">
+            <speaker>ANDRES</speaker>
+            <l n="841" xml:id="l841">Sans familiarité qui fût particulière ?</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-64">
+            <speaker>CLÉMENT</speaker>
+            <l n="842" xml:id="l842">Oui hormis d'une fille en beauté singulière,</l>
+            <l n="843" xml:id="l843">Tantôt, ou je me trompe, entrevue à l'instant</l>
+            <l n="844" xml:id="l844">Que pansé la douleur me tenait haletant.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-65">
+            <speaker>ANDRES</speaker>
+            <l n="845" xml:id="l845">Tu l'aimes, ne mens point, dès l'heure pratiquée,</l>
+            <l n="846" xml:id="l846">Elle aussi du serpent qui te blesse piquée ?</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-66">
+            <speaker>CLÉMENT</speaker>
+            <l n="847" xml:id="l847">D'amitié passagère, et qui naissant mourut,</l>
+            <l n="848" xml:id="l848">Qui son objet perdu en éclair disparut.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-67">
+            <speaker>ANDRES</speaker>
+            <l n="849" xml:id="l849">Ta discrétion veut cacher sous un silence</l>
+            <l n="850" xml:id="l850">Ce que l'amour vainqueur met hors par violence.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-68">
+            <speaker>CLÉMENT</speaker>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-69">
+            <speaker>ANDRES</speaker>
+            <l n="851" xml:id="l851">Du moins rempli d'espoir à son occasion.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-70">
+            <speaker>CLÉMENT</speaker>
+            <l n="852" xml:id="l852">Au cas que cela soit, je veux perdre la vie.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-71">
+            <speaker>ANDRES</speaker>
+            <l n="853" xml:id="l853">Tu crains qu'on te blâmât d'une louable envie.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-72">
+            <speaker>CLÉMENT</speaker>
+            <l n="854" xml:id="l854">Je ne crains que d'aller contre la vérité.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-73">
+            <speaker>ANDRES</speaker>
+            <l n="855" xml:id="l855">Si as-tu ses faveurs voire mieux mérité.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-74">
+            <speaker>CLÉMENT</speaker>
+            <l n="856" xml:id="l856">Mon désastre cruel pense à toute autre chose.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-75">
+            <speaker>ANDRES</speaker>
+            <l n="857" xml:id="l857">Parle d'un cœur ouvert, et sur moi te repose,</l>
+            <l n="858" xml:id="l858">Qui, frère de ta dame aiderai vos amours</l>
+            <l n="859" xml:id="l859">Envers les gens d'honneur serviable toujours.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-76">
+            <speaker>CLÉMENT</speaker>
+            <l n="860" xml:id="l860">Un offre si courtois de l'effet me tient place,</l>
+            <l n="861" xml:id="l861">Mais outre que le mal ces passions me glace,</l>
+            <l n="862" xml:id="l862">Mille difficultés qui ne se disent point</l>
+            <l n="863" xml:id="l863">Empêchent mes désirs de tomber sur ce point,</l>
+            <l n="864" xml:id="l864">Non par aucun mépris orgueilleux, j'en atteste</l>
+            <l n="865" xml:id="l865">Notre commune mère et la lampe céleste :</l>
+            <l n="866" xml:id="l866">Onc pudique beauté ne me plut à l'égal,</l>
+            <l n="867" xml:id="l867">Trop digne de l'honneur du lien conjugal,</l>
+            <l n="868" xml:id="l868">Dont les perfections démentent sa fortune.</l>
+            <l n="869" xml:id="l869">Or, l'histoire gardée à quelque heure opportune</l>
+            <l n="870" xml:id="l870">Du cruel accident qui me détient ici,</l>
+            <l n="871" xml:id="l871">Sans plus, de m'emmener acceptez le souci.</l>
+            <l n="872" xml:id="l872">Qu'à l'extrême besoin elle ne m'abandonne,</l>
+            <l n="873" xml:id="l873">Je sais comme un plaisir semblable se guerdonne.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-77">
+            <speaker>ANDRES</speaker>
+            <l n="874" xml:id="l874">Sommeille encor un peu, nous allons te pourvoir</l>
+            <l n="875" xml:id="l875">De monture, selon que permet le pouvoir.</l>
+          </sp>
+          <sp who="clément" xml:id="TROISIÈME2-78">
+            <speaker>CLÉMENT</speaker>
+            <l n="876" xml:id="l876">Office d'amitié qui refile ma trame,</l>
+            <l n="877" xml:id="l877">Et m'empreint à jamais sa mémoire dans l'âme.</l>
+          </sp>
+          <sp who="andres" xml:id="TROISIÈME2-79">
+            <speaker>ANDRES</speaker>
+            <l n="878" xml:id="l878">Marche droit hardiment, un Argus à tes pas</l>
+            <l n="879" xml:id="l879">De ruser tant soit peu ne te permettrait pas,</l>
+            <l n="880" xml:id="l880">Perfide reconnu qui poursuives ma quête,</l>
+            <l n="881" xml:id="l881">Le dol prémédité retombe sur ta tête :</l>
+            <l n="882" xml:id="l882">J'irais dedans le sein de celle t'égorger</l>
+            <l n="883" xml:id="l883">Qui ne peut d'amitié que la mienne loger.</l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="QUATRIÈME">
+        <head>ACTE QUATRIÈME</head>
+        <div type="scene" xml:id="QUATRIÈME1">
+          <head>SCÉNE l</head>
+          <sp who="carduche" xml:id="QUATRIÈME1-1">
+            <speaker>CARDUCHE</speaker>
+            <l n="884" xml:id="l884"><stage><hi rend="italic">Seule</hi></stage> Que flotte davantage, amante forcenée,</l>
+            <l n="885" xml:id="l885">Ton penser incertain qui voit sa destinée,</l>
+            <l n="886" xml:id="l886">Désormais la pudeur, désormais la raison</l>
+            <l n="887" xml:id="l887">Ressemblent opposés un fruit hors de saison.</l>
+            <l n="888" xml:id="l888">Ta nef suit sans timon le Nord qui la maîtrise,</l>
+            <l n="889" xml:id="l889">Ce Bohème vainqueur triomphe de ta prise,</l>
+            <l n="890" xml:id="l890">Qui sa victoire ignore, et moins sage qu'heureux</l>
+            <l n="891" xml:id="l891">Est adoré de toi n'étant pas amoureux.</l>
+            <l n="892" xml:id="l892">Tes stériles regards ne pénètrent son âme,</l>
+            <l n="893" xml:id="l893">Trop d'inégalité lui recèle ta flamme,</l>
+            <l n="894" xml:id="l894">Et, comble de malheur, proche du partement,</l>
+            <l n="895" xml:id="l895">II faut hélas ! il faut parler ouvertement,</l>
+            <l n="896" xml:id="l896">Ou qu'un trépas forcé te libère de peine,</l>
+            <l n="897" xml:id="l897">Qu'un fer ou qu'un licol à la Parque te mène</l>
+            <l n="898" xml:id="l898">Sur l'infâme sujet de ce vil étranger,</l>
+            <l n="899" xml:id="l899">Qui n'aime çà et là vagabond qu'à changer,</l>
+            <l n="900" xml:id="l900">Chez qui le vice prit une telle habitude,</l>
+            <l n="901" xml:id="l901">Qu'il ne peut mettre ailleurs autre sollicitude,</l>
+            <l n="902" xml:id="l902">Qui n'estimera pas, insensible à l'honneur,</l>
+            <l n="903" xml:id="l903">D'un repos en ta couche ouverte le bonheur.</l>
+            <l n="904" xml:id="l904">Perverse, qu'as-tu dit ? ce généreux courage</l>
+            <l n="905" xml:id="l905">Prouve en ses actions que fortune l'outrage,</l>
+            <l n="906" xml:id="l906">Chacun remarqua assez aux gestes, aux discours</l>
+            <l n="907" xml:id="l907">Qu'il reste dans la fange à faute de secours.</l>
+            <l n="908" xml:id="l908">Mon chois le trouverait de la vertu capable,</l>
+            <l n="909" xml:id="l909">Donc ne le secourir me condamne coupable,</l>
+            <l n="910" xml:id="l910">Consulter au surplus les parents ne me chaut,</l>
+            <l n="911" xml:id="l911">Notre hymen accompli, c'est un faire le faut,</l>
+            <l n="912" xml:id="l912">Un torrent furieux qui leur vouloir entraine,</l>
+            <l n="913" xml:id="l913">C'est, forçats, les tirer ensemble à une chaîne :</l>
+            <l n="914" xml:id="l914">Advienne qui pourra, je vais, l'œil plein de pleurs,</l>
+            <l n="915" xml:id="l915">La bouche de sanglots, lui ouvrir mes douleurs.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="QUATRIÈME2">
+          <head>SCÈNE II</head>
+          <sp who="clément" xml:id="QUATRIÈME2-1">
+            <speaker>CLÉMENT</speaker>
+            <l n="916" xml:id="l916">Du fils de Jupiter la valeur indomptable</l>
+            <l n="917" xml:id="l917">À son ami captif ne fut plus profitable,</l>
+            <l n="918" xml:id="l918">À son ami récous des griffes du mâtin</l>
+            <l n="919" xml:id="l919">Qui garde chez Pluton la porte du destin ;</l>
+            <l n="920" xml:id="l920">Vous m'obligez autant que mortel saurait faire</l>
+            <l n="921" xml:id="l921">Confus, désespéré, sans retraite surpris</l>
+            <l n="922" xml:id="l922">De l'accident du meurtre en peu de mots compris.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-2">
+            <speaker>ANDRES</speaker>
+            <l n="923" xml:id="l923">Bien qu'à la vérité tel acte magnanime</l>
+            <l n="924" xml:id="l924">Mérite une couronne au lieu du nom de crime,</l>
+            <l n="925" xml:id="l925">Quelquefois la justice exemplaire se rend</l>
+            <l n="926" xml:id="l926">À ceux qui n'ont après ressource ni garant ;:</l>
+            <l n="927" xml:id="l927">De peur qu'à nos dépens une commune rie,</l>
+            <l n="928" xml:id="l928">Il n'est que d'évader sa première furie.</l>
+            <l n="929" xml:id="l929">Bref, que deux ennemis laissés sur le carreau</l>
+            <l n="930" xml:id="l930">Vous prîtes le chemin de la fuite plus beau ?</l>
+          </sp>
+          <sp who="clément" xml:id="QUATRIÈME2-3">
+            <speaker>CLÉMENT</speaker>
+            <l n="931" xml:id="l931">N'épouser d'un parent l'équitable querelle</l>
+            <l n="932" xml:id="l932">Donnait à mon honneur double atteinte mortelle.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-4">
+            <speaker>ANDRES</speaker>
+            <l n="933" xml:id="l933">Oui, roturier après le privilège ôté</l>
+            <l n="934" xml:id="l934">De porter jamais plus une épée au côté.</l>
+          </sp>
+          <sp who="clément" xml:id="QUATRIÈME2-5">
+            <speaker>CLÉMENT</speaker>
+            <l n="935" xml:id="l935">Vous ne me dites rien d'une métamorphose</l>
+            <l n="936" xml:id="l936">Que voyant de mes yeux quasi croire je n'ose.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-6">
+            <speaker>ANDRES</speaker>
+            <l n="937" xml:id="l937">Présume, cher ami, qu'onc mes désirs contents</l>
+            <l n="938" xml:id="l938">Ne passèrent si bien qu'à cette heure le temps ;;</l>
+            <l n="939" xml:id="l939">La superfluité de trop de mets dégoûte,</l>
+            <l n="940" xml:id="l940">Parmi l'aise excessif l'homme aussi ne voit goutte.</l>
+            <l n="941" xml:id="l941">Aigle, près d'un Soleil qui me luit gracieux</l>
+            <l n="942" xml:id="l942">La fatigue a perdu son amer odieux,</l>
+            <l n="943" xml:id="l943">Familière chez moi de sorte devenue</l>
+            <l n="944" xml:id="l944">Que sans elle la joie à l'instant diminue.</l>
+          </sp>
+          <sp who="clément" xml:id="QUATRIÈME2-7">
+            <speaker>CLÉMENT</speaker>
+            <l n="945" xml:id="l945">L'habitude se tourne en loi, joint que l'amour</l>
+            <l n="946" xml:id="l946">Peut faire de la nuit plus obscure un beau jour,</l>
+            <l n="947" xml:id="l947">Lors principalement que l'espoir se fomente</l>
+            <l n="948" xml:id="l948">Des chastes privautés d'une céleste Amante;</l>
+            <l n="949" xml:id="l949">Toutefois le moyen qu'illustre cavalier</l>
+            <l n="950" xml:id="l950">Tel sort calamiteux ferme vous peut lier ?</l>
+            <l n="951" xml:id="l951">Que languir longuement cette gueuse de vie</l>
+            <l n="952" xml:id="l952">Ne remonte nature où le sang la convie ?</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-8">
+            <speaker>ANDRES</speaker>
+            <l n="953" xml:id="l953">Qu'elle durât après le trépas paternel ?</l>
+            <l n="954" xml:id="l954">Non, l'infamie adonc me rendrait criminel.</l>
+            <l n="955" xml:id="l955">Mais vous, reçu confrère en la troupe brigande</l>
+            <l n="956" xml:id="l956">Répondez véritable à pareille demande,</l>
+            <l n="957" xml:id="l957">Quel terme résolu se prescrit de séjour ?</l>
+          </sp>
+          <sp who="clément" xml:id="QUATRIÈME2-9">
+            <speaker>CLÉMENT</speaker>
+            <l n="958" xml:id="l958">Mon départ d'avec elle attend le premier jour,</l>
+            <l n="959" xml:id="l959">Que nous approcherons Carthagène, où Neptune</l>
+            <l n="960" xml:id="l960">Offre l'occasion du trajet opportune,</l>
+            <l n="961" xml:id="l961">Trajet qui dans l'Itale assuré me conduit.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-10">
+            <speaker>ANDRES</speaker>
+            <l n="962" xml:id="l962">Vous reconnaissant donc à ce dessein réduit,</l>
+            <l n="963" xml:id="l963">Mon crédit s'emploiera vers nos gens, et je gage</l>
+            <l n="964" xml:id="l964">Leur faire consentir la route du voyage.</l>
+          </sp>
+          <sp who="clément" xml:id="QUATRIÈME2-11">
+            <speaker>CLÉMENT</speaker>
+            <l n="965" xml:id="l965">Comble de l'infini des plaisirs avancés,</l>
+            <l n="966" xml:id="l966">Qui vous seront un jour du Ciel récompensés,</l>
+            <l n="967" xml:id="l967">Qui rendent à l'auteur tributaire ma vie.</l>
+            <l n="968" xml:id="l968">Mais voyez qu'une fille en merveille ravie</l>
+            <l n="969" xml:id="l969">Tient l'œil fixe sur vous, ah ! ce signal donné,</l>
+            <l n="970" xml:id="l970">Inséparable éclair d'un cœur passionné,</l>
+            <l n="971" xml:id="l971">Veut que les champions seuls demeurent en lice.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-12">
+            <speaker>ANDRES</speaker>
+            <l n="972" xml:id="l972">Un malin tient chacun suspect de sa malice,</l>
+            <l n="973" xml:id="l973">Pour cause, demeurez à l'écart un peu loin,</l>
+            <l n="974" xml:id="l974">De notre conférence oculaire témoin.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME2-13">
+            <speaker>CARDUCHE</speaker>
+            <l n="975" xml:id="l975">Muette à ton abord, rare honneur de ta troupe,</l>
+            <l n="976" xml:id="l976">Une timidité la parole me coupe.</l>
+            <l n="977" xml:id="l977">Hélas! Mais quel besoin d'exprimer par la voix</l>
+            <l n="978" xml:id="l978">Ce qu'ont redit les yeux un million de fois ?</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-14">
+            <speaker>ANDRES</speaker>
+            <l n="979" xml:id="l979">Vous venez enquérir, que j'estime, amoureuse,</l>
+            <l n="980" xml:id="l980">Si devez être ou non en vos amours heureuse.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME2-15">
+            <speaker>CARDUCHE</speaker>
+            <l n="981" xml:id="l981">Oracle que le tien ne peut prédire aussi,</l>
+            <l n="982" xml:id="l982">Ou ma fin précipite, ou mon mal adouci ;;</l>
+            <l n="983" xml:id="l983">Tu connais, inspiré, ma blessure profonde,</l>
+            <l n="984" xml:id="l984">Que seul tu peux guérir dans le globe du monde.</l>
+            <l n="985" xml:id="l985">Pauvre fille charmée, hélas ! ôte le sort</l>
+            <l n="986" xml:id="l986">Qui mon âme possède, ou me donne la mort.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-16">
+            <speaker>ANDRES</speaker>
+            <l n="987" xml:id="l987">Pour les charmes du corps nos secrets on réclame,</l>
+            <l n="988" xml:id="l988">Des démons implorés dépendent ceux de l'âme.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME2-17">
+            <speaker>CARDUCHE</speaker>
+            <l n="989" xml:id="l989">Autre démon que toi n'a compris ce savoir,</l>
+            <l n="990" xml:id="l990">Autre démon que toi n'a semblable pouvoir.</l>
+            <l n="991" xml:id="l991">Laisse, dissimulé, laisse un voile de feinte,</l>
+            <l n="992" xml:id="l992">Et ma honte n'accroit : la passion dépeinte</l>
+            <l n="993" xml:id="l993">Que tu me fais souffrir mourant à petit feu,</l>
+            <l n="994" xml:id="l994">Ains plutôt qu'une excuse impitoyable ait lieu,</l>
+            <l n="995" xml:id="l995">Ma virginale crainte à l'amour fera place</l>
+            <l n="996" xml:id="l996">Qui te doit échauffer et, fusses-tu de glace,</l>
+            <l n="997" xml:id="l997">Ta fortune en ma couche acquise désormais,</l>
+            <l n="998" xml:id="l998">Quitte la pauvreté compagne pour jamais,</l>
+            <l n="999" xml:id="l999">Cesse de vivre plus incertain de ta vie</l>
+            <l n="1000" xml:id="l1000">À l'opprobre commun vagabonde asservie.</l>
+            <l n="1001" xml:id="l1001">Ma mère sur le bord de sa fosse mourra</l>
+            <l n="1002" xml:id="l1002">Et unique héritière à l'heure me lairra,</l>
+            <l n="1003" xml:id="l1003">Riche en meubles, en or, en belles métairies,</l>
+            <l n="1004" xml:id="l1004">En terres de labeur, en de larges prairies,</l>
+            <l n="1005" xml:id="l1005">Admire, admire l'aise impourvu qui t'attend,</l>
+            <l n="1006" xml:id="l1006">Carduche heureuse alors que tu seras content,</l>
+            <l n="1007" xml:id="l1007">Carduche, qui t'estime à l'égal d'un monarque,</l>
+            <l n="1008" xml:id="l1008">Qui la fortune ingrate à tes vertus remarque.</l>
+            <l n="1009" xml:id="l1009">Choisi donc mon parti que tu vois des meilleurs ;:</l>
+            <l n="1010" xml:id="l1010">Où espérerais-tu même fortune ailleurs ?</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-18">
+            <speaker>ANDRES</speaker>
+            <l n="1011" xml:id="l1011">L'offre m'honore trop, l'offre d'une Carite,</l>
+            <l n="1012" xml:id="l1012">Qui moins ardente dût mieux peser son mérite,</l>
+            <l n="1013" xml:id="l1013">Mieux faire ses moyens et son grade valoir,</l>
+            <l n="1014" xml:id="l1014">D'une mère premier consultant le vouloir,</l>
+            <l n="1015" xml:id="l1015">Qui, vieille n'a d'appui ni d'espérance qu'elle.</l>
+            <l n="1016" xml:id="l1016">Joint (foi de cavalier Égyptien, ma belle)</l>
+            <l n="1017" xml:id="l1017">Que nos statuts exprès défendent rigoureux</l>
+            <l n="1018" xml:id="l1018">Autre part que chez nous le commerce amoureux :</l>
+            <l n="1019" xml:id="l1019">Tout Égyptien doit prendre une Égyptienne,</l>
+            <l n="1020" xml:id="l1020">Inviolable loi qui s'observe, ancienne,</l>
+            <l n="1021" xml:id="l1021">Sur peine de la vie; excusez l'impuissant,</l>
+            <l n="1022" xml:id="l1022">Qui ce point excepté, vous reste obéissant.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME2-19">
+            <speaker>CARDUCHE</speaker>
+            <l n="1023" xml:id="l1023">Vos lois ne portent point nécessité qui presse,</l>
+            <l n="1024" xml:id="l1024">Ne peuvent que sur ceux que la disette oppresse ;:</l>
+            <l n="1025" xml:id="l1025">Prête-moi le serment de légitime époux,</l>
+            <l n="1026" xml:id="l1026">Et les tiens s'opposants je les ruine tous.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-20">
+            <speaker>ANDRES</speaker>
+            <l n="1027" xml:id="l1027">La parole me lie autre part engagée.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME2-21">
+            <speaker>CARDUCHE</speaker>
+            <l n="1028" xml:id="l1028">Ton mieux trouvé t'absout à mon sujet changée.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-22">
+            <speaker>ANDRES</speaker>
+            <l n="1029" xml:id="l1029">Oncques, irrévocable, elle ne changera.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME2-23">
+            <speaker>CARDUCHE</speaker>
+            <l n="1030" xml:id="l1030">Par ainsi ta misère onc ne s'étrangera.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-24">
+            <speaker>ANDRES</speaker>
+            <l n="1031" xml:id="l1031">Ma misère me plait, heureuse me contente,</l>
+            <l n="1032" xml:id="l1032">Ne vous repaissez plus de cette vaine attente.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME2-25">
+            <speaker>CARDUCHE</speaker>
+            <l n="1033" xml:id="l1033">Ô bélitre arrogant, assure assure-toi,</l>
+            <l n="1034" xml:id="l1034">Que tu sauras que vaut de s'affronter à moi,</l>
+            <l n="1035" xml:id="l1035">Que ton brave refus te va coûter la vie,</l>
+            <l n="1036" xml:id="l1036">Ma menace soudain de son effet suivie.</l>
+            <l n="1037" xml:id="l1037">Te ressouvienne, ingrat, qu'un féminin courroux</l>
+            <l n="1038" xml:id="l1038">Surpasse dangereux celui des lions roux.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME2-26">
+            <speaker>ANDRES</speaker>
+            <l n="1039" xml:id="l1039">L'impatiente suit la fureur qui l'anime,</l>
+            <l n="1040" xml:id="l1040">Ne pouvant recevoir d'excuse légitime,</l>
+            <l n="1041" xml:id="l1041">Un amour dédaigné ne bande ses esprits</l>
+            <l n="1042" xml:id="l1042">Qu'à la vengeance, et faut garder d'être surpris.</l>
+            <l n="1043" xml:id="l1043">Notre troupe au plutôt de ce bourg délogée</l>
+            <l n="1044" xml:id="l1044">Où puissante d'amis préside l'enragée.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="QUATRIÈME3">
+          <head>SCÈNE III</head>
+          <sp who="précieuse" xml:id="QUATRIÈME3-1">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1045" xml:id="l1045">Un trouble merveilleux m'agite le cerveau ;:</l>
+            <l n="1046" xml:id="l1046">Ainsi que le nocher appréhende sur l'eau</l>
+            <l n="1047" xml:id="l1047">Trop de calme annonçant la tempête outrageuse</l>
+            <l n="1048" xml:id="l1048">Qui mêle dans le ciel une mer orageuse;</l>
+            <l n="1049" xml:id="l1049">Ainsi la vision apparue au sommeil</l>
+            <l n="1050" xml:id="l1050">Environ sur le point que lève le Soleil,</l>
+            <l n="1051" xml:id="l1051">Traverse de pensers mon âme soucieuse,</l>
+            <l n="1052" xml:id="l1052">Qui la craint d'un malheur voisin l'avant-coureuse.</l>
+            <l n="1053" xml:id="l1053">Mon Andres me semblait à l'heure pourchassé</l>
+            <l n="1054" xml:id="l1054">D'une grande lionne, et en fin terrassé</l>
+            <l n="1055" xml:id="l1055">- Quelque effort que l'on mît à le vouloir défendre -</l>
+            <l n="1056" xml:id="l1056">Dans son repaire affreux disparu le descendre.</l>
+            <l n="1057" xml:id="l1057">Lors estimé perdu j'arrache mes cheveux,</l>
+            <l n="1058" xml:id="l1058">J'adresse désolée au ciel mes humbles vœux,</l>
+            <l n="1059" xml:id="l1059">Plombe de mille coups ma poitrine, et ma face,</l>
+            <l n="1060" xml:id="l1060">Demeure en pâmoison profonde sur la place.</l>
+            <l n="1061" xml:id="l1061">Revenue, voici mon Andres derechef,</l>
+            <l n="1062" xml:id="l1062">Garanti du péril, un myrte autour du chef,</l>
+            <l n="1063" xml:id="l1063">Que l'on n'attendait plus, et qui de joie éprise</l>
+            <l n="1064" xml:id="l1064">Me réveille en sursaut ce songe lâchant prise.</l>
+            <l n="1065" xml:id="l1065">Songe qui pronostique une atteinte du sort,</l>
+            <l n="1066" xml:id="l1066">Mais que notre bonheur triomphera plus fort,</l>
+            <l n="1067" xml:id="l1067">Que nos chastes amours après l'âpre froidure</l>
+            <l n="1068" xml:id="l1068">Obtiennent un printemps agréable qui dure.</l>
+            <l n="1069" xml:id="l1069">Fils ailé de Venus, ne le diffère tant</l>
+            <l n="1070" xml:id="l1070">Que le courage enfin succombe, peu constant,</l>
+            <l n="1071" xml:id="l1071">Un roc se transirait à la pitié sensible,</l>
+            <l n="1072" xml:id="l1072">De voir ce cavalier par-dessus son possible,</l>
+            <l n="1073" xml:id="l1073">Fatiguer, endurer le froid, la faim, le chaut,</l>
+            <l n="1074" xml:id="l1074">Et, ce qui coûte plus à ce courage haut,</l>
+            <l n="1075" xml:id="l1075">L'ignoble train de vie entre nous ordinaire,</l>
+            <l n="1076" xml:id="l1076">Voire à la cruauté s'astreindre, débonnaire.</l>
+            <l n="1077" xml:id="l1077">Puis, que sert de mentir ? Contrainte en ma rigueur,</l>
+            <l n="1078" xml:id="l1078">Je ne tire que trop ma part de sa langueur,</l>
+            <l n="1079" xml:id="l1079">La pitié, peu s'en faut, équitable, surmonte</l>
+            <l n="1080" xml:id="l1080">Et dissipe le frein d'une pudique honte ;</l>
+            <l n="1081" xml:id="l1081">Tien ferme toutefois, imitant le nocher,</l>
+            <l n="1082" xml:id="l1082">Que, proche des écueils, on ne voit relâcher.</l>
+            <l n="1083" xml:id="l1083">Au bon commencement donne la fin de même ;;</l>
+            <l n="1084" xml:id="l1084">Un garçon s'achemine en diligence extrême,</l>
+          </sp>
+          <sp who="garçon-égyptien" xml:id="QUATRIÈME3-2">
+            <speaker>GARÇON ÉGYPTIEN</speaker>
+            <l n="1085" xml:id="l1085">Notre bande au départ se prépare tantôt,</l>
+            <l n="1086" xml:id="l1086">Beaucoup ja délogés vont faire l'avant-garde,</l>
+            <l n="1087" xml:id="l1087">Et dit-on qu'un séjour le moindre nous hasarde.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="QUATRIÈME4">
+          <head>SCÈNE IV</head>
+          <sp who="mère" xml:id="QUATRIÈME4-1">
+            <speaker>MÈRE DE CARDUCHE</speaker>
+            <l n="1088" xml:id="l1088">J'implore, mes voisins, votre prompte assistance,</l>
+            <l n="1089" xml:id="l1089">Contre ces boute-feus, nulle de résistance,</l>
+            <l n="1090" xml:id="l1090">J'implore la justice et la requiers de vous,</l>
+            <l n="1091" xml:id="l1091">Qui devez magistrat, la rendre égale à tous.</l>
+            <l n="1092" xml:id="l1092">Ces voleurs ont ravi les joyaux de ma fille,</l>
+            <l n="1093" xml:id="l1093">Outre tant de butin pris sur chaque famille,</l>
+            <l n="1094" xml:id="l1094">Qui se reconnaîtra leur bagage fouillé,</l>
+            <l n="1095" xml:id="l1095">Et des plumes d'autrui, le troupeau dépouillé.</l>
+            <l n="1096" xml:id="l1096">Mais le moindre séjour trompe telle poursuite,</l>
+            <l n="1097" xml:id="l1097">Sur le point de partir, ains de prendre la fuite.</l>
+          </sp>
+          <sp who="alcade" xml:id="QUATRIÈME4-2">
+            <speaker>ALCADE</speaker>
+            <l n="1098" xml:id="l1098">La prudence nous doit en sorte gouverner,</l>
+            <l n="1099" xml:id="l1099">Que l'on puisse saisi le canon discerner ;;</l>
+            <l n="1100" xml:id="l1100">Grande difficulté parmi cette canaille,</l>
+            <l n="1101" xml:id="l1101">Qui jour et nuit active à la fraude travaille,</l>
+            <l n="1102" xml:id="l1102">Sait plus d'inventions, de ruses, de détours,</l>
+            <l n="1103" xml:id="l1103">Que le reste du monde, et affine toujours.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME4-3">
+            <speaker>CARDUCHE</speaker>
+            <l n="1104" xml:id="l1104">Monsieur, permettez-moi la remarque facile</l>
+            <l n="1105" xml:id="l1105">Du voleur qui sautant par la fenêtre agile</l>
+            <l n="1106" xml:id="l1106">Dedans une valise a son larcin caché,</l>
+            <l n="1107" xml:id="l1107">Mais son portrait demeure en mon âme attaché.</l>
+          </sp>
+          <sp who="alcade" xml:id="QUATRIÈME4-4">
+            <speaker>ALCADE</speaker>
+            <l n="1108" xml:id="l1108">Cela ne manquera ;; faisons donc une enceinte</l>
+            <l n="1109" xml:id="l1109">Qui puisse envelopper toute leur bande atteinte,</l>
+            <l n="1110" xml:id="l1110">Demeurée au milieu de notre peuple épars,</l>
+            <l n="1111" xml:id="l1111">L'issue tellement forclose à ces renards</l>
+            <l n="1112" xml:id="l1112">Qu'on recouvre la perte : ou bien, si téméraire,</l>
+            <l n="1113" xml:id="l1113">Une rébellion mutine elle ose faire</l>
+            <l n="1114" xml:id="l1114">Main basse, tuez tout, mon aveu suffisant</l>
+            <l n="1115" xml:id="l1115">Ce meurtre général absout dès à présent.</l>
+          </sp>
+          <sp who="troupe-de-villageois" xml:id="QUATRIÈME4-5">
+            <speaker>TROUPE DE VILLAGEOIS</speaker>
+            <l n="1116" xml:id="l1116">Le Soleil ne peut voir de plus digne justice,</l>
+            <l n="1117" xml:id="l1117">Ni le Ciel recevoir de plus doux sacrifice.</l>
+            <l n="1118" xml:id="l1118">Sans doute exterminés, son ire cessera,</l>
+            <l n="1119" xml:id="l1119">Ou tolérés encor, coupables on sera</l>
+            <l n="1120" xml:id="l1120">D'innumérable excès commis contre nous-mêmes ;</l>
+            <l n="1121" xml:id="l1121">Tel mal extrême veut ses remèdes extrêmes.</l>
+          </sp>
+          <sp who="soldat" xml:id="QUATRIÈME4-6">
+            <speaker>SOLDAT</speaker>
+            <l n="1122" xml:id="l1122">Capital ennemi de leur déloyauté,</l>
+            <l n="1123" xml:id="l1123">Perdre jusqu'aux enfants je ne tiens cruauté.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME4-7">
+            <speaker>CARDUCHE</speaker>
+            <l n="1124" xml:id="l1124">Superbe, dédaigneux, âme ingrate et maudite,</l>
+            <l n="1125" xml:id="l1125">À ce coup, à ce coup ta ruine prédite</l>
+            <l n="1126" xml:id="l1126">Arrive, me vengeant de l'affront d'un refus,</l>
+            <l n="1127" xml:id="l1127">Ébahi si jamais en péril tu le fus,</l>
+            <l n="1128" xml:id="l1128">Peu caut Égyptien, qui passé de cautèle</l>
+            <l n="1129" xml:id="l1129">Ne saurais t'esquiver à l'embûche mortelle,</l>
+            <l n="1130" xml:id="l1130">Vu que ma propre main à sa merci soumit</l>
+            <l n="1131" xml:id="l1131">Trouve un rapt supposé où elle l'aura mis.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="QUATRIÈME5">
+          <head>SCÈNE V</head>
+          <sp who="capitaine-égyptien" xml:id="QUATRIÈME5-1">
+            <speaker>CAPITAINE ÉGIPTIEN</speaker>
+            <l n="1132" xml:id="l1132">Comme tu nous dépeins ta Philis méprisée,</l>
+            <l n="1133" xml:id="l1133">Ores d'un désespoir amoureux métrisée,</l>
+            <l n="1134" xml:id="l1134">Son pouvoir en ce lieu, son animeuse ardeur,</l>
+            <l n="1135" xml:id="l1135">Sa menace vomie à qui sortait du cœur,</l>
+            <l n="1136" xml:id="l1136">Maxime, que tarder davantage lui donne</l>
+            <l n="1137" xml:id="l1137">Loisir d'exécuter sa vengeance félonne,</l>
+            <l n="1138" xml:id="l1138">Le mal nous préviendra, fuyons vite d'ici.</l>
+            <l n="1139" xml:id="l1139">Je hérisse d'effroi, qui ne craindrait aussi ?</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME5-2">
+            <speaker>ANDRES</speaker>
+            <l n="1140" xml:id="l1140">La crainte légitime où une conscience</l>
+            <l n="1141" xml:id="l1141">Criminelle à bon droit pâlit de défiance</l>
+            <l n="1142" xml:id="l1142">Ne pénètre chez-moi, qui dépite innocent</l>
+            <l n="1143" xml:id="l1143">L'univers conjuré de fureur frémissant.</l>
+            <l n="1144" xml:id="l1144">Qui du Ciel soutiendrai la chute inespérée,</l>
+            <l n="1145" xml:id="l1145">Le déluge imprévu de Thétis colérée,</l>
+            <l n="1146" xml:id="l1146">Sans prendre l'épouvante ou m'émouvoir en rien,</l>
+            <l n="1147" xml:id="l1147">La peur suit les méchants, et fuit les gens de bien.</l>
+          </sp>
+          <sp who="précieuse" xml:id="QUATRIÈME5-3">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1148" xml:id="l1148">Conseillerais-tu point, ses faveurs moissonnées,</l>
+            <l n="1149" xml:id="l1149">La fuite, à celle fin de couvrir vos menées ?</l>
+            <l n="1150" xml:id="l1150">Hyppolite en parole, et Thésée à l'effet.</l>
+            <l n="1151" xml:id="l1151">Ô cieux ! quel bruit là-bas au village se fait ?</l>
+            <l n="1152" xml:id="l1152">Une foule sur nous décoche furieuse,</l>
+            <l n="1153" xml:id="l1153">Regardons d'éviter sa force injurieuse.</l>
+          </sp>
+          <sp who="alcade" xml:id="QUATRIÈME5-4">
+            <speaker>ALCADE</speaker>
+            <l n="1154" xml:id="l1154">Demeurez, le premier mis en défense est mort ;</l>
+            <l n="1155" xml:id="l1155">Toute l'affaire gît à réparer un tort,</l>
+            <l n="1156" xml:id="l1156">À rendre les joyaux emblés à cette dame,</l>
+            <l n="1157" xml:id="l1157">Qui la main contre vous de justice réclame.</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="QUATRIÈME5-5">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="1158" xml:id="l1158">Son accusation se doit vérifier,</l>
+            <l n="1159" xml:id="l1159">Et, l'accusé, du moins nous le spécifier.</l>
+          </sp>
+          <sp who="mère" xml:id="QUATRIÈME5-6">
+            <speaker>MÈRE DE CARDUCHE</speaker>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME5-7">
+            <speaker>ANDRES</speaker>
+            <l n="1160" xml:id="l1160">Voici donc les éclats de ta haine brutale.</l>
+          </sp>
+          <sp who="précieuse" xml:id="QUATRIÈME5-8">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1161" xml:id="l1161">Ha ! cher Andres, la foi que tu me veux garder,</l>
+            <l n="1162" xml:id="l1162">L'aiguillon d'un serpent contre toi vient darder.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME5-9">
+            <speaker>CARDUCHE</speaker>
+            <l n="1163" xml:id="l1163">Voici l'homme, voici le voleur en personne,</l>
+            <l n="1164" xml:id="l1164">Nul autre du larcin que lui je ne soupçonne.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME5-10">
+            <speaker>ANDRES</speaker>
+            <l n="1165" xml:id="l1165">L'imposture messied à celle qu'indiscret,</l>
+            <l n="1166" xml:id="l1166">Trois mots feront rougir dessur certain secret.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME5-11">
+            <speaker>CARDUCHE</speaker>
+            <l n="1167" xml:id="l1167">Monsieur, sans s'amuser à pareille impudence,</l>
+            <l n="1168" xml:id="l1168">Son bagage fouillé le met en évidence.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME5-12">
+            <speaker>ANDRES</speaker>
+            <l n="1169" xml:id="l1169">Volontiers, volontiers, et lors que convaincu,</l>
+            <l n="1170" xml:id="l1170">Moi-même j'avouerai n'avoir que trop vécu,</l>
+            <l n="1171" xml:id="l1171">Moi-même, de ce crime ou auteur ou complice,</l>
+            <l n="1172" xml:id="l1172">Allume le bûcher accepté du supplice.</l>
+          </sp>
+          <sp who="alcade" xml:id="QUATRIÈME5-13">
+            <speaker>ALCADE</speaker>
+            <l n="1173" xml:id="l1173">Vous dites bien. Voyons, la vue en fera foi.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME5-14">
+            <speaker>CARDUCHE</speaker>
+            <l n="1174" xml:id="l1174">Ne fiez, s'il vous plaît, la recherche qu'à moi.</l>
+          </sp>
+          <sp who="alcade" xml:id="QUATRIÈME5-15">
+            <speaker>ALCADE</speaker>
+            <l n="1175" xml:id="l1175">Faites, le droit consent, partie intéressée</l>
+            <l n="1176" xml:id="l1176">La perquisition vous en est relaissée.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME5-16">
+            <speaker>CARDUCHE</speaker>
+            <l n="1177" xml:id="l1177">Montre quelle valise à toi seul appartient.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME5-17">
+            <speaker>ANDRES</speaker>
+            <l n="1178" xml:id="l1178">La voici sur le dos de ce garçon qui vient.</l>
+          </sp>
+          <sp who="précieuse" xml:id="QUATRIÈME5-18">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1179" xml:id="l1179">Ton vertueux refus, ô pauvre Andres, suggère</l>
+            <l n="1180" xml:id="l1180">Quelque damnable fraude à une autre Mégère.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME5-19">
+            <speaker>CARDUCHE</speaker>
+            <l n="1181" xml:id="l1181">Or sus, fais l'ouverture, et me renverse tout,</l>
+            <l n="1182" xml:id="l1182">Qu'on puisse l'éplucher de l'un à l'autre bout :</l>
+            <l n="1183" xml:id="l1183">Courage, ce carcan donne indice du reste.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME5-20">
+            <speaker>ANDRES</speaker>
+            <l n="1184" xml:id="l1184">Ô perfide exécrable, à mon honneur funeste.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME5-21">
+            <speaker>CARDUCHE</speaker>
+            <l n="1185" xml:id="l1185">Et ces bracelets d'or tu ne confesses miens ?</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME5-22">
+            <speaker>ANDRES</speaker>
+            <l n="1186" xml:id="l1186">Je me confesse pris en tes traîtres liens.</l>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME5-23">
+            <speaker>CARDUCHE</speaker>
+            <l n="1187" xml:id="l1187">Écoutez le brigand me cracher des injures.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME5-24">
+            <speaker>ANDRES</speaker>
+            <l n="1188" xml:id="l1188">Juste Ciel, tu vois la fraude, et tu l'endures !</l>
+          </sp>
+          <sp who="précieuse" xml:id="QUATRIÈME5-25">
+            <speaker>PRÉCIEUSE</speaker>
+          </sp>
+          <sp who="carduche" xml:id="QUATRIÈME5-26">
+            <speaker>CARDUCHE</speaker>
+          </sp>
+          <sp who="alcade" xml:id="QUATRIÈME5-27">
+            <speaker>ALCADE</speaker>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME5-28">
+            <speaker>ANDRES</speaker>
+            <l n="1189" xml:id="l1189">De telle illusion le discours véritable.</l>
+          </sp>
+          <sp who="soldat" xml:id="QUATRIÈME5-29">
+            <speaker>SOLDAT</speaker>
+            <l n="1190" xml:id="l1190">Scélérat effronté, voleur, double voleur,</l>
+            <l n="1191" xml:id="l1191">Que cuides-tu donner au crime de couleur ?</l>
+            <l n="1192" xml:id="l1192">Ton vol se voit, se touche, ah ! ma colère échappe,</l>
+            <l n="1193" xml:id="l1193">Et faut que cette joue impudente je frappe.</l>
+          </sp>
+          <sp who="précieuse" xml:id="QUATRIÈME5-30">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1194" xml:id="l1194">Quoi ? sur le magistrat entreprendre à ses yeux ?</l>
+            <l n="1195" xml:id="l1195">II n'y a plus pour nous de justice en ces lieux.</l>
+          </sp>
+          <sp who="andres" xml:id="QUATRIÈME5-31">
+            <speaker>ANDRES</speaker>
+            <l n="1196" xml:id="l1196">Téméraire, ton sang me lavera l'outrage,</l>
+            <l n="1197" xml:id="l1197">Tu sauras que l'habit n'empêche le courage.</l>
+          </sp>
+          <sp who="soldat" xml:id="QUATRIÈME5-32">
+            <speaker>SOLDAT</speaker>
+            <l n="1198" xml:id="l1198">À l'aide, mes amis, à l'aide, je suis mort,</l>
+            <l n="1199" xml:id="l1199">Ne laissez impuni cet homicide effort.</l>
+          </sp>
+          <sp who="troupe-de-villageois" xml:id="QUATRIÈME5-33">
+            <speaker>TROUPE DE VILLAGEOIS</speaker>
+            <l n="1200" xml:id="l1200">Misérable, inspiré d'une homicide rage,</l>
+            <l n="1201" xml:id="l1201">Tu oses ajouter le meurtre à ton outrage ;</l>
+            <l n="1202" xml:id="l1202">Au lieu qu'humilié tu dusses à genoux</l>
+            <l n="1203" xml:id="l1203">Amollir d'un commun le périlleux courroux,</l>
+            <l n="1204" xml:id="l1204">Tu l'irrites plus fort et le rends implacable.</l>
+            <l n="1205" xml:id="l1205">Sus, qu'avec tous les siens de pierres on l'accable,</l>
+            <l n="1206" xml:id="l1206">Ou qu'on étouffe en l'eau des monstres si pervers,</l>
+            <l n="1207" xml:id="l1207">Que l'enfer avorta pour nuire à l'univers,</l>
+            <l n="1208" xml:id="l1208">Encor sera-ce peu : telle impure victime</l>
+            <l n="1209" xml:id="l1209">N'apaisera là-bas une ombre magnanime.</l>
+          </sp>
+          <sp who="alcade" xml:id="QUATRIÈME5-34">
+            <speaker>ALCADE</speaker>
+            <l n="1210" xml:id="l1210">Silence, garrottez en diverses prisons,</l>
+            <l n="1211" xml:id="l1211">Plus que nôtre devoir iniques ne faisons,</l>
+            <l n="1212" xml:id="l1212">Et qu'aucun si hardi ne passe ma défense.</l>
+            <l n="1213" xml:id="l1213">Séville connaîtra souveraine l'offense,</l>
+            <l n="1214" xml:id="l1214">Souveraine à donner ou la vie ou la mort,</l>
+            <l n="1215" xml:id="l1215">Comme jugeant sur nous en suprême ressort.</l>
+        </sp>
+      </div>
+      </div>
+      <div type="act" xml:id="CINQUIÈME">
+        <head>ACTE CINQUIÈME</head>
+        <div type="scene" xml:id="CINQUIÈME1">
+          <head>SCÈNE I</head>
+          <sp who="dom-ferdinand" xml:id="CINQUIÈME1-1">
+            <speaker>DOM FERDINAND</speaker>
+            <l n="1216" xml:id="l1216">L'homme, quoi qu'animal céleste d'origine,</l>
+            <l n="1217" xml:id="l1217">D'où dérivent ses maux, aveugle, n'imagine,</l>
+            <l n="1218" xml:id="l1218">Sent mille afflictions sur sa tête pleuvoir,</l>
+            <l n="1219" xml:id="l1219">Et n'en veut néanmoins le désastre savoir ;</l>
+            <l n="1220" xml:id="l1220">Soit que tantôt la peste aux sommeilleuses ailes</l>
+            <l n="1221" xml:id="l1221">Dépeuple nos cités de ses flèches mortelles,</l>
+            <l n="1222" xml:id="l1222">Ou qu'un déluge d'eaux paravant qu'aperçu</l>
+            <l n="1223" xml:id="l1223">Ravisse de Cérès le jeune espoir conçu,</l>
+            <l n="1224" xml:id="l1224">Et que le ciel d'airain toute humeur épuisée</l>
+            <l n="1225" xml:id="l1225">Nie aux fruits et aux bleds la pluie et la rosée,</l>
+            <l n="1226" xml:id="l1226">Fléaux avant-coureurs de la faim qui les suit,</l>
+            <l n="1227" xml:id="l1227">Épouvantés adonc, une ombre nous séduit :</l>
+            <l n="1228" xml:id="l1228">Leur véritable cause apparente ignorée</l>
+            <l n="1229" xml:id="l1229">Qui des cieux ne voyons la dextre colérée</l>
+            <l n="1230" xml:id="l1230">Répéter dessur nous tant de crimes divers</l>
+            <l n="1231" xml:id="l1231">Que l'impunité fait régner par l'univers.</l>
+            <l n="1232" xml:id="l1232">L'exemple me suffit d'une race méchante</l>
+            <l n="1233" xml:id="l1233">Qui l'oreille et les yeux du populaire enchante,</l>
+            <l n="1234" xml:id="l1234">Qui vole, qui saccage, errant où sa fureur</l>
+            <l n="1235" xml:id="l1235">D'obstacle ne prévoit qui lui donne terreur.</l>
+            <l n="1236" xml:id="l1236">Témoin l'assassinat perpétré qui m'amène</l>
+            <l n="1237" xml:id="l1237">Ces brigands recevoir la capitale peine,</l>
+            <l n="1238" xml:id="l1238">Sur tous le malheureux qui surpris en larcin,</l>
+            <l n="1239" xml:id="l1239">D'enragé désespoir fit ce coup assassin,</l>
+            <l n="1240" xml:id="l1240">Sans pitié, sans merci, un sortable supplice</l>
+            <l n="1241" xml:id="l1241">L'attend, et qui d'entre eux se trouvera complice,</l>
+            <l n="1242" xml:id="l1242">Tous bannis des confins à perpétuité ;</l>
+            <l n="1243" xml:id="l1243">Ce qui leur est encor trop de gratuité,</l>
+            <l n="1244" xml:id="l1244">Un feu dût expier leurs cruautés ensemble,</l>
+            <l n="1245" xml:id="l1245">Le Ciel propicié : voilà ce qui m'en semble.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME1-2">
+            <speaker>GUIOMAR</speaker>
+            <l n="1246" xml:id="l1246">Vous le dites, monsieur, par la commune voix,</l>
+            <l n="1247" xml:id="l1247">Et irrépréhensible établi sur les lois.</l>
+            <l n="1248" xml:id="l1248">Dieu récompensera, seul arbitre du monde,</l>
+            <l n="1249" xml:id="l1249">Une telle équité qui n'a point de seconde,</l>
+            <l n="1250" xml:id="l1250">Pieuse, mémorable, immortelle en son los,</l>
+            <l n="1251" xml:id="l1251">Tant que le bleu Neptune abondera de flots,</l>
+            <l n="1252" xml:id="l1252">Que la terre sera de mortels habitée,</l>
+            <l n="1253" xml:id="l1253">Et des embrassements de Thétis limitée.</l>
+            <l n="1254" xml:id="l1254">Hercule, vous devez une hydre exterminer,</l>
+            <l n="1255" xml:id="l1255">Qui ne vaut à rien plus qu'à prendre et butiner,</l>
+            <l n="1256" xml:id="l1256">Qui, des vices l'égout, qui, vermine épanchée</l>
+            <l n="1257" xml:id="l1257">Dessur les biens d'autrui se repaît attachée.</l>
+            <l n="1258" xml:id="l1258">La perte de ma fille a du depuis toujours</l>
+            <l n="1259" xml:id="l1259">Vers eux accru ma haine en la suite des jours.</l>
+            <l n="1260" xml:id="l1260">Toujours même soupçon sur le cœur me demeure,</l>
+            <l n="1261" xml:id="l1261">Et qui doit m'animer davantage à cette heure.</l>
+            <l n="1262" xml:id="l1262">Je ne sais quel destin comme exprès a permis</l>
+            <l n="1263" xml:id="l1263">Que les mêmes voleurs en vos lacs se sont mis.</l>
+            <l n="1264" xml:id="l1264">Une seule du nombre à la pitié m'incite,</l>
+            <l n="1265" xml:id="l1265">De qui l'âge innocent et la beauté mérite,</l>
+            <l n="1266" xml:id="l1266">Mandée la voici ; mais, monsieur, admirez</l>
+            <l n="1267" xml:id="l1267">Cette grâce, ce port, ces gestes modérés,</l>
+            <l n="1268" xml:id="l1268">Sa fortune à ses mœurs discorde ;: ainsi gentille,</l>
+            <l n="1269" xml:id="l1269">En son portrait celui me revient de ma fille.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME1-3">
+            <speaker>LE SÉNÉCHAL</speaker>
+            <l n="1270" xml:id="l1270">Belle parfaitement, et qui plaît à mes yeux,</l>
+            <l n="1271" xml:id="l1271">Il faut lui procurer quelque chose de mieux :</l>
+            <l n="1272" xml:id="l1272">Or entretenez-vous un quart d'heure avec elle,</l>
+            <l n="1273" xml:id="l1273">Ce procès criminel à mon devoir m'appelle.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="CINQUIÈME2">
+          <head>SCÈNE II</head>
+          <sp who="guiomar" xml:id="CINQUIÈME2-1">
+            <speaker>GUIOMAR</speaker>
+            <l n="1274" xml:id="l1274">Que dis-tu ma mignonne ? Approche baise-moi,</l>
+            <l n="1275" xml:id="l1275">Tu portes en secret quelque charme sur toi,</l>
+            <l n="1276" xml:id="l1276">Qui force de t'aimer : Dieu ! que tu es jolie.</l>
+            <l n="1277" xml:id="l1277">Encore d'où te vient cette mélancolie ?</l>
+            <l n="1278" xml:id="l1278">Tu n'as pas aujourd'hui ta belle humeur ; et bien,</l>
+            <l n="1279" xml:id="l1279">Sur ce que l'on te dit ne répliques-tu rien ?</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-2">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1280" xml:id="l1280">De légères douleurs facilement s'expriment,</l>
+            <l n="1281" xml:id="l1281">Les fortes sous leur faix, muettes, nous oppriment.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-3">
+            <speaker>GUIOMAR</speaker>
+            <l n="1282" xml:id="l1282">Tu ne dois en ce cas mon secours négliger.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-4">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1283" xml:id="l1283">Las ! il me peut de plus que la vie obliger.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-5">
+            <speaker>GUIOMAR</speaker>
+            <l n="1284" xml:id="l1284">Pourvu que la raison prescrive ta demande.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-6">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1285" xml:id="l1285">Elle seule m'induit, me guide, et me commande.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-7">
+            <speaker>GUIOMAR</speaker>
+            <l n="1286" xml:id="l1286">Déclare, tu transis mon âme de pitié.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-8">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1287" xml:id="l1287">Si mon bonheur me fait place en vôtre amitié,</l>
+            <l n="1288" xml:id="l1288">Si je puis mériter, chétive créature,</l>
+            <l n="1289" xml:id="l1289">Que ma prière en l'air ne vole à l'aventure,</l>
+            <l n="1290" xml:id="l1290">Madame, par ces mains que j'ose rebaiser,</l>
+            <l n="1291" xml:id="l1291">Et qu'ose ma douleur de larmes arroser,</l>
+            <l n="1292" xml:id="l1292">Par cette affection vertueuse inclinée</l>
+            <l n="1293" xml:id="l1293">Envers une innocente aux malheurs destinée,</l>
+            <l n="1294" xml:id="l1294">Tutélaire, veuillez l'orage divertir</l>
+            <l n="1295" xml:id="l1295">Qui ce pauvre accusé menace d'engloutir.</l>
+            <l n="1296" xml:id="l1296">Il est homme d'honneur qui, généreux, s'efforce</l>
+            <l n="1297" xml:id="l1297">Repousser au besoin la force par la force ;</l>
+            <l n="1298" xml:id="l1298">Quel simple ver, blésé, ne se rebelle pas,</l>
+            <l n="1299" xml:id="l1299">Ne tâche de venger son innocent trépas ?</l>
+            <l n="1300" xml:id="l1300">Madame, intercédez à ce qu'une défense</l>
+            <l n="1301" xml:id="l1301">Écoutée à loisir le purge de l'offense.</l>
+            <l n="1302" xml:id="l1302">Mon sang vous signera ce que ma bouche dit,</l>
+            <l n="1303" xml:id="l1303">Qu'un outrage souffert de frapper l'enhardit.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-9">
+            <speaker>GUIOMAR</speaker>
+            <l n="1304" xml:id="l1304">Le meurtre n'eût jamais excuse légitime.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-10">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1305" xml:id="l1305">Mais le mort, agresseur, a provoqué ce crime.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-11">
+            <speaker>GUIOMAR</speaker>
+            <l n="1306" xml:id="l1306">Tout homicide encourt le supplice mortel.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-12">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1307" xml:id="l1307">Contraint, aucune loi ne l'approuvera tel.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-13">
+            <speaker>GUIOMAR</speaker>
+            <l n="1308" xml:id="l1308">Tu parles de faveur et selon ta cervelle.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-14">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1309" xml:id="l1309">La chose réputée encor plus criminelle,</l>
+            <l n="1310" xml:id="l1310">Madame, veuillez nous du moins gratifier,</l>
+            <l n="1311" xml:id="l1311">Qu'on lui donne loisir de se justifier.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-15">
+            <speaker>GUIOMAR</speaker>
+            <l n="1312" xml:id="l1312">Heureux en son malheur d'avoir ta bonne grâce,</l>
+            <l n="1313" xml:id="l1313">Je ferai que sitôt à l'arrêt on ne passe.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-16">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1314" xml:id="l1314">Ô clémence admirable ! or vous pouvez aussi</l>
+            <l n="1315" xml:id="l1315">Le courage fléchir de son juge adouci.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-17">
+            <speaker>GUIOMAR</speaker>
+            <l n="1316" xml:id="l1316">Ta prière à la fin se rendrait importune.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-18">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1317" xml:id="l1317">Selon que le requiert le présent infortune.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-19">
+            <speaker>GUIOMAR</speaker>
+            <l n="1318" xml:id="l1318">Tu as ce prisonnier affecté, ne mens point.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-20">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1319" xml:id="l1319">Quiconque le connaît même désir l'époint.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-21">
+            <speaker>GUIOMAR</speaker>
+            <l n="1320" xml:id="l1320">Et sa perfection de Bohème consiste,</l>
+            <l n="1321" xml:id="l1321">À ce qu'à ses larcins obstacle ne résiste.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-22">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1322" xml:id="l1322">Sauf le respect de vous, ce Bohème n'a rien</l>
+            <l n="1323" xml:id="l1323">Qui sente le Bohème, et que d'homme de bien.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-23">
+            <speaker>GUIOMAR</speaker>
+            <l n="1324" xml:id="l1324">Unique en son espèce à ce conte, m'amie.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-24">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1325" xml:id="l1325">Unique voirement, sans note d'infamie.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME2-25">
+            <speaker>GUIOMAR</speaker>
+            <l n="1326" xml:id="l1326">Sur ta relation je le désire voir,</l>
+            <l n="1327" xml:id="l1327">Sur ta relation je ferai mon pouvoir :</l>
+            <l n="1328" xml:id="l1328">À tel si toutefois que plus gaie tu viennes</l>
+            <l n="1329" xml:id="l1329">Me chanter quelques airs qu'en réserve tu tiennes.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME2-26">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1330" xml:id="l1330">Du Monarque suprême à notre adversité.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="CINQUIÈME3">
+          <head>SCÈNE III</head>
+          <sp who="vieille-égyptienne" xml:id="CINQUIÈME3-1">
+            <speaker>VIEILLE EGYPTIENNE</speaker>
+            <l n="1331" xml:id="l1331"><stage><hi rend="italic">Seule</hi></stage> Tu pourrais consulter les vieux chênes d'Épire,</l>
+            <l n="1332" xml:id="l1332">Ou Protée contraint dedans l'humide empire,</l>
+            <l n="1333" xml:id="l1333">Qu'avis plus salutaire et propre en cet endroit,</l>
+            <l n="1334" xml:id="l1334">Plus propre que le tien de leur part ne viendrait :</l>
+            <l n="1335" xml:id="l1335">Aux parents naturels Précieuse rendue</l>
+            <l n="1336" xml:id="l1336">Rend de suite la vie à sa moitié perdue,</l>
+            <l n="1337" xml:id="l1337">Oui perdue, et soudain ; qui ne le recourra,</l>
+            <l n="1338" xml:id="l1338">Un populaire bruit assurant qu'il mourra.</l>
+            <l n="1339" xml:id="l1339">Que si, juge impiteux de sa proche sentence,</l>
+            <l n="1340" xml:id="l1340">Irrévocable, après l'envoie à la potence,</l>
+            <l n="1341" xml:id="l1341">Alléguer sa noblesse, en nôtre qualité,</l>
+            <l n="1342" xml:id="l1342">Ne semble qu'un mensonge atteint de nullité.</l>
+            <l n="1343" xml:id="l1343">Mais ton rapt déceler, et choisir ce refuge</l>
+            <l n="1344" xml:id="l1344">S'appelle rencontrer sa partie et son juge.</l>
+            <l n="1345" xml:id="l1345">Pourquoi ? L'extrême joie à revoir un enfant</l>
+            <l n="1346" xml:id="l1346">Sans doute ira vers toi sa rancune étouffant.</l>
+            <l n="1347" xml:id="l1347">Précieuse me pleige en sa bonne nature,</l>
+            <l n="1348" xml:id="l1348">Cours plutôt de ce pas toute horrible aventure</l>
+            <l n="1349" xml:id="l1349">Qu'inutile en ce monde au péril n'arracher</l>
+            <l n="1350" xml:id="l1350">Un soleil des vertus à sa dame si cher.</l>
+            <l n="1351" xml:id="l1351">Avec les monuments qui la font reconnaître,</l>
+            <l n="1352" xml:id="l1352">J’irai première aux yeux de la mère paraître,</l>
+            <l n="1353" xml:id="l1353">À qui déjà l’instinct enflamme l’amitié,</l>
+            <l n="1354" xml:id="l1354">Un ouvrage à soi tout parfait en la moitié.</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="CINQUIÈME4">
+          <head>SCÈNE IV</head>
+          <sp who="andres" xml:id="CINQUIÈME4-1">
+            <speaker>ANDRES</speaker>
+            <l n="1355" xml:id="l1355">Captif dedans l'horreur d'une grotte relente,</l>
+            <l n="1356" xml:id="l1356">Qui vais souffrir la mort honteuse et violente,</l>
+            <l n="1357" xml:id="l1357">Réduit à n'espérer aucun secours humain,</l>
+            <l n="1358" xml:id="l1358">Et à chaque moment de la vie incertain,</l>
+            <l n="1359" xml:id="l1359">La Parque inévitable ores ne m'épouvante :</l>
+            <l n="1360" xml:id="l1360">Ma constance à bon droit invincible se vante.</l>
+            <l n="1361" xml:id="l1361">Le glorieux sujet qui cause mon trépas</l>
+            <l n="1362" xml:id="l1362">Lui charme sa douleur à ce funèbre pas.</l>
+            <l n="1363" xml:id="l1363">Hélas ! qu'un seul regret je n'emporte du monde,</l>
+            <l n="1364" xml:id="l1364">Ma Carite laissée à jamais vagabonde,</l>
+            <l n="1365" xml:id="l1365">Pauvre de biens, d'amis, de capable support</l>
+            <l n="1366" xml:id="l1366">Qui puisse en mieux changer la rigueur de son sort.</l>
+            <l n="1367" xml:id="l1367">Pardonne à ce désastre, ô pudique maîtresse,</l>
+            <l n="1368" xml:id="l1368">Accuse des destins la rancune traitresse,</l>
+            <l n="1369" xml:id="l1369">Qui prévient mes désirs à te vérifier</l>
+            <l n="1370" xml:id="l1370">Que tu pouvais sur moi de l'honneur te fier.</l>
+            <l n="1371" xml:id="l1371">Possible que le Ciel te garde à quelqu'autre heure</l>
+            <l n="1372" xml:id="l1372">Te garde une fortune ou égale ou meilleure :</l>
+            <l n="1373" xml:id="l1373">Retiens, chère, du moins ma mémoire toujours.</l>
+            <l n="1374" xml:id="l1374">Hé quoi ! sans te plus voir finirai-je mes jours ?</l>
+            <l n="1375" xml:id="l1375">Sans un dernier adieu soupiré bouche à bouche ?</l>
+            <l n="1376" xml:id="l1376">Las ! telle cruauté plus que la mort me touche,</l>
+            <l n="1377" xml:id="l1377">Me navre le courage : ah ! sans doute ce bruit</l>
+            <l n="1378" xml:id="l1378">T'augure, misérable, au supplice conduit.</l>
+          </sp>
+          <sp who="geôlier" xml:id="CINQUIÈME4-2">
+            <speaker>GEÔLIER</speaker>
+            <l n="1379" xml:id="l1379">Holà, debout, suis-moi, le juge te demande.</l>
+          </sp>
+          <sp who="andres" xml:id="CINQUIÈME4-3">
+            <speaker>ANDRES</speaker>
+            <l n="1380" xml:id="l1380">Ô Ciel ! mon innocence à toi se recommande.</l>
+          </sp>
+          <sp who="geôlier" xml:id="CINQUIÈME4-4">
+            <speaker>GEÔLIER</speaker>
+            <l n="1381" xml:id="l1381">Tu n'as que craindre encor, interrogé devant</l>
+            <l n="1382" xml:id="l1382">Qu'à punir ou absoudre on passe plus avant.</l>
+          </sp>
+          <sp who="andres" xml:id="CINQUIÈME4-5">
+            <speaker>ANDRES</speaker>
+            <l n="1383" xml:id="l1383">Me dire vrai n'accroît mon mal, ne diminue.</l>
+          </sp>
+          <sp who="geôlier" xml:id="CINQUIÈME4-6">
+            <speaker>GEÔLIER</speaker>
+            <l n="1384" xml:id="l1384">Ne chaume pas plutôt la fête que venue ;:</l>
+            <l n="1385" xml:id="l1385">« Qui pense soucieux toujours de l'avenir</l>
+            <l n="1386" xml:id="l1386">Semble hâter le mal qu'il ne peut prévenir ».</l>
+          </sp>
+        </div>
+        <div type="scene" xml:id="CINQUIÈME5">
+          <head>SCÉNE V</head>
+          <sp who="guiomar" xml:id="CINQUIÈME5-1">
+            <speaker>GUIOMAR</speaker>
+            <l n="1387" xml:id="l1387">Qu'un long siècle expiré d'ennuis et de misère</l>
+            <l n="1388" xml:id="l1388">Ma fille je revois ? ma géniture chère?</l>
+            <l n="1389" xml:id="l1389">Levez-vous ; le pardon, ains le salaire acquis</l>
+            <l n="1390" xml:id="l1390">Peut choisir en nos biens ce qu'il y a d'exquis :</l>
+            <l n="1391" xml:id="l1391">Car les signes donnés de la reconnaissance,</l>
+            <l n="1392" xml:id="l1392">Les signes sur son corps empreints dès la naissance,</l>
+            <l n="1393" xml:id="l1393">Ne me permettent plus mon bonheur ignorer,</l>
+            <l n="1394" xml:id="l1394">Ne me permettent plus aux ennuis dévorer.</l>
+            <l n="1395" xml:id="l1395">Ma fille, mon espoir, ma lumière, ma vie,</l>
+            <l n="1396" xml:id="l1396">Viens viens ; que sur ce front de baisers assouvie,</l>
+            <l n="1397" xml:id="l1397">Une usure se paye à mes travaux finis,</l>
+            <l n="1398" xml:id="l1398">Ton père à ta venue et moi tu rajeunis.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME5-2">
+            <speaker>PRÉCIEUSE</speaker>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME5-3">
+            <speaker>GUIOMAR</speaker>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME5-4">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1399" xml:id="l1399">Me coupe la parole et lui ferme la porte.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME5-5">
+            <speaker>GUIOMAR</speaker>
+            <l n="1400" xml:id="l1400">Serviteurs, là-dedans, quelqu'un allez quérir</l>
+            <l n="1401" xml:id="l1401">Vôtre Maître, sans plus du sujet enquérir,</l>
+          </sp>
+          <sp who="vieille-égyptienne" xml:id="CINQUIÈME5-6">
+            <speaker>VIEILLE ÉGYPTIENNE</speaker>
+            <l n="1402" xml:id="l1402">Se glisse à son abord en mon sein qui pantelle.</l>
+            <l n="1403" xml:id="l1403">Madame, autre que vous ne me peut garantir,</l>
+            <l n="1404" xml:id="l1404">Ne peut de sa fureur l'orage divertir.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME5-7">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1405" xml:id="l1405">Que plutôt, sur mon chef elle éclate apaisée,</l>
+            <l n="1406" xml:id="l1406">Madame, l'apaiser vous sera chose aisée ;</l>
+            <l n="1407" xml:id="l1407">Un vrai soin maternel selon sa pauvreté,</l>
+            <l n="1408" xml:id="l1408">Un soin de me tenir l'honneur en sureté,</l>
+            <l n="1409" xml:id="l1409">Toujours, à son pouvoir, nourrie, entretenue,</l>
+            <l n="1410" xml:id="l1410">Puis la confession volontaire venue</l>
+            <l n="1411" xml:id="l1411">Ne souffrent nullement qu'on lui face de tort,</l>
+            <l n="1412" xml:id="l1412">Ou première à vos pieds je souffrirai la mort.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME5-8">
+            <speaker>GUIOMAR</speaker>
+            <l n="1413" xml:id="l1413">Ne te travaille plus d'une crainte frivole,</l>
+            <l n="1414" xml:id="l1414">Jamais jamais l'effet ne manque à ma parole.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME5-9">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1415" xml:id="l1415">Encor serait-ce là un bienfait à moitié</l>
+            <l n="1416" xml:id="l1416">Si sur le prisonnier ne luit vôtre pitié,</l>
+            <l n="1417" xml:id="l1417">Gentilhomme accompli, vertueux, magnanime,</l>
+            <l n="1418" xml:id="l1418">Que semblable misère à mon sujet opprime.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME5-10">
+            <speaker>GUIOMAR</speaker>
+            <l n="1419" xml:id="l1419">Tu voudrais à ce conte époux le recevoir ?</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME5-11">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1420" xml:id="l1420">Oui, mais non pas vers vous enfreindre le devoir.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME5-12">
+            <speaker>GUIOMAR</speaker>
+            <l n="1421" xml:id="l1421">Voici de qui dépend. Monsieur, monsieur, de grâce</l>
+            <l n="1422" xml:id="l1422">Venez voir un miracle en nôtre unique race.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-13">
+            <speaker>SÉNÉCHAL</speaker>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME5-14">
+            <speaker>GUIOMAR</speaker>
+            <l n="1423" xml:id="l1423">Le Ciel de son salut daignant prendre le soin,</l>
+            <l n="1424" xml:id="l1424">Vous la voyez, ma fille, et celle qui perdue</l>
+            <l n="1425" xml:id="l1425">Après divers travaux saine nous l'a rendue.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-15">
+            <speaker>SÉNÉCHAL</speaker>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME5-16">
+            <speaker>GUIOMAR</speaker>
+            <l n="1426" xml:id="l1426">Mais bien de ce bonheur le sujet écouter.</l>
+            <l n="1427" xml:id="l1427">Depuis le triste jour que l'on nous l'a soustraite,</l>
+            <l n="1428" xml:id="l1428">La vieille lui retient l'extraction secrète</l>
+            <l n="1429" xml:id="l1429">Du lieu de sa naissance, onc elle n'en sut rien,</l>
+            <l n="1430" xml:id="l1430">Crédule s'estimant d'un tige Égyptien.</l>
+            <l n="1431" xml:id="l1431">Or ainsi qu'à Madrid leur bande vagabonde</l>
+            <l n="1432" xml:id="l1432">D'aventure passait pour abuser le monde,</l>
+            <l n="1433" xml:id="l1433">Un jeune cavalier et d'antique maison,</l>
+            <l n="1434" xml:id="l1434">Celui même, celui que tenez en prison,</l>
+            <l n="1435" xml:id="l1435">Devint éperdument amoureux de ma fille,</l>
+            <l n="1436" xml:id="l1436">Emporte ce qu'il peut à sa riche famille,</l>
+            <l n="1437" xml:id="l1437">Et dessous un espoir d'hyménée promis</l>
+            <l n="1438" xml:id="l1438">À l'infâme métier des Bohèmes s'est mis.</l>
+            <l n="1439" xml:id="l1439">Après sollicité de certaine rustique</l>
+            <l n="1440" xml:id="l1440">Son refus anima de sorte l'impudique,</l>
+            <l n="1441" xml:id="l1441">Qu'elle suppose un rapt à ce courage haut.</l>
+            <l n="1442" xml:id="l1442">En armes prévenu le village l'assaut,</l>
+            <l n="1443" xml:id="l1443">Tumulte où le défunt le frappe à l'étourdie,</l>
+            <l n="1444" xml:id="l1444">À l'instant abattu sous sa dextre hardie.</l>
+            <l n="1445" xml:id="l1445">Désastre fortuné ! Car cette femme alors</l>
+            <l n="1446" xml:id="l1446">D'une coupable crainte ayant rompu le mors,</l>
+            <l n="1447" xml:id="l1447">En franchise chez nous au hasard s'est jetée,</l>
+            <l n="1448" xml:id="l1448">Pour sauver l'accusé d'une mort apprêtée.</l>
+            <l n="1449" xml:id="l1449">Voilà que c'est, monsieur, voilà sincèrement</l>
+            <l n="1450" xml:id="l1450">Le progrès de nôtre heur déduit sommairement.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-17">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1451" xml:id="l1451">Ô pitoyables Cieux ! Quelles rares merveilles</l>
+            <l n="1452" xml:id="l1452">M'éblouissent les yeux et charment les oreilles ?</l>
+            <l n="1453" xml:id="l1453">Ma fille de retour ? Approche, mon souci :</l>
+            <l n="1454" xml:id="l1454">Pouvez-vous m'assurer que cela soit aussi ?</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME5-18">
+            <speaker>GUIOMAR</speaker>
+            <l n="1455" xml:id="l1455">Sa robe, une croix d'or, qu'elle emporta petite,</l>
+            <l n="1456" xml:id="l1456">Une entière créance à mon avis mérite,</l>
+            <l n="1457" xml:id="l1457">Outre certain signal dessur le corps exprès</l>
+            <l n="1458" xml:id="l1458">Touché de ma main propre et reconnu de près.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-19">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1459" xml:id="l1459">Embrasse, embrasse donc ton père qui larmoie,</l>
+            <l n="1460" xml:id="l1460">Ton père qui ne peut plus contenir sa joie,</l>
+            <l n="1461" xml:id="l1461">Ton père qui, ses vœux maintenant accomplis</l>
+            <l n="1462" xml:id="l1462">Ne crains plus de passer le fleuve aux nef replis.</l>
+            <l n="1463" xml:id="l1463">De tes erreurs l'histoire autre part réservée,</l>
+            <l n="1464" xml:id="l1464">Me suffit que ta barque à bon port arrivée</l>
+            <l n="1465" xml:id="l1465">Sans naufrage d'honneur se range chez les tiens,</l>
+            <l n="1466" xml:id="l1466">Et qu'avec son trésor entière tu reviens.</l>
+            <l n="1467" xml:id="l1467">Mais ce jeune amoureux que tu as fait de flamme,</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME5-20">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1468" xml:id="l1468">Son père, des premiers à la Cour aujourd'hui,</l>
+            <l n="1469" xml:id="l1469">Le peut faire connaître, et n'a d'enfant que lui.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-21">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1470" xml:id="l1470">Dom François de Carcame ? un mien Pylade intime,</l>
+            <l n="1471" xml:id="l1471">Compagnon de voyage et d'armes magnanime ?</l>
+            <l n="1472" xml:id="l1472">Que Mars le Dieu guerrier a vu plus d'une fois</l>
+            <l n="1473" xml:id="l1473">En même objet de gloire endosser le harnois ?</l>
+            <l n="1474" xml:id="l1474">Ô moteur souverain qui habites le Pôle,</l>
+            <l n="1475" xml:id="l1475">Qui d'un rien l'univers bâtis à ta parole,</l>
+            <l n="1476" xml:id="l1476">Grand Dieu, peut onc mortel plus que moi recevoir</l>
+            <l n="1477" xml:id="l1477">De grâces, qu'à l'envie ta dextre fait pleuvoir ;?</l>
+            <l n="1478" xml:id="l1478">Or le père nommé ce fils me remémore,</l>
+            <l n="1479" xml:id="l1479">Pareil de front, de port, et de stature encore :</l>
+            <l n="1480" xml:id="l1480">Ainsi sobre en parler, modeste en gravité,</l>
+            <l n="1481" xml:id="l1481">Qui, présumant la mort de sa captivité,</l>
+            <l n="1482" xml:id="l1482">Ne montre aucun effroi, ne regrette la vie</l>
+            <l n="1483" xml:id="l1483">Que pour une innocence au malheur asservie,</l>
+            <l n="1484" xml:id="l1484">Mots tantôt proférés comme on l'interrogeait,</l>
+            <l n="1485" xml:id="l1485">À l'heure de soupirs l'estomac regorgeait.</l>
+            <l n="1486" xml:id="l1486">Que tu ne l'aimes point, ma fille, l'apparence ?</l>
+            <l n="1487" xml:id="l1487">Confesse que vivez tous deux d'une espérance,</l>
+            <l n="1488" xml:id="l1488">Que l'hymen consommé tu ne désires moins,</l>
+            <l n="1489" xml:id="l1489">Ta honteuse rougeur nous vaut mille témoins.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME5-22">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1490" xml:id="l1490">J'affecte ces vertus d'affection, réduite</l>
+            <l n="1491" xml:id="l1491">Sous le joug des parents qui tiennent ma conduite.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-23">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1492" xml:id="l1492">Prudence nonpareille, aveu qui me plait fort,</l>
+            <l n="1493" xml:id="l1493">Et prouve de deus cœurs un mutuel accord !</l>
+            <l n="1494" xml:id="l1494">Vous autres là-dedans, vite, que l'on m'amène</l>
+            <l n="1495" xml:id="l1495">Ce prisonnier tenu pour plaisir en haleine,</l>
+            <l n="1496" xml:id="l1496">Menacé du supplice, afin qu'après, surpris,</l>
+            <l n="1497" xml:id="l1497">Une joie impourvue aveugle ses esprits.</l>
+          </sp>
+          <sp who="guiomar" xml:id="CINQUIÈME5-24">
+            <speaker>GUIOMAR</speaker>
+            <l n="1498" xml:id="l1498">Croître sa peur pourrait surmonter sa constance,</l>
+            <l n="1499" xml:id="l1499">Tel passetemps suivi de tarde repentance.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-25">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1500" xml:id="l1500">Nullement, je saurai, vieil et sage nocher</l>
+            <l n="1501" xml:id="l1501">Tendre à propos le voile ainsi que le lâcher,</l>
+            <l n="1502" xml:id="l1502">Insensible passé de l'un à l'autre extrême,</l>
+            <l n="1503" xml:id="l1503">Contemplez-le venir l'œil bas et le front blême,</l>
+            <l n="1504" xml:id="l1504">Qui se croit déjà mort. Sus donc, sans s'émouvoir</l>
+            <l n="1505" xml:id="l1505">Ce qu'ouïrez et verrez, feignez n'ouïr et voir.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME5-26">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1506" xml:id="l1506">Son effroi me transit, sa tristesse me tue ;</l>
+            <l n="1507" xml:id="l1507">Mais n'importe, un moment nos désirs effectue.</l>
+            <l n="1508" xml:id="l1508">Après ce tourbillon qui passera léger,</l>
+            <l n="1509" xml:id="l1509">Des travaux disparus nous nous allons venger.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-27">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1510" xml:id="l1510">Scélérat, assassin : songe à ta conscience,</l>
+            <l n="1511" xml:id="l1511">Et proche de mourir t'arme de patience ;</l>
+            <l n="1512" xml:id="l1512">Un bois patibulaire à la place t'attend,</l>
+            <l n="1513" xml:id="l1513">La satisfaction dernière te restant</l>
+            <l n="1514" xml:id="l1514">Vers cette Égyptienne, à qui la foi promise</l>
+            <l n="1515" xml:id="l1515">Du mariage doit en effet être mise.</l>
+          </sp>
+          <sp who="andres" xml:id="CINQUIÈME5-28">
+            <speaker>ANDRES</speaker>
+            <l n="1516" xml:id="l1516">Elle a raison, je veux ma promesse tenir,</l>
+            <l n="1517" xml:id="l1517">Comme le plus grand bien qui me puisse advenir.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-29">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1518" xml:id="l1518">Dis plutôt qu'épousés, autre miséricorde</l>
+            <l n="1519" xml:id="l1519">Ne s'espère chez moi qu'une honteuse corde.</l>
+          </sp>
+          <sp who="andres" xml:id="CINQUIÈME5-30">
+            <speaker>ANDRES</speaker>
+            <l n="1520" xml:id="l1520">Tel heur m'effacera l'opprobre du trépas,</l>
+            <l n="1521" xml:id="l1521">Que mon sort néanmoins ne mériterait pas.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-31">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1522" xml:id="l1522">Ton sort qui d'ordinaire exerçait l'imposture,</l>
+            <l n="1523" xml:id="l1523">Le meurtre, les larcins, au mérite on mesure.</l>
+            <l n="1524" xml:id="l1524">Que ma dextre croirait du public mériter,</l>
+            <l n="1525" xml:id="l1525">Tous vous pouvant d'un coup, monstres, décapiter !</l>
+          </sp>
+          <sp who="andres" xml:id="CINQUIÈME5-32">
+            <speaker>ANDRES</speaker>
+            <l n="1526" xml:id="l1526">« La passion messied à qui rend la justice ».</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-33">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1527" xml:id="l1527">Tiens-tu pas cette-ci de ton meurtre complice ?</l>
+          </sp>
+          <sp who="andres" xml:id="CINQUIÈME5-34">
+            <speaker>ANDRES</speaker>
+            <l n="1528" xml:id="l1528">Complice d'innocence à qui dût la beauté</l>
+            <l n="1529" xml:id="l1529">Pudique soutenir quelque grand' royauté.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-35">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1530" xml:id="l1530">Si ce larron d'Andres, mort Dom Jean de Carcame,</l>
+            <l n="1531" xml:id="l1531">Successeur la reçoit pour moitié de son Âme ?</l>
+          </sp>
+          <sp who="andres" xml:id="CINQUIÈME5-36">
+            <speaker>ANDRES</speaker>
+            <l n="1532" xml:id="l1532">Ô cieux! elle n'a pu taire ma qualité.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-37">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1533" xml:id="l1533">Elle n'a pu celer vôtre fidélité,</l>
+            <l n="1534" xml:id="l1534">Elle n'a pu celer que je ne saurais prendre</l>
+            <l n="1535" xml:id="l1535">Appui de mon vieil âge un plus sortable gendre.</l>
+            <l n="1536" xml:id="l1536">Sans admiration, vous n'avez de liens</l>
+            <l n="1537" xml:id="l1537">Que ses bras désormais, que ses bras et les miens,</l>
+            <l n="1538" xml:id="l1538">Elle unique héritière au besoin recouverte,</l>
+            <l n="1539" xml:id="l1539">Qui réparant la sienne empêche votre perte.</l>
+          </sp>
+          <sp who="andres" xml:id="CINQUIÈME5-38">
+            <speaker>ANDRES</speaker>
+            <l n="1540" xml:id="l1540">Le ciel conspire donc à ma félicité,</l>
+            <l n="1541" xml:id="l1541">Du désespoir puisée et de l'adversité ?</l>
+            <l n="1542" xml:id="l1542">Mon amour qui choisit une Bohémienne</l>
+            <l n="1543" xml:id="l1543">Trouve d'extraction qu'elle passe la mienne ;</l>
+            <l n="1544" xml:id="l1544">Vrai présage conçu dès l'heure que mes yeux</l>
+            <l n="1545" xml:id="l1545">Beurrent en ses regards un venin furieux,</l>
+            <l n="1546" xml:id="l1546">Que mon cœur captivé la reçut souveraine,</l>
+            <l n="1547" xml:id="l1547">Je dis chaque action ne sentir que sa reine :</l>
+            <l n="1548" xml:id="l1548">Mais possible, repu de quelque faux appas</l>
+            <l n="1549" xml:id="l1549">On me veut empirer la peine du trépas.</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-39">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1550" xml:id="l1550">Baisez votre Constance au nom de mariage,</l>
+            <l n="1551" xml:id="l1551">Afin de n'avoir plus de frayeur ni d'ombrage.</l>
+          </sp>
+          <sp who="précieuse" xml:id="CINQUIÈME5-40">
+            <speaker>PRÉCIEUSE</speaker>
+            <l n="1552" xml:id="l1552">Je suis tienne à présent, ainsi que tu es mien,</l>
+            <l n="1553" xml:id="l1553">Notre prospérité ne redoute plus rien.</l>
+          </sp>
+          <sp who="andres" xml:id="CINQUIÈME5-41">
+            <speaker>ANDRES</speaker>
+            <l n="1554" xml:id="l1554">Doux oracle amoureux d'entière confiance !</l>
+          </sp>
+          <sp who="sénéchal" xml:id="CINQUIÈME5-42">
+            <speaker>SÉNÉCHAL</speaker>
+            <l n="1555" xml:id="l1555">Promis dès aujourd'hui, j'entends que l'on fiance,</l>
+            <l n="1556" xml:id="l1556">Certain que votre père approuvera l'accord,</l>
+            <l n="1557" xml:id="l1557">Qu'une semblable bru ne lui peut faire tort,</l>
+            <l n="1558" xml:id="l1558">Soit qu'à l'extraction, soit qu'aux biens on regarde,</l>
+            <l n="1559" xml:id="l1559">Joint la vieille amitié qui chez nous deux se garde.</l>
+            <l n="1560" xml:id="l1560">Averti d'un courier la noce l'attendra,</l>
+            <l n="1561" xml:id="l1561">Et l'hommage requis à son grade rendra ;</l>
+            <l n="1562" xml:id="l1562">Toute chose au surplus à souhait réussie,</l>
+            <l n="1563" xml:id="l1563">Il est depuis un peu gouverneur dans Murcie,</l>
+            <l n="1564" xml:id="l1564">Bien voulu, respecté, dont l'heur parfait sera</l>
+            <l n="1565" xml:id="l1565">Lors que sur son espoir sa crainte cessera.</l>
+            <l n="1566" xml:id="l1566">Toi, pour punition de ma fille ravie,</l>
+            <l n="1567" xml:id="l1567">Paisible chez les siens tu achèves ta vie,</l>
+            <l n="1568" xml:id="l1568">Ces prisonniers à pur et à plein libérés.</l>
+            <l n="1569" xml:id="l1569">Quant à ceux qui vous ont en justice tirés,</l>
+            <l n="1570" xml:id="l1570">Parents du trépassé, faudra faire à partie,</l>
+            <l n="1571" xml:id="l1571">De quelque peu d'argent la somme départie,</l>
+            <l n="1572" xml:id="l1572">Charge qui n'appartient qu'à nôtre autorité.</l>
+            <l n="1573" xml:id="l1573">Or sans trop s'aveugler en sa prospérité,</l>
+            <l n="1574" xml:id="l1574">Le principe connu, louons en nos courages</l>
+            <l n="1575" xml:id="l1575">Qui d'un clin favorable a calmé tant d'orages:</l>
+            <l n="1576" xml:id="l1576">Allons faire des chants les temples résonner,</l>
+            <l n="1577" xml:id="l1577">Puis d'un myrte en public nos amants couronner.</l>
+          </sp>
+          <p>FIN</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
