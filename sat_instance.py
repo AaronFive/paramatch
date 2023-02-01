@@ -1,8 +1,7 @@
 import os, csv
-import random
 import time
 
-import utils 
+from utils import *
 import re
 import doctest
 from xml.dom import minidom
@@ -12,32 +11,15 @@ import subprocess
 
 # This file implements the max-sat reduction
 
-# Utilities
-
-def invert_dic(d, v):
-    """Given a dictionnary and a value v, returns the first key such that d[k] = v, or None if it doesn't exist
-    >>> invert_dic({1:'a',2:'b'},'b')
-    2
-    >>> invert_dic({1:'a',2:'b'},2)
-
-    >>> invert_dic({1:'a',2:'a', 3:'b'},'a')
-    1
-    """
-    for x in d:
-        if d[x] == v:
-            return x
-    return None
-
-
 # Alphabetical parameterized word: word of the form ABABCBD... where letters appear consecutively by order of the
 # alphabet. May use other symbols if there are more than 26 letters : the ord() of all characters must be consecutive
 # and start at 65 (ord('A') = 65)
 
 
-def get_alphabet_size(s_1, s_2):
+def get_max_alphabet_size(s_1, s_2):
     """Given two alphabetical parameterized words, returns the size of the alphabet needed to write both of them
      i.e. the rank in the alphabet of the largest letter appearing in both.
-    >>> get_alphabet_size('ABABC', 'ABABCBAB')
+    >>> get_max_alphabet_size('ABABC','ABABCBAB')
     4"""
     return max(max(ord(x) for x in s_1), max(ord(x) for x in s_2)) - 64
 
@@ -57,12 +39,14 @@ def get_pi(alphabet_size):
 
 # We index variables x_i{i,j} and y_{a,b} and keep them in two dictionnaries
 def make_corresp_dictionnaries(string_1, string_2):
-    """Given two alphabetical parameterized words string_1, string_2,
-    Returns two dictionnaries x_dict and y_dict whose keys are variables x_{i,j} and y_{a,b} respectively
-    That fix an ordering on those variables
-    The values in x_dict and y_dict are consecutive"""
+    """Given two alphabetical parameterized words, fix an enumeration of the variables that will be used in the sat reduction.
+    Args:
+        string_1(str): First alphabetical parameterized word
+        string_2(str): Second alphabetical parameterized word
+    Returns:
+        (dict,dict): Dictionnaries which keys are variables x_{i,j} and y_{a,b} respectively and values are corresponding integers"""
     n, m = len(string_1), len(string_2)
-    pi_size = get_alphabet_size(string_1, string_2)
+    pi_size = get_max_alphabet_size(string_1, string_2)
     pi = get_pi(pi_size)
     x_dict, y_dict = dict(), dict()
     value = 0
@@ -103,10 +87,22 @@ def match_clause(x_dict, y_dict, i, j, u, v):
     return " ".join([str(-x_dict[i, j]), str(y_dict[u[i], v[j]]), "0"])
 
 
-def make_sat_instance(comments, string_1, string_2, bijective=False, substitutions=False):
+# The SAT instance is generated in the WDIMacs format. Description avaiblable at http://www.maxhs.org/docs/wdimacs.html
+def make_sat_instance(comments: list, string_1, string_2, bijective=False, substitutions=False):
+    """ Create the Max-SAT instance associated to two strings.
+    Args:
+        comments(str): Comment lines to be added to the top of the file.
+        string_1(str): First alphabetical parameterized word
+        string_2(str): Second alphabetical parameterized word
+        bijective(bool): When True, encodes the problem for PM^d, and for FM^d when False.
+        substitutions(bool) : When True, encode the problem with substitutions (unsupported for now).
+    Returns:
+        final_string(str): content of the WDIMacs file
+    """
+
     # Getting the alphabets of both strings
     n, m = len(string_1), len(string_2)
-    pi_size = get_alphabet_size(string_1, string_2)
+    pi_size = get_max_alphabet_size(string_1, string_2)
     pi = get_pi(pi_size)
     # Making the dictionnaries to enumerate the variables we will need
     x_dict, y_dict = make_corresp_dictionnaries(string_1, string_2)
@@ -201,11 +197,20 @@ def make_sat_instance(comments, string_1, string_2, bijective=False, substitutio
     return final_string
 
 
-# Given two scenes, create the maxhs input file
-
 def encode_scenes(scene1, scene2, name='test', bijective=False, substitutions=False):
-    u, d1 = utils.normalize_scene(scene1, True)
-    v, d2 = utils.normalize_scene(scene2, True)
+    """ Given two scenes, create the maxhs input file.
+    Args:
+        scene1(list): First scene, as a list of characters.
+        scene2(list): Second scene, as a list of characters.
+        name(str): Name of the file to create.
+        bijective(bool): When True, encodes the problem for PM^d, and for FM^d when False.
+        substitutions(bool) : When True, encode the problem with substitutions (unsupported for now).
+    Returns:
+        (str,dict,dict,str,str): File name produced, dictionnaries indexing sat variables, normalized scenes.
+
+    """
+    u, d1 = normalize_scene(scene1, True)
+    v, d2 = normalize_scene(scene2, True)
     output_for_maxhs = open(name + '_maxhs', 'w')
     s = make_sat_instance([str(d1), str(d2)], u, v, bijective, substitutions)
     output_for_maxhs.write(s)
@@ -213,8 +218,16 @@ def encode_scenes(scene1, scene2, name='test', bijective=False, substitutions=Fa
     return name + '_maxhs', d1, d2, u, v
 
 
-# Given a maxhs output file, translate it
+# The output format of MAXhs is described at the same adress http://www.maxhs.org/docs/wdimacs.html
 def decode_max_hs_output(d1, d2, u, v, maxhs_answer, name, csv_dict=False):
+    """ Given a maxhs output file, translate it into a human readable output and save it in a separate file.
+    Args:
+        d1(dict): Dictionnary indexing x_{i,j} variables
+        d2(dict): Dictionnary indexing y_{a,b} variables
+        maxhs_answer(str): Path of the wdimacs file to read from
+        name(str): name of the output to create
+        csv_dict(dict): Used for logging purposes
+    """
     answer = open(maxhs_answer, 'r')
     output_human = open(name + 'output_humain', 'w')
     positives = None
@@ -244,14 +257,14 @@ def decode_max_hs_output(d1, d2, u, v, maxhs_answer, name, csv_dict=False):
                 pos = invert_dic(y_dict, i + 1)
                 if pos is not None:
                     a, b = invert_dic(y_dict, i + 1)
-                    character_a,character_b= invert_dic(d1, a), invert_dic(d2, b)
+                    character_a, character_b = invert_dic(d1, a), invert_dic(d2, b)
                     output_human.write(f"y_{a, b} ({character_a} renommé en {character_b})\n")
                     if csv_dict:
                         renamed_letters[a] = b
                         renamed_characters.append(f'{character_a} : {character_b}')
                 else:
                     print('warning : too many variables')
-    distance = (len(u) + len(v) - 2*match_number)
+    distance = (len(u) + len(v) - 2 * match_number)
     if csv_dict:
         csv_dict['Distance'] = distance
         renamed_characters_string = ','.join(renamed_characters)
@@ -264,12 +277,23 @@ def decode_max_hs_output(d1, d2, u, v, maxhs_answer, name, csv_dict=False):
     # TODO : Appropriate logging of bijection and distance type
 
 
-def compare_pieces(f1, f2, pair_name, logs_files, csv_writer, final_output_dir, timeout=300):
+def compare_pieces(f1, f2, pair_name, logs_files, csv_writer, final_output_dir, timeout=800):
+    """Given two files of plays, run the comparison between them with MaxHS and logs the results.
+    Logs the details of computation in logs_files and writes the results in a given csv file.
+    Args:
+        f1 (str): Path to first play
+        f2 (str): Path to second play
+        pair_name(str): Name of the two plays compared
+        logs_files(_io.TextIOWrapper) : log file
+        csv_writer(csv.DictWriter) : Writer for the csv output
+        final_output_dir(str):Path to the directory where to save results
+        timeout(int): Time in seconds to execute MaxHS before timing out
+        """
     # Getting plays, titles, and acts
     piece1 = minidom.parse(open(f1, 'rb'))
     piece2 = minidom.parse(open(f2, 'rb'))
-    title1, title2 = unidecode(utils.get_title(piece1)), unidecode(utils.get_title(piece2))
-    acts1, acts2 = utils.get_all_acts_dialogues(piece1), utils.get_all_acts_dialogues(piece2)
+    title1, title2 = unidecode(get_title(piece1)), unidecode(get_title(piece2))
+    acts1, acts2 = get_all_acts_dialogues(piece1), get_all_acts_dialogues(piece2)
 
     # Preparing csv output
     csv_dict = dict()
@@ -289,7 +313,8 @@ def compare_pieces(f1, f2, pair_name, logs_files, csv_writer, final_output_dir, 
 
         # Encoding the acts as parameteried words, and creating the maxhs input file
         t1 = time.time()  # Measuring computing time of MaxHS on this instance
-        input_name, d1, d2, normalized_a1, normalized_a2 = encode_scenes(a1, a2, f'{pair_name}_acte_{act_number + 1}', True)
+        input_name, d1, d2, normalized_a1, normalized_a2 = encode_scenes(a1, a2, f'{pair_name}_acte_{act_number + 1}',
+                                                                         True)
         csv_dict['Input_1'] = normalized_a1
         csv_dict['Input_2'] = normalized_a2
         csv_dict['Input 1 length'] = len(normalized_a1)
@@ -320,9 +345,10 @@ def compare_pieces(f1, f2, pair_name, logs_files, csv_writer, final_output_dir, 
 
             print('Success, decoding MaxHS output ...')
 
-            human_readable_output = os.path.join(f'{final_output_dir}', f'Comparaison {pair_name}  actes {act_number + 1}')
+            human_readable_output = os.path.join(f'{final_output_dir}',
+                                                 f'Comparaison {pair_name}  actes {act_number + 1}')
             decode_max_hs_output(d1, d2, normalized_a1, normalized_a2, output_name, human_readable_output, csv_dict)
-        except subprocess.TimeoutExpired: # Case with a timeout
+        except subprocess.TimeoutExpired:  # Case with a timeout
             computing_time = f' {timeout} (Timeout)'
             logs_files.write(f' {pair_name}, acte {act_number + 1} : Timeout after {timeout} s \n')
             print('Timeout')
@@ -335,14 +361,19 @@ def compare_pieces(f1, f2, pair_name, logs_files, csv_writer, final_output_dir, 
 
 
 def compare_pieces_corpus(folder, final_output_dir='Resultats comparaison'):
-    """folder must contain folders with a pair of plays to compare """
+    """Compare all pairs of plays in the specified folder by iterating compare_piece.
+    Logs all the results in a csv file.
+    Args:
+        folder(str):path of the folder containing plays to compare. Must be a folder of folders containing 2 plays.
+        final_output_dir(str): path of the directory where to write the output
+        """
     # Getting the folder of pairs to compare
     folders = os.listdir(folder)
     # Creating output csv file
     output_csv = open(os.path.join(final_output_dir, 'comparisons.csv'), 'w')
     fieldnames = ['Pair name', 'Act Number', 'Distance', 'Input_1', 'Input_2', 'Renaming', 'Input 1 renamed',
                   'Input 1 length', 'Input 2 length', 'Computing time', 'Personnages 1', 'Personnages 2']
-    #todo : ajouter nombre de persos
+    # todo : ajouter nombre de persos
     gwriter = csv.DictWriter(output_csv, fieldnames=fieldnames)
     gwriter.writeheader()
 
@@ -357,55 +388,6 @@ def compare_pieces_corpus(folder, final_output_dir='Resultats comparaison'):
             play1, play2 = os.path.join(folder_path, plays[0]), os.path.join(folder_path, plays[1])
             compare_pieces(play1, play2, pair_name, logs_file, gwriter, final_output_dir)
 
-def get_alignment(u,v,aligned_positions):
-    aligned_positions.sort()
-    aligned_u,aligned_v = [],[]
-    aligned_pos_index = 0
-    next_u_pos,next_v_pos = aligned_positions[0]
-    u_pos,v_pos = 0
-    while u_pos <next_u_pos:
-        aligned_v.append('_')
-        u_pos+=1
-    while v_pos <next_v_pos:
-        aligned_u.append('_')
-        v_pos+=1
-    aligned_u.append(u[u_pos])
-    aligned_v.append(v[v_pos])
-
-
-
-def change_slightly(scene, k):
-    for i in range(k):
-        insert_or_pop = random.randint(0, 1)
-        indice = random.randint(0, len(scene) - 1)
-        if insert_or_pop == 0:
-            scene.pop(indice)
-        else:
-            random_char = random.choice(scene)
-            scene.insert(indice, random_char)
-    return scene
-
-
-Medee_v1 = 'ABABABABABBCDCDCDCDEDEFDFDFBFBFBFBF'  # 'TMTMTMTMTMMAUAUAUAUOUOJUJUJMJMJMJMJ'
-dico_medee1 = {'Theandre': 'A', 'Medee': 'B', 'Cleandre': 'C', 'Perso_U': 'D', 'Jason': 'F', 'Cleone': 'E',
-               'Choeur': 'K'}
-Medee_v2 = 'ABABCBCBCBCBCBDCDCECEDCCBCBCFCFCFFCFBFBFBFB'  # 'TMTMUMUMUMUMUMKUKUOUOKUUMUMUJUJUJJUJMJMJMJM'
-dico_medee2 = {'Theandre': 'A', 'Medee': 'B', 'Cleandre': 'C', 'Perso_U': 'C', 'Jason': 'F', 'Cleone': 'E',
-               'Choeur': 'D'}
-# changed_marianne_1 = change_slightly(scene_2_marianne, 1)
-# changed_marianne_3 = change_slightly(scene_2_marianne, 3)
 
 if __name__ == "__main__":
-    # u = "AB"
-    # v = "AB"
-    # s = make_sat_instance(["Test"], u,v)
-    # print(s)
-    # encode_scenes(scene_2_marianne, scene_2_marianne, 'marianne_entree_identique')
-    # s = make_sat_instance(["Comparaisons acte V de Medee"], Medee_v1, Medee_v2)
-    # f = open('medeeV_input_maxHS','w')
-    # f.write(s)
-    # f.close()
-    # decode_max_hs_output(dico_medee1,dico_medee1,Medee_v1,Medee_v2, "MedeeV")
-    # doctest.testmod()
-    # print('ok')
     compare_pieces_corpus(os.path.join(os.getcwd(), 'corpus11paires'))

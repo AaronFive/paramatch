@@ -45,9 +45,8 @@ Output: no output, metadata in a human readable format about the result of the d
 
 ## `fpt_alphabet_size.py`
 
-Solve the parameterized matching problem between two strings, with Levenshtein or insertion/deletion distance and injective variable renaming functions
-
-FPT algorithm in the alphabet size, described in Section 5.1 of the paper.
+Implementation of the FPT algorithm described in Section 5.1 of the paper, for parameterized edit distance between two strings, with Levenshtein or insertion/deletion distance and injective variable renaming functions.
+The main function is `parameterizedAlignment` :
 
 ### `parameterizedAlignment`
 
@@ -56,3 +55,8 @@ Parameters:
 * `string_2`: second input string of the parameterized matching under edit distance problem
 
 Output: edit distance between the two strings, in the context of parameterized matching
+
+###`main`
+Executing the main function launches the comparison on all pairs of plays and logs the results in Resultats FPT/FPT_comparisons{chosen timeout}.csv
+Timeout can be modified and input corpus can be modified.
+
