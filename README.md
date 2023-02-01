@@ -56,7 +56,7 @@ Parameters:
 
 Output: edit distance between the two strings, in the context of parameterized matching
 
-###`main`
+### `main`
 Executing the main function launches the comparison on all pairs of plays and logs the results in Resultats FPT/FPT_comparisons{chosen timeout}.csv
 Timeout can be modified and input corpus can be modified.
 
