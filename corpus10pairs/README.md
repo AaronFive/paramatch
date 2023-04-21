@@ -77,4 +77,4 @@ Computing time of the FPT algorithm (in ms) depending on the parameter, the mini
 ![Computing time of the FPT algorithm (in ms) depending on the parameter, the minimum alphabet size of the two input strings!](computing-time-FPT.png "Computing time of the FPT algorithm (in ms) depending on the parameter, the minimum alphabet size of the two input strings")
 
 Computing time of the maxSAT (in ms) depending on the product of the sizes of the input strings:
-![Computing time of the maxSAT (in ms) depending on the product of the sizes of the input strings!](computing-time-FPT.png "Computing time of the maxSAT (in ms) depending on the product of the sizes of the input strings")
+![Computing time of the maxSAT (in ms) depending on the product of the sizes of the input strings!](computing-time-MaxSAT.png "Computing time of the maxSAT (in ms) depending on the product of the sizes of the input strings")
