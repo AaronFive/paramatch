@@ -2,11 +2,9 @@
 Scripts related to the parameterized matching under edit distance problems
 
 
-
 ## About
 
-Code presented in the paper entitled *On Distances between Words with Parameters*
-
+Code presented in the paper entitled *On Distances between Words with Parameters*, by Pierre Bourhis, Aaron Boussidan and Philippe Gambette, accepted at the CPM 2023 conference.
 
 
 ## `sat_instance.py`
