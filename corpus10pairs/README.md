@@ -15,9 +15,9 @@ Our initial motivation to introduce parameterized matching under various distanc
 
 ### Comparing the acts of the plays
 
-For each pair of plays where one inspired the other, we compute the edit distance between the two parameter words representing the first acts, then the one between the two parameter words representing the second act, etc. This distance will be small if both acts have a similar structure in terms of succession of speaking characters. We performed a total 47 comparisons between pairs of acts, whose results are shown below:
+For each pair of plays where one inspired the other, we compute the edit distance between the two parameter words s1 and s2 representing the first acts, then the one between the two parameter words representing the second act, etc. This distance will be small if both acts have a similar structure in terms of succession of speaking characters. We performed a total 47 comparisons between pairs of acts, whose results are shown below:
 
-|pair name | distance | # of chars of s1| | # of chars of s2 | smallest alphabet size | computing time FPT (ms) | computing time maxSAT (ms) |
+|pair name | distance | # of chars of s1 | # of chars of s2 | smallest alphabet size | computing time FPT (ms) | computing time maxSAT (ms) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | ``Bradamante_1`` | 53 | 68 | 17 | 2 | 3 | 11861 |
 | ``Bradamante_2`` | 144 | 61 | 151 | 5 | 1080 | >800000 |
