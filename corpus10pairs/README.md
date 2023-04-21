@@ -73,6 +73,8 @@ Note that all instances are solved faster by the FPT algorithm than by the MaxSA
 
 The analysis of running times depending on the product of the lengths of the input strings, illustrated in the figures below shows that the MaxSAT approach may be relevant for strings with more than 10 distinct characters, but where the product of the length of input strings may not exceed 2000.
 
+Computing time of the FPT algorithm (in ms) depending on the parameter, the minimum alphabet size of the two input strings:
 ![Computing time of the FPT algorithm (in ms) depending on the parameter, the minimum alphabet size of the two input strings!](computing-time-FPT.png "Computing time of the FPT algorithm (in ms) depending on the parameter, the minimum alphabet size of the two input strings")
 
+Computing time of the maxSAT (in ms) depending on the product of the sizes of the input strings:
 ![Computing time of the maxSAT (in ms) depending on the product of the sizes of the input strings!](computing-time-FPT.png "Computing time of the maxSAT (in ms) depending on the product of the sizes of the input strings")
